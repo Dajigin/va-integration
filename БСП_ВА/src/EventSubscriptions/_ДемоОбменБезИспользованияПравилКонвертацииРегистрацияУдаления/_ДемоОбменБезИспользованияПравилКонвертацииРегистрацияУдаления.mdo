@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5da63493-0ceb-426f-91cd-1be96dd9ca56">
+  <name>_ДемоОбменБезИспользованияПравилКонвертацииРегистрацияУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен без использования правил конвертации зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject._ДемоНоменклатура</types>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>CatalogObject._ДемоФизическиеЛица</types>
+    <types>CatalogObject._ДемоОрганизации</types>
+    <types>ChartOfCharacteristicTypesObject._ДемоВидыСубконто</types>
+    <types>CatalogObject._ДемоПодразделения</types>
+    <types>CatalogObject.Валюты</types>
+    <types>ChartOfAccountsObject._ДемоОсновной</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject._ДемоМестаХранения</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменБезИспользованияПравилКонвертацииЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

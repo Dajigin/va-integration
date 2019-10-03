@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7de57ab-9da6-4a41-ae02-b7eb4cc92ff8" thisNode="8988eb05-0094-43f9-b857-26fe0ef70536">
+  <producedTypes>
+    <objectType typeId="3970d758-defd-45ad-9f89-d3b1957bffb9" valueTypeId="f8c4d486-6235-459b-a1eb-849b0336fbe4"/>
+    <refType typeId="19b643cb-a068-4204-98b8-3928189b4e25" valueTypeId="a35e9072-9eb8-443a-8440-9d750d3f8c00"/>
+    <selectionType typeId="d4cf30ea-e2f4-4aa5-9617-c661bdb7be2c" valueTypeId="082f7003-04b1-41d5-a569-d6befeccc5ad"/>
+    <listType typeId="8aa76423-e5d2-4bee-8a6e-44cb69316bbf" valueTypeId="0843158e-c3ef-43c7-ae17-81b034a5600f"/>
+    <managerType typeId="0c3cf8fb-a167-49ab-9327-b9cf9c392764" valueTypeId="d657631d-251e-4817-90a0-72fb4276a980"/>
+  </producedTypes>
+  <name>_ДемоОбменБезИспользованияПравилКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен без использования правил конвертации</value>
+  </synonym>
+  <inputByString>ExchangePlan._ДемоОбменБезИспользованияПравилКонвертации.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan._ДемоОбменБезИспользованияПравилКонвертации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя узла информационной базы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Префикс информационной базы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Демо: Синхронизация данных с 1С:Библиотека стандартных подсистем, редакция 2.2 (без использования правил конвертации)</value>
+  </listPresentation>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document._ДемоСчетНаОплатуПокупателю</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant._ДемоИспользоватьХарактеристики</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоПоручениеЭкспедитору</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоКонтактныеЛицаПартнеров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Валюты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоКонтрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоПроектыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоСчетФактураПолученный</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant._ДемоУчитыватьНДС</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоФизическиеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоГруппыДоступаНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоМестаХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоДоговорыКонтрагентов</mdObject>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачаИсполнителя</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоЗагружаемыеПоступленияОтЮридическихЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоХарактеристики</mdObject>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоОприходованиеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоГруппыДоступаПартнеров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоЗаказПокупателя</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоРеестрСкладскихДокументов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоНоменклатураПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоЦеныНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоПартнеры</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоГрафикиРаботы</mdObject>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister._ДемоОборотыПоСчетамНаОплату</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоКассы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоНачислениеЗарплаты</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоСписаниеБезналичныхДенежныхСредств</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоПеремещениеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant._ДемоИспользоватьКонтактныеЛицаПартнеров</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоРаботникиОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоОтветственныеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоПроекты</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоКорректировкаОстатковТоваровВМестахХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоЗаведующиеМестамиХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCalculationTypes._ДемоОсновныеНачисления</mdObject>
+  </content>
+  <content>
+    <mdObject>AccountingRegister._ДемоОсновной</mdObject>
+  </content>
+  <content>
+    <mdObject>CalculationRegister._ДемоОсновныеНачисления</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоБанковскиеСчета</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоСтавкиНДС</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes._ДемоВидыСубконто</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоОрганизации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоНоменклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоСписаниеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоРасходныйКассовыйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоКассыККМ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоРеализацияТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfAccounts._ДемоОсновной</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess.Задание</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоОрганизацииПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоПоступлениеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоВидыНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоПодразделения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоНаличиеЗаметокПоПредмету</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan._ДемоОбменБезИспользованияПравилКонвертации.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan._ДемоОбменБезИспользованияПравилКонвертации.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c2bfa760-84a8-4823-9370-d2af481fa492">
+    <name>ДатаНачалаВыгрузкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала выгрузки документов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой выгружаются документы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f33d183-5728-4c75-8b59-63711b4994aa">
+    <name>ИспользоватьОтборПоОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по Организациям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по организациям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37064b36-8fc5-4e27-ad3e-f182c9b4e222">
+    <name>РегистрироватьИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать изменения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости регистрации изменений данных на узле</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cb1848f4-bd4c-4892-bfcc-a7a358ca89bb">
+    <producedTypes>
+      <objectType typeId="da40ac17-cfa0-4a21-abd9-809509965a47" valueTypeId="5bf16939-e305-40ce-ad97-47b3e13fc686"/>
+      <rowType typeId="e94629a0-f675-4637-be78-c09d51169262" valueTypeId="2c3728ad-ef5e-4b3d-bf43-9241e0520b9d"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3bf3056e-7da8-4e73-92db-d98230ebae3a">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef._ДемоОрганизации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация по которой производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="37538039-47b9-4d20-9468-83f5691c332a">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c20b2c6-2b64-468f-8493-d8d9d4cc73bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f2d6d174-0917-4c02-9ae3-2e5170480473">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d12b4f63-195e-4277-af7f-998fc481fb8d">
+  <name>_ДемоОбменБезИспользованияПравилКонвертацииРегистрацияНабора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен без использования правил конвертации зарегистрировать изменение набора записей</value>
+  </synonym>
+  <source>
+    <types>AccumulationRegisterRecordSet._ДемоОстаткиТоваровВМестахХранения</types>
+    <types>InformationRegisterRecordSet.КурсыВалют</types>
+    <types>InformationRegisterRecordSet._ДемоРаботникиОрганизаций</types>
+    <types>AccountingRegisterRecordSet._ДемоОсновной</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменБезИспользованияПравилКонвертацииЗарегистрироватьИзменениеНабораЗаписей</handler>
+</mdclass:EventSubscription>

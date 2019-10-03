@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce408aa1-a95d-45d6-a112-76e888031465" thisNode="f77304e6-2092-402f-91c6-516dd167d271">
+  <producedTypes>
+    <objectType typeId="01001ef1-dfff-4714-aea7-b76f35a3ad5d" valueTypeId="db116560-17b8-41da-8031-42491f807f04"/>
+    <refType typeId="17b82f78-a7cd-4d77-a0b2-69f6d37843f0" valueTypeId="6c5d17c8-4f8b-4521-b7eb-3fe6a1915fb9"/>
+    <selectionType typeId="cde46b37-03e5-445b-98db-2410065da7c8" valueTypeId="87ef4249-26f6-43d2-ab8e-8fcb13230d5a"/>
+    <listType typeId="3a11db26-2f2d-46d3-bdbf-b9e7bf0bf6bb" valueTypeId="c04a615e-4668-4473-89b7-1554d4bc8ea4"/>
+    <managerType typeId="692585a3-a6f6-4a8a-9fe0-51fd154244f8" valueTypeId="03a62760-c2ff-4647-b777-ab49a48c7858"/>
+  </producedTypes>
+  <name>_ДемоОбменСБиблиотекойСтандартныхПодсистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: 1С:Библиотека стандартных подсистем</value>
+  </synonym>
+  <inputByString>ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя узла информационной базы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Префикс информационной базы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Демо: Синхронизация данных с 1С:Библиотека стандартных подсистем</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.НаборыДополнительныхРеквизитовИСведений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Валюты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоКонтрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоФизическиеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоМестаХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоДоговорыКонтрагентов</mdObject>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачаИсполнителя</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоЗаказПокупателя</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоНоменклатураПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоПартнеры</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоРаботникиОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СогласияНаОбработкуПерсональныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоОтветственныеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПапкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоКорректировкаОстатковТоваровВМестахХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоБанковскиеСчета</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоСтавкиНДС</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоОрганизации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоНоменклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СогласиеНаОбработкуПерсональныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоРеализацияТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document._ДемоПоступлениеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КодировкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоВидыНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog._ДемоПодразделения</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess._ДемоЗаданиеСРолевойАдресацией</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="a45aaa76-4b18-40f3-8bf4-c98a570beaae">
+    <name>ВариантНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант предопределенной настройки синхронизации данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d7ece25-180b-489f-a5a4-9760ec8f0335">
+    <name>ДатаНачалаВыгрузкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать документы, начиная с даты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, начиная с которой изменения в документах отправляются в другую программу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0a67ce7-2935-47c2-acc7-4457947d53b1">
+    <name>ИспользоватьОтборПоОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по организациям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по организациям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb45d0b5-1e26-42b2-977d-1f756f960331">
+    <name>ИспользоватьОтборПоПодразделениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по подразделениям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по подразделениям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6f50c26-6c4e-4cd8-9854-388084ac0c49">
+    <name>ИспользоватьОтборПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по складам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по складам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32c17a6a-afcd-425f-bd04-e9cab978d23a">
+    <name>НоменклатураПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоНоменклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура, которая используется в документах списания в производство</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40e21fca-9b06-41f5-bf3d-0508e7465de9">
+    <name>РегистрироватьИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать изменения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости регистрации изменений данных на узле</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d811365d-616f-4459-94c3-446416d3e801">
+    <name>РежимВыгрузкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки документов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыВыгрузкиОбъектовОбмена.EnumValue.ВыгружатьПоУсловию</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fa36131-2826-4129-9280-df6bcb16b42d">
+    <name>РежимВыгрузкиДокументовКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки документов корреспондента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыВыгрузкиОбъектовОбмена.EnumValue.ВыгружатьПоУсловию</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="269132b7-8a47-473d-8e1b-f83fbedb8959">
+    <name>РежимВыгрузкиСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки справочников</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыВыгрузкиОбъектовОбмена.EnumValue.ВыгружатьПоУсловию</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7c9ccfc-4e38-45be-8cb2-b1df767f8ecb">
+    <name>РежимВыгрузкиСправочниковКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки справочников корреспондента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыВыгрузкиОбъектовОбмена.EnumValue.ВыгружатьПоУсловию</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d3f0af2-922d-4716-accd-bbc94321a23f">
+    <name>СтавкаНДСПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоСтавкиНДС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка НДС, которая используется в документах поступления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7df15507-d3d7-45d7-bdc0-edc026b692dd">
+    <name>НегативныйСценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Негативный сценарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Влияет на вид негативного сценария синхронизации данных. Если значение не заполнено, синхронизация данных выполняется по обычному сценарию.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="55b7f50e-b874-4e22-b0ff-82e36422e1d7">
+    <producedTypes>
+      <objectType typeId="7b77e999-f00a-42e0-bc0e-925f1be49536" valueTypeId="fdb6b412-53b6-4d3d-a813-f38c0b4490fa"/>
+      <rowType typeId="be881a4e-bb7c-450a-a6dd-12c750cff0ec" valueTypeId="2131daa2-ab72-43ed-b039-f657d32d1d2e"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="93c7b159-8a9b-4ec5-8331-0324a9caec8a">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef._ДемоОрганизации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация по которой производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d7d7e4d9-12eb-4aeb-b5d9-9c18cf092244">
+    <producedTypes>
+      <objectType typeId="dba9529f-aa2d-42d3-8990-2018b3ec7976" valueTypeId="53076011-d9e6-4eaa-8cfe-434f46858791"/>
+      <rowType typeId="426005a4-d21a-4c36-9280-a99665f3389e" valueTypeId="84bd8672-3dde-4224-bff2-d32700687158"/>
+    </producedTypes>
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b9db7974-607d-4c3c-8667-45766b0d62ad">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef._ДемоМестаХранения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Склад-отправитель по которому производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="370c6f93-c2a9-4acb-8116-84b936e07fae">
+      <name>СкладПолучатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef._ДемоМестаХранения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Склад-получатель по которому производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="81e3ac06-6501-43d7-b958-2948268282c4">
+    <producedTypes>
+      <objectType typeId="0fb17d42-2db8-4443-929b-382a7c91eb54" valueTypeId="ba983038-24d4-45f6-bd9b-f9c67806b461"/>
+      <rowType typeId="96793198-cd67-44f8-837b-b92756e8826e" valueTypeId="449ca80e-52c4-41a0-a905-33b788679dcd"/>
+    </producedTypes>
+    <name>Подразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1ad9a0c9-3bbf-4abc-8d04-692c12d3d224">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef._ДемоПодразделения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подразделение по которому производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ee06f282-cd5e-4ba5-81be-c60f38f22fc7">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cf05cc19-c748-4af4-9f81-911dad4c6ea3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc43e25d-2d54-4baf-bb0c-ac1fa48e980a">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="33f59501-d5ba-4d0c-b7ff-67adb5cfce75">
+    <name>НастройкаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0a37e72a-265e-46e7-8457-4a060814af7f">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена с Библиотекой Стандартных Подсистем (демо)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8e6042f6-edae-4d91-929b-e1948424a279">
+    <name>ПравилаОбменаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена корреспондента</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3ef70577-4fa3-4eb2-9d54-23f8618d9470">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="16149e96-8c59-44e5-b83d-bdb3a1219001">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.НеразделенныеПользователи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.НастройкиТранспортаОбменаОбластейДанных.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.НеразделенныеПользователи.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НастройкиТранспортаОбменаОбластейДанных.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.НеразделенныеПользователи.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НастройкиТранспортаОбменаОбластейДанных.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.ОбластиДанных</subsystems>
+    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.ОчередьЗаданий</subsystems>
+    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.ПоставляемыеДанные</subsystems>
+    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.Сообщения</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

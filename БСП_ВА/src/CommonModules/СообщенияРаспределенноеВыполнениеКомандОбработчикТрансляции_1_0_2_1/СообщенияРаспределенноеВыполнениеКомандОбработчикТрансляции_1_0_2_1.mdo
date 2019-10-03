@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2bfc719-33ee-4dbe-be43-f53e4fbdb9c4">
+  <name>СообщенияРаспределенноеВыполнениеКомандОбработчикТрансляции_1_0_2_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределенное выполнение команд (обработчик трансляции версии 1.0.2.1)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

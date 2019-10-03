@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf9ca98c-5c95-4cfb-9181-8c1d847f9fbb">
+  <name>ВызовОнлайнПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вызов онлайн-поддержки</value>
+  </synonym>
+  <content>Role.ВызовОнлайнПоддержки</content>
+  <content>FunctionalOption.ИспользоватьОнлайнПоддержку</content>
+  <content>CommonCommand.НастройкаОнлайнПоддержки</content>
+  <content>Constant.ИспользоватьОнлайнПоддержку</content>
+  <content>CommonForm.НастройкаОнлайнПоддержки</content>
+  <content>CommonForm.ПоискИсполняемогоФайлаОнлайнПоддержки</content>
+  <content>e79ebe5b-d81d-4735-87bf-ec891ccff186</content>
+  <content>9fc7e672-6c80-418a-a973-937a4a172a2b</content>
+  <content>ffd8f84f-e7b4-44fd-ad44-980fa0090af4</content>
+  <content>23d4aa7d-8a2c-4e18-9d5d-43a155de9bf0</content>
+  <content>74e1bfac-18ea-48c2-b7e9-fd374a90a35d</content>
+  <content>CommonModule.ВызовОнлайнПоддержки</content>
+  <content>CommonModule.ВызовОнлайнПоддержкиКлиент</content>
+  <content>CommonCommand.СвязатьсяСоСпециалистомОнлайнПоддержки</content>
+  <content>CommonModule.ВызовОнлайнПоддержкиВызовСервера</content>
+  <content>CommonModule.ВызовОнлайнПоддержкиПереопределяемый</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

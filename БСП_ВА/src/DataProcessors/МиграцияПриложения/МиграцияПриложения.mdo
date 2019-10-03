@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a1ca52b-8122-4821-924e-7c7d8477ee55">
+  <producedTypes>
+    <objectType typeId="3f578edc-f9bf-48d0-a46e-52012fc47c0f" valueTypeId="851a5012-2f1c-4d80-a164-d812d2c15f46"/>
+    <managerType typeId="81f6df02-f297-414f-8eca-5a1f991843d4" valueTypeId="926d22f8-8ef7-435b-b639-060cdadf9c32"/>
+  </producedTypes>
+  <name>МиграцияПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция приложения</value>
+  </synonym>
+  <defaultForm>DataProcessor.МиграцияПриложения.Form.ПереходВСервис</defaultForm>
+  <forms uuid="bc5fc791-76dd-4223-8b0f-bf57365e71cc">
+    <name>ПереходВСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход в сервис</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5ef5a4e-f232-4837-b7da-2f5f612b8c93">
+    <name>ДобавлениеПользователяСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление пользователя сервиса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1e88aebb-e05e-4c21-aee5-32c557b62036">
+    <name>ПерейтиВСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перейти в сервис</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

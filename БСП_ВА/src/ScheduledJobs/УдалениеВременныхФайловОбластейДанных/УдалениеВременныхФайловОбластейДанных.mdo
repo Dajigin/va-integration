@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80a9025b-3cd7-4d03-9509-dfcd5df12b87">
+  <name>УдалениеВременныхФайловОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление временных файлов областей данных</value>
+  </synonym>
+  <methodName>CommonModule.ФайлыОбластейДанных.УдалениеВременныхФайловОбластейДанных</methodName>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

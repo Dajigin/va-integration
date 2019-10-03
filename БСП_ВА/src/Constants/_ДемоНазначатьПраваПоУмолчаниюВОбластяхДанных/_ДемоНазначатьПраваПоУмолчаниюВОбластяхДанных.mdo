@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="647c8b5a-cbe6-4383-9b02-651de45cb929">
+  <producedTypes>
+    <managerType typeId="fcec8e57-f2e2-4bd6-8a7a-3738cc433448" valueTypeId="6574209e-ee3b-46bc-8d92-3610871d77a6"/>
+    <valueManagerType typeId="746713d6-c033-4be0-8385-f0a929fe62da" valueTypeId="0fc02d7a-8508-4dc6-b1e7-0e07e154f4af"/>
+    <valueKeyType typeId="f95b77af-6847-5505-b162-77493b779c53" valueTypeId="5208a542-1bf8-5e2f-a9a1-0e65acfbbef2"/>
+  </producedTypes>
+  <name>_ДемоНазначатьПраваПоУмолчаниюВОбластяхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Назначать права по умолчанию в областях данных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

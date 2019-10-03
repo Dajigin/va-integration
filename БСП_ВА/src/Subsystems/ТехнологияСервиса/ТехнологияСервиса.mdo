@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c5faa39-61de-4737-b0ae-5b97c00a6691">
+  <name>ТехнологияСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonPicture.АдминистрированиеСервиса</content>
+  <content>CommonModule.БТС</content>
+  <content>CommonModule.БТСКлиент</content>
+  <subsystems>АвтоматизацияПроцессов</subsystems>
+  <subsystems>АсинхронноеПолучениеДанных</subsystems>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ВнешнийПрограммныйИнтерфейс</subsystems>
+  <subsystems>ВыгрузкаЗагрузкаДанных</subsystems>
+  <subsystems>ВыгрузкаЗагрузкаОбластейДанных</subsystems>
+  <subsystems>ИнтеграцияОбъектовОбластейДанных</subsystems>
+  <subsystems>ИнформационныйЦентр</subsystems>
+  <subsystems>МиграцияПриложений</subsystems>
+  <subsystems>ОбменСообщениями</subsystems>
+  <subsystems>ОплатаСервиса</subsystems>
+  <subsystems>ОчередьЗаданий</subsystems>
+  <subsystems>ОчередьЗаданийВнешнийИнтерфейс</subsystems>
+  <subsystems>ПередачаДанных</subsystems>
+  <subsystems>ПоставляемыеДанные</subsystems>
+  <subsystems>ПоставляемыеДанныеАбонентов</subsystems>
+  <subsystems>ПроверкаИКорректировкаДанных</subsystems>
+  <subsystems>РасширенияВМоделиСервиса</subsystems>
+  <subsystems>РезервноеКопированиеОбластейДанных</subsystems>
+  <subsystems>УдаленноеАдминистрирование</subsystems>
+  <subsystems>УниверсальнаяИнтеграция</subsystems>
+  <subsystems>УправлениеТарифами</subsystems>
+  <subsystems>ФайлыОбластейДанных</subsystems>
+  <subsystems>ЦентрКонтроляКачества</subsystems>
+  <subsystems>ЭлектроннаяПодписьВМоделиСервиса</subsystems>
+</mdclass:Subsystem>

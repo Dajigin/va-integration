@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3081f300-6f19-4cca-a4f4-9a034dce3804">
+  <name>_ДемоСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Синхронизация данных через универсальный формат зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>DocumentObject._ДемоКорректировкаОстатковТоваровВМестахХранения</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоСинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьИзменениеДокумента</handler>
+</mdclass:EventSubscription>

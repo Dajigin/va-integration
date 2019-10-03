@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4879a8f2-c41b-4c8e-9291-936e307eca99">
+  <name>_ДемоЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Заполнить наборы значений доступа табличных частей документов</value>
+  </synonym>
+  <comment>Подписка создана при внедрении подсистемы Управление доступом для заполнения табличной части НаборыЗначенийДоступа тех объектов метаданных, в которых она была создана для работы шаблона #ПоНаборамЗначений</comment>
+  <source>
+    <types>DocumentObject._ДемоНачислениеЗарплаты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УправлениеДоступом.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</handler>
+</mdclass:EventSubscription>

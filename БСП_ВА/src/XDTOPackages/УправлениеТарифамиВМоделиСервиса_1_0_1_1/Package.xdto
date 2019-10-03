@@ -1,0 +1,51 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1">
+	<import namespace="http://www.1c.ru/SaaS/Messages"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<valueType name="ServiceType" base="xs:string">
+		<enumeration xsi:type="xs:string">unlimited</enumeration>
+		<enumeration xsi:type="xs:string">limited</enumeration>
+	</valueType>
+	<valueType name="ID" base="xs:string" minLength="1" maxLength="50"/>
+	<valueType name="Version" base="xs:string" minLength="1" maxLength="18"/>
+	<objectType name="ServiceProvider">
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ID" type="d3p1:ID" nillable="false"/>
+		<property name="Name" type="xs:string" nillable="false"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="Services" type="d3p1:Service" lowerBound="0" upperBound="-1"/>
+		<property name="DeletionMark" type="xs:boolean" nillable="true"/>
+		<property name="Code" type="xs:integer" nillable="true"/>
+	</objectType>
+	<objectType name="Service">
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ID" type="d3p1:ID" nillable="false"/>
+		<property name="Name" type="xs:string" nillable="false"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="Type" type="d3p1:ServiceType"/>
+		<property name="DeletionMark" type="xs:boolean" nillable="true"/>
+		<property name="isTariffing" type="xs:boolean" nillable="true"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ServiceProviderID" type="d3p1:ID" nillable="true"/>
+		<property name="AvailableInTariff" type="xs:boolean" nillable="true"/>
+	</objectType>
+	<objectType name="ServiceSubscription">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="SubscriptionID" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ServiceProviderID" type="d3p1:ID" nillable="true"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ServiceID" type="d3p1:ID"/>
+		<property name="SubscriptionBeginDate" type="xs:dateTime"/>
+		<property name="SubscriptionEndDate" type="xs:dateTime"/>
+		<property name="SubscriptionCode" type="xs:string"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="RegisterTariffServices" base="d2p1:Body">
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ServiceProviders" type="d3p1:ServiceProvider" lowerBound="1" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ConfugurationVersion" type="d3p1:Version"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="TariffVersion" type="d3p1:Version"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="PutCommonTariffData" base="d2p1:Body">
+		<property name="UsingTariffControl" type="xs:boolean" nillable="true"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ServiceProviders" type="d3p1:ServiceProvider" lowerBound="0" upperBound="-1"/>
+		<property name="Services" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="PutZoneSubscriptions" base="d2p1:ZoneBody">
+		<property name="Overwrite" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.1c.ru/1cFresh/Tariff/App/1.0.1.1" name="ServiceSubscriptions" type="d3p1:ServiceSubscription" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="DeleteZoneSubscriptions" base="d2p1:ZoneBody">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="SubscriptionsID" type="d3p1:UUID" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>

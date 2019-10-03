@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b6cedf-ccc6-4715-8d71-c0a1ba87289c">
+  <name>_ДемоОбменСБиблиотекойСтандартныхПодсистемРегистрацияУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен с библиотекой стандартных подсистем зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject._ДемоНоменклатура</types>
+    <types>CatalogObject._ДемоБанковскиеСчета</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.ПапкиФайлов</types>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>DocumentObject._ДемоКорректировкаОстатковТоваровВМестахХранения</types>
+    <types>CatalogObject._ДемоФизическиеЛица</types>
+    <types>CatalogObject._ДемоОрганизации</types>
+    <types>CatalogObject._ДемоСтавкиНДС</types>
+    <types>CatalogObject._ДемоПодразделения</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject._ДемоКонтрагенты</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>CatalogObject._ДемоДоговорыКонтрагентов</types>
+    <types>BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject._ДемоМестаХранения</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>CatalogObject._ДемоНоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоВидыНоменклатуры</types>
+    <types>DocumentObject._ДемоЗаказПокупателя</types>
+    <types>TaskObject.ЗадачаИсполнителя</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменСБиблиотекойСтандартныхПодсистемЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

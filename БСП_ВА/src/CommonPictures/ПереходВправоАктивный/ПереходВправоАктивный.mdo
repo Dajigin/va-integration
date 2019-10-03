@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f0c51f3-9329-4f6d-acee-3dfe7eefbd4a">
+  <name>ПереходВправоАктивный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход вправо активный</value>
+  </synonym>
+</mdclass:CommonPicture>

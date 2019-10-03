@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abf29293-3a32-4495-a012-5412df429bfc">
+  <producedTypes>
+    <objectType typeId="2f1d6c87-a9e2-4d2b-9483-cd83f3f9ce96" valueTypeId="4ec37227-cd27-48c0-9d9e-b341570c1f0a"/>
+    <managerType typeId="ee181690-9cd6-4523-8de3-a42657baeaf6" valueTypeId="5f6cd2ea-a4ac-4e1e-9ff0-36632eabb4fa"/>
+  </producedTypes>
+  <name>_ДемоОбменСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен сообщениями</value>
+  </synonym>
+  <defaultForm>DataProcessor._ДемоОбменСообщениями.Form.Форма</defaultForm>
+  <forms uuid="bf2e49ce-d423-424c-a275-646ad479cd5c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3e7e2b97-464a-438d-8e09-c5cab56973d0">
+    <name>_ДемоОбменСообщениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Обмен сообщениями</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

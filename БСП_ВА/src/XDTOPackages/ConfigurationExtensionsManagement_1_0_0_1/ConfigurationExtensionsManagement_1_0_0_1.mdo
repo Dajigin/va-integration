@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2080985a-718b-4f05-84aa-046cbc3cb144">
+  <name>ConfigurationExtensionsManagement_1_0_0_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Configuration extensions management</value>
+  </synonym>
+  <namespace>http://www.1c.ru/1cFresh/ConfigurationExtensions/Management/1.0.0.1</namespace>
+</mdclass:XDTOPackage>

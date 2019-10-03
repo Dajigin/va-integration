@@ -1,0 +1,16 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.1c.ru/1cFresh/Incidents/1_0_1_1">
+	<objectType name="Incident">
+		<property name="Id" type="xs:string" fixed="true" default=""/>
+		<property name="Type" type="xs:string" fixed="true" default=""/>
+		<property name="Infobase" type="xs:string" fixed="true" default=""/>
+		<property name="Cluster" type="xs:string" fixed="true" default=""/>
+		<property name="Message" type="xs:string" fixed="true" default=""/>
+		<property name="Count" type="xs:int" fixed="true" default="1"/>
+	</objectType>
+	<objectType name="IncidentType">
+		<property name="Type" type="xs:string" fixed="true" default=""/>
+		<property name="Level" type="xs:string" fixed="true" default=""/>
+		<property name="Subsystem" type="xs:string" fixed="true" default=""/>
+		<property name="Tags" type="xs:string"/>
+	</objectType>
+</package>

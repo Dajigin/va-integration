@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fd39c67-a86a-483e-b729-1f4e157c24cd">
+  <name>_ДемоОбменСБиблиотекойСтандартныхПодсистем225Регистрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен с библиотекой стандартных подсистем 225 зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject._ДемоНоменклатура</types>
+    <types>CatalogObject._ДемоБанковскиеСчета</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject._ДемоФизическиеЛица</types>
+    <types>CatalogObject._ДемоПроектыПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоОрганизации</types>
+    <types>CatalogObject._ДемоСтавкиНДС</types>
+    <types>CatalogObject._ДемоПодразделения</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject._ДемоКонтрагенты</types>
+    <types>CatalogObject._ДемоДоговорыКонтрагентов</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject._ДемоПроекты</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject._ДемоМестаХранения</types>
+    <types>CatalogObject._ДемоНоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject._ДемоВидыНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменСБиблиотекойСтандартныхПодсистем225ЗарегистрироватьИзменение</handler>
+</mdclass:EventSubscription>

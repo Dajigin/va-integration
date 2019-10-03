@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03733db1-2bf6-462a-aa53-d4e41c3f615e">
+  <name>СообщенияТарификацияОбработчикСообщения_1_0_1_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения тарификация в модели сервиса  обработчик сообщения 1.0.1.1</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

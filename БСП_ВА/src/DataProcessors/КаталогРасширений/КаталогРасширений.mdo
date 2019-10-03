@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95b3ac3c-4777-4969-a6e7-bc942b1b3401">
+  <producedTypes>
+    <objectType typeId="1730f186-e0bc-40ee-a56d-b03bb1518bd1" valueTypeId="e11ad99e-0a2c-4fef-8549-10930b50ade3"/>
+    <managerType typeId="e5f18b9a-dbf1-433b-872f-3c78110fefb2" valueTypeId="8a33fc45-ec2a-425a-9d8e-3134afe6cb8a"/>
+  </producedTypes>
+  <name>КаталогРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог расширений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КаталогРасширений.Form.Форма</defaultForm>
+  <forms uuid="92468d83-704a-4293-a25a-a117378fe1d7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06482002-66a6-4379-999e-57a9cdce3162">
+    <name>ФормаОбъектаРасширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объекта расширение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd560732-4655-4b72-9918-192cdf99e20e">
+    <name>ФормаОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма оценки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdb863ce-4257-43b6-be49-d654182ab78f">
+    <name>ФормаПросмотраИзображений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма просмотра изображений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5665265-3a63-4277-8d1a-b13b3687f04e">
+    <name>ФормаУстановленныеРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма установленные расширения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="805107a3-6bd0-4dfb-a635-b71f6322ef52">
+    <name>ФормаОбновляемыеРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обновляемые расширения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="67cdbb71-5f73-4515-ada7-91652658b9ca">
+    <name>ОткрытьКаталогРасширений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог расширений</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

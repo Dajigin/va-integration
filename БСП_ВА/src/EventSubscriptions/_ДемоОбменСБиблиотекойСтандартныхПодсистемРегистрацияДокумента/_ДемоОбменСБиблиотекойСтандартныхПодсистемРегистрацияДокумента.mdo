@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a52a6c92-7d7f-4c2e-856c-4adde3b5e44c">
+  <name>_ДемоОбменСБиблиотекойСтандартныхПодсистемРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен с библиотекой стандартных подсистем зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject._ДемоРеализацияТоваров</types>
+    <types>DocumentObject._ДемоПоступлениеТоваров</types>
+    <types>DocumentObject._ДемоКорректировкаОстатковТоваровВМестахХранения</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject._ДемоЗаказПокупателя</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule._ДемоОбменДаннымиСобытия._ДемоОбменСБиблиотекойСтандартныхПодсистемЗарегистрироватьИзменениеДокумента</handler>
+</mdclass:EventSubscription>

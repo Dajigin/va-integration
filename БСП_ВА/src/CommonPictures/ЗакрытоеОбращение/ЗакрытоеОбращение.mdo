@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0922c6b6-59a5-456f-a52f-c8e9a594de32">
+  <name>ЗакрытоеОбращение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытое обращение</value>
+  </synonym>
+</mdclass:CommonPicture>

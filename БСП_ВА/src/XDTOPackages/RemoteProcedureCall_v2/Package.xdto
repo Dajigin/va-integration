@@ -1,0 +1,33 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.1c.ru/1cFresh/Automation/RemoteProcedureCall/v2">
+	<import namespace="http://www.1c.ru/SaaS/Messages"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="RemoteCall" base="d2p1:ZoneBody">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Call_ID" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Processor_ID" type="d3p1:UUID"/>
+		<property name="Function" type="xs:string"/>
+		<property name="Parameters" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="CallBack" base="d2p1:ZoneBody">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Call_ID" type="d3p1:UUID"/>
+		<property name="Error" type="xs:boolean"/>
+		<property name="ResultInfo" type="xs:string"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="FileTransferRequest" base="d2p1:ZoneBody">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Call_ID" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="File_ID" type="d3p1:UUID"/>
+		<property name="CallCode" type="xs:int" nillable="true"/>
+		<property name="CallBody" type="xs:string" nillable="true"/>
+		<property name="Sender" type="xs:int"/>
+		<property name="Recipient" type="xs:int"/>
+		<property name="RapidTransfer" type="xs:boolean" nillable="true"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SaaS/Messages" name="FileTransferResponse" base="d2p1:ZoneBody">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Call_ID" type="d3p1:UUID"/>
+		<property name="CallCode" type="xs:int" nillable="true"/>
+		<property name="CallBody" type="xs:string" nillable="true"/>
+		<property name="Sender" type="xs:int"/>
+		<property name="Recipient" type="xs:int"/>
+		<property name="RapidTransfer" type="xs:boolean" nillable="true"/>
+		<property name="Error" type="xs:boolean" nillable="true"/>
+	</objectType>
+</package>
