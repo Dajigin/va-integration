@@ -1,0 +1,2790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>bg</key>
+    <value>Известни стъпки</value>
+  </title>
+  <title>
+    <key>mn</key>
+    <value>Алдарт шат</value>
+  </title>
+  <title>
+    <key>fr</key>
+    <value>Célèbres étapes</value>
+  </title>
+  <title>
+    <key>pl</key>
+    <value>Znane kroki</value>
+  </title>
+  <title>
+    <key>tr</key>
+    <value>Bilinen adımları</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Known steps</value>
+  </title>
+  <title>
+    <key>ka</key>
+    <value>ცნობილი ნაბიჯები</value>
+  </title>
+  <title>
+    <key>it</key>
+    <value>Noti passi</value>
+  </title>
+  <title>
+    <key>sl</key>
+    <value>Slavni koraki</value>
+  </title>
+  <title>
+    <key>de</key>
+    <value>Bekannte Schritte</value>
+  </title>
+  <title>
+    <key>am</key>
+    <value>አቶ ቅድሚያ የሚሰጡዋቸውን ነው</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Conocidos los pasos</value>
+  </title>
+  <title>
+    <key>et</key>
+    <value>Tuntud samme</value>
+  </title>
+  <title>
+    <key>vi</key>
+    <value>Nổi tiếng bước của những</value>
+  </title>
+  <title>
+    <key>lt</key>
+    <value>Žinomos veiksmus</value>
+  </title>
+  <title>
+    <key>lv</key>
+    <value>Zināmi soļi</value>
+  </title>
+  <title>
+    <key>sv</key>
+    <value>Den berömda trappan</value>
+  </title>
+  <title>
+    <key>hu</key>
+    <value>A híres lépéseket a</value>
+  </title>
+  <title>
+    <key>az</key>
+    <value>Tanınmış addımlar</value>
+  </title>
+  <title>
+    <key>ro</key>
+    <value>Cunoscut de pași</value>
+  </title>
+  <title>
+    <key>ru</key>
+    <value>Известные шаги</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаПоиска</name>
+    <id>88</id>
+    <items xsi:type="form:FormField">
+      <name>НайтиШаги</name>
+      <id>49</id>
+      <title>
+        <key>am</key>
+        <value>የሠራተኛና.</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Search</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Finden Schritte</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Олох алхмууд</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Encontrar los pasos</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Leida samme</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Trovare i punti</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>მოძებნა ნაბიჯები</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Tapa addımlar</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Znajdź kroki</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Rasti veiksmus</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Keresse meg a lépéseket</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Bulmak için adımlar</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Atrast soļi</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Našli navodila</value>
+      </title>
+      <title>
+        <key>bg</key>
+        <value>Намери стъпки</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Tìm thấy các bước</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Hitta stegen</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Trouver les étapes</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Pentru a găsi pașii</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ФильтрДереваШагов</segments>
+        </paths>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>НайтиШагиПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>НайтиШагиРасширеннаяПодсказка</name>
+        <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НайтиШагиКонтекстноеМеню</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <inputHint>
+          <key>ru</key>
+          <value>Введите искомый текст или часть фразы</value>
+        </inputHint>
+        <inputHint>
+          <key>en</key>
+          <value>Enter the search text or part of the phrase</value>
+        </inputHint>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КнопкаНайтиШаги</name>
+      <id>94</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КнопкаНайтиШагиРасширеннаяПодсказка</name>
+        <id>95</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.НайтиШаги</commandName>
+      <representation>Picture</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ГруппаПоискаРасширеннаяПодсказка</name>
+      <id>89</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказыватьСлужебныеШаги</name>
+    <id>46</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ПоказыватьСлужебныеШаги</segments>
+      </paths>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПоказыватьСлужебныеШагиПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ПоказыватьСлужебныеШагиРасширеннаяПодсказка</name>
+      <id>52</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказыватьСлужебныеШагиКонтекстноеМеню</name>
+      <id>47</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказатьШагиНаРусском</name>
+    <id>76</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ПоказатьШагиНаРусском</segments>
+      </paths>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПоказатьШагиНаРусскомПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ПоказатьШагиНаРусскомРасширеннаяПодсказка</name>
+      <id>78</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказатьШагиНаРусскомКонтекстноеМеню</name>
+      <id>77</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказыватьУстаревшиеШаги</name>
+    <id>85</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ПоказыватьУстаревшиеШаги</segments>
+      </paths>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПоказыватьУстаревшиеШагиПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ПоказыватьУстаревшиеШагиРасширеннаяПодсказка</name>
+      <id>87</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказыватьУстаревшиеШагиКонтекстноеМеню</name>
+      <id>86</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ПоказатьПеревод</name>
+    <id>68</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ПоказатьПереводРасширеннаяПодсказка</name>
+      <id>69</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ПоказатьПеревод</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
+  <items xsi:type="form:Table">
+    <name>ДеревоШагов</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ДеревоШагов</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormGroup">
+      <name>ДеревоШаговГруппа</name>
+      <id>74</id>
+      <items xsi:type="form:FormField">
+        <name>ДеревоШаговПредставлениеТестаОригинал</name>
+        <id>79</id>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДеревоШагов.ПредставлениеТестаОригинал</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДеревоШаговПредставлениеТестаОригиналРасширеннаяПодсказка</name>
+          <id>81</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДеревоШаговПредставлениеТестаОригиналКонтекстноеМеню</name>
+          <id>80</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <autoCellHeight>true</autoCellHeight>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ДеревоШаговОписаниеШагаОригинал</name>
+        <id>82</id>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДеревоШагов.ОписаниеШагаОригинал</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДеревоШаговОписаниеШагаОригиналРасширеннаяПодсказка</name>
+          <id>84</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДеревоШаговОписаниеШагаОригиналКонтекстноеМеню</name>
+          <id>83</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <autoCellHeight>true</autoCellHeight>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>Группа1</name>
+        <id>96</id>
+        <items xsi:type="form:FormField">
+          <name>ДеревоШаговТипШага</name>
+          <id>14</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ДеревоШагов.ТипШага</segments>
+            </paths>
+          </dataPath>
+          <extendedTooltip>
+            <name>ДеревоШаговТипШагаРасширеннаяПодсказка</name>
+            <id>63</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДеревоШаговТипШагаКонтекстноеМеню</name>
+            <id>15</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <width>15</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>false</horizontalStretch>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ДеревоШаговПредставлениеТеста</name>
+          <id>20</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ДеревоШагов.ПредставлениеТеста</segments>
+            </paths>
+          </dataPath>
+          <extendedTooltip>
+            <name>ДеревоШаговПредставлениеТестаРасширеннаяПодсказка</name>
+            <id>64</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДеревоШаговПредставлениеТестаКонтекстноеМеню</name>
+            <id>21</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <autoCellHeight>true</autoCellHeight>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Группа1РасширеннаяПодсказка</name>
+          <id>97</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>ColumnGroup</type>
+        <extInfo xsi:type="form:ColumnGroupExtInfo">
+          <group>InCell</group>
+          <showTitle>true</showTitle>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ДеревоШаговОписаниеШага</name>
+        <id>23</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДеревоШагов.ОписаниеШага</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДеревоШаговОписаниеШагаРасширеннаяПодсказка</name>
+          <id>65</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДеревоШаговОписаниеШагаКонтекстноеМеню</name>
+          <id>24</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <autoCellHeight>true</autoCellHeight>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ДеревоШаговПолныйТипШага</name>
+        <id>26</id>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДеревоШагов.ПолныйТипШага</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДеревоШаговПолныйТипШагаРасширеннаяПодсказка</name>
+          <id>66</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДеревоШаговПолныйТипШагаКонтекстноеМеню</name>
+          <id>27</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ДеревоШаговИмяEPF</name>
+        <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДеревоШагов.ИмяФайла</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДеревоШаговИмяEPFРасширеннаяПодсказка</name>
+          <id>67</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДеревоШаговИмяEPFКонтекстноеМеню</name>
+          <id>30</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>10</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>false</horizontalStretch>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Описание шага</value>
+      </title>
+      <extendedTooltip>
+        <name>ДеревоШаговГруппаРасширеннаяПодсказка</name>
+        <id>75</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+    <autoCommandBar>
+      <name>ДеревоШаговКоманднаяПанель</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
+    </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>ДеревоШаговВыбор</name>
+    </handlers>
+    <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ДеревоШаговСтрокаПоиска</name>
+      <id>54</id>
+      <extendedTooltip>
+        <name>ДеревоШаговСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДеревоШаговСтрокаПоискаКонтекстноеМеню</name>
+        <id>55</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ДеревоШаговСостояниеПросмотра</name>
+      <id>57</id>
+      <extendedTooltip>
+        <name>ДеревоШаговСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДеревоШаговСостояниеПросмотраКонтекстноеМеню</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <horizontalLocation>Left</horizontalLocation>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ДеревоШаговУправлениеПоиском</name>
+      <id>60</id>
+      <extendedTooltip>
+        <name>ДеревоШаговУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>62</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДеревоШаговУправлениеПоискомКонтекстноеМеню</name>
+        <id>61</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>ДеревоШаговРасширеннаяПодсказка</name>
+      <id>53</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДеревоШаговКонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <representation>Tree</representation>
+    <readOnly>true</readOnly>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <autoInsertNewRow>true</autoInsertNewRow>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <enableDrag>true</enableDrag>
+    <searchStringLocation>None</searchStringLocation>
+    <viewStatusLocation>None</viewStatusLocation>
+    <searchControlLocation>None</searchControlLocation>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаВыгрузитьШагиВJSON</name>
+      <id>70</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаВыгрузитьШагиВJSONРасширеннаяПодсказка</name>
+        <id>71</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВыгрузитьШагиВJSON</commandName>
+      <representation>Auto</representation>
+      <onlyInAllActions>true</onlyInAllActions>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnReopen</event>
+    <name>ПриПовторномОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.VanessaAutomationsingle</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>ДеревоШагов</name>
+    <title>
+      <key>ru</key>
+      <value>Дерево шагов</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>ValueTree</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>ТипШага</name>
+      <title>
+        <key>bg</key>
+        <value>Тип</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Төрөл</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Type</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Typ</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Türü</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Type</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ტიპი</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Tipo</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Vrsta</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Art</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ዓይነት</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El tipo de</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Tüüp</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Kiểu</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Tipas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Tips</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Typ</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Típus</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Növü</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Tip</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Тип</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяПроцедуры</name>
+      <title>
+        <key>bg</key>
+        <value>Името на процедурата</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Нэрийг журам</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Le nom de la procédure</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Nazwa procedury</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Yordam adı</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Procedure</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>სახელი პროცედურა</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Il nome della procedura</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Ime postopek</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Der name der Prozedur</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ስም ይታያል</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Nombre del procedimiento</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Protseduuri nimi</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Tên thủ tục</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Procedūros vardas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Procedūras nosaukums</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Procedurens namn</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>A név az eljárás</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Adı prosedurları</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Numele procedurii</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Имя процедуры</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПредставлениеТеста</name>
+      <title>
+        <key>bg</key>
+        <value>Стъпка</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Алхам</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Étape</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Krok</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Adım</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Step</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ნაბიჯი</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Passo</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Korak</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Schritt</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ደረጃ</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Paso</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Samm</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Bước</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Žingsnis</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Solis</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Steg</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Lépés</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Addım</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Pasul</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Шаг</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ОписаниеШага</name>
+      <title>
+        <key>bg</key>
+        <value>Описание</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Тодорхойлолт</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Description</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Opis</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Açıklama</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Description</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>აღწერა</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Descrizione</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Opis</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Beschreibung</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>መግለጫ</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Descripción</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Kirjeldus</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Mô tả</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Aprašymas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Apraksts</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Beskrivning</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Leírás</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Təsvir</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Descriere</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Описание</value>
+      </title>
+      <id>4</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПолныйТипШага</name>
+      <title>
+        <key>bg</key>
+        <value>Пълен тип на терена</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Бүрэн алхам төрөл</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Plein type d'étape</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Pełna typ kroki</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Tam adım türü</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Full step type</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>სრული ნაბიჯი ტიპი</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Completa tipo di passaggio</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Celotno korak tip</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Vollständige schritttyp</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ሙሉ ደረጃ ዓይነት</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Completa el tipo de paso</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Täielik tüüpi sammu</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Kiểu bước đầy đủ</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Visą tipas žingsnio</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Pilna tips soļi</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Full steg typ</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Teljes lépés típus</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Tam növü addım</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Tipul plin de pas</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Полный тип шага</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяФайла</name>
+      <title>
+        <key>bg</key>
+        <value>Име на файл</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Файлын нэр</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Nom de fichier</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Nazwa pliku</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Dosya adı</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>File</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ფაილის სახელი</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Il nome del file</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Ime datoteke</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Dateiname</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>የፋይል ስም</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Nombre de archivo</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Faili nimi</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Tên tệp</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Failo pavadinimas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Faila nosaukums</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Fil</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Fájl neve</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Fayl adı</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Nume de fișier</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </title>
+      <id>6</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Язык</name>
+      <title>
+        <key>ru</key>
+        <value>Язык</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ОписаниеШагаОригинал</name>
+      <title>
+        <key>bg</key>
+        <value>Описание на оригинала</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Тайлбар эх</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Description de l'original</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Opis oryginał</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Açıklama orijinal</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Description original</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>აღწერა ორიგინალური</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Descrizione originale</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Opis izvirna</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Beschreibung das Original</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>መግለጫ.</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Descripción de la original</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Kirjeldus originaal</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Mô tả bản gốc</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Aprašymas originalas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Apraksts oriģināls</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Beskrivning original</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Leírás eredeti</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Orijinal təsviri</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Descriere originalul</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Описание оригинал</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПредставлениеТестаОригинал</name>
+      <title>
+        <key>bg</key>
+        <value>Стъпка оригинал</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Анхны алхам</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Étape original</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Krok oryginał</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Adım aslı</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Step original</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ნაბიჯი ორიგინალური</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Passo originale</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Korak original</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Schritt Original</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ደረጃ የዋናውን</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Paso original</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Samm originaal</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Bước gốc</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Žingsnis originalas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Solis oriģināls</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Steg ursprungliga</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Lépés eredeti</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Addım original</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Pasul original</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Шаг оригинал</value>
+      </title>
+      <id>10</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ТаблицаИзвестныхStepDefinition</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица известных step definition</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>ИмяФайла</name>
+      <title>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Tên tệp</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Id</name>
+      <title>
+        <key>ru</key>
+        <value>Id</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокаРеальнойПроцедуры</name>
+      <title>
+        <key>ru</key>
+        <value>Строка реальной процедуры</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Dòng thủ tục thực tế</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Параметры</name>
+      <title>
+        <key>ru</key>
+        <value>Параметры</value>
+      </title>
+      <id>4</id>
+      <valueType/>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокаДляПоиска</name>
+      <title>
+        <key>ru</key>
+        <value>Строка для поиска</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПредставлениеТеста</name>
+      <title>
+        <key>ru</key>
+        <value>Представление теста</value>
+      </title>
+      <id>6</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Транзакция</name>
+      <title>
+        <key>ru</key>
+        <value>Транзакция</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ОписаниеШага</name>
+      <title>
+        <key>ru</key>
+        <value>Описание шага</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипШага</name>
+      <title>
+        <key>ru</key>
+        <value>Тип шага</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВерсияФайла</name>
+      <title>
+        <key>ru</key>
+        <value>Версия файла</value>
+      </title>
+      <id>10</id>
+      <valueType>
+        <types>Date</types>
+        <dateQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокаОбрабатывалась</name>
+      <title>
+        <key>ru</key>
+        <value>Строка обрабатывалась</value>
+      </title>
+      <id>11</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьСлужебныеШаги</name>
+    <title>
+      <key>bg</key>
+      <value>Показване на служебни стъпки</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Үзүүлэх үйлчилгээний шат</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>Afficher les utilitaires étapes</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Pokaż narzędzia kroki</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Gösteren servis adımlar</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show all steps</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შოუ სამსახურის ნაბიჯები</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Mostra di utilità passi</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Prikaži storitev koraki</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Das zeigen die dienstlichen Schritte</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>ለማሳየት አገልግሎት.</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar las utilidades de los pasos</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Näita teenuse samme</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Hiển thị các bước hệ thống</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Rodyti paslaugų žingsniai</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt pakalpojumu darbības</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Visa service steg</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Show service lépések</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Göstərən xidməti addımlar</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Arăta de serviciu pași</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Показывать служебные шаги</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФильтрДереваШагов</name>
+    <title>
+      <key>ru</key>
+      <value>Фильтр дерева шагов</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЯзыкГенератораGherkin</name>
+    <title>
+      <key>ru</key>
+      <value>Язык генератора gherkin</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Ngôn ngữ bộ khởi tạo gherkin</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КаталогИнструментов</name>
+    <title>
+      <key>ru</key>
+      <value>Каталог инструментов</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Thư mục công cụ</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>МакетШаблонПеревода</name>
+    <title>
+      <key>ru</key>
+      <value>Макет шаблон перевода</value>
+    </title>
+    <id>8</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДвоичныеДанныеФайлПеревода</name>
+    <title>
+      <key>ru</key>
+      <value>Двоичные данные файл перевода</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КешТаблицыПеревода</name>
+    <title>
+      <key>ru</key>
+      <value>Кеш таблицы перевода</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоLinux</name>
+    <title>
+      <key>ru</key>
+      <value>Это linux</value>
+    </title>
+    <id>11</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПоказатьШагиНаРусском</name>
+    <title>
+      <key>bg</key>
+      <value>Покажи стъпки на руски</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Шоу арга хэмжээ орос</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>Voir les étapes en russe</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Pokaż kroki w języku rosyjskim</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Adımları göstermek rusça</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show steps in russian</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შოუ ნაბიჯები რუსულ</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Mostra i passaggi in russo</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Pokaži navodila v ruščini</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Zeigen Sie die Schritte auf Deutsch</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>አሁን የኢትዮጵያ ደረጃዎች ውስጥ ራሽኛ</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar los pasos en ruso</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Näita sammud vene</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Hiển thị các bước bằng tiếng Nga</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Rodyti veiksmus rusų</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt pasākumus latviešu, krievu</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Visa steg i ryska</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Mutasd meg a lépéseket, orosz</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Göstərmək addımlar rus</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Arată pașii pe rusa</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Показать шаги на русском</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьУстаревшиеШаги</name>
+    <title>
+      <key>ru</key>
+      <value>Показывать устаревшие шаги</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show outdated steps</value>
+    </title>
+    <id>13</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ПоказатьПеревод</name>
+    <title>
+      <key>bg</key>
+      <value>Покажи превода</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Шоу орчуулга</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>Afficher la traduction</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Pokaż tłumaczenie</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Haritasında çeviri</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show translation</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შოუ თარგმანი</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Mostrare la traduzione</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Kažejo, prevodi,</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Übersetzung anzeigen</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>ለማሳየት ትርጉሞች</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Ver traducción</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Vaata tõlget</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Hiển thị bản dịch</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Rodyti vertimą</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt tulkojums</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Visa översättningar</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Show fordítások</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Arată de traducere</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Göstərmək tərcümə</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Показать перевод</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать перевод</value>
+    </toolTip>
+    <toolTip>
+      <key>vi</key>
+      <value>Hiển thị bản dịch</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоказатьПеревод</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВыгрузитьШагиВJSON</name>
+    <title>
+      <key>bg</key>
+      <value>Разтоварят стъпки в JSON</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Алхам хуулж JSON</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>Décharger les étapes en JSON</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Wyślij kroki w formacie JSON</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Kaldırma adımları JSON</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Unload steps in JSON</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>ნაბიჯები ატვირთოთ JSON</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Scaricare passi in JSON</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Navodila za nalaganje JSON</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Entladen Schritte in JSON</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>ጋር ይገናኛሉ ስለጀመሩ ቅድሚያ</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Descargar pasos en JSON</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Laadi samme JSON</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Kết xuất các bước sang JSON</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Iškelkite priemonių JSON</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Izkraut soļi JSON</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Åtgärder för att ladda upp JSON</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Lépéseket, hogy töltse fel a JSON</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Descarcă pași în JSON</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Boşaltmaq addımlar JSON</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Выгрузить шаги в JSON</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выгрузить шаги ВJSON</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыгрузитьШагиВJSON</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НайтиШаги</name>
+    <title>
+      <key>ru</key>
+      <value>Найти шаги</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Find</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НайтиШаги</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>

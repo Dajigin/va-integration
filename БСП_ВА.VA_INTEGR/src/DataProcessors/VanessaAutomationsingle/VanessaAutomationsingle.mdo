@@ -1,0 +1,5043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c890a18c-11d8-459e-8313-1568e383fdd4">
+  <producedTypes>
+    <objectType typeId="2d0dd62d-1a82-4a11-9330-56e9911b50f1" valueTypeId="5f9070b2-9a2b-4401-ab22-4401afb822e7"/>
+    <managerType typeId="a35416d7-75ee-4792-a5e1-ba8ce213d812" valueTypeId="dee1e849-a8df-4cfb-a389-021aee534ab3"/>
+  </producedTypes>
+  <name>VanessaAutomationsingle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Vanessa Automation single</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Vanessa Automation single</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.VanessaAutomationsingle.Form.УправляемаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="07e5d7d8-7ae8-4773-83b2-e5af4c8c5895">
+    <name>ДопСообщениеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп сообщение ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28603847-6d5b-4e7b-9acb-8cfe3787dc02">
+    <name>ИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1b88fc0-4904-40fb-ad59-c4f10385f212">
+    <name>ПараметрыМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры метода</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9ff3fc84-a67e-44c1-83e8-ba5bd472312b">
+    <name>ПроверяемоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяемое значение</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6f466249-bf6f-4555-92bd-b04d98991255">
+    <name>ФлагОтрицания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Флаг отрицания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a72707c6-f12d-4280-a939-50c2de29dc29">
+    <name>ЭтоВстроеннаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это встроенная обработка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="383f520d-7dbc-4863-90d2-77842cefe60a">
+    <name>ДеревоМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево метаданных</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ddab741-62a3-4d54-bb38-5d944fa6768a">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bcd9f98c-16d2-4a22-b512-f58f24c2c2e2">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ccf43cfe-b00c-431f-b3cb-e45e968dc5d7">
+    <name>ИспользоватьОтборПоДатеДляВсехОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по дате для всех объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c7b1e37-1582-46c4-8922-004412d0d14e">
+    <name>ВыгружатьСДокументомЕгоДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать с документом его движения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="739796f3-4c4e-4817-8fbf-82f85ad3b663">
+    <name>ТипВыгрузкиПериодическихРегистров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип выгрузки периодических регистров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="688c1a9a-ed60-4a99-a19c-f10ad08240f3">
+    <name>КомпоновщикНастроекКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик настроек компоновки данных</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63248c36-ab07-4643-9cd2-ba37d20c4155">
+    <name>ВыгружатьКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать код / номер в макет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28ec811a-3df5-448b-acff-e2eeab7cac5b">
+    <name>ВыгружатьСсылку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать ссылку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e290ebce-71a9-4e8a-ab5b-48fdab75a6fc">
+    <name>СвязьПоГуид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связь по гуид</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59c1f2b8-34f7-46c6-a5c2-e970905a82e8">
+    <name>ТолькоСоздание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только создание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e548c2b3-1668-40b7-ae4c-8cb11f51ff25">
+    <name>ОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="978b8da9-128a-424b-9ab3-d7fb0bdff59e">
+    <name>НаборРолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор ролей</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83e652c7-7c47-4a9e-9b07-097fe2dd38cd">
+    <name>НаборПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор пользователей</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b860830e-962e-4a6d-8a79-81183973884c">
+    <name>ВариантВстроенногоЯзыкаАнглийский</name>
+    <synonym>
+      <key>en</key>
+      <value>Script Variant English</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант встроенного языка английский</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="08cc882d-a2a7-4705-a30f-f1493cc935a0">
+    <name>УровеньВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень выгрузки зависимых</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="05bfb715-9288-4b87-adbb-dc394cfe21ad">
+    <name>DebugLog</name>
+    <synonym>
+      <key>ru</key>
+      <value>Debug log</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4dd217ee-9856-4b27-8963-53ea514e5b29">
+    <name>GenerateEpf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Generate epf</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fcf15d69-1b78-41f2-a9de-71f1bede3a81">
+    <name>TestRun</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test run</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7667a96b-b4d5-42dd-966a-809732455e3d">
+    <name>АдресДанныеОбОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес данные об ошибке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="533a26ed-ea27-4523-a57d-023be95a6d58">
+    <name>АдресОтладчика</name>
+    <synonym>
+      <key>bg</key>
+      <value>Адрес за изчистване на грешки</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Хаяг дибаг</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Adresse du débogueur</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Adres debugera</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Adresi hata ayıklayıcı</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Debugger url</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>მისამართი debugger</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>L'indirizzo del debugger</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Naslov razhroščevalnik</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Adresse des Debuggers</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>አድራሻ ነው debugger</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La dirección del depurador</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Aadress siluri</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Địa chỉ bộ gỡ rối</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Adresas debugger</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Adrese atkļūdotājs</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Adress debugger</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>A cím a debugger</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Ünvanı var ayıklama</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Adresa depanator</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес отладчика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ed321d6-bf3c-446f-90e9-76770532f6f9">
+    <name>БезопасноеВыполнениеШагов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безопасное выполнение шагов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Safe execution of steps</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88549973-9731-4050-9481-35934b3b28b3">
+    <name>ВерсияПлатформыДляГенерацииEPF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы для генерации EPF</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43cd1bf2-24ca-478e-8cef-c393fcabb42c">
+    <name>ВерсияПоставки</name>
+    <synonym>
+      <key>en</key>
+      <value>Delivery version</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Версия поставки</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Phiên bản bộ cài đặt</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="497c62b3-6a58-42ef-ad40-dfe46bb17edf">
+    <name>ВыводитьВЛогВыполнениеШагов</name>
+    <synonym>
+      <key>bg</key>
+      <value>Извежда в лог изпълнението на стъпки</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Нэвтрэх арга хэмжээ</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Enregistrées en exécution des étapes</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Wyświetlanie dziennika wykonanie kroków</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Çıktı günlük adımları</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Write steps into log</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>შესვლა ნაბიჯები</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Visualizzare il file di log eseguire i passaggi</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Dnevnik koraki</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>In der log ausgeben Schritte ausführen</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ምዝግብ.</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Mostrar en el log de la ejecución de los pasos</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Näita log täitmise sammud</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Hiển thị trong nhật ký thực hiện các bước</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Išvesti į failą, atlikti veiksmus</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Parādīt log izpildi soļi</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Logga steg</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Napló lépések</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Çıxış log yerinə addımlar</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>De ieșire în fișierul jurnal efectuarea de pași</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лог выполнения шагов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c41105ef-8c8d-4cfe-aa90-50c875ba808e">
+    <name>ВыводитьТекстМодуляВместоПерегенерацииEPF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить текст модуля вместо перегенерации EPF</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02a34175-958a-4cf6-9785-9cc73ffeeb99">
+    <name>ВыгружатьСтатусВыполненияСценариевВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать статус выполнения сценариев в файл</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a32a4856-15cc-43d6-80b7-6ade69a5f145">
+    <name>ВыполнениеСценарияИзОбработкиОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение сценария из обработки оповещения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a550c38-36c2-485f-b9f5-866b70e8aa29">
+    <name>ВыполнитьОбработкуПриОткрытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить обработку при открытии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d3e90876-ed13-418b-8adf-61b9879875ae">
+    <name>ВыполнятьШагиАссинхронно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять шаги ассинхронно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a613abb-7ca7-4311-a631-b5e3612d6162">
+    <name>ГенерироватьУФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генерировать УФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0289709e-d09d-4ae3-8e91-cb039e008662">
+    <name>ДелатьЛогВыполненияСценариевВЖР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать лог выполнения сценариев в ЖР</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8251dbcf-7681-47f7-9207-c9c2fbac9b97">
+    <name>ДелатьЛогВыполненияСценариевВТекстовыйФайл</name>
+    <synonym>
+      <key>bg</key>
+      <value>Правя лог изпълнение на скрипт в текстов файл</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Хийх бүртгэлийн ажиллуулах скриптүүд нь текст файл</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Faire le journal de l'exécution des scripts dans un fichier texte</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Zrobić log z wykonania skryptu w pliku tekstowym</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Yapmak günlük komut dosyası bir metin dosyası</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Make log to text file</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ამის შესვლა აწარმოებს სკრიპტები ტექსტური ფაილი,</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Fare un log di esecuzione di script in un file di testo</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Da ne log zaženete skripte v besedilno datoteko</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tun die log-Skripte in einer Textdatei</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ጋር ስለጀመሩ ቅድሚያ የሚሰጡዋቸውን ውስጥ ጽሑፍ ፋይል</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Hacer un log de ejecución de secuencias de comandos en un archivo de texto</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Teha log skriptide täitmise tekstifaili</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo nhật ký thực hiện các kịch bản vào tệp văn bản</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Daryti žurnalo vykdymo scenarijai į tekstinį failą</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Darīt log izpildes skriptu ar teksta failu</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>För att göra det loggar köra skript i en textfil</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>A napló scriptek futtatását egy szöveges fájl</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bunu günlük yerinə ssenarilər mətn faylı</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>A face log script într-un fișier text</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Лог выполнения сценариев</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d3c3bdd3-4e31-4ccc-9c4d-42808b5ef96e">
+    <name>ДелатьЛогОшибокВТекстовыйФайл</name>
+    <synonym>
+      <key>bg</key>
+      <value>Създаване на JSON за всяка грешка</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Бий болгох JSON бүрийн алдаа</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Créer JSON pour chaque erreur</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Tworzenie JSON dla każdego błędu</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Oluşturmak için JSON, her bir hata için</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Make errors log to text file</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>შექმნათ JSON თითოეული შეცდომა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Creare JSON per ogni errore</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Ustvarite JSON za vsako napako</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Erstellen von JSON für jeden Fehler</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>አዳዲስ ግምገማዎች ቅድሚያ የሚሰጡዋቸውን.</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Crear un JSON para cada error</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Luua JSON, et iga viga</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo JSON cho mỗi lỗi</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Kurti JSON už kiekvieną klaidą</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Izveidot JSON par katru kļūdu</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Skapa en JSON för varje fel</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Hozzon létre egy JSON minden hiba</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Yaratmaq JSON üçün hər səhvlər</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Pentru a crea JSON pentru fiecare eroare</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать JSON для каждой ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7d63373f-6a4a-4900-89d6-0cd45ef22cad">
+    <name>ДелатьОтчетВоВнутреннемФормате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать отчет во внутреннем формате</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a5258f3c-c615-480e-89b3-942210833a6b">
+    <name>ДелатьОтчетВФорматеCucumberJson</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать отчет в формате cucumber json</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формировать отчет в формате Cucumber по результатам выполнения сценариев.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5bea373e-650c-458b-8cc3-0b84e7f55063">
+    <name>ДелатьОтчетВФорматеjUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать отчет в формате jUnit</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формировать отчет в формате JUnit по результатам выполнения сценариев.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60ba8002-c996-4811-bb24-8b8857299dee">
+    <name>ДелатьОтчетВФорматеАллюр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать отчет в формате аллюр</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формировать отчет в формате Allure по результатам выполнения сценариев.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d9c572b-0707-4d40-b897-d568e7bec14b">
+    <name>ДелатьОтчетВФорматеСППР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать отчет в формате СППР</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формировать отчет в формате СППР по результатам выполнения сценариев.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0413348-0fed-41ea-8cf3-7827976027f3">
+    <name>ДелатьСкриншотПриВозникновенииОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать скриншот при возникновении ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3be85ca8-ac29-496e-9ec7-a1b258b020be">
+    <name>ДелатьСообщенияТранслитом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать сообщения транслитом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8b899eb3-1e10-4554-932c-57d42703b615">
+    <name>ДеревоТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево тестов</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="17188653-ed0c-4672-bd1f-4f01f3898d39">
+    <name>ДиапазонПортовTestclient</name>
+    <synonym>
+      <key>bg</key>
+      <value>Диапазон на портове по testclient</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Тархац портын testclient</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La plage de ports testclient</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Zakres portów testclient</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Bağlantı noktası aralığı testclient</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ports dimension</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>სპექტრი პორტები testclient</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>L'intervallo di porte testclient</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Območju pristanišča testclient</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Portbereich von Testclient</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅድሚያ የታዘዘ ነው ports testclient</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El rango de puertos testclient</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Portide testclient</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Khoảng cổng kiểm tra máy trạm</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Prievadus testclient</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Portu diapazonu testclient</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Utbudet av portar testclient</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>A tartomány portok testclient</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bir sıra limanları testclient</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Gama de porturi testclient</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон портов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a489e1c3-cc1e-4433-b2a3-01a3fb90ade2">
+    <name>ДобавлятьКИмениСценарияУсловияВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять к имени сценария условия выгрузки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="664fc728-7c84-4e28-8999-8bd8528e1bdd">
+    <name>ДобавлятьПриНакликиванииМетаИнформацию</name>
+    <synonym>
+      <key>en</key>
+      <value>Добавлять при накликивании мета информацию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9d1a9ae7-2bb9-49ab-a7c6-7bbecc373cd4">
+    <name>ДополнительныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные параметры</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="afef7ef4-0d3b-47ad-abe2-61e21f02c215">
+    <name>ЕстьПоддержкаФункцияРазложитьСтрокуВМассивПодстрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть поддержка функция разложить строку в массив подстрок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0eafed33-a134-4f55-b472-3eb73684c100">
+    <name>ЗагрузкаФичПриОткрытии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка фич при открытии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de6b8713-da21-4e68-a695-33aa20e47fd3">
+    <name>ЗакрытьTestClientПослеЗапускаСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть test client после запуска сценариев</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc9e4528-f238-4a32-a322-0ded368253ca">
+    <name>ЗакрытьФормуПослеВыполненияОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть форму после выполнения обработки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e06e2ac-44d7-4577-a9f5-e334509a53a6">
+    <name>ЗаписьВидеоYandexTTSOauthToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oauth token</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Oauth token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="898704f7-579d-4a6c-824a-2df08a3f5f8f">
+    <name>ЗаписьВидеоYandexTTSГолос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Voice</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Голос синтезированной речи.
+
+- женские голоса: alyss, jane, oksana и omazh;
+- мужские голоса: zahar и ermil.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b4d6d3c-4b03-4e60-8b4a-e35fb78186e6">
+    <name>ЗаписьВидеоYandexTTSИдентификаторКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор каталога</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Folder ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f2ea2f37-b86d-40e0-b7bb-399b1f7ebfcb">
+    <name>ЗаписьВидеоYandexTTSСкорость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Speed</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Скорость (темп) синтезированной речи.
+
+Скорость речи задается дробным числом в диапазоне от 0.1 до 3.0.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aae17974-900c-4617-90ad-9e4f1fb5eab0">
+    <name>ЗаписьВидеоYandexTTSЭмоция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмоция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Voice</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Эмоциональная окраска голоса.
+
+- good — радостный, доброжелательный;
+- evil — раздраженный;
+- neutral — нейтральный.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d60919ce-b8f1-40e5-b031-f1d8c2005cdb">
+    <name>ЗаписьВидеоYandexTTSЯзык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e043b8d2-dbcc-4fb5-b564-ee7193aa903d">
+    <name>ЗаписьВидеоГромкостьМузыки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Громкость музыки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Music volume</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="595f587b-cb7f-4e00-a9cd-f0d80b0ab64d">
+    <name>ЗаписьВидеоГруппаШаговКакШаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа шагов как шаг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group of steps as a step</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b05e4dc-d3f3-4db6-9ed6-17e948af1655">
+    <name>ЗаписьВидеоДелатьНаложениеTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео делать наложение TTS</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7675fd58-17c3-45fd-b6e1-8989a7a81424">
+    <name>ЗаписьВидеоДобавлятьСубтитры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять субтитры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Add subtitles</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавляет в видео текстовые субтитры с описанием выполняемых шагов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="70266db4-16e8-4988-b997-152f5cdce0ff">
+    <name>ЗаписьВидеоИмяTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео имя TTS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2cacccc6-7a16-4ee2-a542-031a658f4ca8">
+    <name>ЗаписьВидеоКаталогДляВременныхФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео каталог для временных файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог в которой будут сохранены файлы на время формирования видеоинструкций.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2654bc3-2820-48c6-97d6-8f4e023137f3">
+    <name>ЗаписьВидеоКаталогМузыки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео каталог музыки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="627ed60b-0020-4827-8428-521e11a1abbb">
+    <name>ЗаписьВидеоКоличествоКадров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео количество кадров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1a9ac5e-423c-409c-a779-4251bb7f5af5">
+    <name>ЗаписьВидеоКомандаConvert</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео команда convert</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расширенная подсказка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f4d8881-2be6-4071-b900-8d5e60a31f70">
+    <name>ЗаписьВидеоКомандаFFmpeg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео команда FFmpeg</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда для работы и обработки видео. Также допускается указание полного пути к файлу ffmpeg.exe
+
+По умолчанию: ffmpeg</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5dc7f2ff-a66a-419c-a41a-29254157b8c4">
+    <name>ЗаписьВидеоКомандаНачатьЗаписьВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео команда начать запись видео</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="601ab86c-492c-4e85-829e-133ad3da9864">
+    <name>ЗаписьВидеоКэшВидеоВставок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэш видеовставок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Video cache path</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0684bca-4bab-4cd7-bb9f-4df3da3da4a0">
+    <name>ЗаписьВидеоКэшироватьВидеоВставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэшировать видеовставки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cache video</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="133d1c27-2e3a-41b5-8b4f-c8a0ae75fbd0">
+    <name>ЗаписьВидеоКэшироватьФайлыTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэшировать файлы TTS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cache TTS files</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак кеширования озвучивания в файлах на локальном диске.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e35793d7-c9ba-42ae-931d-d3745445ea8b">
+    <name>ЗаписьВидеоКэшФайловTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэш файлов TTS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TTS files cache</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к каталогу кеширования озвучивания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e118a624-29f9-4024-a68b-30b4fed9fc45">
+    <name>ЗаписьВидеоОтключитьМасштабированиеШаговПоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить масштабирование шагов по времени</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Disable scaling of steps</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3098d5f6-42e9-438c-8bda-f05f5c0b7610">
+    <name>ЗаписьВидеоОтключитьСлайдСЗаголовкомФичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить слайд с заголовком фичи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Turn off feature title slide</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отключает слайд видеоинструкции в начале видео с информацией из блока &quot;Функционал&quot; файла фичи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f793c177-78d7-42e9-b239-9954edc5e203">
+    <name>ЗаписьВидеоОтключитьСлайдСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить слайд сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Turn off scenario slide</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отключает слайд видеоинструкции с информацией о заголовке сценария</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e625eac-f6bc-41de-b12c-1e408e075a7a">
+    <name>ЗаписьВидеоОтключитьСлайдФинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить слайд финал</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Turn off scenario slide</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отключает слайд видеоинструкции в конце видео с инфорамцией по сборке сценария</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5bc0f8c3-6c92-4884-9e98-94dc1de82d50">
+    <name>ЗаписьВидеоПеремещатьКурсорМышкиКАктивномуЭлементуФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео перемещать курсор мышки к активному элементу формы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b037573-0482-46b4-ae39-d6f5088b6bbb">
+    <name>ЗаписьВидеоПодсвечиватьАктивныеЭлементыФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео подсвечивать активные элементы форм</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ca146604-9738-4798-bea9-9f876c02403e">
+    <name>ЗаписьВидеоПодсвечиватьНажатияМышки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсвечивать нажатия мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Highlight mouse clicks</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="96e430f4-debf-4154-acc3-65ad06bc6ef5">
+    <name>ЗаписьВидеоПоказыватьКурсорМыши</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео показывать курсор мыши</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aebb8a97-160f-4d69-9979-ca6fca633049">
+    <name>ЗаписьВидеоПроцентУскорения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент ускорения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Acceleration percentage</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="89667bd5-e182-490a-ba14-6425b0a785f9">
+    <name>ЗаписьВидеоПутьКДвижкуTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео путь к движку TTS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2eb1e763-980e-4ebc-a700-e291fb4475fc">
+    <name>ЗаписьВидеоСкоростьПроизношения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Speed of speech</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ad889273-a04c-49c1-b10b-5ece0bfd77e7">
+    <name>ЗаписьВидеоСкрытьСлужебныеОкна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть служебные окна</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Hide service windows</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb540838-5ba3-4b52-9f05-c27db709ebf9">
+    <name>ЗаписьВидеоСловарьЗамен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео словарь замен</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9447e65d-519f-4dec-9155-698d36e2a3e0">
+    <name>ЗаписьВидеоТипОзвучкиTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип озвучки TTS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TTS type</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a3380669-dd3e-4f03-ae33-1ee5d43239f5">
+    <name>ЗаписьВидеоФайлВодянойЗнак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео файл водяной знак</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01d682d1-3c53-4058-9a75-16b782221776">
+    <name>ЗаписьВидеоФайлКурсораМышки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео файл курсора мышки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a6c55b6-a628-4b8a-a3c9-2949c21578f7">
+    <name>ЗаписьВидеоФормироватьИнструкциюТипHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>HTML</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab548980-e681-4795-923e-c32924cc528e">
+    <name>ЗаписьВидеоФормироватьИнструкциюТипMarkdown</name>
+    <synonym>
+      <key>ru</key>
+      <value>Markdown</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Markdown</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5fce4446-138d-4ff7-a171-52a901fc38f4">
+    <name>ЗаписьВидеоФормироватьИнструкциюТипВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Video</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Video</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a853027a-4bf7-4379-aa68-125c412e7576">
+    <name>ЗаписьВидеоЭкранВысота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео экран высота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="34044de3-d41d-474f-8bfd-2fdf21d0aaec">
+    <name>ЗаписьВидеоЭкранШирина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись видео экран ширина</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bed4f74e-c1c3-4154-8139-9798f5341cea">
+    <name>ЗаписьВидеоЭмулироватьВводСКлавиатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмулировать ввод с клавиатуры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Emulate keyboard input</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="062fac23-0ee7-4427-84f5-6987c0a84b0a">
+    <name>ЗапускатьКлиентТестированияСМаксимизированнымОкном</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запускать клиент тестирования с максимизированным окном</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Run test client with maximized window</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="40b1a642-6565-46d5-9eda-554b325627a0">
+    <name>ЗапускатьТестКлиентВРежимеОтладки</name>
+    <synonym>
+      <key>bg</key>
+      <value>Тичам TestClient в режим на отстраняване на грешки</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Ажиллуулах TestClient д дибаг хийх горим</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Exécuter TestClient en mode de débogage</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Uruchomić TestClient w trybie debugowania</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Çalıştırmak TestClient hata ayıklama modunda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Run TestClient in debug mode</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>აწარმოებს TestClient in გამართვის რეჟიმი</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Eseguire TestClient in modalità di debug</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Če želite zagnati TestClient v debug načinu</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Ausführen von Testclient im Debugmodus</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅድሚያ TestClient ውስጥ..</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Ejecutar TestClient en modo de depuración</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Käivitada TestClient silumisrežiimis</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Khởi động TestClient ở chế độ gỡ rối</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Paleisti TestClient debug režimu</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Palaist TestClient atkļūdošanas režīmā</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Att köra TestClient i debug-läge</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Hogy fut a TestClient debug módban</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Run TestClient rejimində debug</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Pentru a rula TestClient în modul de depanare</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Запускать TestClient в режиме отладки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc0a0d99-074d-4e6b-85e9-41981bc3182e">
+    <name>ЗапускИзКоманднойСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск из командной строки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ac19ed6-39d5-46fc-9f01-f47effda41dd">
+    <name>ИдетВыполнениеСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идет выполнение сценариев</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df43f9c7-369b-41ea-828e-a66bc43f5b3e">
+    <name>ИдетЗаписьВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идет запись видео</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="327eb0c1-f007-482d-af04-57d5e3d05329">
+    <name>ИДРаннера</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДРаннера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66e73b59-4e52-4a5c-95e9-af015dc641a1">
+    <name>ИмяКаталогаЛогОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя каталога для лога ошибок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Directory for the error log files</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="013d421d-1a05-494b-a20b-39042a28fcfd">
+    <name>ИмяТекущейСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя текущей сборки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1bd68a7f-c40e-4fbc-b652-1cd8c18e4486">
+    <name>ИмяФайлаВнешнихКомандФреймворка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла внешних команд фреймворка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28873b45-db16-4213-89d0-2f9ed5c6f5bb">
+    <name>ИмяФайлаЛогВыполненияСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл текстового лога</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>File name for the text log</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6cb9eb5b-9834-44b7-b490-6d39c9ab9130">
+    <name>ИнтервалВыполненияШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал выполнения шага</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Khoảng thực hiện của bước</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2ac6d56-9033-42b5-b64a-c9af0dc62ce3">
+    <name>ИнтервалВыполненияШагаЗаданныйПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал выполнения шага заданный пользователем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="89e83dae-c43d-46fe-9b42-89e480273b8f">
+    <name>ИскатьЭлементыФормыПоИмени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать элементы формы по имени</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Search form elements by name</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1d08ef5-876b-41a0-b409-84a7b0036ba1">
+    <name>ИспользоватьSikuliXСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать SikuliX сервер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use SikuliX server</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="460da161-c609-4913-a9d5-b774468cd6cb">
+    <name>КаталогВыгрузкиAllure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки Allure</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1f79a2b1-a7fd-4b0e-ab13-cb997703d943">
+    <name>КаталогВыгрузкиCucumberJson</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки cucumber json</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c75f2681-524c-4f0a-ab16-22c1f58dd0ff">
+    <name>КаталогВыгрузкиJUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки JUnit</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc118c0e-9ac9-480a-ae97-95d8cca81e47">
+    <name>КаталогВыгрузкиИнструкцийHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки инструкции HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c587afc-6eab-47bc-a583-afb26533b2e5">
+    <name>КаталогВыгрузкиИнструкцийMarkdown</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки инструкции Markdown</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="232037f4-6935-4cbb-b458-145de2c1fd0f">
+    <name>КаталогВыгрузкиИнструкцийВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки инструкции видео</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd4c849d-16de-4574-8d35-dc45da3b4bb9">
+    <name>КаталогВыгрузкиСкриншотов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки скриншотов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d82c63e-1d12-4a50-9d62-235c8d56cb0f">
+    <name>КаталогВыгрузкиСППР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки СППР</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f038ea1-e2cb-4d4e-85e5-de99851c076e">
+    <name>КаталогиБиблиотек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталоги библиотек</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог с файлами библиотек.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="13046aca-b33c-4435-b736-44bd900e8d98">
+    <name>КаталогИнструментов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог инструментов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tools catalog</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог относительно которого будет строиться путь к дополнительным файлам фреймворка. По умолчанию является каталогом содержащим основную обработку VA.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43c06820-8239-4ab3-93d7-717e82585256">
+    <name>КаталогиСкриптовSikuliX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталоги скриптов SikuliX</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SikuliX scripts path</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8419ead2-4a07-439b-8289-c8ddb757d712">
+    <name>КаталогИсходников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог исходников</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e47f137e-431d-4b4a-a21e-a80430127c1c">
+    <name>КаталогОтносительноКоторогоНадоСтроитьИерархию</name>
+    <synonym>
+      <key>en</key>
+      <value>The directory to build the hierarchy</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог относительно которого надо строить иерархию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9fc46fa6-3d72-407c-9604-0c94d4618802">
+    <name>КаталогПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог проекта</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Thư mục dự án</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Универсальный каталог с дополнительными файлами для проекта. Проектом по умолчанию выступает конфигурация для которой разрабатываются тесты.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1248d1d6-f91e-4a5f-97b6-46e4d48aa426">
+    <name>КаталогФич</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог фич</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="840a1222-1134-4e9c-8b6b-3e6b43832313">
+    <name>КлючиОтладки</name>
+    <synonym>
+      <key>bg</key>
+      <value>Ключове за отстраняване на грешки</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Түлхүүрүүд нь дибаг хийх</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Les clés de débogage</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Klucze debugowania</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Anahtarlar hata ayıklama</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Debug keys</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>გასაღებები გამართვის</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Le chiavi di debug</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Tipke za razhroščevanje</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Schlüssel Debuggen</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቁልፎች መጠቀም</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las claves de depuración</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Võtmed silumine</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Khóa gỡ rối</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Raktai derinimo</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Atslēgas atkļūdošanas</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Nycklarna till felsökning</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>A kulcs, hogy hibakeresés</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Düymələri debug</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Cheile de depanare</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ключи отладки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="255ffedf-4c1d-4ef0-a2aa-8ff7ca467324">
+    <name>КоличествоПопытокВыполненияДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток выполнения действия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of attempts to perform an action</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e7f711ca-d445-4ea6-a9b9-e32db1875229">
+    <name>КоличествоСекундПоискаОкна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество секунд поиска окна</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of seconds to search for a window</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8bf823c-f1b1-49f0-92be-cbe0b213df5a">
+    <name>КомандаОткрытияФичиВТекстовомРедакторе</name>
+    <synonym>
+      <key>bg</key>
+      <value>Екипът на откриването на фичи в текстов редактор</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Тушаал нээлттэй онцлог текст засварлагч</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La commande d'ouverture de fonctions dans l'éditeur de texte</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Zespół otwarcia funkcje w edytorze tekstu</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Bir takım açılış özellikler metin editörü</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сommand to open a feature in a text editor</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ბრძანება ღია ფუნქციები, ტექსტური რედაქტორი</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Il team di aprire caratteristiche in un editor di testo</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Ukaz odpri funkcije v urejevalnik besedila</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Der Befehl öffnen in einem Text-Editor Features</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ትዕዛዝ ግምገማዎች ቅድሚያ ውስጥ ጽሑፍ አዘጋጅ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El comando de apertura de slave en un editor de texto</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Meeskond avamise фичи tekstiredaktoris</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Lệnh mở tính năng trong bộ soạn văn bản</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Komanda atidarymo фичи teksto redaktorius</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Komanda atvēršanas фичи teksta redaktorā</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Kommando öppna funktioner i en text editor</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Parancs nyitva funkciók egy szövegszerkesztőben</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Komanda açılış фичи mətn redaktorunda</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Comanda de deschidere a фичи în editorul de text</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Команда открытия фичи в текстовом редакторе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="20371760-fed8-4ccc-8549-d8fa5bdc3842">
+    <name>КомандаСделатьСкриншот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда сделать скриншот</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7d059a49-658a-4af7-9749-d36299230bad">
+    <name>НадоВыполнитьСценарииПослеЗагрузкиФич</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надо выполнить сценарии после загрузки фич</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="37f6ba60-6828-4e97-b98b-cea5f3947957">
+    <name>НадоВыполнитьСценарииПослеЗагрузкиФичОдинРаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надо выполнить сценарии после загрузки фич один раз</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7490bebc-80b3-4046-ad04-96ba59252a05">
+    <name>НадоЗавершитьРаботуСистемыПослеВыполненияВсехСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надо завершить работу системы после выполнения всех сценариев</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="102de872-db26-49d0-8831-3afb2b24394c">
+    <name>ОбновлятьДеревоПриНачалеВыполненияСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять дерево при начале выполнения сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Update tree when scenario starts</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2cf275b-ddd4-4ef3-8ac1-8aaf9d5346b2">
+    <name>ОбновлятьСтатистикуВДереве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять статистику в дереве</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Update statistics</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bddc86e6-d2e9-4b9a-a92e-015980d2c831">
+    <name>ОстановитьВыполнениеШагов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановить выполнение шагов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82396c19-d212-45d0-a6c9-6721b573e40e">
+    <name>ОстановкаПриВозникновенииОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановка при возникновении ошибки</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Dừng khi xảy ra lỗi</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="361929be-ad16-4566-b923-43272cb79a61">
+    <name>ПаузаПриОткрытииОкна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пауза при открытии окна</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pause on window opening</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c63f45d7-1e1e-49ee-bb9e-7a93eb3d6e3f">
+    <name>Плагины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плагины</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f95221f4-3243-4bbb-bbf2-e0a144a2b77e">
+    <name>ПлагиныЗагружены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плагины загружены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c09d1e67-5742-415e-b9ce-4f315bb7f8e8">
+    <name>ПодключитьВнешниеОбработкиДляОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключить внешние обработки для отладки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="677c400c-bbcc-4a89-a0bf-eb564f73eac5">
+    <name>ПоказыватьНомерСтрокиДереваПриВозникновенииОшибки</name>
+    <synonym>
+      <key>bg</key>
+      <value>Показване на номера на реда дърво при възникване на грешка</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Шоу мөрийн дугаарыг модны үед алдаа гардаг</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Afficher le numéro de la ligne d'arbre en cas d'erreur</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Pokaż numer wiersza drzewa, gdy wystąpi błąd</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Göstermek için satır numarası, bir ağaç, bir hata oluştuğunda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show line number on error</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>შოუ ხაზის ნომერი ხე, როცა შეცდომა ხდება</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Mostra il numero di riga di un albero quando si verifica un errore</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Prikaži številko vrstice drevesa, ko pride do napake</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeigt die Nummer der Zeile des Baumes, wenn ein Fehler Auftritt</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ለማሳየት ቅድሚያ የሚሰጡዋቸውን ዛፍ አሁን ስህተት ይኖራል</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Mostrar el número de línea de un árbol cuando se produce un error</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Näita rea number puu vea ilmnemisel</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Hiển thị số dòng của cây khi xảy ra lỗi</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Rodyti eilutės numeris medžio, kai įvyksta klaida</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Rādīt numuru rindas koka, ja rodas kļūda</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Visa radnummer i trädet när fel uppstår</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Mutasd meg annak a sornak a számát, az a fa, amikor a hiba akkor fordul elő,</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Show line sayı ağac yarandıqda səhvlər</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Afișează numărul liniei de copac atunci când apare o eroare</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать номер строки дерева при возникновении ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf68bd90-89f1-4b85-bd57-81dd95821eb0">
+    <name>ПриравниватьPendingКFailed</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приравнивать pending к failed</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Equal pending to failed</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7bd6467b-8fd5-4ec5-82b5-7470ba5f322c">
+    <name>ПроверкаРаботыVanessaAutomationВРежимеTestClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка работы Vanessa Automation в режиме test client</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee30ca1b-fdc3-4984-ac04-dd8edc757796">
+    <name>ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу для выгрузки статуса выполнения сценариев</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d32c4941-093b-46b2-b0f5-d71053e6e5b4">
+    <name>РежимВыполненияДанногоСценарияСТекущегоШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выполнения данного сценария с текущего шага</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54d6b702-6740-4593-ac47-256d77cf69ed">
+    <name>РежимВыполненияДанногоСценарияСТекущегоШагаСПродолжением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выполнения данного сценария с текущего шага с продолжением</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c64dd24-b990-4d63-b9c6-4b9b027472b8">
+    <name>РежимВыполненияОдногоШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выполнения одного шага</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1cff4d7-c841-4c7c-b690-f088f0440491">
+    <name>РежимВыполненияСценарияСВыбранногоШагаССохранениемКонтекстов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выполнения сценария с выбранного шага с сохранением контекстов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f0571e8b-752f-4337-90ce-9bffc5a992e0">
+    <name>РежимСамотестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим самотестирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d768e8fd-3e59-4a85-b810-5aab21fc1b74">
+    <name>РезультатУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат условия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="465ba1b5-af91-42ac-bb9d-275b4b1cafab">
+    <name>СгенерированныйXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерированный XML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b9d60bc5-61d1-479d-9260-cfe574728063">
+    <name>СгенерированныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерированный код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b81fdd5d-651e-4768-b17b-c7c88064a8e1">
+    <name>СгенерированныйСценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерированный сценарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fdddfbe9-d7f2-4050-a2ec-63997bea4ad0">
+    <name>СгенерированныйСценарийКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерированный сценарий код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7cefb3f-7a51-4328-8c1c-26ddf8ae2903">
+    <name>СниматьСкриншотКаждогоОкна1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снимать скриншот каждого окна1 С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ad87a9d5-bb7e-4eac-8fad-b6694aa2cf71">
+    <name>СобиратьДанныеОСостоянииАктивнойФормыПриОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирать данные о состоянии активной формы при ошибке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Get active form data on error</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a993ca6-bdbc-4e38-b2b6-adce7320e276">
+    <name>СобиратьДанныеОСостоянииВсехФормПриОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирать данные о состоянии всех форм при ошибке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Get all forms data on error</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="260d4c6d-de55-4638-b304-609476bac030">
+    <name>СоздаватьЗакоментированныйКодДляПереиспользуемыхПроцедур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать закоментированный код для переиспользуемых процедур</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9eb13fb7-f8be-4967-8ce0-4884df5a4979">
+    <name>СоздаватьИнструкциюHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать инструкцию HTML</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7eff7d4a-86fe-4164-b21c-414ae25803e4">
+    <name>СоздаватьИнструкциюMarkdown</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать инструкцию markdown</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52cd35c4-2333-4036-8074-7d10fdd4d65c">
+    <name>СоздаватьИнструкциюВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать видео инструкцию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a283e0f-869c-4fcd-900f-3dd5d76d573b">
+    <name>СоздаватьОбластиПриГенерацииКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать области при генерации кода</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo vùng khi khởi tạo mã</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="edbf9d14-eabd-4f3d-8c3e-e43bd46ad329">
+    <name>СохранятьКонтекстыПередВыполнениемШагов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять контексты перед выполнением шагов</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo ngữ cảnh trước khi thực hiện các bước</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c62ae8e3-c76b-402d-8ac4-7220e83d541c">
+    <name>СписокТеговИсключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список тегов исключение</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67164642-7fbb-446d-b627-4bbec5c301c3">
+    <name>СписокТеговОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список тегов отбор</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="22be4777-7b86-411b-bdf3-c57e196d6df3">
+    <name>СтрокаПодключенияКБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения к базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78135e9c-0557-4652-b62e-f06a9749505d">
+    <name>ТаймаутДляАсинхронныхШагов</name>
+    <synonym>
+      <key>bg</key>
+      <value>Изчакване за асинхронни стъпки</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Энэ хугацаа нь асинхрон алхмууд</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Délai d'attente pour asynchrones étapes</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Limit czasu dla asynchronicznych kroków</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Zaman aşımı için zaman uyumsuz adımlar</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Timeout for asynchronous steps</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>შეყოვნება for ასინქრონული ნაბიჯები</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Timeout per asincrone i passaggi</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Zakasnitev za asinhrono koraki</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Timeout für asynchrone Schritte</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ወደ ይገናኛሉ ተጠቃሚ.</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tiempo de espera de inducción pasos</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Timeout asünkroonne samme</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Hết giờ đối với các bước không đồng bộ</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Osd kad asinchroninis žingsnių</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Man. lai asinhronu soļi</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Timeout för asynkrona åtgärder</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>A timeout aszinkron lépések</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Fasilə üçün asinxron addımlar</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Timeout pentru asincrone pași</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут для асинхронных шагов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="444c19dc-031b-4574-9456-46d0bbab779c">
+    <name>ТаймаутЗапуска1С</name>
+    <synonym>
+      <key>bg</key>
+      <value>Изчакване на стартирането TestClient</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Хугацааны хувьд ажиллуулах TestClient</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Délai de démarrage TestClient</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Limit czasu uruchomienia TestClient</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Zaman aşımı başlangıç TestClient</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Timeout on TestClient connection</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>დროის აწარმოებს TestClient</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Il timeout di avvio TestClient</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Časovna omejitev za vožnjo TestClient</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Timeout von Testclient starten</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅድሚያ የታዘዘ TestClient</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tiempo de espera de inicio de TestClient</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Timeout käivitada TestClient</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Hết giờ khởi động TestClient</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Osd paleisti TestClient</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Man. palaišanas TestClient</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Timeout köra TestClient</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Timeout fut TestClient</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Fasilə başlamaq TestClient</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Depășirea timpului de pornire TestClient</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут запуска клиента тестирования</value>
+    </synonym>
+    <comment>Таймаут запуска TestClient в секундах</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6aac55e7-907d-41ee-893d-85360c6c5b64">
+    <name>ТегTreeВключенПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег @tree включен по умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The @tree tag is enabled by default</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b4cadc5-8c6d-4f4b-ab3c-44395275afe7">
+    <name>текЗначениеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тек значение операции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="992aa7c4-4d9d-4dba-97e0-828dd4f87ab2">
+    <name>ТекстСообщенийПользователю</name>
+    <synonym>
+      <key>bg</key>
+      <value>Текстови съобщения на потребителя</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Бичвэр зурвас хэрэглэгч</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Le texte du message à l'utilisateur</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Tekst wiadomości użytkownika</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Metin mesajları, kullanıcı</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text of messages to the user</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ტექსტური შეტყობინებები შესახებ</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Il testo dei messaggi all'utente</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Besedilo sporočila uporabnika</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Text-Messaging-Benutzer</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>የጽሑፍ ጋር ተጠቃሚው</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El texto del mensaje para el usuario</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Tekst sõnumite kasutaja</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Nội dung thông báo cho người sử dụng</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Tekstas vartotojo pranešimų</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Ziņu tekstu lietotājam</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Textmeddelanden till användare</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Szöveges üzenetek a felhasználó számára</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Mətn mesajları istifadəçi</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Textul din mesajele utilizatorului</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщений пользователю</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7365ed3-2c3d-42ec-a7d3-b16147f5ac44">
+    <name>ТипыПлагинов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы плагинов</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="33d55b48-171f-4731-a835-642fcaabcf11">
+    <name>УровеньОтчета1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень отчета 1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report level 1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7811f0ec-f571-42c3-8f7a-9c3fa131a0f0">
+    <name>УровеньОтчета2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень отчета 2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report level 2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="95487883-f187-40d6-a398-b4cb4907bc73">
+    <name>УровеньОтчета3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень отчета 3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report level 3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="898e0d3c-f588-4396-b5cb-ecbbbeb29acc">
+    <name>ГруппировкаTestSuites</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка test suites</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Test suites</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d56bcfbb-9446-4aa4-9591-f7d13f90c923">
+    <name>ЯзыкГенератораGherkin</name>
+    <synonym>
+      <key>bg</key>
+      <value>Език генератор gherkin</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Хэл generator gherkin</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La langue de l'alternateur gherkin</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Język alternatora gherkin</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Dil jeneratör gherkin</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Language of gherkin generator</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ენა გენერატორი gherkin</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Il linguaggio del generatore gherkin</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Jezik generator kumare za vlaganje</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sprache gherkin generator</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቋንቋ ቅድሚያ gherkin</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El idioma del generador gherkin</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Keel generaator gherkin</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Ngôn ngữ bộ khởi tạo gherkin</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Kalba generatorius gherkin</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Valoda ģeneratora gherkin</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Språket generator gurka</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Nyelv generátor uborka</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Dil generator gherkin</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Limba generator gherkin</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Язык генератора gherkin</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6783b19-bb4b-4fb7-9273-440632167c68">
+    <name>ЗаписьВидеоAmazonГолос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Voice</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="384c1c81-4c09-4963-8c94-c96a61069186">
+    <name>ЗаписьВидеоAmazonДвижок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Engine</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8164d014-ff65-4cef-a104-b7e122e6cbb0">
+    <name>ЗаписьВидеоAmazonЯзык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67ac1fad-7ad5-4015-a4f0-c9a4e727ac2a">
+    <name>ЗаписьВидеоAmazonКлючДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ доступа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3d034dc5-32bd-4da0-aa36-ad936aa770dc">
+    <name>ЗаписьВидеоAmazonСекретныйКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секретный ключ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Secret key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="f420a238-4e45-4a7b-84ca-9abcd874383f">
+    <producedTypes>
+      <objectType typeId="29b6a235-8506-4b28-9b61-48d9cb0967ae" valueTypeId="919246ed-32b9-445e-9c45-3e047f2daf19"/>
+      <rowType typeId="7c5bdc43-0bd6-4bef-8492-201e042d0482" valueTypeId="f7083211-0feb-4a89-a306-1a6e85f921a9"/>
+    </producedTypes>
+    <name>ТаблицаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица данных</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="708a2cac-1726-438b-94d8-aa7c9447b3a0">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <type>
+        <types>BusinessProcessRef</types>
+        <types>DocumentRef</types>
+        <types>CatalogRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ed59e5f4-5d76-4fdc-82e3-929b6bac9114">
+      <name>Метаданное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданное</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4c88b9d2-3975-40da-ad74-9a82a21b356f">
+      <name>ИмяПеременной</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя переменной</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7f9c01b3-0d10-4675-90c1-3da13269f871">
+      <name>ВыгружатьКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выгружать код/номер</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="88963759-0a6a-4839-bed2-219c5763c0c8">
+      <name>РежимПоиска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Режим поиска</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5825a722-21bd-4ffe-b328-3e3f2e4b3c4c">
+      <name>РежимСоздания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Режим создания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="03587dc5-8be3-4235-9aac-383ec90f5906">
+    <producedTypes>
+      <objectType typeId="8c4a53bd-2ffc-4f04-a9c8-f69b557900f6" valueTypeId="1e722b87-fd7d-4176-845f-a53848ae4624"/>
+      <rowType typeId="3a2d98be-6474-4724-bc33-50c18c5a075f" valueTypeId="56f770bb-0ed6-4c97-bfc1-2ca517545e9c"/>
+    </producedTypes>
+    <name>ПользователиИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи ИБ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="125e5b0a-0bc6-45cb-a336-cb6a4d287136">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8f38c53d-a655-4374-ad31-85648b2548a3">
+      <name>ПолноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="48667483-dd77-4d30-9cd6-6e2a8fb4a14f">
+      <name>Роли</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роли</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="81518c3c-ec9f-4b7a-aee3-1b61b961744a">
+      <name>АутентификацияСтандартная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аутентификация стандартная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="eb823c40-ef8a-40b4-909e-43c5f08beec8">
+      <name>АутентификацияОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аутентификация ОС</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4a598a3c-f0a3-4431-84bd-f3073a683a04">
+      <name>ПользовательОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь ОС</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6cbc10c3-4125-4f32-9f1e-ed3230ef3584">
+    <producedTypes>
+      <objectType typeId="98b04553-a240-4611-9cc9-f584c76122c4" valueTypeId="8998c2d2-88e2-4c8c-ac76-4121360670bd"/>
+      <rowType typeId="61764040-7ea2-4942-8c1a-f857c1b12938" valueTypeId="30ed2094-6a49-44bd-a322-9de060fe6fab"/>
+    </producedTypes>
+    <name>ДополнительныеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные свойства</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b16214df-96aa-43e1-acd6-f91fa08bd489">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f0a10b2c-d0c5-4677-ae4c-1056208f006a">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8a6e31ea-f13c-4c95-8d5e-d9639f345b83">
+    <name>УправляемаяФорма</name>
+    <synonym>
+      <key>bg</key>
+      <value>Сайтът форма</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Хяналттай хэлбэр</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Géré par la forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Sterowana postać</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Yönetilen formu</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Managed form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>კონტროლირებადი ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>Determinata forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Pod nadzorom obliki</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Gelenkte Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅድሚያ ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Administrado de forma</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Kontrollitud vorm</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu được điều khiển</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Valdomas forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Vadāmais forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Kontrollerad form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Ellenőrzött formában</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Nəzarət forması</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Gestionat de forma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемая форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff803d2b-f4d7-43aa-ae2c-52ed4b3e7a37">
+    <name>ВыборИзвестногоШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор известного шага</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6bde4147-bbb5-40d8-9ad3-f7807db0dbb1">
+    <name>РедактированиеТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4921ab12-47da-4d18-9e4b-7e33d578d2ba">
+    <name>ИсследовательФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исследователь формы</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Các nhà nghiên cứu biểu mẫu</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1496b737-e8b8-453f-a3e8-d45d4c412a83">
+    <name>ДеталиОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детали ошибки</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Chi tiết lỗi</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c779a98-e746-453c-8dcc-e2c3785bfea3">
+    <name>SikuliXСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>SikuliX север</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="78879091-4cfb-4209-a23f-577a84bb1909">
+    <name>ГенераторТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор тестов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60001">
+    <name>Плагин_ЗапросыИзБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60003">
+    <name>Плагин_УтвержденияBDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60004">
+    <name>Локализация_Messages</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60005">
+    <name>Локализация_Steps</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60006">
+    <name>Video_РаботаСВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60007">
+    <name>Служебные_CompareFiles</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60008">
+    <name>Тест_SikuliXServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60009">
+    <name>Тест_Smoke_InputBasedOn</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60010">
+    <name>Тест_НесколькихКлиентовТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60011">
+    <name>Тест_РаботаСTestClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60012">
+    <name>Тест_ОткрытьTestClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60013">
+    <name>Тест_ПодключениеНесколькихКлиентовТестированияБиблиотека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60014">
+    <name>Тест_ПроверкаЗначенияМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60015">
+    <name>Тест_ПроверкаИсключенияШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60016">
+    <name>Тест_РаботаСИнтерфейсом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60017">
+    <name>Тест_РаботаСИнтерфейсомДополнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60018">
+    <name>Тест_РаботаСОкномСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60019">
+    <name>Тест_РаботаСТаблицами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60020">
+    <name>Тест_СохранитьМакетИзОбработкиВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60021">
+    <name>Тест_ФильтрФормыСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60022">
+    <name>Тест_ФильтрФормыСпискаЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60023">
+    <name>Тест_Load1000ItemsfromMxl</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60024">
+    <name>Тест_VBForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60025">
+    <name>Тест_VBManager</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60026">
+    <name>Тест_ВыводТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60027">
+    <name>Тест_Док_ГененерацияEPFLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60028">
+    <name>Тест_Док_ЗагрузкаФичLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60029">
+    <name>Тест_Док_ОткрытиеФормыLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60030">
+    <name>Тест_Док_ПередачаПараметровВСценарийLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60031">
+    <name>Тест_Док_ПроверитьЕстьЛиОкноСОшибкойLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60032">
+    <name>Тест_Док_РаботаСПеременнымиКонтекстИКонтекстСохраняемыйLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60033">
+    <name>Тест_ЗагрузкаФичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60034">
+    <name>Тест_ЗаполнитьНастройкиЗаписиВидео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60035">
+    <name>Тест_ЗапускПростогоСценарияTestClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60036">
+    <name>Тест_ИнтервалВыполненияШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60037">
+    <name>Тест_Константы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60038">
+    <name>Тест_ОстановитьВыполнениеШагов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60039">
+    <name>Тест_ОткрытьФормуЧерезКоманду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60040">
+    <name>Тест_Плагины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60041">
+    <name>Тест_ПримерНаписанияФичиLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60042">
+    <name>Тест_РазвернутьВеткиДереваVB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60043">
+    <name>Тест_СозданиеFixtures</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60044">
+    <name>Тест_СозданиеFixturesПоМакетуОбработкиФичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60045">
+    <name>Тест_СозданиеЗаписейРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60046">
+    <name>Тест_СуществованиеЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60047">
+    <name>Тест_ТестированиеVA</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60048">
+    <name>Тест_УстановкаСистемныхПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60049">
+    <name>Тест_ВстроенныйЯзык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60050">
+    <name>Тест_ШагиПолученияЗамеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60051">
+    <name>Тест_ЗапускПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60052">
+    <name>Тест_Логирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60053">
+    <name>Тест_Обновление_нумерации_объектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60054">
+    <name>Тест_КнопкаНажималкаОбычныйИнтерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60055">
+    <name>Тест_ПакетныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60056">
+    <name>Тест_СделатьПаузу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60057">
+    <name>Тест_СделатьПаузуОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60058">
+    <name>Тест_ПеременныеОкружения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60059">
+    <name>Тест_РаботаСФайлами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60060">
+    <name>Тест_ДоступнстьРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60061">
+    <name>Тест_Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60062">
+    <name>Тест_ПереборМассива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60063">
+    <name>Тест_Цикл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="00395f78-c598-4cb7-bbdc-839855013c91">
+    <name>Локализация_Messages_am</name>
+    <synonym>
+      <key>ru</key>
+      <value>am</value>
+    </synonym>
+  </templates>
+  <templates uuid="2b188d90-1352-47a5-87cb-dad6103b59f2">
+    <name>Локализация_Messages_az</name>
+    <synonym>
+      <key>ru</key>
+      <value>az</value>
+    </synonym>
+  </templates>
+  <templates uuid="c4a6267e-c9eb-4168-9448-b2254a6058e3">
+    <name>Локализация_Messages_bg</name>
+    <synonym>
+      <key>ru</key>
+      <value>bg</value>
+    </synonym>
+  </templates>
+  <templates uuid="c2e3ae4e-8579-4bc5-9ea0-eab5c7e37721">
+    <name>Локализация_Messages_de</name>
+    <synonym>
+      <key>ru</key>
+      <value>de</value>
+    </synonym>
+  </templates>
+  <templates uuid="2b60ef90-7a46-4e16-9d99-31bfa8d0d814">
+    <name>Локализация_Messages_en</name>
+    <synonym>
+      <key>ru</key>
+      <value>en</value>
+    </synonym>
+  </templates>
+  <templates uuid="28a3b116-955b-4ad7-9e90-c20b3e75b858">
+    <name>Локализация_Messages_es</name>
+    <synonym>
+      <key>ru</key>
+      <value>es</value>
+    </synonym>
+  </templates>
+  <templates uuid="3cf94686-8975-48c1-af3f-e0e7b55e6544">
+    <name>Локализация_Messages_et</name>
+    <synonym>
+      <key>ru</key>
+      <value>et</value>
+    </synonym>
+  </templates>
+  <templates uuid="2c5b0d9a-7740-481d-9bbe-503297ceada8">
+    <name>Локализация_Messages_fr</name>
+    <synonym>
+      <key>ru</key>
+      <value>fr</value>
+    </synonym>
+  </templates>
+  <templates uuid="6aec95fa-c4db-4df4-9440-af2764d14d07">
+    <name>Локализация_Messages_hu</name>
+    <synonym>
+      <key>ru</key>
+      <value>hu</value>
+    </synonym>
+  </templates>
+  <templates uuid="42605597-17f7-45e5-844c-e82284a9dd22">
+    <name>Локализация_Messages_it</name>
+    <synonym>
+      <key>ru</key>
+      <value>it</value>
+    </synonym>
+  </templates>
+  <templates uuid="059b6817-d76e-4267-8a35-fa23699015ff">
+    <name>Локализация_Messages_ka</name>
+    <synonym>
+      <key>ru</key>
+      <value>ka</value>
+    </synonym>
+  </templates>
+  <templates uuid="762387b1-0ec9-47dc-b40b-8a7335dd36c1">
+    <name>Локализация_Messages_lt</name>
+    <synonym>
+      <key>ru</key>
+      <value>lt</value>
+    </synonym>
+  </templates>
+  <templates uuid="2a0ddb8e-fa12-4a6e-bc83-7b2e755826a3">
+    <name>Локализация_Messages_lv</name>
+    <synonym>
+      <key>ru</key>
+      <value>lv</value>
+    </synonym>
+  </templates>
+  <templates uuid="aacb0bfb-44eb-4cc7-99a0-6bd9e8e2b3b5">
+    <name>Локализация_Messages_mn</name>
+    <synonym>
+      <key>ru</key>
+      <value>mn</value>
+    </synonym>
+  </templates>
+  <templates uuid="d41bafde-8629-49b1-81cd-b85487336aa7">
+    <name>Локализация_Messages_pl</name>
+    <synonym>
+      <key>ru</key>
+      <value>pl</value>
+    </synonym>
+  </templates>
+  <templates uuid="2c4ec996-0fd6-4ab2-b56a-0e59a434eb52">
+    <name>Локализация_Messages_ro</name>
+    <synonym>
+      <key>ru</key>
+      <value>ro</value>
+    </synonym>
+  </templates>
+  <templates uuid="2d1ab09b-17cb-4c2f-8e5c-883603392f94">
+    <name>Локализация_Messages_sl</name>
+    <synonym>
+      <key>ru</key>
+      <value>sl</value>
+    </synonym>
+  </templates>
+  <templates uuid="43af94d5-0618-4ba6-b9ed-f094660a8d02">
+    <name>Локализация_Messages_sv</name>
+    <synonym>
+      <key>ru</key>
+      <value>sv</value>
+    </synonym>
+  </templates>
+  <templates uuid="e11c6634-316b-46c0-92bb-6c79a55d30d6">
+    <name>Локализация_Messages_tr</name>
+    <synonym>
+      <key>ru</key>
+      <value>tr</value>
+    </synonym>
+  </templates>
+  <templates uuid="3554051c-32cc-4429-8e37-780d0e9f67d4">
+    <name>Локализация_Messages_vi</name>
+    <synonym>
+      <key>ru</key>
+      <value>vi</value>
+    </synonym>
+  </templates>
+  <templates uuid="b837793c-fb61-449a-9ff9-064f63c1b422">
+    <name>Локализация_Steps_de</name>
+    <synonym>
+      <key>ru</key>
+      <value>de</value>
+    </synonym>
+  </templates>
+  <templates uuid="8b3dd7b6-740f-4bf9-a874-5914f3a913c4">
+    <name>Локализация_Steps_en</name>
+    <synonym>
+      <key>ru</key>
+      <value>en</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab1cf6f7-61a2-4793-9358-029eba60bc46">
+    <name>Локализация_Steps_it</name>
+    <synonym>
+      <key>ru</key>
+      <value>it</value>
+    </synonym>
+  </templates>
+  <templates uuid="333c4540-1456-4df2-a024-5a8bccc176de">
+    <name>Локализация_Steps_lv</name>
+    <synonym>
+      <key>ru</key>
+      <value>lv</value>
+    </synonym>
+  </templates>
+  <templates uuid="1a0bcf45-0b1c-46e1-ad85-91b46e62f5ec">
+    <name>Локализация_Steps_pl</name>
+    <synonym>
+      <key>ru</key>
+      <value>pl</value>
+    </synonym>
+  </templates>
+  <templates uuid="f09819e3-fdc6-4a47-82a6-04480f52a2e2">
+    <name>Локализация_Steps_ro</name>
+    <synonym>
+      <key>ru</key>
+      <value>ro</value>
+    </synonym>
+  </templates>
+  <templates uuid="37e44068-c352-4a50-82f1-79cc619449a3">
+    <name>Локализация_Steps_vi</name>
+    <synonym>
+      <key>ru</key>
+      <value>vi</value>
+    </synonym>
+  </templates>
+  <templates uuid="e341cc98-7a4e-409b-8f81-ab244a786875">
+    <name>МакетОбработки_РаботаСИнтерфейсом_Fixtures</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fixtures</value>
+    </synonym>
+  </templates>
+  <templates uuid="e2505c38-1ee4-40bc-9f48-db80f42ca295">
+    <name>МакетОбработки_РаботаСИнтерфейсомДополнительный_МакетСправочник3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет справочник3</value>
+    </synonym>
+  </templates>
+  <templates uuid="20cbde3c-6b60-4cd4-a456-3978d2513060">
+    <name>МакетОбработки_РаботаСИнтерфейсомДополнительный_МакетСправочник4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет справочник4</value>
+    </synonym>
+  </templates>
+  <templates uuid="de2d28d6-0463-4372-8a8f-7356e4d533be">
+    <name>МакетОбработки_Load1000ItemsfromMxl_ТысячаЭлементовСправочника1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тысяча элементов справочника1</value>
+    </synonym>
+  </templates>
+  <templates uuid="f0c8afc2-893a-40ea-a70a-5d0195182aa1">
+    <name>МакетОбработки_СозданиеFixtures_Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="e40ee130-b67d-4cd7-9ed8-9cbbeb4fc701">
+    <name>МакетОбработки_СозданиеFixturesПоМакетуОбработкиФичи_Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="ddf73ed0-782b-4fdf-8fe4-7125a5759d23">
+    <name>МакетОбработки_СозданиеFixturesПоМакетуОбработкиФичи_ПользовательИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ИБ</value>
+    </synonym>
+  </templates>
+  <templates uuid="cc66778d-dac7-48b4-840c-5e594929a10a">
+    <name>МакетОбработки_СозданиеЗаписейРС_Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c906d2e-8b05-11e5-b599-9cd21ef5a847">
+    <name>ОтчетТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет тестирования</value>
+    </synonym>
+  </templates>
+  <templates uuid="04165c0c-257d-476c-9a34-7595c2695b76">
+    <name>ШаблонПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон перевода</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab944c72-973d-4cf9-a511-6d50749a819c">
+    <name>ЭкспортныеСценарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортные сценарии</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ac6460b6-99a2-49ef-ac26-09fb9da7951f">
+    <name>МакетСлужебныйКеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет служебный кеш</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9c79d7cc-9819-4c93-9fa5-943a70184e55">
+    <name>ОбработкаCompareFiles</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка compare files</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="80403d53-8ea6-4e9e-aa9d-36939309d3ed">
+    <name>СхемаAllure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема allure</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

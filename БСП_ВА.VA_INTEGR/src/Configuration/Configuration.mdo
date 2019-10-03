@@ -9,8 +9,6 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
-    <commandInterface>Extended</commandInterface>
-    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <modalityUseMode>Checked</modalityUseMode>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
@@ -31,13 +29,11 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
   <version>3.1.2.157</version>
-  <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
-  <includeHelpInContents>true</includeHelpInContents>
-  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="c55afb5d-0fe4-48c6-88d9-2a1fb8d77bf8">
@@ -52,4 +48,14 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ВАИНТ_Тестирование</subsystems>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <commonModules>CommonModule.ВАИНТ_ТестированиеКлиент</commonModules>
+  <commonModules>CommonModule.ВАИНТ_ТестированиеВызовСервера</commonModules>
+  <commonModules>CommonModule.ВАИНТ_ТестированиеКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВАИНТ_ТестированиеСервер</commonModules>
+  <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
+  <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
+  <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
+  <informationRegisters>InformationRegister.ВАИНТ_НастройкиТестирования</informationRegisters>
 </mdclass:Configuration>

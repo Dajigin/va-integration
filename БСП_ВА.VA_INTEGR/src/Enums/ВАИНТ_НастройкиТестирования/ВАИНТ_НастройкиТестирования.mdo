@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be5449e8-614b-420f-8c96-f954fe1ea91d">
+  <producedTypes>
+    <refType typeId="027a69ca-3e75-46f5-9489-376c64960593" valueTypeId="99a3d3a0-e30f-46e0-bd2d-b34ce1f9b198"/>
+    <listType typeId="d58d0b37-f4e9-4581-b917-402ffd684d10" valueTypeId="52d9b097-44bd-44b2-8bdb-218e72b8bec7"/>
+    <managerType typeId="43994508-6fde-4b58-82a1-ea5ae305916f" valueTypeId="8736984a-0306-472e-bea1-183567624066"/>
+  </producedTypes>
+  <name>ВАИНТ_НастройкиТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки тестирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="baf41863-9e97-4402-bed4-2e6efc3565cf">
+    <name>ПутьККаталогуТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу тестов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

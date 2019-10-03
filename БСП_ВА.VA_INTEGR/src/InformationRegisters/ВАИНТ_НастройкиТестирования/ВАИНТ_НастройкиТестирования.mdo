@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a8b1b1c-7119-4cf6-965a-b929e0be7021">
+  <producedTypes>
+    <selectionType typeId="0a41b52d-0e20-41fc-8c5e-29b1f56f56b7" valueTypeId="905cf4b3-ba13-48fa-a968-a792f1d3003b"/>
+    <listType typeId="359fc662-31fa-4c33-aadc-c7291e65f51f" valueTypeId="2f7e8695-75f6-4d7d-b6e4-296cc46f675c"/>
+    <managerType typeId="b2b2a8a1-f0c4-4a14-be8f-539dc38ca615" valueTypeId="ec4d135d-00f5-4809-86d0-b6066f094d3c"/>
+    <recordSetType typeId="2b046a6c-e857-4174-9e4f-e2c9c54f9861" valueTypeId="d00df0c7-3adb-4c57-8345-2c66099ae175"/>
+    <recordKeyType typeId="00bbaf11-4059-438c-9348-c6460e64d523" valueTypeId="365575f1-1c27-4709-be4a-3e25cf31680b"/>
+    <recordType typeId="62bf616e-89af-4fa8-a0d6-9f09dbaba5f1" valueTypeId="3b9738bf-17c2-472e-bbdf-db6c826e5a34"/>
+    <recordManagerType typeId="1f5d628b-9c66-4a25-aa35-e4cd6d041d3f" valueTypeId="a507dc21-1560-4770-831d-61aae36637bf"/>
+  </producedTypes>
+  <name>ВАИНТ_НастройкиТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.ВАИНТ_НастройкиТестирования.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="13f35de0-32e4-43fa-864d-813bea012e25">
+    <name>ЗначениеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="9aec52f8-5175-49c4-b28c-d7e8fc57620b">
+    <name>НастройкаТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка тестирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВАИНТ_НастройкиТестирования</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="336ec574-07ac-495f-aec1-1296daf18c41">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Детали ошибки</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Error details</value>
+  </title>
+  <title>
+    <key>am</key>
+    <value>ስህተት ዝርዝሮች</value>
+  </title>
+  <title>
+    <key>az</key>
+    <value>Ətraflı səhvlər</value>
+  </title>
+  <title>
+    <key>bg</key>
+    <value>Детайли грешки</value>
+  </title>
+  <title>
+    <key>et</key>
+    <value>Osad vead</value>
+  </title>
+  <title>
+    <key>fr</key>
+    <value>Détails de l'erreur</value>
+  </title>
+  <title>
+    <key>ka</key>
+    <value>შეცდომა დეტალები</value>
+  </title>
+  <title>
+    <key>de</key>
+    <value>Details Fehler</value>
+  </title>
+  <title>
+    <key>hu</key>
+    <value>Hiba részletek</value>
+  </title>
+  <title>
+    <key>it</key>
+    <value>Dettagli errore</value>
+  </title>
+  <title>
+    <key>lv</key>
+    <value>Detaļas kļūdas</value>
+  </title>
+  <title>
+    <key>lt</key>
+    <value>Detales klaidas</value>
+  </title>
+  <title>
+    <key>mn</key>
+    <value>Алдаа дэлгэрэнгүй</value>
+  </title>
+  <title>
+    <key>pl</key>
+    <value>Szczegóły błędu</value>
+  </title>
+  <title>
+    <key>ro</key>
+    <value>Detaliile de eroare</value>
+  </title>
+  <title>
+    <key>sl</key>
+    <value>Napaka podrobnosti</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Detalles del error</value>
+  </title>
+  <title>
+    <key>sv</key>
+    <value>Information om fel</value>
+  </title>
+  <title>
+    <key>tr</key>
+    <value>Hata detayları</value>
+  </title>
+  <title>
+    <key>vi</key>
+    <value>Chi tiết lỗi</value>
+  </title>
+  <items xsi:type="form:FormField">
+    <name>ТолькоТекстЯчеек</name>
+    <id>9</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ТолькоТекстЯчеек</segments>
+      </paths>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ТолькоТекстЯчеекРасширеннаяПодсказка</name>
+      <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТолькоТекстЯчеекКонтекстноеМеню</name>
+      <id>10</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>СУчетомРегулярныхВыражений</name>
+    <id>12</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>СУчетомРегулярныхВыражений</segments>
+      </paths>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>СУчетомРегулярныхВыраженийРасширеннаяПодсказка</name>
+      <id>14</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СУчетомРегулярныхВыраженийКонтекстноеМеню</name>
+      <id>13</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ТекстОшибки</name>
+    <id>4</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ТекстОшибки</segments>
+      </paths>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <extendedTooltip>
+      <name>ТекстОшибкиРасширеннаяПодсказка</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТекстОшибкиКонтекстноеМеню</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <multiLine>true</multiLine>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаСравнитьТаблицы</name>
+      <id>7</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСравнитьТаблицыРасширеннаяПодсказка</name>
+        <id>8</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.СравнитьТаблицы</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>50</width>
+  <height>20</height>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveDataInSettings>UseList</saveDataInSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.VanessaAutomationsingle</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>ТекстОшибки</name>
+    <title>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТаблицаЭталон</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица эталон</value>
+    </title>
+    <id>4</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТаблицаТекущееЗначение</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица текущее значение</value>
+    </title>
+    <id>5</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КаталогИнструментов</name>
+    <title>
+      <key>ru</key>
+      <value>Каталог инструментов</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Thư mục công cụ</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТолькоТекстЯчеек</name>
+    <title>
+      <key>ru</key>
+      <value>Только текст ячеек</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Cell text only</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>ብቻ ጽሑፍ ነው ሕዋሳት</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Yalnız mətn hüceyrələri</value>
+    </title>
+    <title>
+      <key>bg</key>
+      <value>Само текста на клетки</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Ainult lahtrite tekst</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>Seulement le texte des cellules</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>მხოლოდ ტექსტის უჯრედების</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Nur der Text der Zellen</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Csak a szöveg a sejtek</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Solo il testo delle celle</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Tikai teksts, šūnu</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Tik tekstas langelių</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Зөвхөн текст эс</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Tylko tekst komórek</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Doar textul de celule</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Samo besedilo celice</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Sólo el texto de las celdas</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Endast texten i cellerna</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Sadece metin bir hücre</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>Chỉ nội dung của ô</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ТолькоТекстЯчеек</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>СУчетомРегулярныхВыражений</name>
+    <title>
+      <key>ru</key>
+      <value>Сравнение с учетом символа *</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Taking into *</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>СравнитьТаблицы</name>
+    <title>
+      <key>ru</key>
+      <value>Сравнить таблицы</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Compare tables</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>መገለጫዎ.</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Müqayisə masa</value>
+    </title>
+    <title>
+      <key>bg</key>
+      <value>Сравни таблица</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Võrrelda tabelis</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>Comparer les tables</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შეადარეთ მაგიდა</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Tabellen vergleichen</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Hasonlítsa össze táblázat</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Confronta tabella</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Salīdzināt tabulas</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Palyginti lentelės</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Харьцуулж хүснэгт</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Porównać tabele</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Compara tabel</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Primerjaj tabelo</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Comparar la tabla</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Jämför tabell</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Fiyat karşılaştır tablo</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>So sánh bảng</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Сравнить таблицы</value>
+    </toolTip>
+    <toolTip>
+      <key>vi</key>
+      <value>So sánh bảng</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СравнитьТаблицы</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>
