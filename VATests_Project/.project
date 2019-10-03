@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>VATests_Project</name>
+	<comment></comment>
+	<projects>
+		<project>БСП_ВА</project>
+		<project>БСП_ВА.VA_INTEGR</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
