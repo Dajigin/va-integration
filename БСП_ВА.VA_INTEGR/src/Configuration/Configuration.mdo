@@ -55,6 +55,7 @@
   <commonModules>CommonModule.ВАИНТ_ТестированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеСервер</commonModules>
   <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
+  <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
   <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
   <informationRegisters>InformationRegister.ВАИНТ_НастройкиТестирования</informationRegisters>

@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.VanessaAutomationsingle</content>
   <content>CommonCommand.ВАИНТ_КаталогТестов</content>
+  <content>CommonCommand.ВАИНТ_ПриемочныеТесты</content>
 </mdclass:Subsystem>
