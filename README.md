@@ -1,4 +1,4 @@
-Расширение для интеграции фреймворка Vanessa Automation в конфигурацию на базе БСП.
+Расширение для интеграции фреймворка тестирования Vanessa Automation в конфигурацию на базе БСП.
 
 Проект Vanessa Automation: https://github.com/Pr-Mex/vanessa-automation 
 Для использования текущего проекта скачивать Vanessa Automation не нужно: в расширение встроена обработка Vanessa Automation Single v. 1.2.027.
