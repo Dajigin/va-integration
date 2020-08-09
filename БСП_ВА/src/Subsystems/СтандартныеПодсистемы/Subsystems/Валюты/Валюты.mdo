@@ -29,5 +29,6 @@
   <content>CommonModule.РаботаСКурсамиВалютСлужебный</content>
   <content>CommonCommand.ЗагрузитьКурсыВалют</content>
   <content>XDTOPackage.CurrencyRates</content>
+  <content>DefinedType.КурсВалюты</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

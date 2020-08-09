@@ -123,6 +123,7 @@
       <lang>ru</lang>
     </pages>
   </help>
+  <dataLockFields>Catalog.ВерсииФайлов.StandardAttribute.Owner</dataLockFields>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>

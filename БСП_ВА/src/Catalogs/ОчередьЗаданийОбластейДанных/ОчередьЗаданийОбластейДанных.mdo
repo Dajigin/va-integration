@@ -143,6 +143,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3eacb433-8afe-4d22-877f-ced04a2aa56f">
+    <name>Миллисекунды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миллисекунды</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="5236ca8d-a4a6-4df8-a6a3-5cfe02c49aeb">
     <name>СостояниеЗадания</name>
     <synonym>
@@ -414,33 +433,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ea396bd2-317a-47ff-baf5-fefc012093a5">
-    <name>ВыполнятьЧерезРегламентноеЗадание</name>
+  <attributes uuid="4ff46d40-c887-47f7-a214-ee75ee384a80">
+    <name>ИмяПользователя</name>
     <synonym>
       <key>ru</key>
-      <value>Выполнять через регламентное задание</value>
+      <value>Имя пользователя</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="a26944a2-b1e8-4c1e-9469-f4ed45ef0082">
-    <name>ОжидатьЗавершенияВыполненияРегламентногоЗадания</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ожидать завершения выполнения регламентного задания</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

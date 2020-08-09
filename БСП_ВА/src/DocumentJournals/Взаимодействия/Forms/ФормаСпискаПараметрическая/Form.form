@@ -36,7 +36,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -442,7 +442,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1145,11 +1145,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеРассмотрено</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ОтложитьРассмотрение</name>
@@ -1481,11 +1481,11 @@
               </extendedTooltip>
               <commandName>Form.Item.Список.StandardCommand.Copy</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:FormGroup">
               <name>ГруппаСписокУстановитьПометкуУдаления</name>
@@ -1515,11 +1515,11 @@
                 </extendedTooltip>
                 <commandName>Form.Item.Список.StandardCommand.SetDeletionMark</commandName>
                 <representation>Auto</representation>
-                <onlyInAllActions>true</onlyInAllActions>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+                <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1628,11 +1628,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ПереключитьРежимПросмотра</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>СписокНастройкаСписка</name>
@@ -2690,11 +2690,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеРассмотрено</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ОтложитьРассмотрениеДерево</name>
@@ -2935,11 +2935,11 @@
               </extendedTooltip>
               <commandName>Form.Item.ДеревоВзаимодействий.StandardCommand.Copy</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ДеревоВзаимодействийУдалить</name>
@@ -2970,7 +2970,6 @@
               </extendedTooltip>
               <commandName>Form.Item.ДеревоВзаимодействий.StandardCommand.Delete</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
@@ -2978,6 +2977,7 @@
                 <picture>StdPicture.MarkToDelete</picture>
               </picture>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3030,11 +3030,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ПереключитьРежимПросмотра</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ОбновитьДерево</name>
@@ -3065,7 +3065,6 @@
             </extendedTooltip>
             <commandName>Form.Command.ОбновитьДерево</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -3073,6 +3072,7 @@
               <picture>StdPicture.Refresh</picture>
             </picture>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3322,7 +3322,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -3853,7 +3853,7 @@
     <name>Ответственный</name>
     <title>
       <key>ru</key>
-      <value>Ответственный</value>
+      <value>Ответственный...</value>
     </title>
     <id>2</id>
     <toolTip>
@@ -3877,7 +3877,7 @@
     <name>Предмет</name>
     <title>
       <key>ru</key>
-      <value>Предмет</value>
+      <value>Предмет...</value>
     </title>
     <id>3</id>
     <toolTip>
@@ -3901,13 +3901,9 @@
     <name>ОтложитьРассмотрение</name>
     <title>
       <key>ru</key>
-      <value>Отложить рассмотрение</value>
+      <value>Отложить рассмотрение...</value>
     </title>
     <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Отложить рассмотрение</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4059,13 +4055,9 @@
     <name>УстановитьИнтервал</name>
     <title>
       <key>ru</key>
-      <value>Установить интервал</value>
+      <value>Установить интервал...</value>
     </title>
     <id>11</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Установить интервал</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>

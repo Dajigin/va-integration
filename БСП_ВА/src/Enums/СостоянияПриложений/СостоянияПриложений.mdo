@@ -105,4 +105,11 @@
       <value>Импорт из файла</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="748472be-ed2a-4af0-9eb0-d2739b0b7d55">
+    <name>МиграцияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миграция приложения</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

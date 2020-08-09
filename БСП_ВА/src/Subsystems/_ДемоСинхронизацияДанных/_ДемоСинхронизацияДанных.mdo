@@ -68,6 +68,7 @@
   <content>CommonCommand.РазместитьФайлыНачальногоОбраза</content>
   <content>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData</content>
   <content>EventSubscription._ДемоСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияНабора</content>
+  <content>XDTOPackage._DemoEnterpriseDataExt_1_1_1</content>
   <subsystems>_ДемоНастройкаСинхронизации</subsystems>
   <subsystems>_ДемоПрефиксацияОбъектов</subsystems>
   <subsystems>_ДемоСинхронизируемыеДанные</subsystems>

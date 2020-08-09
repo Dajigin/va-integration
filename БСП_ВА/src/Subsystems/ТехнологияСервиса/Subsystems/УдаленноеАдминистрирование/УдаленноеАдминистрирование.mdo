@@ -5,43 +5,14 @@
     <key>ru</key>
     <value>Удаленное администрирование</value>
   </synonym>
-  <content>XDTOPackage.СообщенияУдаленногоАдминистрирования</content>
-  <content>WebService.ManagedApplication_1_0_0_1</content>
-  <content>XDTOPackage.КонтрольУдаленногоАдминистрирования_1_0_2_3</content>
-  <content>XDTOPackage.КонтрольУдаленногоАдминистрирования_1_0_2_4</content>
-  <content>XDTOPackage.КонтрольУдаленногоАдминистрирования_1_0_2_5</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_1</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_10</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_2</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_3</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_4</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_5</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_6</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_7</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_8</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_9</content>
   <content>CommonForm.ЗавершениеСеансовВМоделиСервиса</content>
   <content>Role.УдаленныйДоступАдминистрированиеИБВМоделиСервиса</content>
   <content>CommonModule.СообщенияКонтрольУдаленногоАдминистрированияИнтерфейс</content>
-  <content>CommonModule.СообщенияКонтрольУдаленногоАдминистрированияОбработчикТрансляции_1_0_2_3</content>
-  <content>CommonModule.СообщенияКонтрольУдаленногоАдминистрированияОбработчикТрансляции_1_0_2_4</content>
   <content>CommonModule.СообщенияУдаленногоАдминистрированияИнтерфейс</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_1</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_10</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_2</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_3</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_4</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_5</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_6</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_7</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_8</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_9</content>
   <content>CommonModule.СообщенияУдаленногоАдминистрированияРеализация</content>
   <content>CommonModule.СообщенияУправленияПриложениямиИнтерфейс</content>
   <content>CommonModule.УдаленноеАдминистрированиеБТСКлиент</content>
   <content>CommonModule.УдаленноеАдминистрированиеБТССлужебный</content>
   <content>CommonModule.УдаленноеАдминистрированиеСлужебный</content>
-  <content>CommonModule.СообщенияУдаленногоАдминистрированияОбработчикСообщения_1_0_3_11</content>
-  <content>XDTOPackage.УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_11</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

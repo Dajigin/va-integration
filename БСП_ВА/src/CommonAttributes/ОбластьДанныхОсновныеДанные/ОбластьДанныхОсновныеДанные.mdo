@@ -59,6 +59,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ИспользоватьИнтеграциюССистемойВзаимодействия</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.КопироватьОбластиДанныхИзЭталонной</metadata>
     <use>DontUse</use>
   </content>
@@ -68,6 +72,10 @@
   </content>
   <content>
     <metadata>InformationRegister.СообщенияОбменаДанными</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ПериодыНерабочихДнейКалендаря</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -203,7 +211,11 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>Catalog.ДополнительныеОбработчикиОчередиЗаданий</metadata>
+    <metadata>InformationRegister.ЗапущенныеОбработчикиОчередиЗаданий</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.ОбработчикиОчередиЗаданий</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -224,10 +236,6 @@
   </content>
   <content>
     <metadata>Constant.СообщениеБлокировкиПриОбновленииКонфигурации</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
-    <metadata>InformationRegister.ОбластиТребующиеОбработкиПоставляемыхДанных</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -279,6 +287,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОбработчикиОбновления</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.КаталогОбменаФайламиВМоделиСервиса</metadata>
     <use>DontUse</use>
   </content>
@@ -296,6 +308,10 @@
   </content>
   <content>
     <metadata>ScheduledJob.ОчисткаУстаревшихВерсийОбъектов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ПоставляемыеДанныеТребующиеОбработкиВОбластях</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -328,6 +344,10 @@
   </content>
   <content>
     <metadata>InformationRegister.ПраваРолей</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.КлассификаторОшибокКриптографии</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -395,7 +415,7 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>ScheduledJob.ОбработкаОчередиЗаданийБТС</metadata>
+    <metadata>ScheduledJob.УдалитьОбработкаОчередиЗаданийБТС</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -427,7 +447,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.СвойстваЗаданий</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ИспользоватьПрофилиБезопасностиДляДОО</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ИсправлениеУстаревшихАдресов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -547,6 +575,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ПотокиОбновления</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ОбновлениеСтатусовДоставкиSMS</metadata>
     <use>DontUse</use>
   </content>
@@ -556,6 +588,10 @@
   </content>
   <content>
     <metadata>ScheduledJob.ПерестроениеАгрегатов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ДатаПоследнегоОбновленияКлассификатораОшибок</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -671,6 +707,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОчередьОбновляемыхПоставляемыхРасширенийВОбластяхДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ИспользуютсяПрофилиБезопасности</metadata>
     <use>DontUse</use>
   </content>
@@ -724,6 +764,10 @@
   </content>
   <content>
     <metadata>Constant.НастройкаПодчиненногоУзлаРИБЗавершена</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОтключениеПроверкиИспользованияУдаляемыхОбъектов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -803,6 +847,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ЗапускОбработкиЗаданий</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</metadata>
     <use>DontUse</use>
   </content>
@@ -860,6 +908,10 @@
   </content>
   <content>
     <metadata>ScheduledJob.ЗапускДополнительныхОбработок</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ОбщиеПоставляемыеМакетыПечати</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -927,6 +979,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОчередьРасширенийДляОповещений</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</metadata>
     <use>DontUse</use>
   </content>
@@ -940,10 +996,6 @@
   </content>
   <content>
     <metadata>InformationRegister.ЗамерыОперацииСтатистики</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
-    <metadata>InformationRegister.СвойстваЗаданий</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -984,6 +1036,10 @@
   </content>
   <content>
     <metadata>InformationRegister.ОперацииСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ОбработчикиОбновленияОбщихДанных</metadata>
     <use>DontUse</use>
   </content>
   <content>

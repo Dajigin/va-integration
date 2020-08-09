@@ -35,10 +35,11 @@
     <types>CatalogObject.УслугиСервиса</types>
     <types>ConstantValueManager.КопироватьОбластиДанныхИзЭталонной</types>
     <types>ConstantValueManager.АдресЦКК</types>
+    <types>ConstantValueManager.ИспользоватьИнтеграциюССистемойВзаимодействия</types>
     <types>CatalogObject.ПоставляемыеДанные</types>
     <types>CatalogObject.ПолныеПутиКФормам</types>
     <types>CatalogObject.ИнформационныеСсылкиДляФорм</types>
-    <types>CatalogObject.ДополнительныеОбработчикиОчередиЗаданий</types>
+    <types>CatalogObject.ОбработчикиОчередиЗаданий</types>
     <types>ConstantValueManager.ВнутреннийАдресМенеджераСервиса</types>
     <types>ConstantValueManager.АдресСервисаНовостей</types>
     <types>CatalogObject.ПоставляемыеРасширения</types>

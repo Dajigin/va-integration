@@ -19,7 +19,6 @@
   <content>Role.Подсистема_ДемоСервисныеПодсистемы</content>
   <content>DataProcessor._ДемоРаботаСВнешнимиКомпонентами</content>
   <content>Report.РезультатыПроверкиУчета</content>
-  <content>fdc2c1fb-5148-47ba-9274-b794cd1d9847</content>
   <subsystems>_ДемоБазоваяФункциональность</subsystems>
   <subsystems>_ДемоВызовОнлайнПоддержки</subsystems>
   <subsystems>_ДемоГрупповоеИзменениеОбъектов</subsystems>

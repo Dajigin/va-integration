@@ -49,5 +49,6 @@
   <content>CommonModule.УправлениеКонтактнойИнформациейПереопределяемый</content>
   <content>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</content>
   <content>EventSubscription.КонтактнаяИнформацияОбработкаПроверкиЗаполнения</content>
+  <content>ScheduledJob.ИсправлениеУстаревшихАдресов</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

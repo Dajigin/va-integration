@@ -82,5 +82,6 @@
   <content>StyleItem.РазделВариантовОтчетовШрифт</content>
   <content>StyleItem.ФонРезультатовПоиска</content>
   <content>StyleItem.ОбразецНастройкиКолонтитуловЦвет</content>
+  <content>StyleItem.ОбразецНастройкиКолонтитуловШрифт</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

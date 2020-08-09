@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Универсальный обмен данными в формате XML</value>
   </synonym>
+  <comment>АПК:700 подключение расширения для работы с файлами через ФайловаяСистемаКлиент не выполняется, т.к. обработка является автономной и не зависит от базовой функциональности БСП</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма</defaultForm>
   <help>

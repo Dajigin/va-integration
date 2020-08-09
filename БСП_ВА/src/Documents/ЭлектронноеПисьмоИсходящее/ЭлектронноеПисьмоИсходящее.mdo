@@ -226,7 +226,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <toolTip>
@@ -249,7 +249,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <toolTip>
@@ -274,7 +274,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <toolTip>
@@ -299,7 +299,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <toolTip>
@@ -836,10 +836,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4ec26e3d-6c38-4c90-9f91-c2235f8b4154">
-    <name>ХэшСумма</name>
+    <name>ХешСумма</name>
     <synonym>
       <key>ru</key>
-      <value>Хэш сумма</value>
+      <value>Хеш сумма</value>
     </synonym>
     <type>
       <types>String</types>
@@ -849,7 +849,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Содержит хэш сумму заголовка электронного письма</value>
+      <value>Контрольная сумма заголовка электронного письма (служебный реквизит)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

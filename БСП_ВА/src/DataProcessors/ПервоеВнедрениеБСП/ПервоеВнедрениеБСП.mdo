@@ -9,7 +9,7 @@
     <key>ru</key>
     <value>Первое внедрение БСП</value>
   </synonym>
-  <comment>АПК:1332 -выкл обработка предназначена для запуска на конфигурации без БПС</comment>
+  <comment>АПК:1332 АПК:1345 АПК:1348 -выкл обработка предназначена для запуска на конфигурации без БСП</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПервоеВнедрениеБСП.Form.Форма</defaultForm>
   <forms uuid="567a07b2-770b-4851-8138-e0072216db6b">
@@ -17,6 +17,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="598fa20f-ce0b-4183-a929-959c95d5c89a">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

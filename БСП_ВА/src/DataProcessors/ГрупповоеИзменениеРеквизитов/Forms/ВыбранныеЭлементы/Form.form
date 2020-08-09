@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Выбранные элементы</value>
+    <value>Выбор элементов для изменения</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаУсловияОтбора</name>
@@ -23,15 +23,87 @@
         <segments>КомпоновщикНастроек.Settings.Filter</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
+      <excludedCommands>SetPresentation</excludedCommands>
+      <excludedCommands>UserSettingItemProperties</excludedCommands>
       <autoCommandBar>
         <name>КомпоновщикНастроекНастройкиОтборКоманднаяПанель</name>
         <id>25</id>
+        <items xsi:type="form:Button">
+          <name>СписокВосстановитьЗначения</name>
+          <id>112</id>
+          <title>
+            <key>ru</key>
+            <value>Загрузить отбор...</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СписокВосстановитьЗначенияРасширеннаяПодсказка</name>
+            <id>113</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.StandardCommand.RestoreValues</commandName>
+          <representation>PictureAndText</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СписокСохранитьЗначения</name>
+          <id>110</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить отбор...</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СписокСохранитьЗначенияРасширеннаяПодсказка</name>
+            <id>111</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.StandardCommand.SaveValues</commandName>
+          <representation>Picture</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+        </items>
         <items xsi:type="form:Button">
           <name>КомпоновщикНастроекНастройкиОтборДобавитьЭлементОтбора</name>
           <id>49</id>
           <title>
             <key>ru</key>
-            <value>Добавить условие отбора</value>
+            <value>Добавить условие</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -121,6 +193,36 @@
           <extInfo xsi:type="form:ButtonGroupExtInfo">
             <commandSource>Form</commandSource>
           </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КомпоновщикНастроекНастройкиОтборСправка</name>
+          <id>114</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомпоновщикНастроекНастройкиОтборСправкаРасширеннаяПодсказка</name>
+            <id>115</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.StandardCommand.Help</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -333,12 +435,12 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
-      <representation>WeakSeparation</representation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -367,6 +469,7 @@
       <excludedCommands>ListSettings</excludedCommands>
       <excludedCommands>LoadDynamicListSettings</excludedCommands>
       <excludedCommands>SaveDynamicListSettings</excludedCommands>
+      <excludedCommands>SearchHistory</excludedCommands>
       <items xsi:type="form:FormField">
         <name>СписокСсылка</name>
         <id>87</id>
@@ -422,9 +525,46 @@
           <typeDomainEnabled>true</typeDomainEnabled>
         </extInfo>
       </items>
+      <commandBarLocation>Bottom</commandBarLocation>
       <autoCommandBar>
         <name>СписокКоманднаяПанель</name>
         <id>76</id>
+        <items xsi:type="form:Button">
+          <name>СписокИзменитьФорму</name>
+          <id>102</id>
+          <title>
+            <key>ru</key>
+            <value>Колонки списка...</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СписокИзменитьФормуРасширеннаяПодсказка</name>
+            <id>103</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>CommandBarHyperlink</type>
+          <commandName>Form.StandardCommand.CustomizeForm</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBar</locationInCommandBar>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -435,6 +575,10 @@
       <handlers>
         <event>Selection</event>
         <name>СписокВыбор</name>
+      </handlers>
+      <handlers>
+        <event>OnActivateRow</event>
+        <name>СписокПриАктивизацииСтроки</name>
       </handlers>
       <searchStringAddition>
         <visible>true</visible>
@@ -470,7 +614,9 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+          <width>40</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <horizontalStretch>false</horizontalStretch>
         </extInfo>
       </searchStringAddition>
       <viewStatusAddition>
@@ -599,7 +745,7 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
-          <name>СписокКонтекстноеМенюОбновить1</name>
+          <name>СписокКонтекстноеМенюОбновить</name>
           <id>90</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -607,7 +753,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюОбновить1РасширеннаяПодсказка</name>
+            <name>СписокКонтекстноеМенюОбновитьРасширеннаяПодсказка</name>
             <id>91</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -629,7 +775,7 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
-          <name>СписокКонтекстноеМенюВывестиСписок1</name>
+          <name>СписокКонтекстноеМенюВывестиСписок</name>
           <id>92</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -637,7 +783,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюВывестиСписок1РасширеннаяПодсказка</name>
+            <name>СписокКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
             <id>93</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -675,14 +821,19 @@
       <footerHeight>1</footerHeight>
       <horizontalScrollBar>AutoUse</horizontalScrollBar>
       <verticalScrollBar>AutoUse</verticalScrollBar>
+      <verticalLines>true</verticalLines>
+      <useAlternationRowColor>true</useAlternationRowColor>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
+      <initialTreeView>ExpandTopLevel</initialTreeView>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
       <rowPictureDataPath xsi:type="form:DataPath">
         <segments>Список.DefaultPicture</segments>
       </rowPictureDataPath>
+      <searchStringLocation>Top</searchStringLocation>
+      <searchControlLocation>None</searchControlLocation>
       <extInfo xsi:type="form:DynamicListTableExtInfo">
         <autoRefreshPeriod>60</autoRefreshPeriod>
         <period>
@@ -721,12 +872,12 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
-      <representation>WeakSeparation</representation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
@@ -802,6 +953,14 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
+    <event>OnSaveDataInSettingsAtServer</event>
+    <name>ПриСохраненииДанныхВНастройкахНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -810,11 +969,10 @@
   <excludedCommands>Ignore</excludedCommands>
   <excludedCommands>No</excludedCommands>
   <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveDataInSettings>UseList</saveDataInSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -837,22 +995,6 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>ОбъектыДляОбработки</name>
-    <id>2</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
     <name>Список</name>
     <title>
       <key>ru</key>
@@ -869,15 +1011,21 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.DefaultPicture</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	&quot;&quot; КАК Ссылка
-</queryText>
+	ТаблицаПереопределяемый.Ссылка КАК Ссылка
+ИЗ
+	Справочник.Пользователи КАК ТаблицаПереопределяемый</queryText>
+      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <keyField>Ссылка</keyField>
     </extInfo>
   </attributes>
   <attributes>
@@ -927,6 +1075,22 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоличествоВыбранных</name>
+    <id>5</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>

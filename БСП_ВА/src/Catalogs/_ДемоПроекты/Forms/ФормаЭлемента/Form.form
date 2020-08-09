@@ -139,7 +139,7 @@
         <group>HorizontalIfPossible</group>
         <showLeftMargin>true</showLeftMargin>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -335,7 +335,7 @@
       <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">

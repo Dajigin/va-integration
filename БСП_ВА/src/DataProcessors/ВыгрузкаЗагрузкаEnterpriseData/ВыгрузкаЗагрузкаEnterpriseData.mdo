@@ -238,6 +238,19 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="ec892726-dee3-4edb-ad71-020404b09477">
+    <name>РасширениеФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение формата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="5fb5320c-cd7c-4f28-ad6a-8670a60a9e11">
     <name>Форма</name>
     <synonym>

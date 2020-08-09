@@ -24,6 +24,7 @@
     <types>ConstantValueManager.РазмерБлокаПередачиФайла</types>
     <types>ConstantValueManager.КаталогСообщенийОбменаДаннымиДляLinux</types>
     <types>ConstantValueManager.СоздаватьПодкаталогиСИменамиВладельцев</types>
+    <types>ConstantValueManager.КлассификаторОшибокКриптографии</types>
     <types>ConstantValueManager.ОсновнойЯзык</types>
     <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
     <types>ConstantValueManager.КоличествоПотоковОбновленияИнформационнойБазы</types>
@@ -33,6 +34,7 @@
     <types>ConstantValueManager.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</types>
     <types>ConstantValueManager.ДополнительныйЯзык2</types>
     <types>CatalogObject.ПоставляемыеДополнительныеОтчетыИОбработки</types>
+    <types>ConstantValueManager.ДатаПоследнегоОбновленияКлассификатораОшибок</types>
     <types>ConstantValueManager.ИзвлекатьТекстыФайловНаСервере</types>
     <types>ConstantValueManager.ПрофильБезопасностиИнформационнойБазы</types>
     <types>ConstantValueManager.ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском</types>

@@ -3,7 +3,7 @@
   <name>ApplicationManifest_1_0_0_1</name>
   <synonym>
     <key>ru</key>
-    <value>Application manifest 1 0 0 1</value>
+    <value>Application manifest 1.0.0.1</value>
   </synonym>
   <namespace>http://www.1c.ru/1cFresh/Application/Manifest/1.0.0.1</namespace>
 </mdclass:XDTOPackage>

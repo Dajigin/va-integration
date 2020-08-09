@@ -14,25 +14,4 @@
 			<value>true</value>
 		</right>
 	</object>
-	<object>
-		<name>WebService.ManagedApplication_1_0_0_1.Operation.CheckSessionZone</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>HTTPService.УниверсальнаяИнтеграцияВнутренняя.URLTemplate.Оповещение.Method.Получить</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>WebService.ManagedApplication_1_0_0_1.Operation.GetRequiredPermissions</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
 </Rights>

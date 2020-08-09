@@ -7,10 +7,8 @@
   </synonym>
   <content>CommonModule.ПоставляемыеДанные</content>
   <content>CommonModule.ПоставляемыеДанныеПереопределяемый</content>
-  <content>XDTOPackage.SuppliedData</content>
-  <content>CommonModule.СообщенияПоставляемыхДанныхОбработчикСообщения</content>
-  <content>InformationRegister.ОбластиТребующиеОбработкиПоставляемыхДанных</content>
   <content>InformationRegister.ПоставляемыеДанныеТребующиеОбработки</content>
   <content>Catalog.ПоставляемыеДанные</content>
+  <content>InformationRegister.ПоставляемыеДанныеТребующиеОбработкиВОбластях</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

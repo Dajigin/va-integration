@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69bd8b28-f133-4721-b2f3-ce07b3e572b5">
-  <name>УправлениеТарифамиВМоделиСервиса_1_0_1_2</name>
-  <synonym>
-    <key>ru</key>
-    <value>Управление тарифами в модели сервиса 1 0 1 2</value>
-  </synonym>
-  <namespace>http://www.1c.ru/1cFresh/Tariff/App/1.0.1.2</namespace>
-</mdclass:XDTOPackage>

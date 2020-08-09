@@ -78,5 +78,6 @@
   <content>InformationRegister._ДемоЦеныНоменклатуры</content>
   <content>Document._ДемоПоручениеЭкспедитору</content>
   <content>InformationRegister._ДемоЗагружаемыеПоступленияОтЮридическихЛиц</content>
+  <content>Catalog._ДемоПодразделения</content>
   <parentSubsystem>Subsystem._ДемоУправлениеДоступом.Subsystem._ДемоУправлениеДоступом</parentSubsystem>
 </mdclass:Subsystem>

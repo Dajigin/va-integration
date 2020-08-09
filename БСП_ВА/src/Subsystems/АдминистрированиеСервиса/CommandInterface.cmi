@@ -28,10 +28,4 @@
       <commands>InformationRegister.НастройкиТранспортаОбменаОбластейДанных.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
-  <subsystemsOrder>
-    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.ОбластиДанных</subsystems>
-    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.ОчередьЗаданий</subsystems>
-    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.ПоставляемыеДанные</subsystems>
-    <subsystems>Subsystem.АдминистрированиеСервиса.Subsystem.Сообщения</subsystems>
-  </subsystemsOrder>
 </cmi:CommandInterface>

@@ -251,6 +251,46 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="f946fa5b-5d3a-4403-b5ab-bafa974e5bdd">
+    <name>СодержаниеЯзык1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание (дополнительный язык 1)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержание операции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4f1092af-79ce-4dc4-bb21-48ff27f4ac8a">
+    <name>СодержаниеЯзык2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание (дополнительный язык 2)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержание операции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <forms uuid="60566ede-81fd-4469-b81e-4cc957b4540d">
     <name>ФормаСписка</name>
     <synonym>

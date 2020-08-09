@@ -53,7 +53,6 @@
     <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
     <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
-    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
     <types>CatalogObject.ВариантыОтчетов</types>
     <types>CatalogObject._ДемоНоменклатураПрисоединенныеФайлы</types>
     <types>CatalogObject._ДемоВидыНоменклатуры</types>

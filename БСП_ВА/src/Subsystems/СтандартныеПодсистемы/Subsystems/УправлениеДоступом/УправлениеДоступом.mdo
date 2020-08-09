@@ -112,5 +112,13 @@
   <content>EventSubscription.ПроверитьДоступПередУдалением</content>
   <content>Constant.ПервоеОбновлениеДоступаЗавершилось</content>
   <content>EventSubscription.ОбновитьЗначенияГруппДоступа</content>
+  <content>Report.АнализПравДоступа</content>
+  <content>CommonPicture.Создание</content>
+  <content>CommonPicture.Редактирование</content>
+  <content>CommonPicture.Просмотр</content>
+  <content>StyleItem.ПравоПросмотраФон</content>
+  <content>StyleItem.ПравоРедактированияФон</content>
+  <content>StyleItem.ПравоСозданияФон</content>
+  <content>StyleItem.ПравоНедействительногоПользователяФон</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

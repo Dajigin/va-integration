@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ebf8ca-ec53-4dfe-b42b-498a6db569f6">
-  <name>RemoteProcedureCall_v1</name>
-  <synonym>
-    <key>ru</key>
-    <value>Remote procedure call v1</value>
-  </synonym>
-  <namespace>http://www.1c.ru/1cFresh/Automation/RemoteProcedureCall/v1</namespace>
-</mdclass:XDTOPackage>

@@ -282,8 +282,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>10</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаКоманднаяПанельФормы</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

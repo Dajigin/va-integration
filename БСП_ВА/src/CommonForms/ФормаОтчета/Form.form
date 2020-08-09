@@ -35,7 +35,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -73,11 +73,11 @@
           <commandName>Form.Command.ОтчетСкомпоноватьРезультат</commandName>
           <representation>Auto</representation>
           <defaultButton>true</defaultButton>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -132,11 +132,11 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВсеНастройки</commandName>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаСохранениеВыборВариантаОтчета</name>
@@ -170,7 +170,6 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.SaveVariant</commandName>
             <representation>PictureAndText</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -178,6 +177,7 @@
               <picture>CommonPicture.СохранитьВариантОтчета</picture>
             </picture>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаВариантыОтчета</name>
@@ -234,11 +234,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ДругиеОтчеты</commandName>
             <representation>PictureAndText</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -329,11 +329,11 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.Find</commandName>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаУправлениеГруппировками</name>
@@ -363,11 +363,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.ExpandAllGroups</commandName>
             <representation>Picture</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>СвернутьВсеГруппы</name>
@@ -394,11 +394,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.CollapseAllGroups</commandName>
             <representation>Picture</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -485,11 +485,11 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.Print</commandName>
             <representation>Picture</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ПредварительныйПросмотр</name>
@@ -516,11 +516,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.Preview</commandName>
             <representation>Picture</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -579,11 +579,11 @@
           </extendedTooltip>
           <commandName>Form.StandardCommand.Save</commandName>
           <representation>Picture</representation>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаОтправить</name>
@@ -613,11 +613,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ОтправитьПоПочте</commandName>
             <representation>Picture</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1112,7 +1112,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1146,11 +1146,11 @@
           </extendedTooltip>
           <commandName>Form.Command.ОтчетСкомпоноватьРезультат</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ФормироватьСразу</name>
@@ -1177,11 +1177,11 @@
           </extendedTooltip>
           <commandName>Form.Command.ФормироватьСразу</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1237,11 +1237,11 @@
           </extendedTooltip>
           <commandName>Form.Command.ВсеНастройки</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ИзменитьУсловияОтборов</name>
@@ -1268,11 +1268,11 @@
           </extendedTooltip>
           <commandName>Form.Command.ИзменитьУсловияОтборов</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>СброситьНастройки</name>
@@ -1299,11 +1299,11 @@
           </extendedTooltip>
           <commandName>Form.Command.НастройкиПоУмолчанию</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаСохранениеВариантаОтчетаЕще</name>
@@ -1337,7 +1337,6 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.SaveVariant</commandName>
             <representation>PictureAndText</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -1345,6 +1344,7 @@
               <picture>CommonPicture.СохранитьВариантОтчета</picture>
             </picture>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаВариантыОтчетаЕще</name>
@@ -1401,11 +1401,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ДругиеОтчеты</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаОбменНастройкамиЕще</name>
@@ -1435,11 +1435,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ОбновитьВариантОтчетаИзФайла</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>СохранитьВариантОтчетаВФайл</name>
@@ -1466,11 +1466,11 @@
               </extendedTooltip>
               <commandName>Form.Command.СохранитьВариантОтчетаВФайл</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1566,11 +1566,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ИзменитьВариантОтчета</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ВыбратьВариант</name>
@@ -1601,11 +1601,11 @@
               </extendedTooltip>
               <commandName>Form.StandardCommand.LoadVariant</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1662,11 +1662,11 @@
               </extendedTooltip>
               <commandName>Form.StandardCommand.LoadReportSettings</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>СохранитьНастройки</name>
@@ -1693,11 +1693,11 @@
               </extendedTooltip>
               <commandName>Form.StandardCommand.SaveReportSettings</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ПоделитьсяНастройками</name>
@@ -1724,11 +1724,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ПоделитьсяНастройками</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1784,11 +1784,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ЗагрузитьСхему</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>РедактироватьСхему</name>
@@ -1815,11 +1815,11 @@
               </extendedTooltip>
               <commandName>Form.Command.РедактироватьСхему</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ВосстановитьСтандартнуюСхему</name>
@@ -1846,11 +1846,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ВосстановитьСтандартнуюСхему</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1961,11 +1961,11 @@
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.Find</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>РазвернутьВсеГруппыЕще</name>
@@ -1992,11 +1992,11 @@
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.ExpandAllGroups</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>СвернутьВсеГруппыЕще</name>
@@ -2023,11 +2023,11 @@
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.CollapseAllGroups</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>КомандыТабличногоДокумента</name>
@@ -2057,11 +2057,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.FixTable</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ОтображатьГруппировки</name>
@@ -2088,11 +2088,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.ShowGroups</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>Редактирование</name>
@@ -2119,11 +2119,11 @@
             </extendedTooltip>
             <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.Edit</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2241,11 +2241,11 @@
           </extendedTooltip>
           <commandName>Form.StandardCommand.Print</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ПараметрыСтраницы</name>
@@ -2272,11 +2272,11 @@
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.PageSetup</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>СохранитьЕще</name>
@@ -2303,11 +2303,11 @@
           </extendedTooltip>
           <commandName>Form.StandardCommand.Save</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаОтправитьЕще</name>
@@ -2337,11 +2337,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ОтправитьПоПочте</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2437,11 +2437,11 @@
           </extendedTooltip>
           <commandName>Form.Command.РассчитатьСумму</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>РассчитатьКоличествоЕще</name>
@@ -2472,11 +2472,11 @@
           </extendedTooltip>
           <commandName>Form.Command.РассчитатьКоличество</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>РассчитатьСреднееЕще</name>
@@ -2507,11 +2507,11 @@
           </extendedTooltip>
           <commandName>Form.Command.РассчитатьСреднее</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>РассчитатьМинимумЕще</name>
@@ -2542,11 +2542,11 @@
           </extendedTooltip>
           <commandName>Form.Command.РассчитатьМинимум</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>РассчитатьМаксимумЕще</name>
@@ -2577,11 +2577,11 @@
           </extendedTooltip>
           <commandName>Form.Command.РассчитатьМаксимум</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ВсеПоказателиЕще</name>
@@ -2615,11 +2615,11 @@
             </extendedTooltip>
             <commandName>Form.Command.РассчитатьВсеПоказатели</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2680,6 +2680,66 @@
           <representation>Auto</representation>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>Отчеты</name>
+        <id>830</id>
+        <items xsi:type="form:Button">
+          <name>ПраваПользователей</name>
+          <id>832</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПраваПользователейРасширеннаяПодсказка</name>
+            <id>833</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ПраваПользователей</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отчеты</value>
+        </title>
+        <extendedTooltip>
+          <name>ОтчетыРасширеннаяПодсказка</name>
+          <id>831</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      </items>
       <items xsi:type="form:Button">
         <name>НовоеОкно</name>
         <id>41</id>
@@ -2705,11 +2765,11 @@
         </extendedTooltip>
         <commandName>Form.StandardCommand.NewWindow</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ИзменитьФорму</name>
@@ -2736,11 +2796,11 @@
         </extendedTooltip>
         <commandName>Form.StandardCommand.CustomizeForm</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>Справка</name>
@@ -2767,11 +2827,11 @@
         </extendedTooltip>
         <commandName>Form.StandardCommand.Help</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2832,7 +2892,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -2926,11 +2986,11 @@
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.CollapseAllGroups</commandName>
           <representation>Picture</representation>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>РазвернутьВсеГруппы_Контекст</name>
@@ -2957,11 +3017,11 @@
           </extendedTooltip>
           <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.ExpandAllGroups</commandName>
           <representation>Picture</representation>
-          <onlyInAllActions>false</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3028,6 +3088,7 @@
       <verticalScrollBar>ScrollAlways</verticalScrollBar>
       <horizontalScrollBar>ScrollAlways</horizontalScrollBar>
       <selectionShowMode>Always</selectionShowMode>
+      <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
       <showGroups>true</showGroups>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
@@ -3354,7 +3415,7 @@
           <color>Style.ИтогиФонГруппы</color>
         </backColor>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -3425,7 +3486,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -3666,7 +3727,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3904,7 +3965,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -4036,7 +4097,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -4080,53 +4141,53 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>101</value>
+    <value xsi:type="core:StringValue">
+      <value>СформироватьОтчет</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>643</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаГлавноеЕще</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>732</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаНастройкиОтчетаЕще</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>742</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаРаботаВТаблицеЕще</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>641</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаПрограммныйИнтерфейс</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>726</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаВыводЕще</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>760</value>
+    <value xsi:type="core:StringValue">
+      <value>КомандыВидовПоказателейЕще</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>41</value>
+    <value xsi:type="core:StringValue">
+      <value>НовоеОкно</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>42</value>
+    <value xsi:type="core:StringValue">
+      <value>ИзменитьФорму</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>43</value>
+    <value xsi:type="core:StringValue">
+      <value>Справка</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -4723,6 +4784,41 @@
       <segments>РазвернутьОбластьПоказателей</segments>
     </settingsSavedData>
   </attributes>
+  <attributes>
+    <name>КонтекстВарианта</name>
+    <id>11</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВариантыКонтекста</name>
+    <id>13</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </itemValueType>
+    </extInfo>
+  </attributes>
   <formCommands>
     <name>ВсеНастройки</name>
     <title>
@@ -5157,7 +5253,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Select</picture>
+      <picture>StdPicture.InputFieldSelect</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -5178,7 +5274,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Select</picture>
+      <picture>StdPicture.InputFieldSelect</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -5253,6 +5349,30 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПоделитьсяНастройками</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПраваПользователей</name>
+    <title>
+      <key>ru</key>
+      <value>Права пользователей</value>
+    </title>
+    <id>25</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Права пользователей</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПраваПользователей</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

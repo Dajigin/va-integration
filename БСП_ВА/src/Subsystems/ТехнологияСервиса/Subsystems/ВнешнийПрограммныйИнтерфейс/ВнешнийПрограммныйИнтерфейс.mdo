@@ -7,7 +7,6 @@
   </synonym>
   <content>CommonModule.ПрограммныйИнтерфейсСервиса</content>
   <content>Enum.РолиПользователейАбонентов</content>
-  <content>CommonModule.ПрограммныйИнтерфейсСервисаПовтИсп</content>
   <content>Enum.ТипыПодписокСервиса</content>
   <content>Enum.ПериодичностьПериодовДействия</content>
   <content>Enum.ПраваПользователяПриложения</content>

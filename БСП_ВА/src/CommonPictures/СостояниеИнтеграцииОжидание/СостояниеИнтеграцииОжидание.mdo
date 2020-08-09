@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63d41163-9008-4fa1-aec7-10d081f8b41d">
-  <name>СостояниеИнтеграцииОжидание</name>
-  <synonym>
-    <key>ru</key>
-    <value>Состояние интеграции ожидание</value>
-  </synonym>
-</mdclass:CommonPicture>

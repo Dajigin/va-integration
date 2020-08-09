@@ -26,9 +26,17 @@
 			</item>
 		</selection>
 		<filter>
-			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">ДеревоШагов.ТипШага</left>
-				<comparisonType>NotFilled</comparisonType>
+			<item xsi:type="FilterItemGroup">
+				<groupType>AndGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ДеревоШагов.ТипШага</left>
+					<comparisonType>NotFilled</comparisonType>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ДеревоШагов.ТипШагаВДереве</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:string"/>
+				</item>
 			</item>
 		</filter>
 		<appearance>
@@ -98,6 +106,46 @@
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Видимость</dcscor:parameter>
 				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ДеревоШагов</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ДеревоШагов.ТипШагаВДереве</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:string">Условие</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">web:LimeGreen</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ДеревоШагов</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ДеревоШагов.ТипШагаВДереве</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:string">Цикл</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">web:Thistle</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>

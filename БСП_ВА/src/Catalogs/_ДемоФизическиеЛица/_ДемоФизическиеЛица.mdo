@@ -425,7 +425,6 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="e3766e8b-2f82-4de7-8c95-162e8150abc1">
       <name>Вид</name>
@@ -444,7 +443,6 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="2a313033-36bf-47bb-8c45-ad10f67d50d4">
       <name>Представление</name>
@@ -484,7 +482,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f4ed12be-833c-4046-a3d2-d18a2fae3b26">
       <name>Страна</name>
@@ -505,7 +502,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="c3429022-9c7f-42d3-939a-40391bbd6299">
       <name>Регион</name>
@@ -526,7 +522,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="0257ef59-b2b8-4a83-b725-916764ecdeef">
       <name>Город</name>
@@ -547,7 +542,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="8026a80b-bae0-4a3f-87f4-9092ca44ed63">
       <name>АдресЭП</name>
@@ -568,7 +562,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="bf2a37ec-e706-4f12-a03e-c3dd115db0f4">
       <name>ДоменноеИмяСервера</name>
@@ -589,7 +582,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="b1341edd-6bb1-4e4b-be79-7e00c94789d3">
       <name>НомерТелефона</name>
@@ -610,7 +602,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="497cea83-4c07-41b1-a4de-fe4aa1d29dff">
       <name>НомерТелефонаБезКодов</name>
@@ -631,7 +622,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="e72ad560-9fe9-4567-92f1-42000007a792">
       <name>Значение</name>
@@ -650,7 +640,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
   <forms uuid="c8158812-024b-4f94-bd07-c3f1fd59e8a1">

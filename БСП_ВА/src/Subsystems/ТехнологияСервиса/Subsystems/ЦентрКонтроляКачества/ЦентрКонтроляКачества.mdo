@@ -9,11 +9,9 @@
   <content>CommonModule.ИнцидентыЦККПереопределяемый</content>
   <content>CommonModule.ИнцидентыЦККСервер</content>
   <content>ScheduledJob.МониторингЦКК</content>
-  <content>XDTOPackage.Incidents_1_0_1_1</content>
   <content>Constant.АдресЦКК</content>
   <content>InformationRegister.ИнцидентыОткрытые</content>
   <content>InformationRegister.ИнцидентыОтложенныеПроверки</content>
-  <content>CommonModule.ИнцидентыЦККСлужебный</content>
   <content>InformationRegister.ОграничениеСкоростиОтсылкиИнцидентов</content>
   <content>Constant.ТипыИнцидентовЦККАктуальны</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>

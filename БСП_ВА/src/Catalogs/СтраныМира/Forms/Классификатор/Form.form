@@ -537,11 +537,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Классификатор.StandardCommand.SortListAsc</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>КлассификаторСортироватьСписокПоУбыванию</name>
@@ -568,11 +568,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Классификатор.StandardCommand.SortListDesc</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>КлассификаторИзменитьФорму</name>
@@ -1241,6 +1241,20 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>МеждународноеНаименование</name>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ПоляКлассификатора</name>
@@ -1296,10 +1310,29 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>РежимДобавления</name>
+    <id>6</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <parameters>
     <name>ТекущаяСтрока</name>
     <valueType>
       <types>CatalogRef.СтраныМира</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>РежимДобавления</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

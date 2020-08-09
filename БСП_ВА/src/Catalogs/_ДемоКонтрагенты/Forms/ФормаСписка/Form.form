@@ -33,7 +33,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -864,8 +864,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>26</value>
+    <value xsi:type="core:StringValue">
+      <value>КоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

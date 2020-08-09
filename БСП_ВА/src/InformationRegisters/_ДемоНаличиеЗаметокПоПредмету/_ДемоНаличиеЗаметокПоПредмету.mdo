@@ -80,7 +80,7 @@
       <value>Предмет</value>
     </synonym>
     <type>
-      <types>DefinedType.ПредметНапоминания</types>
+      <types>DefinedType.ПредметЗаметок</types>
     </type>
     <toolTip>
       <key>ru</key>

@@ -31,6 +31,29 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="e62845df-704f-4ad5-b227-e0128877a814">
+    <name>НастройкиУдаленияОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки удаления объектов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f1393e4-9db5-43d6-b47e-caa1aad9b35c">
+    <name>ВыборОбъектовМетаданныхПоПодсистемам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов метаданных по подсистемам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="e62e60ea-9f0c-4a7e-869f-4639f31f826c">
     <name>УдалениеПомеченныхОбъектов</name>
     <synonym>

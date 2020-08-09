@@ -107,9 +107,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>ExchangePlan.ОбменСообщениями.Form.ФормаУзла</defaultObjectForm>
-  <defaultListForm>ExchangePlan.ОбменСообщениями.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>ExchangePlan.ОбменСообщениями.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="30d5c2a6-b3cf-4ed5-ba75-850bcae932d1">
     <name>Ведущая</name>
     <synonym>
@@ -149,31 +146,4 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="e92ae368-0d7c-4fb7-b6d0-5ab63dc95a6a">
-    <name>ФормаУзла</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма узла</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="f30c9c4b-aa6c-4b15-9ac7-888c0c0cabd9">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="be15e947-f671-4848-ada1-51239af73615">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:ExchangePlan>

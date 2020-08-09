@@ -364,6 +364,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="622d6de2-7404-41cc-961b-131d078d7ab4">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="245f870e-a53a-4d86-aa0a-c0c7709b8acb">
     <producedTypes>
       <objectType typeId="d775216b-7adc-4b4e-972d-b6ad881e79dd" valueTypeId="16c681bb-1a49-44e1-82a6-4af12b00b701"/>
@@ -489,7 +504,6 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="aa7d5ca4-3c02-4ca1-a790-2435ee9f9f02">
       <name>Вид</name>
@@ -508,7 +522,6 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="b7e85f5c-4312-44c6-895a-3f636a8c78d8">
       <name>Представление</name>
@@ -548,7 +561,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1969e8d1-0a82-44cb-a0d4-e5badb1d28d4">
       <name>Страна</name>
@@ -569,7 +581,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="a1afacc5-f49a-4df2-a44d-479594d50179">
       <name>Регион</name>
@@ -590,7 +601,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="fe70eba3-7477-4a38-a511-d69960abb928">
       <name>Город</name>
@@ -611,7 +621,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6534ea96-2145-49e6-9739-f59459dc7f6b">
       <name>АдресЭП</name>
@@ -632,7 +641,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f49bffa0-cad6-4801-b82e-21aa580e72e6">
       <name>ДоменноеИмяСервера</name>
@@ -653,7 +661,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="bbbfb817-8db3-4415-86c3-af028276d6e9">
       <name>НомерТелефона</name>
@@ -674,7 +681,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6a91112c-f6cc-47a0-9d26-a36c7702af7d">
       <name>НомерТелефонаБезКодов</name>
@@ -695,7 +701,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="40a59681-f31d-4fb9-9301-67c1430590e0">
       <name>ВидДляСписка</name>
@@ -713,7 +718,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ae3358ad-ea3a-4b73-a305-02a152863978">
       <name>Значение</name>
@@ -732,7 +736,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
   <forms uuid="cb92dc2e-6053-4233-a408-4464514b1257">

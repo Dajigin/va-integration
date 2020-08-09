@@ -376,6 +376,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="d4eb3e9a-feb5-42d9-841b-ff20288228b6">
+    <name>ДатаПоследнегоИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего использования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="49d713b8-6a61-4bd1-9650-0de1869967d2">
     <name>УчетнаяЗаписьЭлектроннойПочты</name>
     <synonym>
@@ -422,10 +440,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <commands uuid="3d1bae2a-4dfd-48e5-bfe9-b7e30c8475f6">
-    <name>Настройки</name>
+    <name>ДополнительныеНастройки</name>
     <synonym>
       <key>ru</key>
-      <value>Настройки</value>
+      <value>Дополнительные настройки</value>
     </synonym>
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType>

@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Настройки учетной записи</value>
+    <value>Дополнительные настройки</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>СтраницыФормы</name>
@@ -68,7 +68,7 @@
             <choiceList>
               <presentation>
                 <key>ru</key>
-                <value>Получать, сохранять и отправлять письма с этой учетной записи во встроенном почтовом клиенте</value>
+                <value>Получать, сохранять и отправлять письма с этой учетной записи</value>
               </presentation>
               <value xsi:type="core:NumberValue">
                 <value>1</value>
@@ -92,11 +92,8 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Использование для встроенного почтового клиента:</value>
+          <value>Во встроенном почтовом клиенте:</value>
         </title>
-        <titleFont xsi:type="core:FontRef">
-          <font>0</font>
-        </titleFont>
         <height>5</height>
         <extendedTooltip>
           <name>ВидУчетнойЗаписиExtendedTooltip</name>
@@ -121,7 +118,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -205,7 +202,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -432,7 +429,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -443,7 +440,7 @@
           <id>62</id>
           <title>
             <key>ru</key>
-            <value>Помещать письма в папку письма основания</value>
+            <value>Помещать письма в папку письма-основания</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -456,16 +453,20 @@
             </paths>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
             <name>ПомещатьПисьмоВПапкуПисьмаОснованияExtendedTooltip</name>
             <id>96</id>
+            <title>
+              <key>ru</key>
+              <value>Для таких писем правила обработки электронной почты не применяются.</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -487,52 +488,6 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-        </items>
-        <items xsi:type="form:Decoration">
-          <name>ПодписьПомещатьПисьмоВПапкуПисьмаОснования</name>
-          <id>64</id>
-          <title>
-            <key>ru</key>
-            <value>Для таких писем правила обработки электронной почты не применяются.</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ПодписьПомещатьПисьмоВПапкуПисьмаОснованияExtendedTooltip</name>
-            <id>97</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ПодписьПомещатьПисьмоВПапкуПисьмаОснованияКонтекстноеМеню</name>
-            <id>65</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>Label</type>
-          <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -566,7 +521,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -596,7 +551,7 @@
             <id>126</id>
             <title>
               <key>ru</key>
-              <value>Признак &quot;рассмотрено&quot; всегда соответствует состоянию прочтения письма на почтовом сервере. Изменение признака &quot;рассмотрено&quot; в данном почтовом клиенте не приводит к изменению признака прочтения на сервере.</value>
+              <value>Признак &quot;Рассмотрено&quot; всегда соответствует состоянию прочтения письма на почтовом сервере. Изменение признака &quot;рассмотрено&quot; в данном почтовом клиенте не приводит к изменению признака прочтения на сервере.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -659,8 +614,7 @@
             <id>131</id>
             <title>
               <key>ru</key>
-              <value>Все письма загружаются не рассмотренными. Признак &quot;рассмотрено&quot; не синхронизируется с признаком прочтения письма на почтовом сервере.
-
+              <value>Все письма загружаются не рассмотренными. Признак &quot;Рассмотрено&quot; не синхронизируется с признаком прочтения письма на почтовом сервере.
 </value>
             </title>
             <visible>true</visible>
@@ -713,9 +667,6 @@
           <key>ru</key>
           <value>Где идет обработка писем?</value>
         </title>
-        <titleFont xsi:type="core:FontRef">
-          <font>0</font>
-        </titleFont>
         <height>6</height>
         <extendedTooltip>
           <name>ГруппаГдеИдетОбработкаПисемРасширеннаяПодсказка</name>
@@ -740,7 +691,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -787,7 +738,7 @@
             <id>1</id>
             <title>
               <key>ru</key>
-              <value>Включать подпись для новых писем</value>
+              <value>Включать подпись для новых писем:</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -853,6 +804,7 @@
                 <segments>Запись.ФорматПодписиДляНовыхСообщений</segments>
               </paths>
             </dataPath>
+            <titleLocation>None</titleLocation>
             <handlers>
               <event>OnChange</event>
               <name>ФорматПодписиДляНовыхСообщенийПриИзменении</name>
@@ -924,11 +876,11 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>Vertical</group>
+            <group>HorizontalIfPossible</group>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1164,7 +1116,7 @@
           </extendedTooltip>
           <type>Pages</type>
           <extInfo xsi:type="form:PagesGroupExtInfo">
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1197,7 +1149,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1244,7 +1196,7 @@
             <id>20</id>
             <title>
               <key>ru</key>
-              <value>Включать подпись при ответе или пересылке</value>
+              <value>Включать подпись при ответе или пересылке:</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1310,6 +1262,7 @@
                 <segments>Запись.ФорматПодписиПриОтветеПересылке</segments>
               </paths>
             </dataPath>
+            <titleLocation>None</titleLocation>
             <handlers>
               <event>OnChange</event>
               <name>ФорматПодписиПриОтветеПересылкеПриИзменении</name>
@@ -1381,11 +1334,11 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>Vertical</group>
+            <group>HorizontalIfPossible</group>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1621,7 +1574,7 @@
           </extendedTooltip>
           <type>Pages</type>
           <extInfo xsi:type="form:PagesGroupExtInfo">
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1655,7 +1608,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1715,7 +1668,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

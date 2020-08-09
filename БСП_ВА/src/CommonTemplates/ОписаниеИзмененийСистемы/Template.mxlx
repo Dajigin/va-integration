@@ -35,7 +35,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новое в версии 3.1.1</v8:content>
+							<v8:content>Новое в версии 3.1.2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -67,16 +67,21 @@
 	<rowsItem>
 		<index>2</index>
 		<row>
-			<formatIndex>7</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>8</f>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Базовая функциональность</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>8</f>
 				</c>
 			</c>
 		</row>
@@ -84,7 +89,7 @@
 	<rowsItem>
 		<index>3</index>
 		<row>
-			<formatIndex>7</formatIndex>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -93,7 +98,7 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>8</f>
 				</c>
 			</c>
 		</row>
@@ -108,37 +113,20 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дополнительные инструкции по переходу с предыдущих версий библиотеки, а также сведения о том, как задействовать новые возможности библиотеки, см. в сопроводительном документе UpdateSSL.htm, который входит в комплект поставки.</v8:content>
+							<v8:content>•	Для удобства управления большим количеством расширений конфигурации в форме Расширения (раздел Администрирование – Печатные формы, отчеты и обработки - Расширения) можно обновлять, а также выгружать в папку сразу несколько выбранных расширений за одно действие.</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>8</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>5</index>
-		<row>
-			<formatIndex>5</formatIndex>
-			<c>
-				<i>1</i>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>13</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>6</index>
 		<row>
 			<c>
 				<i>1</i>
@@ -147,14 +135,31 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Документация по внедрению и фрагменты пользовательской документации см. на 1С:ИТС:</v8:content>
+							<v8:content>•	Для упрощения анализа ошибок в журнале регистрации информация о блокировке запуска регламентных заданий записывается с уровнем критичности Предупреждение вместо Ошибка (раздел Администрирование – Обслуживание – Журнал регистрации).</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
 				</c>
 			</c>
 		</row>
@@ -165,7 +170,1419 @@
 			<c>
 				<i>1</i>
 				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Варианты отчетов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>12</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	При сохранении нового варианта отчета можно указать конкретного пользователя, список пользователей или группы пользователей, для которых он предназначен: например, сохранить вариант отчета по продажам только для менеджеров Иванова и Сидорова, либо для всего отдела продаж.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Ранее предоставлялась возможность сохранять варианты отчетов сразу для всех пользователей, которые имеют права доступа на отчет. В некоторых случаях это могло быть избыточным.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Теперь автор может управлять тем, чтобы его вариант отчета появлялся в панелях отчетов только у тех пользователей, кому он действительно необходим (например, по должностным обязанностям) и при этом не «замусоривать» панели отчетов остальных пользователей, которые также имеют права доступа на отчет. Однако при необходимости они смогут разместить вариант отчета в своих панелях отчетов самостоятельно, воспользовавшись режимом настройки (кнопка Настроить в панели отчета).</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Автор варианта отчета также может пересмотреть список пользователей в любой другой момент времени, перезаписав варианта отчета, либо открыв его карточку из списка Отчеты.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Если в программе включены внешние пользователи и группы пользователей (раздел Администрирование – Настройки пользователей и прав), то автор варианта отчета также может указать группы внешних пользователей, для которых он предназначен.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
 					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	В тех случаях, когда действительно необходимо сохранить вариант отчета сразу для всех пользователей, которые имеют права доступа на отчет, следует указать предопределенную группу Все пользователи (Все внешние пользователи).</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	С помощью команды Поделиться настройками в меню Еще – Прочее можно поделиться настройками варианта отчета с коллегами, работающими в программе. Также можно обмениваться вариантами и настройками отчетов между однотипными программами (информационные базы с одинаковыми отчетами). См. в форме отчета меню Еще – Варианты отчета – Обновить из файла и Сохранить в файл.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Если включены обсуждения (раздел Администрирование – Интернет-поддержка и сервисы – Обсуждения), то при предоставлении доступа к варианту отчета или передаче настроек отчета адрес получает мгновенные уведомления.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактная информация</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Если для адресов и телефонов не требуется ввод по полям, например при вводе иностранных адресов, то в настройках вида контактной информации (Администрирование – Общие настройки – Виды контактной информации) у свойства Редактировать предусмотрен вариант В поле ввода позволяющие отключить ввод в диалоге.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контроль ведения учета</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	При каждом запуске программа сообщает о выявленных проблемах ведения учета с помощью всплывающего уведомления (примечание для разработчиков: в том случае, если в конфигурации отсутствует подсистема Текущие дела).</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	В панели Текущие дела на начальной странице, а также в отчете Контроль ведения учета теперь выводится персонализированный список проблем. В подсчет количества и список не включаются документы (справочники и другие объекты программы), за которые явно назначен ответственным другой пользователь.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	В отчете Контроль ведения учета предусмотрены быстрые отборы по периоду, проверкам и ответственному. Улучшено сообщение о наличии проблем ведения учета в карточке проблемного документа (объекта): выводится дата и время последней проверки. Если в документе выявлена только одна проблема, то сразу выводится ее описание. После записи документа оперативно выполняется перепроверка для подтверждения устранения проблемы.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>12</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Для повышения удобства в списках и карточке объекта картинка индикатора проблем теперь соответствует самой критичной из найденных проблем.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Для администраторов: информация о критичных проблемах записывается в журнал регистрации со статусом Ошибка.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление версии ИБ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Для повышения удобства обновления больших информационных баз приоритет выполнения дополнительных процедур обработки данных сохраняется и применяется при переходе на следующие версии программы.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	По умолчанию установлен приоритет обработки данных, а изменить это значение можно в разделе Администрирование – Обслуживание, группа Обновление программы.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Для пакетного запуска сеанса для обновления на новую версию программы с приоритетом обработки данных можно использовать параметр запуска /C ФорсироватьОтложенноеОбновление.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	При работе через Интернет для уменьшения времени недоступности сервиса после обновления на новую версию приложения, вход любого пользователя форсирует завершение обновления приложения (области данных).</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подключаемые команды</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Некоторые редко используемые команды в формах, такие как просмотр отчета Движения документа, теперь отображаются только в меню Еще.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Работа с файлами</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Улучшено хранение файлов в томах на диске для более точной настройки правил резервного копирования. Файлы в томах размещаются в подкаталогах с именами справочников (документов и т.д.), к которым присоединены. При этом если тома уже были настроены, то размещение файлов остается прежним, а включить размещение файлов в подкаталогах дополнительно потребуется в разделе Администрирование – Настройка работы с файлами.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Теперь можно раздельно хранить наиболее важные файлы в информационной базе, а менее важные – в томах на диске. Настроить расширения файлов, которые должны храниться в информационной базе, а также установить ограничение на их максимальный размер можно в разделе Администрирование – Настройка работы с файлами.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Для переноса файлов в том хранения большего размера или для создания тома хранения архивных файлов предусмотрена команда Перенос файлов (раздел Администрирование – Настройка работы с файлами).Для редких случаев, когда необходимо отказаться от хранения файлов в томах на диске, с помощью этой же команды можно перенести файлы из томов на диске в информационную базу. </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	При переносе файлов можно указать дополнительные условия, например, чтобы перенести только часть файлов из тома хранения в архив, или перенести из информационной базы в тома только файлы большого объема.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Для повышения безопасности и организации хранения файлов при работе приложения в Интернете (технология 1cFresh http://v8.1c.ru/fresh/whatis.htm)  возможно настроить раздельное хранение файлов каждого абонента (области данных) в подкаталогах. Для этого в полном пути тома необходимо указать %z (раздел Администрирование – Настройка работы с файлами – Тома хранения файлов). Например, \\server\files\user%z.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Если в программу ошибочно был присоединен файл, содержащий конфиденциальные данные, его можно самостоятельно удалить без возможности восстановления (в списке или карточке файла см. меню Еще – Удалить).</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойства</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>52</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Упрощена настройка дополнительных реквизитов и сведений в разделе Администрирование – Обслуживание. Удалены избыточные опции:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>53</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Реквизиты и сведения с общим списком значений - добавление реквизитов данного типа теперь доступно всегда;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>54</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Общие реквизиты и сведения – все реквизиты теперь считаются общими, и работа с ними в программе ведется единообразно.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>55</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	В списке дополнительных реквизитов (Администрирование – Общие настройки, ссылка Дополнительные реквизиты) теперь можно установить флаг Показать неиспользуемые реквизиты, посмотреть список реквизитов и сведений, которые больше не используются в программе и принять решении об их удалении или использовании.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>56</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>57</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Управление доступом</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>59</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	Повышено удобство настройки прав доступа для подразделений, складов и других иерархических справочников. При настройке разрешенных значений в группах доступа (раздел Администрирование – Настройки пользователей и прав – Группы доступа) можно указать признак Включая нижестоящие (с иерархией) вместо подбора всех подчиненных элементов справочника. Данная возможность недоступна в случае когда уже предусмотрен выбор группы значений, например, групп доступа партнеров.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>60</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>61</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шаблоны сообщений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>62</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>63</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	При подготовке нового письма по предмету (заказу покупателя и т. п.) без использования шаблона можно приложить к письму печатные формы этого предмета.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>64</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>65</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Электронная подпись</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>66</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>67</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>•	В настройках электронной подписи и шифрования (раздел Администрирование – Общие настройки – Электронная подпись и шифрование) существенно упрощена отправка заявления на выпуск нового квалифицированного сертификата электронной подписи:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>68</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Заявление формируется и отправляется в одном окне;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>69</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Если требуется получить новый сертификат взамен сертификата с истекающим сроком действия, сформировать новое заявление можно путем копирования информации из сертификата, полученного ранее;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>70</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>o	Часто возникающие вопросы о назначении электронной подписи, цене сертификата и др. размещены на странице портала ИТС 1С:Подпись https://portal.1c.ru/applications/31</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>71</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>72</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>17</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>73</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные инструкции по переходу с предыдущих версий библиотеки, а также сведения о том, как задействовать новые возможности библиотеки, см. в сопроводительном документе UpdateSSL.htm, который входит в комплект поставки.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>74</index>
+		<row>
+			<formatIndex>5</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>75</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документация по внедрению и фрагменты пользовательской документации см. на 1С:ИТС:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>76</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -176,25 +1593,25 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>19</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>8</index>
+		<index>77</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>15</f>
+					<f>22</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
+		<index>78</index>
 		<row>
 			<formatIndex>3</formatIndex>
 			<c>
@@ -212,7 +1629,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>79</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -224,9 +1641,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>80</index>
 		<row>
-			<formatIndex>16</formatIndex>
+			<formatIndex>23</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -242,7 +1659,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>81</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -254,13 +1671,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
+		<index>82</index>
 		<row>
-			<formatIndex>17</formatIndex>
+			<formatIndex>24</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>18</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -272,7 +1689,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>83</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -284,12 +1701,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
+		<index>84</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>19</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -301,7 +1718,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>85</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -313,12 +1730,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>86</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>15</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -330,7 +1747,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>18</index>
+		<index>87</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -342,7 +1759,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>19</index>
+		<index>88</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -354,7 +1771,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>20</index>
+		<index>89</index>
 		<row>
 			<formatIndex>3</formatIndex>
 			<c>
@@ -372,7 +1789,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>21</index>
+		<index>90</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -384,9 +1801,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>22</index>
+		<index>91</index>
 		<row>
-			<formatIndex>16</formatIndex>
+			<formatIndex>23</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -402,7 +1819,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>23</index>
+		<index>92</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -414,13 +1831,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>24</index>
+		<index>93</index>
 		<row>
-			<formatIndex>17</formatIndex>
+			<formatIndex>24</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>18</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -432,7 +1849,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>25</index>
+		<index>94</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -444,12 +1861,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>26</index>
+		<index>95</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>15</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -461,7 +1878,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>27</index>
+		<index>96</index>
 		<row>
 			<formatIndex>5</formatIndex>
 			<c>
@@ -473,12 +1890,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>28</index>
+		<index>97</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>15</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -490,9 +1907,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>29</index>
+		<index>98</index>
 		<row>
-			<formatIndex>20</formatIndex>
+			<formatIndex>26</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -502,31 +1919,31 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>30</index>
-		<indexTo>50</indexTo>
+		<index>99</index>
+		<indexTo>119</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>12</defaultFormatIndex>
-	<height>140</height>
+	<defaultFormatIndex>19</defaultFormatIndex>
+	<height>209</height>
 	<vgLevels>1</vgLevels>
-	<vgRows>140</vgRows>
+	<vgRows>209</vgRows>
 	<vg>
 		<b>2</b>
-		<e>7</e>
+		<e>76</e>
 	</vg>
 	<vg>
-		<b>21</b>
-		<e>28</e>
+		<b>90</b>
+		<e>97</e>
 	</vg>
 	<namedItem xsi:type="NamedItemCells">
 		<name>_ДемоПримерГиперссылки</name>
 		<area>
 			<type>Rectangle</type>
-			<beginRow>15</beginRow>
-			<endRow>15</endRow>
+			<beginRow>84</beginRow>
+			<endRow>84</endRow>
 			<beginColumn>1</beginColumn>
 			<endColumn>1</endColumn>
 		</area>
@@ -535,8 +1952,8 @@
 		<name>Версия1_0_0_0</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>21</beginRow>
-			<endRow>28</endRow>
+			<beginRow>90</beginRow>
+			<endRow>97</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -545,18 +1962,18 @@
 		<name>Версия1_0_0_5</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>10</beginRow>
-			<endRow>18</endRow>
+			<beginRow>79</beginRow>
+			<endRow>87</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Версия3_1_2_157</name>
+		<name>Версия3_1_3_229</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>1</beginRow>
-			<endRow>7</endRow>
+			<endRow>76</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -565,8 +1982,8 @@
 		<name>Отступ</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>29</beginRow>
-			<endRow>29</endRow>
+			<beginRow>98</beginRow>
+			<endRow>98</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -575,8 +1992,8 @@
 		<name>Шапка1_0_0_0</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>20</beginRow>
-			<endRow>20</endRow>
+			<beginRow>89</beginRow>
+			<endRow>89</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -585,14 +2002,14 @@
 		<name>Шапка1_0_0_5</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>9</beginRow>
-			<endRow>9</endRow>
+			<beginRow>78</beginRow>
+			<endRow>78</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка3_1_2_157</name>
+		<name>Шапка3_1_3_229</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>0</beginRow>
@@ -603,11 +2020,12 @@
 	</namedItem>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font ref="style:TextFont" faceName="Arial" bold="false" italic="false" underline="true" strikeout="false" kind="StyleItem"/>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>8</width>
@@ -638,26 +2056,64 @@
 		<hyperLink>false</hyperLink>
 	</format>
 	<format>
+		<font>2</font>
+		<height>0</height>
+		<width>432</width>
+		<backColor>#C0C0C0</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<hyperLink>false</hyperLink>
+	</format>
+	<format>
+		<height>33</height>
+		<width>72</width>
+	</format>
+	<format>
 		<height>33</height>
 	</format>
 	<format>
-		<font>2</font>
+		<font>3</font>
 		<height>27</height>
 		<width>72</width>
 		<textPlacement>Wrap</textPlacement>
 		<indent>0</indent>
 	</format>
 	<format>
-		<height>33</height>
+		<font>4</font>
+		<height>27</height>
 		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<indent>0</indent>
 	</format>
 	<format>
-		<font>2</font>
+		<font>4</font>
 		<height>27</height>
 		<width>72</width>
 		<textPlacement>Wrap</textPlacement>
 		<hyperLink>false</hyperLink>
 		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<height>27</height>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<indent>2</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<height>27</height>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<hyperLink>false</hyperLink>
+		<indent>2</indent>
+	</format>
+	<format>
+		<font>4</font>
+	</format>
+	<format>
+		<font>4</font>
+		<height>33</height>
+		<width>72</width>
 	</format>
 	<format>
 		<font>3</font>
@@ -668,6 +2124,14 @@
 		<indent>0</indent>
 	</format>
 	<format>
+		<font>5</font>
+		<height>27</height>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<hyperLink>false</hyperLink>
+		<indent>0</indent>
+	</format>
+	<format>
 		<width>72</width>
 	</format>
 	<format>
@@ -675,7 +2139,7 @@
 		<width>72</width>
 	</format>
 	<format>
-		<font>4</font>
+		<font>6</font>
 		<height>27</height>
 		<width>72</width>
 		<textColor>style:FieldSelectionBackColor</textColor>
@@ -689,22 +2153,14 @@
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
-		<font>5</font>
-	</format>
-	<format>
-		<font>5</font>
-		<height>60</height>
-	</format>
-	<format>
-		<font>6</font>
-		<height>0</height>
-		<width>432</width>
-		<backColor>#C0C0C0</backColor>
-		<textPlacement>Wrap</textPlacement>
-		<hyperLink>false</hyperLink>
+		<font>7</font>
 	</format>
 	<format>
 		<font>7</font>
+		<height>60</height>
+	</format>
+	<format>
+		<font>8</font>
 		<height>27</height>
 		<width>72</width>
 		<textColor>style:FieldSelectionBackColor</textColor>

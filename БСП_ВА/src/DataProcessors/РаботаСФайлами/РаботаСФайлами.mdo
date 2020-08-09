@@ -199,21 +199,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="cf896f41-7cea-4083-a9f8-96ad881ce641">
-    <name>ФайлыВОсновномРабочемКаталоге</name>
-    <synonym>
-      <key>ru</key>
-      <value>Файлы в основном рабочем каталоге</value>
-    </synonym>
-    <includeHelpInContents>true</includeHelpInContents>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="1d852dc0-90c9-4568-84f9-b1d822573b6b">
     <name>ФормаВыбораРежимаОткрытия</name>
     <synonym>

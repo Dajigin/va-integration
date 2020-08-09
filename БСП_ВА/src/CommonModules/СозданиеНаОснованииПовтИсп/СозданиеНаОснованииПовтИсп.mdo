@@ -5,10 +5,6 @@
     <key>ru</key>
     <value>Создание на основании повт исп</value>
   </synonym>
-  <synonym>
-    <key>en</key>
-    <value>Creation on basis</value>
-  </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

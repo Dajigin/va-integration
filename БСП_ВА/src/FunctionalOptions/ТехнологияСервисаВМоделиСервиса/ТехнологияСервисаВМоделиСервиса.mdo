@@ -8,7 +8,6 @@
   <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>CommonCommand.ВыгрузитьДанныеВЛокальнуюВерсию</content>
-  <content>InformationRegister.НеразделенныеПользователи</content>
   <content>Constant.ВнешнийАдресУправляющегоПриложения</content>
   <content>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>
   <content>InformationRegister.РазрешенияНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>

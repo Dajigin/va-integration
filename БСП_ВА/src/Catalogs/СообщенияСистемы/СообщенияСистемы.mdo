@@ -125,8 +125,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.СообщенияСистемы.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.СообщенияСистемы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="3c09f0cd-fbec-46ae-95b0-a00cc53c07ef">
     <name>ТелоСообщения</name>
     <synonym>
@@ -265,22 +263,4 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="13859664-8307-40e8-855b-557b9cf2f1ec">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="e4397fba-507f-497c-9414-7d08ccd4d799">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Catalog>

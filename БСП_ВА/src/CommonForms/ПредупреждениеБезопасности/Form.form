@@ -106,7 +106,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -180,10 +180,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель 1</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель1РасширеннаяПодсказка</name>
           <id>48</id>
@@ -284,7 +280,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -327,10 +323,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель 2</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель2РасширеннаяПодсказка</name>
           <id>59</id>
@@ -429,8 +421,10 @@
         </contextMenu>
         <formatted>true</formatted>
         <type>Label</type>
+        <maxWidth>60</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -503,10 +497,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель 3</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель3РасширеннаяПодсказка</name>
           <id>79</id>
@@ -606,7 +596,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -679,10 +669,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель 4</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель4РасширеннаяПодсказка</name>
           <id>35</id>
@@ -782,7 +768,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -855,10 +841,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель4</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель8РасширеннаяПодсказка</name>
           <id>161</id>
@@ -961,7 +943,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -1034,10 +1016,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель 5</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель5РасширеннаяПодсказка</name>
           <id>119</id>
@@ -1136,7 +1114,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -1209,10 +1187,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель5</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель6РасширеннаяПодсказка</name>
           <id>132</id>
@@ -1354,7 +1328,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -1427,10 +1401,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель5</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель7РасширеннаяПодсказка</name>
           <id>148</id>
@@ -1530,7 +1500,7 @@
         <formatted>true</formatted>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -1603,10 +1573,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель4</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель9РасширеннаяПодсказка</name>
           <id>174</id>
@@ -1666,31 +1632,30 @@
         <title>
           <key>ru</key>
           <value>Удаление расширения необратимо.
-
-Чтобы установить расширение повторно после удаления, проверьте что
-имеется файл с этим расширением или его можно скачать из Интернет.</value>
+Будут потеряны сделанные настройки (например, варианты отчетов).</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <toolTip>
-          <key>ru</key>
-          <value>Чтобы сохранить расширение в файл выберите команду
-&quot;Сохранить как ...&quot; в контекстном меню.</value>
-        </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
           <name>ПредупреждениеПередУдалениемРасширенияБезДанныхРасширеннаяПодсказка</name>
           <id>215</id>
+          <title>
+            <key>ru</key>
+            <value>Если требуется...
+• обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b>Обновить&lt;/>;
+• временно отключить расширение, следует снять флажок &lt;b>Подключать расширение при входе&lt;/>.</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <formatted>true</formatted>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -1711,6 +1676,136 @@
         <horizontalStretch>false</horizontalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОтступРасширенияБезДанных</name>
+        <id>243</id>
+        <items xsi:type="form:Decoration">
+          <name>ПредупреждениеПередУдалениемРасширенияБезДанныхРезервноеКопирование</name>
+          <id>234</id>
+          <title>
+            <key>ru</key>
+            <value>Перед удалением расширения рекомендуется 
+выполнить резервное копирование информационной базы.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПредупреждениеПередУдалениемРасширенияБезДанныхРезервноеКопированиеРасширеннаяПодсказка</name>
+            <id>236</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПредупреждениеПередУдалениемРасширенияБезДанныхРезервноеКопированиеКонтекстноеМеню</name>
+            <id>235</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <handlers>
+              <event>URLProcessing</event>
+              <name>ПредупреждениеПередУдалениемРасширенияРезервноеКопированиеОбработкаНавигационнойСсылки</name>
+            </handlers>
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ГруппаОтступРасширенияБезДанныхРасширеннаяПодсказка</name>
+          <id>244</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <representation>NormalSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>ПредупреждениеПередУдалениемРасширенияБезДанныхТекстУдалить</name>
+        <id>240</id>
+        <title>
+          <key>ru</key>
+          <value>&lt;&lt;Удалить выделенные расширения?>>
+&lt;&lt;Удалить расширение?>></value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПредупреждениеПередУдалениемРасширенияБезДанныхТекстУдалитьРасширеннаяПодсказка</name>
+          <id>242</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПредупреждениеПередУдалениемРасширенияБезДанныхТекстУдалитьКонтекстноеМеню</name>
+          <id>241</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <verticalStretch>true</verticalStretch>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+          <verticalAlign>Top</verticalAlign>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1785,10 +1880,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель4</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель12РасширеннаяПодсказка</name>
           <id>223</id>
@@ -1847,30 +1938,32 @@
         <id>228</id>
         <title>
           <key>ru</key>
-          <value>Удаляемое расширение хранит данные в информационной базе,
-которые будут безвозвратно потеряны.</value>
+          <value>Удаляемое расширение хранит данные в информационной базе, которые будут безвозвратно потеряны.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <toolTip>
-          <key>ru</key>
-          <value>Ознакомьтесь с документацией по расширению, 
-которую можно получить от поставщика расширения.</value>
-        </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
           <name>ПредупреждениеПередУдалениемРасширенияРасширеннаяПодсказка</name>
           <id>230</id>
+          <title>
+            <key>ru</key>
+            <value>Ознакомьтесь с документацией по расширению, которую можно получить от поставщика расширения.
+Если требуется...
+• обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b>Обновить&lt;/>;
+• временно отключить расширение, следует снять флажок &lt;b>Подключать расширение при входе&lt;/>.</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <formatted>true</formatted>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <maxWidth>64</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -1893,22 +1986,66 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </items>
-      <items xsi:type="form:Decoration">
-        <name>ПредупреждениеПередУдалениемРасширенияРезервноеКопирование</name>
-        <id>205</id>
-        <title>
-          <key>ru</key>
-          <value>Перед удалением расширения рекомендуется 
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОтступРасширениеСДанными</name>
+        <id>245</id>
+        <items xsi:type="form:Decoration">
+          <name>ПредупреждениеПередУдалениемРасширенияСДаннымиРезервноеКопирование</name>
+          <id>205</id>
+          <title>
+            <key>ru</key>
+            <value>Перед удалением расширения рекомендуется 
 выполнить резервное копирование информационной базы.</value>
-        </title>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПредупреждениеПередУдалениемРасширенияСДаннымиРезервноеКопированиеРасширеннаяПодсказка</name>
+            <id>207</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПредупреждениеПередУдалениемРасширенияСДаннымиРезервноеКопированиеКонтекстноеМеню</name>
+            <id>206</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <handlers>
+              <event>URLProcessing</event>
+              <name>ПредупреждениеПередУдалениемРасширенияРезервноеКопированиеОбработкаНавигационнойСсылки</name>
+            </handlers>
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПредупреждениеПередУдалениемРасширенияРезервноеКопированиеРасширеннаяПодсказка</name>
-          <id>207</id>
+          <name>ГруппаОтступРасширениеСДаннымиРасширеннаяПодсказка</name>
+          <id>246</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1921,29 +2058,18 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>ПредупреждениеПередУдалениемРасширенияРезервноеКопированиеКонтекстноеМеню</name>
-          <id>206</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <handlers>
-            <event>URLProcessing</event>
-            <name>ПредупреждениеПередУдалениемРасширенияРезервноеКопированиеОбработкаНавигационнойСсылки</name>
-          </handlers>
-          <horizontalAlign>Left</horizontalAlign>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <representation>NormalSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Decoration">
-        <name>ПредупреждениеПередУдалениемРасширенияТекстУдалить</name>
+        <name>ПредупреждениеПередУдалениемРасширенияСДаннымиТекстУдалить</name>
         <id>208</id>
         <title>
           <key>ru</key>
@@ -1956,7 +2082,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПредупреждениеПередУдалениемРасширенияТекстУдалитьРасширеннаяПодсказка</name>
+          <name>ПредупреждениеПередУдалениемРасширенияСДаннымиТекстУдалитьРасширеннаяПодсказка</name>
           <id>210</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1971,7 +2097,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПредупреждениеПередУдалениемРасширенияТекстУдалитьКонтекстноеМеню</name>
+          <name>ПредупреждениеПередУдалениемРасширенияСДаннымиТекстУдалитьКонтекстноеМеню</name>
           <id>209</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1984,8 +2110,10 @@
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <verticalStretch>true</verticalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
+          <verticalAlign>Top</verticalAlign>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2060,10 +2188,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель4</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель10РасширеннаяПодсказка</name>
           <id>187</id>
@@ -2122,31 +2246,29 @@
         <id>194</id>
         <title>
           <key>ru</key>
-          <value>Отключаемое расширение хранит данные в информационной базе,
-которые станут недоступными, кроме того некоторые данные
-самой программы могут стать недоступными для изменения.</value>
+          <value>Отключаемое расширение хранит данные в информационной базе, которые станут недоступными. 
+Кроме того некоторые данные самой программы могут также стать недоступными для изменения.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <toolTip>
-          <key>ru</key>
-          <value>Ознакомьтесь с документацией по расширению,
-которую можно получить от поставщика расширения.</value>
-        </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
           <name>ПредупреждениеПередОтключениемРасширенияРасширеннаяПодсказка</name>
           <id>196</id>
+          <title>
+            <key>ru</key>
+            <value>Ознакомьтесь с документацией по расширению, которую можно получить от поставщика расширения.</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <maxWidth>60</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -2163,27 +2285,70 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
+        <maxWidth>60</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </items>
-      <items xsi:type="form:Decoration">
-        <name>ПредупреждениеПередОтключениемРасширенияТекстОтключить</name>
-        <id>231</id>
-        <title>
-          <key>ru</key>
-          <value>Отключить расширение?</value>
-        </title>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОтступПередОтключениемРасширенияСДанными</name>
+        <id>247</id>
+        <items xsi:type="form:Decoration">
+          <name>ПредупреждениеПередОтключениемРасширенияТекстОтключить</name>
+          <id>231</id>
+          <title>
+            <key>ru</key>
+            <value>Отключить расширение?</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПредупреждениеПередОтключениемРасширенияТекстОтключитьРасширеннаяПодсказка</name>
+            <id>233</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПредупреждениеПередОтключениемРасширенияТекстОтключитьКонтекстноеМеню</name>
+            <id>232</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <verticalStretch>true</verticalStretch>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+            <verticalAlign>Top</verticalAlign>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <shortcut>F7</shortcut>
         <extendedTooltip>
-          <name>ПредупреждениеПередОтключениемРасширенияТекстОтключитьРасширеннаяПодсказка</name>
-          <id>233</id>
+          <name>ГруппаОтступПередОтключениемРасширенияСДаннымиРасширеннаяПодсказка</name>
+          <id>248</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2196,21 +2361,14 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>ПредупреждениеПередОтключениемРасширенияТекстОтключитьКонтекстноеМеню</name>
-          <id>232</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>Label</type>
-        <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <representation>NormalSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2285,10 +2443,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Командная панель4</value>
-        </title>
         <extendedTooltip>
           <name>КоманднаяПанель11РасширеннаяПодсказка</name>
           <id>200</id>
@@ -2344,10 +2498,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Страницы</value>
-    </title>
     <extendedTooltip>
       <name>СтраницыРасширеннаяПодсказка</name>
       <id>16</id>
@@ -2365,7 +2515,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
@@ -2383,6 +2533,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <autoFillCheck>true</autoFillCheck>

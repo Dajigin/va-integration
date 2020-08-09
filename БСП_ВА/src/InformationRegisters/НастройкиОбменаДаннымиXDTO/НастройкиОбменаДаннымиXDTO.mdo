@@ -97,6 +97,26 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="f98a7b6d-f364-4b84-9aeb-8dd822ef582f">
+    <name>РасширениеФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение формата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
   <attributes uuid="44526cb1-561d-4b87-a628-d79cc64ccdec">
     <name>ИмяПланаОбменаКорреспондента</name>
     <synonym>

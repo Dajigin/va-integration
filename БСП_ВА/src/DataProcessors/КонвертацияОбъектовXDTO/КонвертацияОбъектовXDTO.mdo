@@ -268,4 +268,16 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="436a9c94-55f6-4463-becd-573189753ee7">
+    <name>ЗагрузкаДанныхВыполняетсяЧерезВнешнееСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных выполняется через внешнее соединение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
 </mdclass:DataProcessor>

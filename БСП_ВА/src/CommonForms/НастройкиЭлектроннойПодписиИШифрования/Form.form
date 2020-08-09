@@ -216,7 +216,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -253,7 +253,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -385,7 +385,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:Button">
-          <name>Скопировать</name>
+          <name>ПеревыпуститьСертификат</name>
           <id>353</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -393,7 +393,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СкопироватьРасширеннаяПодсказка</name>
+            <name>ПеревыпуститьСертификатРасширеннаяПодсказка</name>
             <id>354</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -407,8 +407,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.Скопировать</commandName>
-          <representation>Auto</representation>
+          <commandName>Form.Command.ПеревыпуститьСертификат</commandName>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
@@ -1075,6 +1074,53 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаПрограммы</name>
       <id>103</id>
+      <items xsi:type="form:Decoration">
+        <name>НадписьНастройкаВЦентральномУзле</name>
+        <id>355</id>
+        <title>
+          <key>ru</key>
+          <value>Настройка программ электронной подписи и шифрования выполнена в главном узле</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НадписьНастройкаВЦентральномУзлеРасширеннаяПодсказка</name>
+          <id>357</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>НадписьНастройкаВЦентральномУзлеКонтекстноеМеню</name>
+          <id>356</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+          <backColor xsi:type="core:ColorRef">
+            <color>Style.ToolTipBackColor</color>
+          </backColor>
+        </extInfo>
+      </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаВебКлиентРасширениеНеУстановлено</name>
         <id>171</id>
@@ -1185,7 +1231,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1276,11 +1322,11 @@
           </extendedTooltip>
           <commandName>Form.Command.ПрограммыУстановитьПометкуУдаления</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ПрограммыОбновить</name>
@@ -1509,6 +1555,64 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
+            <items xsi:type="form:FormField">
+              <name>ПрограммыПодробнее</name>
+              <id>358</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>Программы.Подробнее</segments>
+                </paths>
+              </dataPath>
+              <extendedTooltip>
+                <name>ПрограммыПодробнееРасширеннаяПодсказка</name>
+                <id>360</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ПрограммыПодробнееКонтекстноеМеню</name>
+                <id>359</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <readOnly>true</readOnly>
+              <editMode>EnterOnInput</editMode>
+              <cellHyperlink>true</cellHyperlink>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <width>10</width>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <horizontalStretch>false</horizontalStretch>
+                <wrap>true</wrap>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </textColor>
+              </extInfo>
+            </items>
             <autoCommandBar>
               <name>ПрограммыКоманднаяПанель</name>
               <id>205</id>
@@ -1519,6 +1623,10 @@
               </userVisible>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
+            <handlers>
+              <event>Selection</event>
+              <name>ПрограммыВыбор</name>
+            </handlers>
             <handlers>
               <event>BeforeAddRow</event>
               <name>ПрограммыПередНачаломДобавления</name>
@@ -1972,11 +2080,16 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <handlers>
+                  <event>ChoiceProcessing</event>
+                  <name>ПрограммыLinuxПутьКПрограммеОбработкаВыбора</name>
+                </handlers>
                 <height>1</height>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <multiLine>true</multiLine>
                 <extendedEdit>true</extendedEdit>
+                <dropListButton>true</dropListButton>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -2016,7 +2129,7 @@
                 <segments>Items.Программы.CurrentData.Наименование</segments>
               </titleDataPath>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2197,7 +2310,7 @@
         </extendedTooltip>
         <type>Pages</type>
         <extInfo xsi:type="form:PagesGroupExtInfo">
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2362,7 +2475,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Decoration">
@@ -2751,7 +2864,7 @@
         <name>СтраницыПриСменеСтраницы</name>
       </handlers>
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Top</commandBarLocation>
@@ -2814,11 +2927,11 @@
       </extendedTooltip>
       <commandName>Form.Command.Обновить</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -3163,6 +3276,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Подробнее</name>
+      <title>
+        <key>ru</key>
+        <value>Подробнее</value>
+      </title>
+      <id>14</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ПроверятьПодписиНаСервере</name>
@@ -3290,6 +3421,17 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ПутиКПрограммамПоУмолчанию</name>
+    <id>15</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Обновить</name>
     <title>
@@ -3404,15 +3546,15 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Скопировать</name>
+    <name>ПеревыпуститьСертификат</name>
     <title>
       <key>ru</key>
-      <value>Скопировать</value>
+      <value>Перевыпустить...</value>
     </title>
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Скопировать</value>
+      <value>Перевыпустить сертификат, у которого закончился срок действия</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3423,7 +3565,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Скопировать</name>
+        <name>ПеревыпуститьСертификат</name>
       </handler>
     </action>
     <representation>Picture</representation>

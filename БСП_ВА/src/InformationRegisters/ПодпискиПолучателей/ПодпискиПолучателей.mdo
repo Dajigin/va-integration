@@ -15,7 +15,6 @@
     <value>Подписки получателей</value>
   </synonym>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.ПодпискиПолучателей.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -96,22 +95,4 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="bec4c82f-4e76-4d16-bb4d-b6d9fa404c5d">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="4033f86b-d250-475a-8837-071bf31664b0">
-    <name>НастройкаПодписокЭтойКонечнойТочки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройка подписок этой конечной точки</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:InformationRegister>

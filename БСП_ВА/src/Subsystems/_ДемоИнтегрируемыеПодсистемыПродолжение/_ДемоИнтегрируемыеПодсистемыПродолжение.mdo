@@ -24,4 +24,5 @@
   <subsystems>_ДемоСклонениеПредставленийОбъектов</subsystems>
   <subsystems>_ДемоШаблоныСообщений</subsystems>
   <subsystems>_ДемоЭлектроннаяПодпись</subsystems>
+  <subsystems>_ДемоУчетОригиналовПервичныхДокументов</subsystems>
 </mdclass:Subsystem>

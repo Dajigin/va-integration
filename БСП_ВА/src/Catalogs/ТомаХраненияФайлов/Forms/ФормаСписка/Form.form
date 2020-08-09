@@ -34,7 +34,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -155,11 +155,11 @@
       </extendedTooltip>
       <commandName>Form.Command.УстановкаПометкиУдаления</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ФормаСтандартныеКоманды</name>
@@ -1001,8 +1001,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>64</value>
+    <value xsi:type="core:StringValue">
+      <value>КоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

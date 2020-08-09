@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a4e8721-20e8-4c89-b186-049117305b43">
-  <name>ВидимостьЗакрыто</name>
-  <synonym>
-    <key>ru</key>
-    <value>Видимость закрыто</value>
-  </synonym>
-</mdclass:CommonPicture>

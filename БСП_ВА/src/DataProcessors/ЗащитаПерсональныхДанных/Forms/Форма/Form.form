@@ -201,7 +201,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -412,11 +412,11 @@
           </extendedTooltip>
           <commandName>Form.StandardCommand.CustomizeForm</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <items xsi:type="form:Button">
           <name>ПросмотрТекущегоСобытияВОтдельномОкне</name>
@@ -2234,6 +2234,7 @@
               <verticalScrollBar>ScrollAlways</verticalScrollBar>
               <horizontalScrollBar>ScrollAlways</horizontalScrollBar>
               <selectionShowMode>Always</selectionShowMode>
+              <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
               <showGroups>true</showGroups>
               <enableStartDrag>true</enableStartDrag>
               <enableDrag>true</enableDrag>
@@ -2295,7 +2296,7 @@
         </extendedTooltip>
         <type>Pages</type>
         <extInfo xsi:type="form:PagesGroupExtInfo">
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2328,7 +2329,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -2363,7 +2364,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Top</commandBarLocation>
@@ -2971,6 +2972,17 @@
   <attributes>
     <name>ПараметрыОбработчикаОжидания</name>
     <id>12</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ХранилищеДанных</name>
+    <id>11</id>
     <valueType/>
     <view>
       <common>true</common>

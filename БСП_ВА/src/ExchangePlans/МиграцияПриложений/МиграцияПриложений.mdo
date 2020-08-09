@@ -101,6 +101,9 @@
     <mdObject>Constant.ИспользоватьЭлектроннуюПодписьВМоделиСервиса</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ИспользоватьИнтеграциюССистемойВзаимодействия</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.КопироватьОбластиДанныхИзЭталонной</mdObject>
   </content>
   <content>
@@ -125,16 +128,16 @@
     <mdObject>InformationRegister.РейтингАктивностиОбластейДанных</mdObject>
   </content>
   <content>
-    <mdObject>Catalog.ДополнительныеОбработчикиОчередиЗаданий</mdObject>
+    <mdObject>InformationRegister.ЗапущенныеОбработчикиОчередиЗаданий</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбработчикиОчередиЗаданий</mdObject>
   </content>
   <content>
     <mdObject>Constant.РежимИспользованияИнформационнойБазы</mdObject>
   </content>
   <content>
     <mdObject>Constant.СообщениеБлокировкиПриОбновленииКонфигурации</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ОбластиТребующиеОбработкиПоставляемыхДанных</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ОбщиеДанныеИнформационногоЦентра</mdObject>
@@ -165,6 +168,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиТранспортаОбменаОбластейДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПоставляемыеДанныеТребующиеОбработкиВОбластях</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиТранспортаОбменаСообщениями</mdObject>
@@ -198,6 +204,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СвойстваЗаданий</mdObject>
   </content>
   <content>
     <mdObject>Constant.КаталогОбменаФайламиВМоделиСервисаLinux</mdObject>
@@ -339,9 +348,6 @@
   </content>
   <content>
     <mdObject>InformationRegister.ХранилищеСертификатов</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.СвойстваЗаданий</mdObject>
   </content>
   <content>
     <mdObject>Constant.ПредставлениеОбластиДанных</mdObject>

@@ -3,7 +3,7 @@
   <name>ApplicationPermissionsManagement_1_0_0_1</name>
   <synonym>
     <key>ru</key>
-    <value>Application permissions management 1 0 0 1</value>
+    <value>Application permissions management 1.0.0.1</value>
   </synonym>
   <namespace>http://www.1c.ru/1cFresh/Application/Permissions/Management/1.0.0.1</namespace>
 </mdclass:XDTOPackage>

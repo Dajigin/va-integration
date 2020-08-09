@@ -10,6 +10,7 @@
     <value>Заявление на выпуск нового квалифицированного сертификата</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата.Form.ТехническаяИнформация</defaultForm>
   <forms uuid="5bc04a9a-6a0a-4607-b8eb-743b87143ae7">
     <name>Форма</name>
     <synonym>
@@ -47,6 +48,15 @@
     <synonym>
       <key>ru</key>
       <value>Сведения о владельце сертификата</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d19e8fcc-62cc-4ce4-81bc-ead33a2714df">
+    <name>ТехническаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническая информация</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -8,10 +8,10 @@
   <source>
     <types>InformationRegisterRecordSet.ПодпискиПолучателей</types>
     <types>InformationRegisterRecordSet.РазрешенияНаИспользованиеВнешнихРесурсовВМоделиСервиса</types>
+    <types>InformationRegisterRecordSet.ЗапущенныеОбработчикиОчередиЗаданий</types>
     <types>InformationRegisterRecordSet.НеразделенныеПользователи</types>
     <types>InformationRegisterRecordSet.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</types>
     <types>InformationRegisterRecordSet.НастройкиОтправителя</types>
-    <types>InformationRegisterRecordSet.ОбластиТребующиеОбработкиПоставляемыхДанных</types>
     <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаОбластейДанных</types>
     <types>InformationRegisterRecordSet.РежимыПодключенияВнешнихМодулейВМоделиСервиса</types>
     <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаСообщениями</types>

@@ -13,5 +13,6 @@
   <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
   <content>CommonModule.ГрупповоеИзменениеОбъектовКлиент</content>
   <content>CommonModule.ГрупповоеИзменениеОбъектовПереопределяемый</content>
+  <content>CommonModule.ГрупповоеИзменениеОбъектов</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -180,12 +180,10 @@
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ПроверяемыеПодсистемы</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ИсправлятьОшибки</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
 				</dcscor:item>

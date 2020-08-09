@@ -8,7 +8,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ОчередьЗаданий</content>
   <content>Catalog.ОчередьЗаданийОбластейДанных</content>
-  <content>Catalog.ДополнительныеОбработчикиОчередиЗаданий</content>
+  <content>Catalog.ОбработчикиОчередиЗаданий</content>
   <content>e38f8d8b-22b8-4e1d-871c-f3a0311873ff</content>
   <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
 </mdclass:Subsystem>

@@ -29,7 +29,6 @@
   <content>CommonCommand._ДемоПанельОтчетовАнкетирование</content>
   <content>CommonPicture._ДемоРазделАнкетирование</content>
   <content>Role.Подсистема_ДемоАнкетирование</content>
-  <content>50d479ee-fdab-49ae-ac2e-20bc257e1b1c</content>
   <content>CommonForm._ДемоПримечание</content>
   <subsystems>СозданиеАнкетИОпросов</subsystems>
   <subsystems>ХодАнкетированияИАнализ</subsystems>

@@ -7,8 +7,6 @@
   </synonym>
   <content>InformationRegister.ФайлыОбластейДанных</content>
   <content>CommonModule.ФайлыОбластейДанных</content>
-  <content>CommonModule.ФайлыОбластейДанныхСловарь</content>
   <content>ScheduledJob.УдалениеВременныхФайловОбластейДанных</content>
-  <content>CommonModule.ФайлыОбластейДанныхСлужебный</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

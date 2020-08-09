@@ -7,6 +7,4 @@
   </synonym>
   <location>Constant.ИспользованиеКаталогаРасширенийВМоделиСервиса</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>DataProcessor.КаталогРасширений</content>
-  <content>DataProcessor.КаталогРасширений.Command.ОткрытьКаталогРасширений</content>
 </mdclass:FunctionalOption>

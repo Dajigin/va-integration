@@ -737,12 +737,6 @@
         <value></value>
       </code>
     </items>
-    <items id="793f65b3-e318-42b5-b5bd-4e5804d04def">
-      <name>РегистрСведенийОбластиТребующиеОбработкиПоставляемыхДанных</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
     <items id="fd8588c2-9cd9-4847-a33d-7c9d114f2b98">
       <name>РегистрСведенийОбновлениеКлючейДоступаКДанным</name>
       <code xsi:type="core:StringValue">
@@ -1001,12 +995,6 @@
         <value></value>
       </code>
     </items>
-    <items id="99bea354-6232-457e-b220-658557eea1db">
-      <name>РегистрСведенийСеансыВерсийРасширений</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
     <items id="4834d149-5f32-48eb-8e4a-014c563f63a1">
       <name>РегистрСведенийСертификатыШифрования</name>
       <code xsi:type="core:StringValue">
@@ -1249,6 +1237,108 @@
     </items>
     <items id="65ee6d7a-6352-4696-9fd2-35c7a02c4144">
       <name>РегистрСведенийОграничениеСкоростиОтсылкиИнцидентов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2eba640a-28be-4f83-89ca-6a21b50f5d71">
+      <name>РегистрСведенийЗапущенныеОбработчикиОчередиЗаданий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c9caf969-5c58-4bf1-ae05-471385e310e6">
+      <name>РегистрСведенийКэшДанныхКлассификаторов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2529e951-336d-4270-9d3b-e5a6148f954e">
+      <name>РегистрСведенийНеудаленныеОбъекты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="417f7313-4c12-4a68-8ab3-b391a0a883e2">
+      <name>РегистрСведенийОбновлениеКлючейДоступаТекущиеЗадания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="87dbaa53-3d37-44c0-a072-021dd7fa3e6f">
+      <name>РегистрСведенийОбщиеПоставляемыеМакетыПечати</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3a392cc5-8c83-4e58-ad38-95d672fe2e27">
+      <name>РегистрСведенийОчередьОбновляемыхПоставляемыхРасширенийВОбластяхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="042f093a-3ace-411c-b8b8-0236af1631d7">
+      <name>РегистрСведенийОчередьРасширенийДляОповещений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="54d0956b-805f-4280-873d-50fc8b7eaded">
+      <name>РегистрСведенийПоставляемыеДанныеТребующиеОбработкиВОбластях</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e37fd965-5d85-40d2-a60d-4bba0691240e">
+      <name>РегистрСведенийСвязиАдресныхОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0028853c-63d1-4ec8-965d-31f15ad05d7e">
+      <name>РегистрСведенийСостоянияПроверокВеденияУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="245d63d2-f030-408a-9cae-75d2be4d69ee">
+      <name>РегистрСведенийУдаляемыеОбъекты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="69ab01bc-899e-46ef-b10a-f695f3a8e35b">
+      <name>РегистрСведенийПериодыНерабочихДнейКалендаря</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6e10526d-d55a-417d-a264-2dd079a5870f">
+      <name>РегистрСведенийОбработчикиОбновления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6cf49688-44ad-417f-99cb-c83b261f10f1">
+      <name>РегистрСведенийОбработчикиОбновленияОбщихДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e43b6d77-9453-48ea-b01c-c614bdee971e">
+      <name>РегистрСведенийПотокиОбновления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83bfdf7f-4354-475f-881a-0072894d682e">
+      <name>РегистрСведений_ДемоРеестрДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="30c9965b-1763-49b0-b2ec-695a90a849a2">
+      <name>РегистрСведенийСостоянияОригиналовПервичныхДокументов</name>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>

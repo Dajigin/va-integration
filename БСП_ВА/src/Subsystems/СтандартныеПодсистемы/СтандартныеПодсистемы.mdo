@@ -64,6 +64,7 @@
   <subsystems>УдалениеПомеченныхОбъектов</subsystems>
   <subsystems>УправлениеДоступом</subsystems>
   <subsystems>УправлениеИтогамиИАгрегатами</subsystems>
+  <subsystems>УчетОригиналовПервичныхДокументов</subsystems>
   <subsystems>ЦентрМониторинга</subsystems>
   <subsystems>ШаблоныСообщений</subsystems>
   <subsystems>ЭлектроннаяПодпись</subsystems>

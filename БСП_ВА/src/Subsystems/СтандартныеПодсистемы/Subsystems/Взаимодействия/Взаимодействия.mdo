@@ -102,8 +102,6 @@
   <content>CommonPicture.ПереслатьПисьмоКакВложение</content>
   <content>CommonModule.ВзаимодействияКлиентСерверСлужебныйПовтИсп</content>
   <content>Constant.ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</content>
-  <content>StyleItem.ГиперссылкаШрифт</content>
-  <content>StyleItem.ЗаголовокГруппыШрифт</content>
   <content>CommonModule.ВзаимодействияЛокализация</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

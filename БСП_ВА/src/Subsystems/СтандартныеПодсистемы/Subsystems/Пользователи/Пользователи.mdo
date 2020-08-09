@@ -35,7 +35,7 @@
   <content>Catalog.ГруппыВнешнихПользователей</content>
   <content>Catalog.ВнешниеПользователи</content>
   <content>Constant.ИспользоватьВнешнихПользователей</content>
-  <content>EventSubscription.ОбновитьПредставлениеВнешнегоПользователя</content>
+  <content>EventSubscription.ОбновитьВнешнегоПользователя</content>
   <content>Role.ЧтениеВнешнихПользователей</content>
   <content>Role.ДобавлениеИзменениеВнешнихПользователей</content>
   <content>SessionParameter.ТекущийВнешнийПользователь</content>
@@ -71,5 +71,6 @@
   <content>CommonForm.ПредупреждениеБезопасности</content>
   <content>CommonModule.ПользователиКлиент</content>
   <content>CommonModule.ВнешниеПользователиКлиент</content>
+  <content>CommonPicture.ПользовательБезФотографии</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

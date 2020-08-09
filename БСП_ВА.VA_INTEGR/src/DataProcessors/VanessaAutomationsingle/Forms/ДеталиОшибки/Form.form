@@ -21,20 +21,20 @@
     <value>Детайли грешки</value>
   </title>
   <title>
+    <key>de</key>
+    <value>Details Fehler</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Detalles del error</value>
+  </title>
+  <title>
     <key>et</key>
     <value>Osad vead</value>
   </title>
   <title>
     <key>fr</key>
     <value>Détails de l'erreur</value>
-  </title>
-  <title>
-    <key>ka</key>
-    <value>შეცდომა დეტალები</value>
-  </title>
-  <title>
-    <key>de</key>
-    <value>Details Fehler</value>
   </title>
   <title>
     <key>hu</key>
@@ -45,12 +45,16 @@
     <value>Dettagli errore</value>
   </title>
   <title>
-    <key>lv</key>
-    <value>Detaļas kļūdas</value>
+    <key>ka</key>
+    <value>შეცდომა დეტალები</value>
   </title>
   <title>
     <key>lt</key>
     <value>Detales klaidas</value>
+  </title>
+  <title>
+    <key>lv</key>
+    <value>Detaļas kļūdas</value>
   </title>
   <title>
     <key>mn</key>
@@ -67,10 +71,6 @@
   <title>
     <key>sl</key>
     <value>Napaka podrobnosti</value>
-  </title>
-  <title>
-    <key>es</key>
-    <value>Detalles del error</value>
   </title>
   <title>
     <key>sv</key>
@@ -308,6 +308,10 @@
       <key>ru</key>
       <value>Текст ошибки</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Error text</value>
+    </title>
     <id>3</id>
     <valueType>
       <types>String</types>
@@ -326,6 +330,10 @@
       <key>ru</key>
       <value>Таблица эталон</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Table reference</value>
+    </title>
     <id>4</id>
     <valueType/>
     <view>
@@ -341,6 +349,10 @@
       <key>ru</key>
       <value>Таблица текущее значение</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Table current value</value>
+    </title>
     <id>5</id>
     <valueType/>
     <view>
@@ -355,6 +367,10 @@
     <title>
       <key>ru</key>
       <value>Каталог инструментов</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Tools directory</value>
     </title>
     <title>
       <key>vi</key>
@@ -395,20 +411,20 @@
       <value>Само текста на клетки</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Nur der Text der Zellen</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Sólo el texto de las celdas</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Ainult lahtrite tekst</value>
     </title>
     <title>
       <key>fr</key>
       <value>Seulement le texte des cellules</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>მხოლოდ ტექსტის უჯრედების</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Nur der Text der Zellen</value>
     </title>
     <title>
       <key>hu</key>
@@ -419,12 +435,16 @@
       <value>Solo il testo delle celle</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Tikai teksts, šūnu</value>
+      <key>ka</key>
+      <value>მხოლოდ ტექსტის უჯრედების</value>
     </title>
     <title>
       <key>lt</key>
       <value>Tik tekstas langelių</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Tikai teksts, šūnu</value>
     </title>
     <title>
       <key>mn</key>
@@ -441,10 +461,6 @@
     <title>
       <key>sl</key>
       <value>Samo besedilo celice</value>
-    </title>
-    <title>
-      <key>es</key>
-      <value>Sólo el texto de las celdas</value>
     </title>
     <title>
       <key>sv</key>
@@ -480,7 +496,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Taking into *</value>
+      <value>Compare using *</value>
     </title>
     <id>8</id>
     <valueType>
@@ -516,20 +532,20 @@
       <value>Сравни таблица</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Tabellen vergleichen</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Comparar la tabla</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Võrrelda tabelis</value>
     </title>
     <title>
       <key>fr</key>
       <value>Comparer les tables</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>შეადარეთ მაგიდა</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Tabellen vergleichen</value>
     </title>
     <title>
       <key>hu</key>
@@ -540,12 +556,16 @@
       <value>Confronta tabella</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Salīdzināt tabulas</value>
+      <key>ka</key>
+      <value>შეადარეთ მაგიდა</value>
     </title>
     <title>
       <key>lt</key>
       <value>Palyginti lentelės</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Salīdzināt tabulas</value>
     </title>
     <title>
       <key>mn</key>
@@ -564,10 +584,6 @@
       <value>Primerjaj tabelo</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Comparar la tabla</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Jämför tabell</value>
     </title>
@@ -583,6 +599,82 @@
     <toolTip>
       <key>ru</key>
       <value>Сравнить таблицы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Compare tables</value>
+    </toolTip>
+    <toolTip>
+      <key>am</key>
+      <value>መገለጫዎ.</value>
+    </toolTip>
+    <toolTip>
+      <key>az</key>
+      <value>Müqayisə masa</value>
+    </toolTip>
+    <toolTip>
+      <key>bg</key>
+      <value>Сравни таблица</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Tabellen vergleichen</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Comparar la tabla</value>
+    </toolTip>
+    <toolTip>
+      <key>et</key>
+      <value>Võrrelda tabelis</value>
+    </toolTip>
+    <toolTip>
+      <key>fr</key>
+      <value>Comparer les tables</value>
+    </toolTip>
+    <toolTip>
+      <key>hu</key>
+      <value>Hasonlítsa össze táblázat</value>
+    </toolTip>
+    <toolTip>
+      <key>it</key>
+      <value>Confronta tabella</value>
+    </toolTip>
+    <toolTip>
+      <key>ka</key>
+      <value>შეადარეთ მაგიდა</value>
+    </toolTip>
+    <toolTip>
+      <key>lt</key>
+      <value>Palyginti lentelės</value>
+    </toolTip>
+    <toolTip>
+      <key>lv</key>
+      <value>Salīdzināt tabulas</value>
+    </toolTip>
+    <toolTip>
+      <key>mn</key>
+      <value>Харьцуулж хүснэгт</value>
+    </toolTip>
+    <toolTip>
+      <key>pl</key>
+      <value>Porównać tabele</value>
+    </toolTip>
+    <toolTip>
+      <key>ro</key>
+      <value>Compara tabel</value>
+    </toolTip>
+    <toolTip>
+      <key>sl</key>
+      <value>Primerjaj tabelo</value>
+    </toolTip>
+    <toolTip>
+      <key>sv</key>
+      <value>Jämför tabell</value>
+    </toolTip>
+    <toolTip>
+      <key>tr</key>
+      <value>Fiyat karşılaştır tablo</value>
     </toolTip>
     <toolTip>
       <key>vi</key>

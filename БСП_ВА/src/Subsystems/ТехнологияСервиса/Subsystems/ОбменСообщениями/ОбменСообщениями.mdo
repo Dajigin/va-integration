@@ -12,30 +12,19 @@
   <content>InformationRegister.ПодпискиПолучателей</content>
   <content>ExchangePlan.ОбменСообщениями</content>
   <content>InformationRegister.НастройкиОтправителя</content>
-  <content>WebService.MessageExchange</content>
-  <content>CommonForm.ПодключениеКонечнойТочки</content>
-  <content>CommonModule.ОбменСообщениямиКлиент</content>
-  <content>CommonForm.НастройкаОбменаСообщениями</content>
   <content>CommonCommand.НастройкаОбменаСообщениями</content>
-  <content>CommonForm.УстановкаВедущейКонечнойТочки</content>
-  <content>CommonPicture.ВедущаяКонечнаяТочка</content>
   <content>CommonCommand.ОбменСообщениями</content>
   <content>CommonModule.ОбменСообщениямиВнутренний</content>
   <content>Constant.БлокировкаОтправкиБыстрыхСообщений</content>
-  <content>CommonModule.ОбменСообщениямиПовтИсп</content>
   <content>Role.УдаленныйДоступОбменСообщениями</content>
-  <content>WebService.MessageExchange_2_0_1_6</content>
-  <content>CommonModule.ОбменСообщениямиВызовСервера</content>
-  <content>CommonModule.СообщенияВМоделиСервисаОбработчикСообщений</content>
   <content>CommonModule.СообщенияВМоделиСервиса</content>
   <content>CommonModule.ИнтерфейсыСообщенийВМоделиСервиса</content>
   <content>CommonModule.ИнтерфейсыСообщенийВМоделиСервисаПереопределяемый</content>
-  <content>CommonModule.СообщенияВМоделиСервисаРазделениеДанных</content>
   <content>CommonModule.ТрансляцияXDTO</content>
-  <content>CommonModule.ТрансляцияXDTOСлужебный</content>
   <content>CommonModule.ТрансляцияXDTOПереопределяемый</content>
   <content>CommonModule.СообщенияВМоделиСервисаПереопределяемый</content>
   <content>InformationRegister.НастройкиТранспортаОбменаСообщениями</content>
-  <content>CommonCommand.НастройкиПодключенияКонечнойТочки</content>
+  <content>Catalog.СообщенияОбластейДанных</content>
+  <content>CommonModule.СообщенияВМоделиСервисаПовтИсп</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

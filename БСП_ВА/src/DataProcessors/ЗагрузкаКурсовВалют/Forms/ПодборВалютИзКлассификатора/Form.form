@@ -722,8 +722,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>3</value>
+    <value xsi:type="core:StringValue">
+      <value>СписокВалютКоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

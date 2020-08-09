@@ -13,6 +13,10 @@
         <segments>ИмяФайла</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ИмяФайлаПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ИмяФайлаРасширеннаяПодсказка</name>
       <id>3</id>
@@ -202,11 +206,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ПользовательскиеНастройки.StandardCommand.CheckAll</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ПользовательскиеНастройкиСнятьФлажки</name>
@@ -233,11 +237,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ПользовательскиеНастройки.StandardCommand.UncheckAll</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>

@@ -10,8 +10,9 @@
   <name>УчетныеЗаписиЭлектроннойПочты</name>
   <synonym>
     <key>ru</key>
-    <value>Учетные записи электронной почты</value>
+    <value>Настройки почты</value>
   </synonym>
+  <comment>АПК:58</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -106,7 +107,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Учетная запись электронной почты</value>
+    <value>Настройка почты</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -540,8 +541,9 @@
     <name>ВладелецУчетнойЗаписи</name>
     <synonym>
       <key>ru</key>
-      <value>Владелец учетной записи</value>
+      <value>Владелец почты</value>
     </synonym>
+    <comment>АПК:58</comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
@@ -549,6 +551,21 @@
       <key>ru</key>
       <value>Владелец персональной учетной записи электронной почты</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5b56a64-5550-4da9-8872-d42ab871d21c">
+    <name>ПриОтправкеПисемТребуетсяАвторизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>При отправке писем требуется авторизация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -601,6 +618,20 @@
     <synonym>
       <key>ru</key>
       <value>Проверка доступа к учетной записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="626cbb27-6af2-4a9a-959e-15af4417e489">
+    <name>ПроверкаНастроекУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка настроек почты</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

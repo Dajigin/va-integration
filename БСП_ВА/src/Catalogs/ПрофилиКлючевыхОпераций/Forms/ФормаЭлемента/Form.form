@@ -251,11 +251,11 @@
         </extendedTooltip>
         <commandName>Form.Item.КлючевыеОперацииПрофиля.StandardCommand.SortListAsc</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>КлючевыеОперацииПрофиляСортироватьСписокПоУбыванию</name>
@@ -282,11 +282,11 @@
         </extendedTooltip>
         <commandName>Form.Item.КлючевыеОперацииПрофиля.StandardCommand.SortListDesc</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>КлючевыеОперацииПрофиляЗаполнить</name>

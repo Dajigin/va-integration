@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d3ac8ae-b06f-4183-b11e-281e64225ec2">
-  <name>ConfigurationExtensionsCompatibility_1_0_0_1</name>
-  <synonym>
-    <key>ru</key>
-    <value>Configuration extensions compatibility</value>
-  </synonym>
-  <namespace>http://www.1c.ru/1cFresh/ConfigurationExtensions/Compatibility/1.0.0.1</namespace>
-</mdclass:XDTOPackage>

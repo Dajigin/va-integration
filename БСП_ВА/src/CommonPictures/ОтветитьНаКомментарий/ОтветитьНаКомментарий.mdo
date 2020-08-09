@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fd15973-4f5a-4029-87f5-c9486365947b">
-  <name>ОтветитьНаКомментарий</name>
-  <synonym>
-    <key>ru</key>
-    <value>Ответить на комментарий</value>
-  </synonym>
-</mdclass:CommonPicture>

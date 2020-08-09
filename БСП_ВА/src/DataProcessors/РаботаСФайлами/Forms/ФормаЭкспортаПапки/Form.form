@@ -283,8 +283,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>30</value>
+    <value xsi:type="core:StringValue">
+      <value>КоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -510,7 +510,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить папку</value>
+      <value>Сохранить папку с файлами на компьютер</value>
     </toolTip>
     <use>
       <common>true</common>

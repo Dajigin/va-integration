@@ -50,13 +50,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <availableTypes>
-        <types>CatalogRef._ДемоБанковскиеСчета</types>
-        <types>CatalogRef._ДемоДоговорыКонтрагентов</types>
-        <types>CatalogRef._ДемоГруппыДоступаНоменклатуры</types>
-        <types>CatalogRef._ДемоВидыНоменклатуры</types>
-        <types>CatalogRef._ДемоГруппыДоступаПартнеров</types>
-      </availableTypes>
     </extInfo>
   </items>
   <items xsi:type="form:Button">

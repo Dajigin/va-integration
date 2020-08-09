@@ -10,16 +10,9 @@
   <content>InformationRegister.ОбъектыКОтправке</content>
   <content>CommonModule.ИнтеграцияОбъектовОбластейДанныхСловарь</content>
   <content>DefinedType.УчетныеСистемыИнтеграцииОбластейДанных</content>
-  <content>CommonPicture.КоллекцияСостоянияИнтеграции</content>
-  <content>CommonPicture.СостояниеИнтеграцииОжидание</content>
-  <content>CommonPicture.СостояниеИнтеграцииОтправлено</content>
-  <content>CommonPicture.СостояниеИнтеграцииОшибка</content>
-  <content>CommonPicture.ВидимостьОткрыто</content>
   <content>Enum.СпособыАутентификации</content>
-  <content>CommonPicture.ВидимостьЗакрыто</content>
   <content>InformationRegister.НастройкиУчетныхСистем</content>
   <content>Enum.СостоянияИнтеграцииОбъектов</content>
-  <content>f17ef62d-2a16-4d1d-a2e4-ee636c51f624</content>
   <content>InformationRegister.СостоянияИнтеграцииОбъектов</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

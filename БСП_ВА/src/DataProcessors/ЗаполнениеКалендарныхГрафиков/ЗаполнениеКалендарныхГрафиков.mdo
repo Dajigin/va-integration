@@ -56,4 +56,12 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="8efa4c12-b5ba-4dfd-bdc9-e824402fc4b1">
+    <name>ПериодыНерабочихДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды нерабочих дней</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:DataProcessor>

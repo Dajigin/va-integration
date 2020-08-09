@@ -3,7 +3,7 @@
   <name>DataArtefacts_UserWorkFavorites_1_0_0_1</name>
   <synonym>
     <key>ru</key>
-    <value>Data artefacts user work favorites 1 0 0 1</value>
+    <value>Data artefacts user work favorites 1.0.0.1</value>
   </synonym>
   <namespace>http://www.1c.ru/1cFresh/Data/Artefacts/UserWorkFavorites/1.0.0.1</namespace>
 </mdclass:XDTOPackage>

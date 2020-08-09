@@ -65,6 +65,7 @@
       <pointerType>Special</pointerType>
       <verticalScrollBar>ScrollAlways</verticalScrollBar>
       <horizontalScrollBar>ScrollAlways</horizontalScrollBar>
+      <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
       <showGroups>true</showGroups>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
@@ -153,8 +154,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>1</value>
+    <value xsi:type="core:StringValue">
+      <value>1:02023637-7868-4a5f-8576-835a76e0c9ba</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

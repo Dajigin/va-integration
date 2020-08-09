@@ -21,20 +21,20 @@
     <value>Изследовател форма</value>
   </title>
   <title>
+    <key>de</key>
+    <value>Forscher Formen</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>El investigador del formulario</value>
+  </title>
+  <title>
     <key>et</key>
     <value>Teadlane vormi</value>
   </title>
   <title>
     <key>fr</key>
     <value>Le chercheur de la forme</value>
-  </title>
-  <title>
-    <key>ka</key>
-    <value>მკვლევარი არის ფორმა</value>
-  </title>
-  <title>
-    <key>de</key>
-    <value>Forscher Formen</value>
   </title>
   <title>
     <key>hu</key>
@@ -45,12 +45,16 @@
     <value>Ricercatore di forma</value>
   </title>
   <title>
-    <key>lv</key>
-    <value>Pētnieks formas</value>
+    <key>ka</key>
+    <value>მკვლევარი არის ფორმა</value>
   </title>
   <title>
     <key>lt</key>
     <value>Mokslininkė formos</value>
+  </title>
+  <title>
+    <key>lv</key>
+    <value>Pētnieks formas</value>
   </title>
   <title>
     <key>mn</key>
@@ -67,10 +71,6 @@
   <title>
     <key>sl</key>
     <value>Raziskovalec je obrazca</value>
-  </title>
-  <title>
-    <key>es</key>
-    <value>El investigador del formulario</value>
   </title>
   <title>
     <key>sv</key>
@@ -96,7 +96,7 @@
       </title>
       <title>
         <key>en</key>
-        <value>Window caption</value>
+        <value>Window title</value>
       </title>
       <title>
         <key>am</key>
@@ -111,20 +111,20 @@
         <value>Заглавната лента на прозореца.</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Fenstertitel</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El título de la ventana</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Akna pealkiri</value>
       </title>
       <title>
         <key>fr</key>
         <value>Le titre de la fenêtre</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>Window title</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Fenstertitel</value>
       </title>
       <title>
         <key>hu</key>
@@ -135,12 +135,16 @@
         <value>Il titolo della finestra</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Virsraksts logi</value>
+        <key>ka</key>
+        <value>Window title</value>
       </title>
       <title>
         <key>lt</key>
         <value>Lango antraštė</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Virsraksts logi</value>
       </title>
       <title>
         <key>mn</key>
@@ -157,10 +161,6 @@
       <title>
         <key>sl</key>
         <value>Naslov okna</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>El título de la ventana</value>
       </title>
       <title>
         <key>sv</key>
@@ -236,7 +236,7 @@
       </title>
       <title>
         <key>en</key>
-        <value>Form caption</value>
+        <value>Form title</value>
       </title>
       <title>
         <key>am</key>
@@ -251,20 +251,20 @@
         <value>Заглавие форми</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Formulartitel</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Título del formulario</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Vormi pealkiri</value>
       </title>
       <title>
         <key>fr</key>
         <value>L'en-tête de la forme</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>Header ფორმა</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Formulartitel</value>
       </title>
       <title>
         <key>hu</key>
@@ -275,12 +275,16 @@
         <value>Titolo del modulo</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Virsraksts formas</value>
+        <key>ka</key>
+        <value>Header ფორმა</value>
       </title>
       <title>
         <key>lt</key>
         <value>Antraštė formos</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Virsraksts formas</value>
       </title>
       <title>
         <key>mn</key>
@@ -297,10 +301,6 @@
       <title>
         <key>sl</key>
         <value>V glavi obrazca</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>Título del formulario</value>
       </title>
       <title>
         <key>sv</key>
@@ -391,20 +391,20 @@
         <value>Името на формата</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Der name des Formulars</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El nombre del formulario</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Vormi nimi</value>
       </title>
       <title>
         <key>fr</key>
         <value>Le nom de la forme</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>სახელი ფორმა</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Der name des Formulars</value>
       </title>
       <title>
         <key>hu</key>
@@ -415,12 +415,16 @@
         <value>Il nome del modulo</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Veidlapas nosaukums</value>
+        <key>ka</key>
+        <value>სახელი ფორმა</value>
       </title>
       <title>
         <key>lt</key>
         <value>Formos pavadinimas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Veidlapas nosaukums</value>
       </title>
       <title>
         <key>mn</key>
@@ -437,10 +441,6 @@
       <title>
         <key>sl</key>
         <value>Ime obrazca</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>El nombre del formulario</value>
       </title>
       <title>
         <key>sv</key>
@@ -518,7 +518,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Window and form captions</value>
+      <value>Window and form titles</value>
     </title>
     <title>
       <key>am</key>
@@ -533,20 +533,20 @@
       <value>Заглавия на прозорци и форми</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Titel des Fensters und Formen</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los títulos de las ventanas y de la forma</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Pealkirjad aknad ja vormid</value>
     </title>
     <title>
       <key>fr</key>
       <value>Le titre d'une fenêtre et de la forme</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ფანჯრის სათაური და ფორმები</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Titel des Fensters und Formen</value>
     </title>
     <title>
       <key>hu</key>
@@ -557,12 +557,16 @@
       <value>I titoli di dialogo e di forma</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Virsraksti logi un formas</value>
+      <key>ka</key>
+      <value>ფანჯრის სათაური და ფორმები</value>
     </title>
     <title>
       <key>lt</key>
       <value>Antraštės, langai ir formos</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Virsraksti logi un formas</value>
     </title>
     <title>
       <key>mn</key>
@@ -581,10 +585,6 @@
       <value>Naslov okna in obrazci</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Los títulos de las ventanas y de la forma</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Fönsternamnet och former</value>
     </title>
@@ -596,10 +596,6 @@
       <key>vi</key>
       <value>Tiêu đề cửa sổ và biểu mẫu</value>
     </title>
-    <toolTip>
-      <key>ru</key>
-      <value>Группа заголовок имя формы</value>
-    </toolTip>
     <extendedTooltip>
       <name>ГруппаЗаголовокИмяФормыРасширеннаяПодсказка</name>
       <id>62</id>
@@ -626,7 +622,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -1323,20 +1319,20 @@
           <value>Всички колони</value>
         </title>
         <title>
+          <key>de</key>
+          <value>Alle Spalten</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>Todos los altavoces</value>
+        </title>
+        <title>
           <key>et</key>
           <value>Kõik kõlarid</value>
         </title>
         <title>
           <key>fr</key>
           <value>Toutes les colonnes</value>
-        </title>
-        <title>
-          <key>ka</key>
-          <value>ყველა სვეტები</value>
-        </title>
-        <title>
-          <key>de</key>
-          <value>Alle Spalten</value>
         </title>
         <title>
           <key>hu</key>
@@ -1347,12 +1343,16 @@
           <value>Tutti gli altoparlanti</value>
         </title>
         <title>
-          <key>lv</key>
-          <value>Visi skaļruņi</value>
+          <key>ka</key>
+          <value>ყველა სვეტები</value>
         </title>
         <title>
           <key>lt</key>
           <value>Visi garsiakalbiai</value>
+        </title>
+        <title>
+          <key>lv</key>
+          <value>Visi skaļruņi</value>
         </title>
         <title>
           <key>mn</key>
@@ -1369,10 +1369,6 @@
         <title>
           <key>sl</key>
           <value>Vse stolpce</value>
-        </title>
-        <title>
-          <key>es</key>
-          <value>Todos los altavoces</value>
         </title>
         <title>
           <key>sv</key>
@@ -1607,20 +1603,20 @@
         <value>Колона</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Spalte</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>La columna</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Kõlarid</value>
       </title>
       <title>
         <key>fr</key>
         <value>La colonne</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>მშობლიურ</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Spalte</value>
       </title>
       <title>
         <key>hu</key>
@@ -1631,12 +1627,16 @@
         <value>Colonna</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Skaļruņi</value>
+        <key>ka</key>
+        <value>მშობლიურ</value>
       </title>
       <title>
         <key>lt</key>
         <value>Kolonėlės</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Skaļruņi</value>
       </title>
       <title>
         <key>mn</key>
@@ -1655,10 +1655,6 @@
         <value>Zvočniki</value>
       </title>
       <title>
-        <key>es</key>
-        <value>La columna</value>
-      </title>
-      <title>
         <key>sv</key>
         <value>Högtalare</value>
       </title>
@@ -1673,6 +1669,10 @@
       <toolTip>
         <key>ru</key>
         <value>Показать/скрыть колонки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Show/hide columns</value>
       </toolTip>
       <extendedTooltip>
         <name>ГруппаВидимостьКолонокРасширеннаяПодсказка</name>
@@ -1749,6 +1749,10 @@
       <key>ru</key>
       <value>Дерево формы</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Tree form</value>
+    </title>
     <id>2</id>
     <valueType>
       <types>ValueTree</types>
@@ -1782,20 +1786,20 @@
         <value>Име</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Name</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El nombre de</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Nimi</value>
       </title>
       <title>
         <key>fr</key>
         <value>Le nom de</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>დასახელება</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Name</value>
       </title>
       <title>
         <key>hu</key>
@@ -1806,12 +1810,16 @@
         <value>Il nome</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Nosaukums</value>
+        <key>ka</key>
+        <value>დასახელება</value>
       </title>
       <title>
         <key>lt</key>
         <value>Pavadinimas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Nosaukums</value>
       </title>
       <title>
         <key>mn</key>
@@ -1828,10 +1836,6 @@
       <title>
         <key>sl</key>
         <value>Ime</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>El nombre de</value>
       </title>
       <title>
         <key>sv</key>
@@ -1880,20 +1884,20 @@
         <value>Синоним</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Synonym</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Sinónimo de</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Sünonüüm</value>
       </title>
       <title>
         <key>fr</key>
         <value>Synonyme</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>სინონიმი</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Synonym</value>
       </title>
       <title>
         <key>hu</key>
@@ -1904,12 +1908,16 @@
         <value>Sinonimo</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Sinonīms</value>
+        <key>ka</key>
+        <value>სინონიმი</value>
       </title>
       <title>
         <key>lt</key>
         <value>Sinonimas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Sinonīms</value>
       </title>
       <title>
         <key>mn</key>
@@ -1926,10 +1934,6 @@
       <title>
         <key>sl</key>
         <value>Sinonim</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>Sinónimo de</value>
       </title>
       <title>
         <key>sv</key>
@@ -1960,6 +1964,10 @@
       <title>
         <key>ru</key>
         <value>Тип внутр</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Type int</value>
       </title>
       <id>3</id>
       <valueType>
@@ -1996,20 +2004,20 @@
         <value>Тип</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Art</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El tipo de</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Tüüp</value>
       </title>
       <title>
         <key>fr</key>
         <value>Type</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>ტიპი</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Art</value>
       </title>
       <title>
         <key>hu</key>
@@ -2020,12 +2028,16 @@
         <value>Tipo</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Tips</value>
+        <key>ka</key>
+        <value>ტიპი</value>
       </title>
       <title>
         <key>lt</key>
         <value>Tipas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Tips</value>
       </title>
       <title>
         <key>mn</key>
@@ -2042,10 +2054,6 @@
       <title>
         <key>sl</key>
         <value>Vrsta</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>El tipo de</value>
       </title>
       <title>
         <key>sv</key>
@@ -2076,6 +2084,10 @@
       <title>
         <key>ru</key>
         <value>Вид внутр</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>View int</value>
       </title>
       <id>5</id>
       <valueType>
@@ -2114,20 +2126,20 @@
         <value>Вид</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Blick</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Tipo de</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Vaade</value>
       </title>
       <title>
         <key>fr</key>
         <value>Vue</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>კალენდარი</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Blick</value>
       </title>
       <title>
         <key>hu</key>
@@ -2138,12 +2150,16 @@
         <value>Vista</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Skats</value>
+        <key>ka</key>
+        <value>კალენდარი</value>
       </title>
       <title>
         <key>lt</key>
         <value>Rūšis</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Skats</value>
       </title>
       <title>
         <key>mn</key>
@@ -2160,10 +2176,6 @@
       <title>
         <key>sl</key>
         <value>Ogled</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>Tipo de</value>
       </title>
       <title>
         <key>sv</key>
@@ -2212,20 +2224,20 @@
         <value>Видимост</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Sichtbarkeit</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>La visibilidad</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Nähtavus</value>
       </title>
       <title>
         <key>fr</key>
         <value>La visibilité</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>ხილვადობას</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Sichtbarkeit</value>
       </title>
       <title>
         <key>hu</key>
@@ -2236,12 +2248,16 @@
         <value>La visibilità</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Redzamība</value>
+        <key>ka</key>
+        <value>ხილვადობას</value>
       </title>
       <title>
         <key>lt</key>
         <value>Matomumas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Redzamība</value>
       </title>
       <title>
         <key>mn</key>
@@ -2258,10 +2274,6 @@
       <title>
         <key>sl</key>
         <value>Prepoznavnost</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>La visibilidad</value>
       </title>
       <title>
         <key>sv</key>
@@ -2309,20 +2321,20 @@
         <value>Наличност</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Verfügbarkeit</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>La disponibilidad de</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Kättesaadavus</value>
       </title>
       <title>
         <key>fr</key>
         <value>L'accessibilité</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>ხელმისაწვდომობა</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Verfügbarkeit</value>
       </title>
       <title>
         <key>hu</key>
@@ -2333,12 +2345,16 @@
         <value>Accessibilità</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Pieejamība</value>
+        <key>ka</key>
+        <value>ხელმისაწვდომობა</value>
       </title>
       <title>
         <key>lt</key>
         <value>Prieinamumas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Pieejamība</value>
       </title>
       <title>
         <key>mn</key>
@@ -2355,10 +2371,6 @@
       <title>
         <key>sl</key>
         <value>Razpoložljivost</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>La disponibilidad de</value>
       </title>
       <title>
         <key>sv</key>
@@ -2406,20 +2418,20 @@
         <value>Само на преглед</value>
       </title>
       <title>
+        <key>de</key>
+        <value>Nur anzeigen</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Solo ver</value>
+      </title>
+      <title>
         <key>et</key>
         <value>Ainult vaatamine</value>
       </title>
       <title>
         <key>fr</key>
         <value>Afficher uniquement</value>
-      </title>
-      <title>
-        <key>ka</key>
-        <value>იხილეთ მხოლოდ</value>
-      </title>
-      <title>
-        <key>de</key>
-        <value>Nur anzeigen</value>
       </title>
       <title>
         <key>hu</key>
@@ -2430,12 +2442,16 @@
         <value>Solo visualizzazione</value>
       </title>
       <title>
-        <key>lv</key>
-        <value>Tikai skatīšana</value>
+        <key>ka</key>
+        <value>იხილეთ მხოლოდ</value>
       </title>
       <title>
         <key>lt</key>
         <value>Tik peržiūra</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Tikai skatīšana</value>
       </title>
       <title>
         <key>mn</key>
@@ -2452,10 +2468,6 @@
       <title>
         <key>sl</key>
         <value>Samo ogled</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>Solo ver</value>
       </title>
       <title>
         <key>sv</key>
@@ -2489,7 +2501,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Get the active element from TestClient</value>
+      <value>Get the active item from TestClient</value>
     </title>
     <title>
       <key>am</key>
@@ -2504,20 +2516,20 @@
       <value>Получаване на активен елемент от TestClient</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Erhalten das aktive Element von Testclient aus</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Obtener el elemento activo de TestClient</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Saada aktiivne element TestClient</value>
     </title>
     <title>
       <key>fr</key>
       <value>Recevoir un élément actif de TestClient</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>აქტიური ნივთის TestClient</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Erhalten das aktive Element von Testclient aus</value>
     </title>
     <title>
       <key>hu</key>
@@ -2528,12 +2540,16 @@
       <value>Ricevere elemento attivo di TestClient</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Saņemt aktīvais elements no TestClient</value>
+      <key>ka</key>
+      <value>აქტიური ნივთის TestClient</value>
     </title>
     <title>
       <key>lt</key>
       <value>Gauti aktyvus elementas iš TestClient</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Saņemt aktīvais elements no TestClient</value>
     </title>
     <title>
       <key>mn</key>
@@ -2550,10 +2566,6 @@
     <title>
       <key>sl</key>
       <value>Za aktivni element iz TestClient</value>
-    </title>
-    <title>
-      <key>es</key>
-      <value>Obtener el elemento activo de TestClient</value>
     </title>
     <title>
       <key>sv</key>
@@ -2583,6 +2595,10 @@
     <title>
       <key>ru</key>
       <value>Текст шагов</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Steps text</value>
     </title>
     <id>4</id>
     <valueType>
@@ -2618,20 +2634,20 @@
       <value>Заглавната лента на прозореца.</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Fenstertitel</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>El título de la ventana</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Akna pealkiri</value>
     </title>
     <title>
       <key>fr</key>
       <value>Le titre de la fenêtre</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>Window title</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Fenstertitel</value>
     </title>
     <title>
       <key>hu</key>
@@ -2642,12 +2658,16 @@
       <value>Il titolo della finestra</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Virsraksts logi</value>
+      <key>ka</key>
+      <value>Window title</value>
     </title>
     <title>
       <key>lt</key>
       <value>Lango antraštė</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Virsraksts logi</value>
     </title>
     <title>
       <key>mn</key>
@@ -2664,10 +2684,6 @@
     <title>
       <key>sl</key>
       <value>Naslov okna</value>
-    </title>
-    <title>
-      <key>es</key>
-      <value>El título de la ventana</value>
     </title>
     <title>
       <key>sv</key>
@@ -2716,20 +2732,20 @@
       <value>Името на формата</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Der name des Formulars</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>El nombre del formulario</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Vormi nimi</value>
     </title>
     <title>
       <key>fr</key>
       <value>Le nom de la forme</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>სახელი ფორმა</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Der name des Formulars</value>
     </title>
     <title>
       <key>hu</key>
@@ -2740,12 +2756,16 @@
       <value>Il nome del modulo</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Veidlapas nosaukums</value>
+      <key>ka</key>
+      <value>სახელი ფორმა</value>
     </title>
     <title>
       <key>lt</key>
       <value>Formos pavadinimas</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Veidlapas nosaukums</value>
     </title>
     <title>
       <key>mn</key>
@@ -2762,10 +2782,6 @@
     <title>
       <key>sl</key>
       <value>Ime obrazca</value>
-    </title>
-    <title>
-      <key>es</key>
-      <value>El nombre del formulario</value>
     </title>
     <title>
       <key>sv</key>
@@ -2799,7 +2815,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Form Header</value>
+      <value>Form title</value>
     </title>
     <title>
       <key>am</key>
@@ -2814,20 +2830,20 @@
       <value>Заглавие форми</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Formulartitel</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Título del formulario</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Vormi pealkiri</value>
     </title>
     <title>
       <key>fr</key>
       <value>L'en-tête de la forme</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>Header ფორმა</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Formulartitel</value>
     </title>
     <title>
       <key>hu</key>
@@ -2838,12 +2854,16 @@
       <value>Titolo del modulo</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Virsraksts formas</value>
+      <key>ka</key>
+      <value>Header ფორმა</value>
     </title>
     <title>
       <key>lt</key>
       <value>Antraštė formos</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Virsraksts formas</value>
     </title>
     <title>
       <key>mn</key>
@@ -2860,10 +2880,6 @@
     <title>
       <key>sl</key>
       <value>V glavi obrazca</value>
-    </title>
-    <title>
-      <key>es</key>
-      <value>Título del formulario</value>
     </title>
     <title>
       <key>sv</key>
@@ -2895,6 +2911,10 @@
       <key>ru</key>
       <value>Произошла смена строки при изменении текущего элемента в test client</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>A line was changed upon changing the current item in the test client</value>
+    </title>
     <id>8</id>
     <valueType>
       <types>Boolean</types>
@@ -2911,6 +2931,10 @@
     <title>
       <key>ru</key>
       <value>Кеш таблица перевода</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Cache translation table</value>
     </title>
     <id>9</id>
     <valueType>
@@ -2929,6 +2953,14 @@
     <title>
       <key>ru</key>
       <value>Язык</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Language</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Limba</value>
     </title>
     <id>10</id>
     <valueType>
@@ -2965,20 +2997,20 @@
       <value>Актуализира</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Aktualisieren</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Actualizar</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Uuendada</value>
     </title>
     <title>
       <key>fr</key>
       <value>Actualiser</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>განახლება</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Aktualisieren</value>
     </title>
     <title>
       <key>hu</key>
@@ -2989,12 +3021,16 @@
       <value>Aggiornare</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Atjaunināt</value>
+      <key>ka</key>
+      <value>განახლება</value>
     </title>
     <title>
       <key>lt</key>
       <value>Atnaujinti</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Atjaunināt</value>
     </title>
     <title>
       <key>mn</key>
@@ -3013,10 +3049,6 @@
       <value>Posodobitev</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Actualizar</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Uppdatering</value>
     </title>
@@ -3032,6 +3064,82 @@
     <toolTip>
       <key>ru</key>
       <value>Обновить</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Update</value>
+    </toolTip>
+    <toolTip>
+      <key>am</key>
+      <value>ማዘመን</value>
+    </toolTip>
+    <toolTip>
+      <key>az</key>
+      <value>Yenilə</value>
+    </toolTip>
+    <toolTip>
+      <key>bg</key>
+      <value>Актуализира</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Aktualisieren</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Actualizar</value>
+    </toolTip>
+    <toolTip>
+      <key>et</key>
+      <value>Uuendada</value>
+    </toolTip>
+    <toolTip>
+      <key>fr</key>
+      <value>Actualiser</value>
+    </toolTip>
+    <toolTip>
+      <key>hu</key>
+      <value>Frissítés</value>
+    </toolTip>
+    <toolTip>
+      <key>it</key>
+      <value>Aggiornare</value>
+    </toolTip>
+    <toolTip>
+      <key>ka</key>
+      <value>განახლება</value>
+    </toolTip>
+    <toolTip>
+      <key>lt</key>
+      <value>Atnaujinti</value>
+    </toolTip>
+    <toolTip>
+      <key>lv</key>
+      <value>Atjaunināt</value>
+    </toolTip>
+    <toolTip>
+      <key>mn</key>
+      <value>Шинэчлэх</value>
+    </toolTip>
+    <toolTip>
+      <key>pl</key>
+      <value>Zaktualizować</value>
+    </toolTip>
+    <toolTip>
+      <key>ro</key>
+      <value>Upgrade</value>
+    </toolTip>
+    <toolTip>
+      <key>sl</key>
+      <value>Posodobitev</value>
+    </toolTip>
+    <toolTip>
+      <key>sv</key>
+      <value>Uppdatering</value>
+    </toolTip>
+    <toolTip>
+      <key>tr</key>
+      <value>Yenile</value>
     </toolTip>
     <toolTip>
       <key>vi</key>
@@ -3053,10 +3161,18 @@
       <key>ru</key>
       <value>Показать/Скрыть все колонки</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Show/Hide all columns</value>
+    </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
       <value>Показать скрыть все колонки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show hide all columns</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3076,7 +3192,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Show / Hide Type</value>
+      <value>Show/hide type</value>
     </title>
     <title>
       <key>am</key>
@@ -3091,20 +3207,20 @@
       <value>Показване/скриване на вида на</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Anzeigen/ausblenden Art</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar/ocultar el tipo de</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Näita/peida tüüp</value>
     </title>
     <title>
       <key>fr</key>
       <value>Afficher/masquer le type</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ჩვენება/დამალვა ტიპი</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Anzeigen/ausblenden Art</value>
     </title>
     <title>
       <key>hu</key>
@@ -3115,12 +3231,16 @@
       <value>Mostra/nascondi tipo</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Rādīt/slēpt tips</value>
+      <key>ka</key>
+      <value>ჩვენება/დამალვა ტიპი</value>
     </title>
     <title>
       <key>lt</key>
       <value>Rodyti/slėpti tipas</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt/slēpt tips</value>
     </title>
     <title>
       <key>mn</key>
@@ -3139,10 +3259,6 @@
       <value>Prikaži/skrij tip</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Mostrar/ocultar el tipo de</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Visa/dölj typ</value>
     </title>
@@ -3158,6 +3274,10 @@
     <toolTip>
       <key>ru</key>
       <value>Показать скрыть тип</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show hide type</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3177,7 +3297,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Show / Hide View</value>
+      <value>Show/hide view</value>
     </title>
     <title>
       <key>am</key>
@@ -3192,20 +3312,20 @@
       <value>Показване/скриване на вид</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Ein - /ausblenden Ansicht</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar/ocultar vista</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Näita/peida vaade</value>
     </title>
     <title>
       <key>fr</key>
       <value>Afficher/masquer la vue</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ჩვენება/დამალვა view</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Ein - /ausblenden Ansicht</value>
     </title>
     <title>
       <key>hu</key>
@@ -3216,12 +3336,16 @@
       <value>Mostra/nascondi vista</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Rādīt/slēpt skats</value>
+      <key>ka</key>
+      <value>ჩვენება/დამალვა view</value>
     </title>
     <title>
       <key>lt</key>
       <value>Rodyti/slėpti rūšis</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt/slēpt skats</value>
     </title>
     <title>
       <key>mn</key>
@@ -3240,10 +3364,6 @@
       <value>Prikaži/skrij prikaži</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Mostrar/ocultar vista</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Visa/dölj-visa</value>
     </title>
@@ -3259,6 +3379,10 @@
     <toolTip>
       <key>ru</key>
       <value>Показать скрыть тип</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show hide type</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3278,7 +3402,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Show / hide accessibility</value>
+      <value>Show/hide accessibility</value>
     </title>
     <title>
       <key>am</key>
@@ -3293,20 +3417,20 @@
       <value>Покажи/скрий наличност</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Anzeigen/ausblenden Verfügbarkeit</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar/ocultar disponibilidad</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Näita/peida kättesaadavus</value>
     </title>
     <title>
       <key>fr</key>
       <value>Afficher/masquer la disponibilité</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ჩვენება/დამალვა ხელმისაწვდომობა</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Anzeigen/ausblenden Verfügbarkeit</value>
     </title>
     <title>
       <key>hu</key>
@@ -3317,12 +3441,16 @@
       <value>Mostra/nascondi la disponibilità</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Rādīt/slēpt pieejamība</value>
+      <key>ka</key>
+      <value>ჩვენება/დამალვა ხელმისაწვდომობა</value>
     </title>
     <title>
       <key>lt</key>
       <value>Rodyti/slėpti prieinamumas</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt/slēpt pieejamība</value>
     </title>
     <title>
       <key>mn</key>
@@ -3341,10 +3469,6 @@
       <value>Prikaži/skrij dostopnost</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Mostrar/ocultar disponibilidad</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Visa/dölj tillgänglighet</value>
     </title>
@@ -3360,6 +3484,10 @@
     <toolTip>
       <key>ru</key>
       <value>Показать скрыть доступность</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show hide availability</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3379,7 +3507,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Show / hide visibility</value>
+      <value>Show/hide visibility</value>
     </title>
     <title>
       <key>am</key>
@@ -3394,20 +3522,20 @@
       <value>Показване/скриване на видимост</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Anzeigen/verbergen der Sichtbarkeit</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar/ocultar la visibilidad de</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Näita/peida nähtavus</value>
     </title>
     <title>
       <key>fr</key>
       <value>Afficher/masquer la visibilité</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ჩვენება/დამალვა ხილვადობა</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Anzeigen/verbergen der Sichtbarkeit</value>
     </title>
     <title>
       <key>hu</key>
@@ -3418,12 +3546,16 @@
       <value>Mostra/nascondi la visibilità</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Rādīt/slēpt redzamību</value>
+      <key>ka</key>
+      <value>ჩვენება/დამალვა ხილვადობა</value>
     </title>
     <title>
       <key>lt</key>
       <value>Rodyti/slėpti matomumas</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt/slēpt redzamību</value>
     </title>
     <title>
       <key>mn</key>
@@ -3442,10 +3574,6 @@
       <value>Prikaži/skrij prepoznavnost</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Mostrar/ocultar la visibilidad de</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Visa/dölj synlighet</value>
     </title>
@@ -3461,6 +3589,10 @@
     <toolTip>
       <key>ru</key>
       <value>Показать скрыть видимость</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show hide visibility</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3480,7 +3612,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Show / hide view only</value>
+      <value>Show/hide view only</value>
     </title>
     <title>
       <key>am</key>
@@ -3495,20 +3627,20 @@
       <value>Покажи/скрий само на преглед</value>
     </title>
     <title>
+      <key>de</key>
+      <value>Ein - /ausblenden nur anzeigen</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Mostrar/ocultar solo ver</value>
+    </title>
+    <title>
       <key>et</key>
       <value>Näita/peida ainult vaatamine</value>
     </title>
     <title>
       <key>fr</key>
       <value>Afficher/masquer l'affichage uniquement</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ჩვენება/დამალვა view-მხოლოდ</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Ein - /ausblenden nur anzeigen</value>
     </title>
     <title>
       <key>hu</key>
@@ -3519,12 +3651,16 @@
       <value>Mostra/nascondi solo visualizzazione</value>
     </title>
     <title>
-      <key>lv</key>
-      <value>Rādīt/slēpt tikai skatīšana</value>
+      <key>ka</key>
+      <value>ჩვენება/დამალვა view-მხოლოდ</value>
     </title>
     <title>
       <key>lt</key>
       <value>Rodyti/slėpti tik peržiūra</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Rādīt/slēpt tikai skatīšana</value>
     </title>
     <title>
       <key>mn</key>
@@ -3543,10 +3679,6 @@
       <value>Prikaži/skrij prikaži samo</value>
     </title>
     <title>
-      <key>es</key>
-      <value>Mostrar/ocultar solo ver</value>
-    </title>
-    <title>
       <key>sv</key>
       <value>Visa/dölj för visa-endast</value>
     </title>
@@ -3562,6 +3694,10 @@
     <toolTip>
       <key>ru</key>
       <value>Показать скрыть только просмотр</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show hide view-only</value>
     </toolTip>
     <use>
       <common>true</common>

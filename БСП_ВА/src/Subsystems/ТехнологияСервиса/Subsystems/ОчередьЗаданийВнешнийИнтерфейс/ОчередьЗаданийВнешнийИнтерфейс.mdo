@@ -6,9 +6,6 @@
     <value>Очередь заданий внешний интерфейс</value>
   </synonym>
   <content>CommonModule.ОчередьЗаданийВнешнийИнтерфейс</content>
-  <content>EventSubscription.ОчередьЗаданийПередУдалением</content>
-  <content>EventSubscription.ОчередьЗаданийПриЗаписи</content>
   <content>InformationRegister.СвойстваЗаданий</content>
-  <content>CommonModule.ОчередьЗаданийВнешнийИнтерфейсСловарь</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

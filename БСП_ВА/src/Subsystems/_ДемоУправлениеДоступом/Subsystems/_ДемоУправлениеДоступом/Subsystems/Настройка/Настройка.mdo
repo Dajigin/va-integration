@@ -37,5 +37,6 @@
   <content>Catalog.ГруппыИсполнителейЗадач</content>
   <content>Catalog.ДополнительныеОтчетыИОбработки</content>
   <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Report.АнализПравДоступа</content>
   <parentSubsystem>Subsystem._ДемоУправлениеДоступом.Subsystem._ДемоУправлениеДоступом</parentSubsystem>
 </mdclass:Subsystem>

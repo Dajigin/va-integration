@@ -7,6 +7,5 @@
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ПереносВариантовОтчетов</content>
-  <content>Report.БыстрыеНастройкиОтчетов</content>
   <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,48 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
-    <key>bg</key>
-    <value>Известни стъпки</value>
-  </title>
-  <title>
-    <key>mn</key>
-    <value>Алдарт шат</value>
-  </title>
-  <title>
-    <key>fr</key>
-    <value>Célèbres étapes</value>
-  </title>
-  <title>
-    <key>pl</key>
-    <value>Znane kroki</value>
-  </title>
-  <title>
-    <key>tr</key>
-    <value>Bilinen adımları</value>
+    <key>ru</key>
+    <value>Известные шаги</value>
   </title>
   <title>
     <key>en</key>
     <value>Known steps</value>
   </title>
   <title>
-    <key>ka</key>
-    <value>ცნობილი ნაბიჯები</value>
+    <key>am</key>
+    <value>አቶ ቅድሚያ የሚሰጡዋቸውን ነው</value>
   </title>
   <title>
-    <key>it</key>
-    <value>Noti passi</value>
+    <key>az</key>
+    <value>Tanınmış addımlar</value>
   </title>
   <title>
-    <key>sl</key>
-    <value>Slavni koraki</value>
+    <key>bg</key>
+    <value>Известни стъпки</value>
   </title>
   <title>
     <key>de</key>
     <value>Bekannte Schritte</value>
-  </title>
-  <title>
-    <key>am</key>
-    <value>አቶ ቅድሚያ የሚሰጡዋቸውን ነው</value>
   </title>
   <title>
     <key>es</key>
@@ -53,8 +33,20 @@
     <value>Tuntud samme</value>
   </title>
   <title>
-    <key>vi</key>
-    <value>Nổi tiếng bước của những</value>
+    <key>fr</key>
+    <value>Célèbres étapes</value>
+  </title>
+  <title>
+    <key>hu</key>
+    <value>A híres lépéseket a</value>
+  </title>
+  <title>
+    <key>it</key>
+    <value>Noti passi</value>
+  </title>
+  <title>
+    <key>ka</key>
+    <value>ცნობილი ნაბიჯები</value>
   </title>
   <title>
     <key>lt</key>
@@ -65,24 +57,32 @@
     <value>Zināmi soļi</value>
   </title>
   <title>
+    <key>mn</key>
+    <value>Алдарт шат</value>
+  </title>
+  <title>
+    <key>pl</key>
+    <value>Znane kroki</value>
+  </title>
+  <title>
+    <key>ro</key>
+    <value>Pași Cunoscuti</value>
+  </title>
+  <title>
+    <key>sl</key>
+    <value>Slavni koraki</value>
+  </title>
+  <title>
     <key>sv</key>
     <value>Den berömda trappan</value>
   </title>
   <title>
-    <key>hu</key>
-    <value>A híres lépéseket a</value>
+    <key>tr</key>
+    <value>Bilinen adımları</value>
   </title>
   <title>
-    <key>az</key>
-    <value>Tanınmış addımlar</value>
-  </title>
-  <title>
-    <key>ro</key>
-    <value>Cunoscut de pași</value>
-  </title>
-  <title>
-    <key>ru</key>
-    <value>Известные шаги</value>
+    <key>vi</key>
+    <value>Nổi tiếng bước của những</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаПоиска</name>
@@ -91,20 +91,28 @@
       <name>НайтиШаги</name>
       <id>49</id>
       <title>
-        <key>am</key>
-        <value>የሠራተኛና.</value>
+        <key>ru</key>
+        <value>Найти</value>
       </title>
       <title>
         <key>en</key>
         <value>Search</value>
       </title>
       <title>
-        <key>de</key>
-        <value>Finden Schritte</value>
+        <key>am</key>
+        <value>የሠራተኛና.</value>
       </title>
       <title>
-        <key>mn</key>
-        <value>Олох алхмууд</value>
+        <key>az</key>
+        <value>Tapa addımlar</value>
+      </title>
+      <title>
+        <key>bg</key>
+        <value>Намери стъпки</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Finden Schritte</value>
       </title>
       <title>
         <key>es</key>
@@ -115,6 +123,14 @@
         <value>Leida samme</value>
       </title>
       <title>
+        <key>fr</key>
+        <value>Trouver les étapes</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Keresse meg a lépéseket</value>
+      </title>
+      <title>
         <key>it</key>
         <value>Trovare i punti</value>
       </title>
@@ -123,52 +139,40 @@
         <value>მოძებნა ნაბიჯები</value>
       </title>
       <title>
-        <key>az</key>
-        <value>Tapa addımlar</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Znajdź kroki</value>
-      </title>
-      <title>
         <key>lt</key>
         <value>Rasti veiksmus</value>
-      </title>
-      <title>
-        <key>hu</key>
-        <value>Keresse meg a lépéseket</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Bulmak için adımlar</value>
       </title>
       <title>
         <key>lv</key>
         <value>Atrast soļi</value>
       </title>
       <title>
+        <key>mn</key>
+        <value>Олох алхмууд</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Znajdź kroki</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Pentru a găsi pașii</value>
+      </title>
+      <title>
         <key>sl</key>
         <value>Našli navodila</value>
-      </title>
-      <title>
-        <key>bg</key>
-        <value>Намери стъпки</value>
-      </title>
-      <title>
-        <key>vi</key>
-        <value>Tìm thấy các bước</value>
       </title>
       <title>
         <key>sv</key>
         <value>Hitta stegen</value>
       </title>
       <title>
-        <key>fr</key>
-        <value>Trouver les étapes</value>
+        <key>tr</key>
+        <value>Bulmak için adımlar</value>
       </title>
       <title>
-        <key>ro</key>
-        <value>Pentru a găsi pașii</value>
+        <key>vi</key>
+        <value>Tìm thấy các bước</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -216,9 +220,14 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>Clearing</event>
+          <name>НайтиШагиОчистка</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <clearButton>true</clearButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -228,7 +237,7 @@
         </inputHint>
         <inputHint>
           <key>en</key>
-          <value>Enter the search text or part of the phrase</value>
+          <value>Enter a search text or a phrase part</value>
         </inputHint>
       </extInfo>
     </items>
@@ -289,7 +298,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -895,6 +904,14 @@
         <key>ru</key>
         <value>Описание шага</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Step description</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Descriere pas</value>
+      </title>
       <extendedTooltip>
         <name>ДеревоШаговГруппаРасширеннаяПодсказка</name>
         <id>75</id>
@@ -1124,11 +1141,11 @@
       </extendedTooltip>
       <commandName>Form.Command.ВыгрузитьШагиВJSON</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1179,6 +1196,10 @@
       <key>ru</key>
       <value>Дерево шагов</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Steps tree</value>
+    </title>
     <id>2</id>
     <valueType>
       <types>ValueTree</types>
@@ -1192,48 +1213,28 @@
     <columns>
       <name>ТипШага</name>
       <title>
-        <key>bg</key>
+        <key>ru</key>
         <value>Тип</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Төрөл</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Type</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Typ</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Türü</value>
       </title>
       <title>
         <key>en</key>
         <value>Type</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>ტიპი</value>
+        <key>am</key>
+        <value>ዓይነት</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Tipo</value>
+        <key>az</key>
+        <value>Növü</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Vrsta</value>
+        <key>bg</key>
+        <value>Тип</value>
       </title>
       <title>
         <key>de</key>
         <value>Art</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ዓይነት</value>
       </title>
       <title>
         <key>es</key>
@@ -1244,8 +1245,20 @@
         <value>Tüüp</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Kiểu</value>
+        <key>fr</key>
+        <value>Type</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Típus</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Tipo</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ტიპი</value>
       </title>
       <title>
         <key>lt</key>
@@ -1256,24 +1269,32 @@
         <value>Tips</value>
       </title>
       <title>
-        <key>sv</key>
+        <key>mn</key>
+        <value>Төрөл</value>
+      </title>
+      <title>
+        <key>pl</key>
         <value>Typ</value>
-      </title>
-      <title>
-        <key>hu</key>
-        <value>Típus</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Növü</value>
       </title>
       <title>
         <key>ro</key>
         <value>Tip</value>
       </title>
       <title>
-        <key>ru</key>
-        <value>Тип</value>
+        <key>sl</key>
+        <value>Vrsta</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Typ</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Türü</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Kiểu</value>
       </title>
       <id>1</id>
       <valueType>
@@ -1290,48 +1311,28 @@
     <columns>
       <name>ИмяПроцедуры</name>
       <title>
-        <key>bg</key>
-        <value>Името на процедурата</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Нэрийг журам</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Le nom de la procédure</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Nazwa procedury</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Yordam adı</value>
+        <key>ru</key>
+        <value>Имя процедуры</value>
       </title>
       <title>
         <key>en</key>
         <value>Procedure</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>სახელი პროცედურა</value>
+        <key>am</key>
+        <value>ስም ይታያል</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Il nome della procedura</value>
+        <key>az</key>
+        <value>Adı prosedurları</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Ime postopek</value>
+        <key>bg</key>
+        <value>Името на процедурата</value>
       </title>
       <title>
         <key>de</key>
         <value>Der name der Prozedur</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ስም ይታያል</value>
       </title>
       <title>
         <key>es</key>
@@ -1342,8 +1343,20 @@
         <value>Protseduuri nimi</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Tên thủ tục</value>
+        <key>fr</key>
+        <value>Le nom de la procédure</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>A név az eljárás</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Il nome della procedura</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>სახელი პროცედურა</value>
       </title>
       <title>
         <key>lt</key>
@@ -1354,24 +1367,32 @@
         <value>Procedūras nosaukums</value>
       </title>
       <title>
+        <key>mn</key>
+        <value>Нэрийг журам</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Nazwa procedury</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Denumire procedura</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Ime postopek</value>
+      </title>
+      <title>
         <key>sv</key>
         <value>Procedurens namn</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>A név az eljárás</value>
+        <key>tr</key>
+        <value>Yordam adı</value>
       </title>
       <title>
-        <key>az</key>
-        <value>Adı prosedurları</value>
-      </title>
-      <title>
-        <key>ro</key>
-        <value>Numele procedurii</value>
-      </title>
-      <title>
-        <key>ru</key>
-        <value>Имя процедуры</value>
+        <key>vi</key>
+        <value>Tên thủ tục</value>
       </title>
       <id>2</id>
       <valueType>
@@ -1388,48 +1409,28 @@
     <columns>
       <name>ПредставлениеТеста</name>
       <title>
-        <key>bg</key>
-        <value>Стъпка</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Алхам</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Étape</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Krok</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Adım</value>
+        <key>ru</key>
+        <value>Шаг</value>
       </title>
       <title>
         <key>en</key>
         <value>Step</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>ნაბიჯი</value>
+        <key>am</key>
+        <value>ደረጃ</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Passo</value>
+        <key>az</key>
+        <value>Addım</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Korak</value>
+        <key>bg</key>
+        <value>Стъпка</value>
       </title>
       <title>
         <key>de</key>
         <value>Schritt</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ደረጃ</value>
       </title>
       <title>
         <key>es</key>
@@ -1440,8 +1441,20 @@
         <value>Samm</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Bước</value>
+        <key>fr</key>
+        <value>Étape</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Lépés</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Passo</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ნაბიჯი</value>
       </title>
       <title>
         <key>lt</key>
@@ -1452,24 +1465,32 @@
         <value>Solis</value>
       </title>
       <title>
-        <key>sv</key>
-        <value>Steg</value>
+        <key>mn</key>
+        <value>Алхам</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Lépés</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Addım</value>
+        <key>pl</key>
+        <value>Krok</value>
       </title>
       <title>
         <key>ro</key>
         <value>Pasul</value>
       </title>
       <title>
-        <key>ru</key>
-        <value>Шаг</value>
+        <key>sl</key>
+        <value>Korak</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Steg</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Adım</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Bước</value>
       </title>
       <id>3</id>
       <valueType>
@@ -1486,48 +1507,28 @@
     <columns>
       <name>ОписаниеШага</name>
       <title>
-        <key>bg</key>
+        <key>ru</key>
         <value>Описание</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Тодорхойлолт</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Description</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Opis</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Açıklama</value>
       </title>
       <title>
         <key>en</key>
         <value>Description</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>აღწერა</value>
+        <key>am</key>
+        <value>መግለጫ</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Descrizione</value>
+        <key>az</key>
+        <value>Təsvir</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Opis</value>
+        <key>bg</key>
+        <value>Описание</value>
       </title>
       <title>
         <key>de</key>
         <value>Beschreibung</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>መግለጫ</value>
       </title>
       <title>
         <key>es</key>
@@ -1538,8 +1539,20 @@
         <value>Kirjeldus</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Mô tả</value>
+        <key>fr</key>
+        <value>Description</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Leírás</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Descrizione</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>აღწერა</value>
       </title>
       <title>
         <key>lt</key>
@@ -1550,24 +1563,32 @@
         <value>Apraksts</value>
       </title>
       <title>
-        <key>sv</key>
-        <value>Beskrivning</value>
+        <key>mn</key>
+        <value>Тодорхойлолт</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Leírás</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Təsvir</value>
+        <key>pl</key>
+        <value>Opis</value>
       </title>
       <title>
         <key>ro</key>
         <value>Descriere</value>
       </title>
       <title>
-        <key>ru</key>
-        <value>Описание</value>
+        <key>sl</key>
+        <value>Opis</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Beskrivning</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Açıklama</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Mô tả</value>
       </title>
       <id>4</id>
       <valueType>
@@ -1584,48 +1605,28 @@
     <columns>
       <name>ПолныйТипШага</name>
       <title>
-        <key>bg</key>
-        <value>Пълен тип на терена</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Бүрэн алхам төрөл</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Plein type d'étape</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Pełna typ kroki</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Tam adım türü</value>
+        <key>ru</key>
+        <value>Полный тип шага</value>
       </title>
       <title>
         <key>en</key>
         <value>Full step type</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>სრული ნაბიჯი ტიპი</value>
+        <key>am</key>
+        <value>ሙሉ ደረጃ ዓይነት</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Completa tipo di passaggio</value>
+        <key>az</key>
+        <value>Tam növü addım</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Celotno korak tip</value>
+        <key>bg</key>
+        <value>Пълен тип на терена</value>
       </title>
       <title>
         <key>de</key>
         <value>Vollständige schritttyp</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ሙሉ ደረጃ ዓይነት</value>
       </title>
       <title>
         <key>es</key>
@@ -1636,8 +1637,20 @@
         <value>Täielik tüüpi sammu</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Kiểu bước đầy đủ</value>
+        <key>fr</key>
+        <value>Plein type d'étape</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Teljes lépés típus</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Completa tipo di passaggio</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>სრული ნაბიჯი ტიპი</value>
       </title>
       <title>
         <key>lt</key>
@@ -1648,24 +1661,32 @@
         <value>Pilna tips soļi</value>
       </title>
       <title>
+        <key>mn</key>
+        <value>Бүрэн алхам төрөл</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Pełna typ kroki</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Tipul plin pasului</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Celotno korak tip</value>
+      </title>
+      <title>
         <key>sv</key>
         <value>Full steg typ</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Teljes lépés típus</value>
+        <key>tr</key>
+        <value>Tam adım türü</value>
       </title>
       <title>
-        <key>az</key>
-        <value>Tam növü addım</value>
-      </title>
-      <title>
-        <key>ro</key>
-        <value>Tipul plin de pas</value>
-      </title>
-      <title>
-        <key>ru</key>
-        <value>Полный тип шага</value>
+        <key>vi</key>
+        <value>Kiểu bước đầy đủ</value>
       </title>
       <id>5</id>
       <valueType>
@@ -1682,48 +1703,28 @@
     <columns>
       <name>ИмяФайла</name>
       <title>
-        <key>bg</key>
-        <value>Име на файл</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Файлын нэр</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Nom de fichier</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Nazwa pliku</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Dosya adı</value>
+        <key>ru</key>
+        <value>Имя файла</value>
       </title>
       <title>
         <key>en</key>
         <value>File</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>ფაილის სახელი</value>
+        <key>am</key>
+        <value>የፋይል ስም</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Il nome del file</value>
+        <key>az</key>
+        <value>Fayl adı</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Ime datoteke</value>
+        <key>bg</key>
+        <value>Име на файл</value>
       </title>
       <title>
         <key>de</key>
         <value>Dateiname</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>የፋይል ስም</value>
       </title>
       <title>
         <key>es</key>
@@ -1734,8 +1735,20 @@
         <value>Faili nimi</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Tên tệp</value>
+        <key>fr</key>
+        <value>Nom de fichier</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Fájl neve</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Il nome del file</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ფაილის სახელი</value>
       </title>
       <title>
         <key>lt</key>
@@ -1746,24 +1759,32 @@
         <value>Faila nosaukums</value>
       </title>
       <title>
+        <key>mn</key>
+        <value>Файлын нэр</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Nazwa pliku</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Nume fișier</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Ime datoteke</value>
+      </title>
+      <title>
         <key>sv</key>
         <value>Fil</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Fájl neve</value>
+        <key>tr</key>
+        <value>Dosya adı</value>
       </title>
       <title>
-        <key>az</key>
-        <value>Fayl adı</value>
-      </title>
-      <title>
-        <key>ro</key>
-        <value>Nume de fișier</value>
-      </title>
-      <title>
-        <key>ru</key>
-        <value>Имя файла</value>
+        <key>vi</key>
+        <value>Tên tệp</value>
       </title>
       <id>6</id>
       <valueType>
@@ -1783,6 +1804,14 @@
         <key>ru</key>
         <value>Язык</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Language</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Limba</value>
+      </title>
       <id>7</id>
       <valueType>
         <types>String</types>
@@ -1798,48 +1827,28 @@
     <columns>
       <name>ОписаниеШагаОригинал</name>
       <title>
-        <key>bg</key>
-        <value>Описание на оригинала</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Тайлбар эх</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Description de l'original</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Opis oryginał</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Açıklama orijinal</value>
+        <key>ru</key>
+        <value>Описание оригинал</value>
       </title>
       <title>
         <key>en</key>
         <value>Description original</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>აღწერა ორიგინალური</value>
+        <key>am</key>
+        <value>መግለጫ.</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Descrizione originale</value>
+        <key>az</key>
+        <value>Orijinal təsviri</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Opis izvirna</value>
+        <key>bg</key>
+        <value>Описание на оригинала</value>
       </title>
       <title>
         <key>de</key>
         <value>Beschreibung das Original</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>መግለጫ.</value>
       </title>
       <title>
         <key>es</key>
@@ -1850,8 +1859,20 @@
         <value>Kirjeldus originaal</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Mô tả bản gốc</value>
+        <key>fr</key>
+        <value>Description de l'original</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Leírás eredeti</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Descrizione originale</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>აღწერა ორიგინალური</value>
       </title>
       <title>
         <key>lt</key>
@@ -1862,24 +1883,32 @@
         <value>Apraksts oriģināls</value>
       </title>
       <title>
+        <key>mn</key>
+        <value>Тайлбар эх</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Opis oryginał</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Descriere original</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Opis izvirna</value>
+      </title>
+      <title>
         <key>sv</key>
         <value>Beskrivning original</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Leírás eredeti</value>
+        <key>tr</key>
+        <value>Açıklama orijinal</value>
       </title>
       <title>
-        <key>az</key>
-        <value>Orijinal təsviri</value>
-      </title>
-      <title>
-        <key>ro</key>
-        <value>Descriere originalul</value>
-      </title>
-      <title>
-        <key>ru</key>
-        <value>Описание оригинал</value>
+        <key>vi</key>
+        <value>Mô tả bản gốc</value>
       </title>
       <id>8</id>
       <valueType>
@@ -1896,48 +1925,28 @@
     <columns>
       <name>ПредставлениеТестаОригинал</name>
       <title>
-        <key>bg</key>
-        <value>Стъпка оригинал</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Анхны алхам</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Étape original</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Krok oryginał</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Adım aslı</value>
+        <key>ru</key>
+        <value>Шаг оригинал</value>
       </title>
       <title>
         <key>en</key>
         <value>Step original</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>ნაბიჯი ორიგინალური</value>
+        <key>am</key>
+        <value>ደረጃ የዋናውን</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Passo originale</value>
+        <key>az</key>
+        <value>Addım original</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Korak original</value>
+        <key>bg</key>
+        <value>Стъпка оригинал</value>
       </title>
       <title>
         <key>de</key>
         <value>Schritt Original</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ደረጃ የዋናውን</value>
       </title>
       <title>
         <key>es</key>
@@ -1948,8 +1957,20 @@
         <value>Samm originaal</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Bước gốc</value>
+        <key>fr</key>
+        <value>Étape original</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Lépés eredeti</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Passo originale</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ნაბიჯი ორიგინალური</value>
       </title>
       <title>
         <key>lt</key>
@@ -1960,26 +1981,146 @@
         <value>Solis oriģināls</value>
       </title>
       <title>
-        <key>sv</key>
-        <value>Steg ursprungliga</value>
+        <key>mn</key>
+        <value>Анхны алхам</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Lépés eredeti</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Addım original</value>
+        <key>pl</key>
+        <value>Krok oryginał</value>
       </title>
       <title>
         <key>ro</key>
         <value>Pasul original</value>
       </title>
       <title>
-        <key>ru</key>
-        <value>Шаг оригинал</value>
+        <key>sl</key>
+        <value>Korak original</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Steg ursprungliga</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Adım aslı</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Bước gốc</value>
       </title>
       <id>10</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Снипет</name>
+      <title>
+        <key>ru</key>
+        <value>Снипет</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Snippet</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ስም snippet</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Adı снипета</value>
+      </title>
+      <title>
+        <key>bg</key>
+        <value>Името на снипета</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Name Schnipsel</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El nombre de снипета</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Nimi снипета</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Le nom de снипета</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>A neve a kódrészletet</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Nome снипета</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>სახელი snippet</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Vardas снипета</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Nosaukums снипета</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Нэр snippet</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Nazwa снипета</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Numele snippet-ului</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Ime delček</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Namn utdrag</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Adı снипета</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Tên đoạn trích</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипШагаВДереве</name>
+      <id>11</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1998,6 +2139,10 @@
       <key>ru</key>
       <value>Таблица известных step definition</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Known step definition table</value>
+    </title>
     <id>3</id>
     <valueType>
       <types>ValueTable</types>
@@ -2013,6 +2158,82 @@
       <title>
         <key>ru</key>
         <value>Имя файла</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>File</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>የፋይል ስም</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Fayl adı</value>
+      </title>
+      <title>
+        <key>bg</key>
+        <value>Име на файл</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Dateiname</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Nombre de archivo</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Faili nimi</value>
+      </title>
+      <title>
+        <key>fr</key>
+        <value>Nom de fichier</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Fájl neve</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Il nome del file</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ფაილის სახელი</value>
+      </title>
+      <title>
+        <key>lt</key>
+        <value>Failo pavadinimas</value>
+      </title>
+      <title>
+        <key>lv</key>
+        <value>Faila nosaukums</value>
+      </title>
+      <title>
+        <key>mn</key>
+        <value>Файлын нэр</value>
+      </title>
+      <title>
+        <key>pl</key>
+        <value>Nazwa pliku</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Nume fișier</value>
+      </title>
+      <title>
+        <key>sl</key>
+        <value>Ime datoteke</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Fil</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Dosya adı</value>
       </title>
       <title>
         <key>vi</key>
@@ -2036,6 +2257,14 @@
         <key>ru</key>
         <value>Id</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>ID</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Id</value>
+      </title>
       <id>2</id>
       <valueType>
         <types>String</types>
@@ -2053,6 +2282,10 @@
       <title>
         <key>ru</key>
         <value>Строка реальной процедуры</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Real procedure string</value>
       </title>
       <title>
         <key>vi</key>
@@ -2076,6 +2309,14 @@
         <key>ru</key>
         <value>Параметры</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Settings</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Parametri</value>
+      </title>
       <id>4</id>
       <valueType/>
       <view>
@@ -2090,6 +2331,10 @@
       <title>
         <key>ru</key>
         <value>Строка для поиска</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>String to search</value>
       </title>
       <id>5</id>
       <valueType>
@@ -2109,6 +2354,10 @@
         <key>ru</key>
         <value>Представление теста</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Test view</value>
+      </title>
       <id>6</id>
       <valueType>
         <types>String</types>
@@ -2126,6 +2375,14 @@
       <title>
         <key>ru</key>
         <value>Транзакция</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Transaction</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Tranzacția</value>
       </title>
       <id>7</id>
       <valueType>
@@ -2145,6 +2402,14 @@
         <key>ru</key>
         <value>Описание шага</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Step description</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Descriere pas</value>
+      </title>
       <id>8</id>
       <valueType>
         <types>String</types>
@@ -2162,6 +2427,14 @@
       <title>
         <key>ru</key>
         <value>Тип шага</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Step type</value>
+      </title>
+      <title>
+        <key>ro</key>
+        <value>Tipul pas</value>
       </title>
       <id>9</id>
       <valueType>
@@ -2181,6 +2454,10 @@
         <key>ru</key>
         <value>Версия файла</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>File version</value>
+      </title>
       <id>10</id>
       <valueType>
         <types>Date</types>
@@ -2199,9 +2476,27 @@
         <key>ru</key>
         <value>Строка обрабатывалась</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>The string was processed</value>
+      </title>
       <id>11</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипШагаВДереве</name>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -2214,48 +2509,28 @@
   <attributes>
     <name>ПоказыватьСлужебныеШаги</name>
     <title>
-      <key>bg</key>
-      <value>Показване на служебни стъпки</value>
-    </title>
-    <title>
-      <key>mn</key>
-      <value>Үзүүлэх үйлчилгээний шат</value>
-    </title>
-    <title>
-      <key>fr</key>
-      <value>Afficher les utilitaires étapes</value>
-    </title>
-    <title>
-      <key>pl</key>
-      <value>Pokaż narzędzia kroki</value>
-    </title>
-    <title>
-      <key>tr</key>
-      <value>Gösteren servis adımlar</value>
+      <key>ru</key>
+      <value>Показывать служебные шаги</value>
     </title>
     <title>
       <key>en</key>
       <value>Show all steps</value>
     </title>
     <title>
-      <key>ka</key>
-      <value>შოუ სამსახურის ნაბიჯები</value>
+      <key>am</key>
+      <value>ለማሳየት አገልግሎት.</value>
     </title>
     <title>
-      <key>it</key>
-      <value>Mostra di utilità passi</value>
+      <key>az</key>
+      <value>Göstərən xidməti addımlar</value>
     </title>
     <title>
-      <key>sl</key>
-      <value>Prikaži storitev koraki</value>
+      <key>bg</key>
+      <value>Показване на служебни стъпки</value>
     </title>
     <title>
       <key>de</key>
       <value>Das zeigen die dienstlichen Schritte</value>
-    </title>
-    <title>
-      <key>am</key>
-      <value>ለማሳየት አገልግሎት.</value>
     </title>
     <title>
       <key>es</key>
@@ -2266,8 +2541,20 @@
       <value>Näita teenuse samme</value>
     </title>
     <title>
-      <key>vi</key>
-      <value>Hiển thị các bước hệ thống</value>
+      <key>fr</key>
+      <value>Afficher les utilitaires étapes</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Show service lépések</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Mostra di utilità passi</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შოუ სამსახურის ნაბიჯები</value>
     </title>
     <title>
       <key>lt</key>
@@ -2278,24 +2565,32 @@
       <value>Rādīt pakalpojumu darbības</value>
     </title>
     <title>
+      <key>mn</key>
+      <value>Үзүүлэх үйлчилгээний шат</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Pokaż narzędzia kroki</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Arăta pași de serviciu</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Prikaži storitev koraki</value>
+    </title>
+    <title>
       <key>sv</key>
       <value>Visa service steg</value>
     </title>
     <title>
-      <key>hu</key>
-      <value>Show service lépések</value>
+      <key>tr</key>
+      <value>Gösteren servis adımlar</value>
     </title>
     <title>
-      <key>az</key>
-      <value>Göstərən xidməti addımlar</value>
-    </title>
-    <title>
-      <key>ro</key>
-      <value>Arăta de serviciu pași</value>
-    </title>
-    <title>
-      <key>ru</key>
-      <value>Показывать служебные шаги</value>
+      <key>vi</key>
+      <value>Hiển thị các bước hệ thống</value>
     </title>
     <id>4</id>
     <valueType>
@@ -2314,6 +2609,10 @@
       <key>ru</key>
       <value>Фильтр дерева шагов</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Steps tree filter</value>
+    </title>
     <id>5</id>
     <valueType>
       <types>String</types>
@@ -2331,6 +2630,82 @@
     <title>
       <key>ru</key>
       <value>Язык генератора gherkin</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Gherkin generator language</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>ቋንቋ ቅድሚያ gherkin</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Dil generator gherkin</value>
+    </title>
+    <title>
+      <key>bg</key>
+      <value>Език генератор gherkin</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Sprache gherkin generator</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>El idioma del generador gherkin</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>Keel generaator gherkin</value>
+    </title>
+    <title>
+      <key>fr</key>
+      <value>La langue de l'alternateur gherkin</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Nyelv generátor uborka</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Il linguaggio del generatore gherkin</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>ენა გენერატორი gherkin</value>
+    </title>
+    <title>
+      <key>lt</key>
+      <value>Kalba generatorius gherkin</value>
+    </title>
+    <title>
+      <key>lv</key>
+      <value>Valoda ģeneratora gherkin</value>
+    </title>
+    <title>
+      <key>mn</key>
+      <value>Хэл generator gherkin</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Język alternatora gherkin</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Limba generator Gherkin</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Jezik generator kumare za vlaganje</value>
+    </title>
+    <title>
+      <key>sv</key>
+      <value>Språket generator gurka</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>Dil jeneratör gherkin</value>
     </title>
     <title>
       <key>vi</key>
@@ -2355,6 +2730,10 @@
       <value>Каталог инструментов</value>
     </title>
     <title>
+      <key>en</key>
+      <value>Tools directory</value>
+    </title>
+    <title>
       <key>vi</key>
       <value>Thư mục công cụ</value>
     </title>
@@ -2376,6 +2755,10 @@
       <key>ru</key>
       <value>Макет шаблон перевода</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Translation</value>
+    </title>
     <id>8</id>
     <valueType/>
     <view>
@@ -2390,6 +2773,10 @@
     <title>
       <key>ru</key>
       <value>Двоичные данные файл перевода</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Binary translation file data</value>
     </title>
     <id>9</id>
     <valueType>
@@ -2409,6 +2796,10 @@
       <key>ru</key>
       <value>Кеш таблицы перевода</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Translation table cache</value>
+    </title>
     <id>10</id>
     <valueType>
       <types>String</types>
@@ -2427,6 +2818,14 @@
       <key>ru</key>
       <value>Это linux</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>This is Linux</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Este LINUX</value>
+    </title>
     <id>11</id>
     <valueType>
       <types>Boolean</types>
@@ -2441,48 +2840,28 @@
   <attributes>
     <name>ПоказатьШагиНаРусском</name>
     <title>
-      <key>bg</key>
-      <value>Покажи стъпки на руски</value>
-    </title>
-    <title>
-      <key>mn</key>
-      <value>Шоу арга хэмжээ орос</value>
-    </title>
-    <title>
-      <key>fr</key>
-      <value>Voir les étapes en russe</value>
-    </title>
-    <title>
-      <key>pl</key>
-      <value>Pokaż kroki w języku rosyjskim</value>
-    </title>
-    <title>
-      <key>tr</key>
-      <value>Adımları göstermek rusça</value>
+      <key>ru</key>
+      <value>Показать шаги на русском</value>
     </title>
     <title>
       <key>en</key>
-      <value>Show steps in russian</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>შოუ ნაბიჯები რუსულ</value>
-    </title>
-    <title>
-      <key>it</key>
-      <value>Mostra i passaggi in russo</value>
-    </title>
-    <title>
-      <key>sl</key>
-      <value>Pokaži navodila v ruščini</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Zeigen Sie die Schritte auf Deutsch</value>
+      <value>Show steps in Russian</value>
     </title>
     <title>
       <key>am</key>
       <value>አሁን የኢትዮጵያ ደረጃዎች ውስጥ ራሽኛ</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Göstərmək addımlar rus</value>
+    </title>
+    <title>
+      <key>bg</key>
+      <value>Покажи стъпки на руски</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Zeigen Sie die Schritte auf Deutsch</value>
     </title>
     <title>
       <key>es</key>
@@ -2493,8 +2872,20 @@
       <value>Näita sammud vene</value>
     </title>
     <title>
-      <key>vi</key>
-      <value>Hiển thị các bước bằng tiếng Nga</value>
+      <key>fr</key>
+      <value>Voir les étapes en russe</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Mutasd meg a lépéseket, orosz</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Mostra i passaggi in russo</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შოუ ნაბიჯები რუსულ</value>
     </title>
     <title>
       <key>lt</key>
@@ -2505,24 +2896,32 @@
       <value>Rādīt pasākumus latviešu, krievu</value>
     </title>
     <title>
+      <key>mn</key>
+      <value>Шоу арга хэмжээ орос</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Pokaż kroki w języku rosyjskim</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Arată pașii in Rusa</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Pokaži navodila v ruščini</value>
+    </title>
+    <title>
       <key>sv</key>
       <value>Visa steg i ryska</value>
     </title>
     <title>
-      <key>hu</key>
-      <value>Mutasd meg a lépéseket, orosz</value>
+      <key>tr</key>
+      <value>Adımları göstermek rusça</value>
     </title>
     <title>
-      <key>az</key>
-      <value>Göstərmək addımlar rus</value>
-    </title>
-    <title>
-      <key>ro</key>
-      <value>Arată pașii pe rusa</value>
-    </title>
-    <title>
-      <key>ru</key>
-      <value>Показать шаги на русском</value>
+      <key>vi</key>
+      <value>Hiển thị các bước bằng tiếng Nga</value>
     </title>
     <id>12</id>
     <valueType>
@@ -2556,51 +2955,53 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ПараметрСнипет</name>
+    <title>
+      <key>ru</key>
+      <value>Параметр снипет</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Parameter snippet</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказатьПеревод</name>
     <title>
-      <key>bg</key>
-      <value>Покажи превода</value>
-    </title>
-    <title>
-      <key>mn</key>
-      <value>Шоу орчуулга</value>
-    </title>
-    <title>
-      <key>fr</key>
-      <value>Afficher la traduction</value>
-    </title>
-    <title>
-      <key>pl</key>
-      <value>Pokaż tłumaczenie</value>
-    </title>
-    <title>
-      <key>tr</key>
-      <value>Haritasında çeviri</value>
+      <key>ru</key>
+      <value>Показать перевод</value>
     </title>
     <title>
       <key>en</key>
       <value>Show translation</value>
     </title>
     <title>
-      <key>ka</key>
-      <value>შოუ თარგმანი</value>
+      <key>am</key>
+      <value>ለማሳየት ትርጉሞች</value>
     </title>
     <title>
-      <key>it</key>
-      <value>Mostrare la traduzione</value>
+      <key>az</key>
+      <value>Göstərmək tərcümə</value>
     </title>
     <title>
-      <key>sl</key>
-      <value>Kažejo, prevodi,</value>
+      <key>bg</key>
+      <value>Покажи превода</value>
     </title>
     <title>
       <key>de</key>
       <value>Übersetzung anzeigen</value>
-    </title>
-    <title>
-      <key>am</key>
-      <value>ለማሳየት ትርጉሞች</value>
     </title>
     <title>
       <key>es</key>
@@ -2611,8 +3012,20 @@
       <value>Vaata tõlget</value>
     </title>
     <title>
-      <key>vi</key>
-      <value>Hiển thị bản dịch</value>
+      <key>fr</key>
+      <value>Afficher la traduction</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Show fordítások</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Mostrare la traduzione</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>შოუ თარგმანი</value>
     </title>
     <title>
       <key>lt</key>
@@ -2623,29 +3036,113 @@
       <value>Rādīt tulkojums</value>
     </title>
     <title>
+      <key>mn</key>
+      <value>Шоу орчуулга</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Pokaż tłumaczenie</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Arată traducere</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Kažejo, prevodi,</value>
+    </title>
+    <title>
       <key>sv</key>
       <value>Visa översättningar</value>
     </title>
     <title>
-      <key>hu</key>
-      <value>Show fordítások</value>
+      <key>tr</key>
+      <value>Haritasında çeviri</value>
     </title>
     <title>
-      <key>ro</key>
-      <value>Arată de traducere</value>
-    </title>
-    <title>
-      <key>az</key>
-      <value>Göstərmək tərcümə</value>
-    </title>
-    <title>
-      <key>ru</key>
-      <value>Показать перевод</value>
+      <key>vi</key>
+      <value>Hiển thị bản dịch</value>
     </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Показать перевод</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Show translation</value>
+    </toolTip>
+    <toolTip>
+      <key>am</key>
+      <value>ለማሳየት ትርጉሞች</value>
+    </toolTip>
+    <toolTip>
+      <key>az</key>
+      <value>Göstərmək tərcümə</value>
+    </toolTip>
+    <toolTip>
+      <key>bg</key>
+      <value>Покажи превода</value>
+    </toolTip>
+    <toolTip>
+      <key>de</key>
+      <value>Übersetzung anzeigen</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Ver traducción</value>
+    </toolTip>
+    <toolTip>
+      <key>et</key>
+      <value>Vaata tõlget</value>
+    </toolTip>
+    <toolTip>
+      <key>fr</key>
+      <value>Afficher la traduction</value>
+    </toolTip>
+    <toolTip>
+      <key>hu</key>
+      <value>Show fordítások</value>
+    </toolTip>
+    <toolTip>
+      <key>it</key>
+      <value>Mostrare la traduzione</value>
+    </toolTip>
+    <toolTip>
+      <key>ka</key>
+      <value>შოუ თარგმანი</value>
+    </toolTip>
+    <toolTip>
+      <key>lt</key>
+      <value>Rodyti vertimą</value>
+    </toolTip>
+    <toolTip>
+      <key>lv</key>
+      <value>Rādīt tulkojums</value>
+    </toolTip>
+    <toolTip>
+      <key>mn</key>
+      <value>Шоу орчуулга</value>
+    </toolTip>
+    <toolTip>
+      <key>pl</key>
+      <value>Pokaż tłumaczenie</value>
+    </toolTip>
+    <toolTip>
+      <key>ro</key>
+      <value>Arată traducere</value>
+    </toolTip>
+    <toolTip>
+      <key>sl</key>
+      <value>Kažejo, prevodi,</value>
+    </toolTip>
+    <toolTip>
+      <key>sv</key>
+      <value>Visa översättningar</value>
+    </toolTip>
+    <toolTip>
+      <key>tr</key>
+      <value>Haritasında çeviri</value>
     </toolTip>
     <toolTip>
       <key>vi</key>
@@ -2664,48 +3161,28 @@
   <formCommands>
     <name>ВыгрузитьШагиВJSON</name>
     <title>
-      <key>bg</key>
-      <value>Разтоварят стъпки в JSON</value>
-    </title>
-    <title>
-      <key>mn</key>
-      <value>Алхам хуулж JSON</value>
-    </title>
-    <title>
-      <key>fr</key>
-      <value>Décharger les étapes en JSON</value>
-    </title>
-    <title>
-      <key>pl</key>
-      <value>Wyślij kroki w formacie JSON</value>
-    </title>
-    <title>
-      <key>tr</key>
-      <value>Kaldırma adımları JSON</value>
+      <key>ru</key>
+      <value>Выгрузить шаги в JSON</value>
     </title>
     <title>
       <key>en</key>
-      <value>Unload steps in JSON</value>
-    </title>
-    <title>
-      <key>ka</key>
-      <value>ნაბიჯები ატვირთოთ JSON</value>
-    </title>
-    <title>
-      <key>it</key>
-      <value>Scaricare passi in JSON</value>
-    </title>
-    <title>
-      <key>sl</key>
-      <value>Navodila za nalaganje JSON</value>
-    </title>
-    <title>
-      <key>de</key>
-      <value>Entladen Schritte in JSON</value>
+      <value>Upload steps to JSON</value>
     </title>
     <title>
       <key>am</key>
       <value>ጋር ይገናኛሉ ስለጀመሩ ቅድሚያ</value>
+    </title>
+    <title>
+      <key>az</key>
+      <value>Boşaltmaq addımlar JSON</value>
+    </title>
+    <title>
+      <key>bg</key>
+      <value>Разтоварят стъпки в JSON</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>Entladen Schritte in JSON</value>
     </title>
     <title>
       <key>es</key>
@@ -2716,8 +3193,20 @@
       <value>Laadi samme JSON</value>
     </title>
     <title>
-      <key>vi</key>
-      <value>Kết xuất các bước sang JSON</value>
+      <key>fr</key>
+      <value>Décharger les étapes en JSON</value>
+    </title>
+    <title>
+      <key>hu</key>
+      <value>Lépéseket, hogy töltse fel a JSON</value>
+    </title>
+    <title>
+      <key>it</key>
+      <value>Scaricare passi in JSON</value>
+    </title>
+    <title>
+      <key>ka</key>
+      <value>ნაბიჯები ატვირთოთ JSON</value>
     </title>
     <title>
       <key>lt</key>
@@ -2728,29 +3217,41 @@
       <value>Izkraut soļi JSON</value>
     </title>
     <title>
+      <key>mn</key>
+      <value>Алхам хуулж JSON</value>
+    </title>
+    <title>
+      <key>pl</key>
+      <value>Wyślij kroki w formacie JSON</value>
+    </title>
+    <title>
+      <key>ro</key>
+      <value>Salvare pași în JSON</value>
+    </title>
+    <title>
+      <key>sl</key>
+      <value>Navodila za nalaganje JSON</value>
+    </title>
+    <title>
       <key>sv</key>
       <value>Åtgärder för att ladda upp JSON</value>
     </title>
     <title>
-      <key>hu</key>
-      <value>Lépéseket, hogy töltse fel a JSON</value>
+      <key>tr</key>
+      <value>Kaldırma adımları JSON</value>
     </title>
     <title>
-      <key>ro</key>
-      <value>Descarcă pași în JSON</value>
-    </title>
-    <title>
-      <key>az</key>
-      <value>Boşaltmaq addımlar JSON</value>
-    </title>
-    <title>
-      <key>ru</key>
-      <value>Выгрузить шаги в JSON</value>
+      <key>vi</key>
+      <value>Kết xuất các bước sang JSON</value>
     </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
       <value>Выгрузить шаги ВJSON</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Upload steps to JSON</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2767,6 +3268,10 @@
     <title>
       <key>ru</key>
       <value>Найти шаги</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Find steps</value>
     </title>
     <id>6</id>
     <use>

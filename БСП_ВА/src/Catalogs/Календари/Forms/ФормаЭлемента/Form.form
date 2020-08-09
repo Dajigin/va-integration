@@ -92,7 +92,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -232,6 +232,10 @@
                       <segments>Объект.ДатаОкончания</segments>
                     </paths>
                   </dataPath>
+                  <handlers>
+                    <event>OnChange</event>
+                    <name>ДатаОкончанияПриИзменении</name>
+                  </handlers>
                   <extendedTooltip>
                     <name>ДатаОкончанияExtendedTooltip</name>
                     <id>307</id>
@@ -302,7 +306,7 @@
                   <showLeftMargin>true</showLeftMargin>
                   <united>true</united>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -340,7 +344,7 @@
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -373,7 +377,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -472,7 +476,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -505,7 +509,7 @@
             <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -848,7 +852,7 @@
                     <showLeftMargin>true</showLeftMargin>
                     <united>true</united>
                     <throughAlign>Auto</throughAlign>
-                    <currentRowUse>DontUse</currentRowUse>
+                    <currentRowUse>Auto</currentRowUse>
                   </extInfo>
                 </items>
                 <visible>true</visible>
@@ -881,7 +885,7 @@
                   <showLeftMargin>true</showLeftMargin>
                   <united>true</united>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -919,15 +923,15 @@
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
               <name>УчитыватьПраздникиГруппа</name>
-              <id>177</id>
+              <id>404</id>
               <items xsi:type="form:FormField">
                 <name>УчитыватьПраздники</name>
-                <id>173</id>
+                <id>406</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -950,15 +954,14 @@
                   <name>УчитыватьПраздникиПриИзменении</name>
                 </handlers>
                 <extendedTooltip>
-                  <name>УчитыватьПраздникиExtendedTooltip</name>
-                  <id>324</id>
+                  <name>УчитыватьПраздникиРасширеннаяПодсказка</name>
+                  <id>408</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
                     <horizontalAlign>Left</horizontalAlign>
@@ -966,7 +969,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>УчитыватьПраздникиКонтекстноеМеню</name>
-                  <id>174</id>
+                  <id>407</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -981,9 +984,45 @@
                 <showInFooter>true</showInFooter>
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Учитывать праздники</value>
+              </title>
+              <extendedTooltip>
+                <name>УчитыватьПраздникиГруппаРасширеннаяПодсказка</name>
+                <id>405</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>HorizontalIfPossible</group>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormGroup">
+              <name>УчитыватьНерабочиеПериодыГруппа</name>
+              <id>409</id>
               <items xsi:type="form:FormField">
-                <name>РасписаниеПредпраздничногоДня</name>
-                <id>287</id>
+                <name>УчитыватьНерабочиеПериоды</name>
+                <id>411</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -991,12 +1030,21 @@
                 </userVisible>
                 <dataPath xsi:type="form:MultiLanguageDataPath">
                   <paths xsi:type="form:DataPath">
-                    <segments>РасписаниеПредпраздничногоДня</segments>
+                    <segments>Объект.УчитыватьНерабочиеПериоды</segments>
                   </paths>
                 </dataPath>
+                <titleLocation>Right</titleLocation>
+                <toolTip>
+                  <key>ru</key>
+                  <value>Если установлено, то из состава рабочих дней будут исключаться дни нерабочих периодов производственного календаря</value>
+                </toolTip>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>УчитыватьНерабочиеПериодыПриИзменении</name>
+                </handlers>
                 <extendedTooltip>
-                  <name>РасписаниеПредпраздничногоДняExtendedTooltip</name>
-                  <id>326</id>
+                  <name>УчитыватьНерабочиеПериодыРасширеннаяПодсказка</name>
+                  <id>413</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1010,8 +1058,8 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>РасписаниеПредпраздничногоДняКонтекстноеМеню</name>
-                  <id>288</id>
+                  <name>УчитыватьНерабочиеПериодыКонтекстноеМеню</name>
+                  <id>412</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1019,20 +1067,136 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>LabelField</type>
+                <type>CheckBoxField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:LabelFieldExtInfo">
-                  <handlers>
-                    <event>Click</event>
-                    <name>РасписаниеПредпраздничногоДняНажатие</name>
-                  </handlers>
+                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+              </items>
+              <items xsi:type="form:FormGroup">
+                <name>НерабочиеПериодыГруппа</name>
+                <id>396</id>
+                <items xsi:type="form:Decoration">
+                  <name>НерабочиеПериодыКартинка</name>
+                  <id>398</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Нерабочие периоды картинка</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>НерабочиеПериодыКартинкаРасширеннаяПодсказка</name>
+                    <id>400</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>НерабочиеПериодыКартинкаКонтекстноеМеню</name>
+                    <id>399</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <horizontalStretch>false</horizontalStretch>
-                  <hyperlink>true</hyperlink>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo">
+                    <picture xsi:type="core:PictureRef">
+                      <picture>CommonPicture.Информация</picture>
+                    </picture>
+                    <fileDragMode>AsFileRef</fileDragMode>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:Decoration">
+                  <name>НерабочиеПериодыИнформация</name>
+                  <id>401</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Нерабочие периоды информация</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>НерабочиеПериодыИнформацияРасширеннаяПодсказка</name>
+                    <id>403</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>НерабочиеПериодыИнформацияКонтекстноеМеню</name>
+                    <id>402</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>Label</type>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Нерабочие периоды</value>
+                </title>
+                <extendedTooltip>
+                  <name>НерабочиеПериодыГруппаРасширеннаяПодсказка</name>
+                  <id>397</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualGroup</type>
+                <extInfo xsi:type="form:UsualGroupExtInfo">
+                  <group>HorizontalIfPossible</group>
+                  <showLeftMargin>true</showLeftMargin>
+                  <united>true</united>
+                  <throughAlign>Auto</throughAlign>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -1042,11 +1206,11 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Учитывать праздники группа</value>
+                <value>Учитывать нерабочие периоды</value>
               </title>
               <extendedTooltip>
-                <name>УчитыватьПраздникиГруппаExtendedTooltip</name>
-                <id>323</id>
+                <name>УчитыватьНерабочиеПериодыГруппаРасширеннаяПодсказка</name>
+                <id>410</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1062,11 +1226,10 @@
               <type>UsualGroup</type>
               <extInfo xsi:type="form:UsualGroupExtInfo">
                 <group>Vertical</group>
-                <representation>NormalSeparation</representation>
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -1100,7 +1263,7 @@
               <united>true</united>
               <slaveItemsWidth>Equal</slaveItemsWidth>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -1528,6 +1691,60 @@
               <enableDrag>true</enableDrag>
               <rowFilter xsi:type="core:UndefinedValue"/>
             </items>
+            <items xsi:type="form:FormField">
+              <name>РасписаниеПредпраздничногоДня</name>
+              <id>287</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>РасписаниеПредпраздничногоДня</segments>
+                </paths>
+              </dataPath>
+              <extendedTooltip>
+                <name>РасписаниеПредпраздничногоДняExtendedTooltip</name>
+                <id>326</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>РасписаниеПредпраздничногоДняКонтекстноеМеню</name>
+                <id>288</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>LabelField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:LabelFieldExtInfo">
+                <handlers>
+                  <event>Click</event>
+                  <name>РасписаниеПредпраздничногоДняНажатие</name>
+                </handlers>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <horizontalStretch>false</horizontalStretch>
+                <hyperlink>true</hyperlink>
+              </extInfo>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1558,7 +1775,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1591,7 +1808,7 @@
             <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1625,7 +1842,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1732,7 +1949,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1765,7 +1982,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1895,7 +2112,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1930,7 +2147,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2023,7 +2240,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2162,7 +2379,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:Button">
@@ -2228,7 +2445,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2442,7 +2659,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -2545,7 +2762,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -2579,7 +2796,7 @@
           <united>true</united>
           <slaveItemsWidth>LeftWidest</slaveItemsWidth>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2710,7 +2927,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -2800,7 +3017,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -2814,10 +3031,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>ChoiceProcessing</event>
-    <name>ОбработкаВыбора</name>
-  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
@@ -3186,6 +3399,7 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3231,12 +3445,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>2:17aadd5f-cda2-4785-a07f-3ab4b04434a6</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">

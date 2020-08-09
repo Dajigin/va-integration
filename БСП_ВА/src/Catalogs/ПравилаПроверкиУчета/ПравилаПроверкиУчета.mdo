@@ -150,6 +150,10 @@
     <type>
       <types>EnumRef.ВажностьПроблемыУчета</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Важность проблем, выявляемых проверкой.</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

@@ -10,5 +10,6 @@
   <content>DataProcessor.ОбновлениеВерсииИБ</content>
   <content>Report.СтатистикаВыполненияОбработчиковОбновления</content>
   <content>DataProcessor.ОбновлениеВспомогательныхДанных</content>
+  <content>DataProcessor.ОписаниеОбработчиковОбновления</content>
   <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
 </mdclass:Subsystem>

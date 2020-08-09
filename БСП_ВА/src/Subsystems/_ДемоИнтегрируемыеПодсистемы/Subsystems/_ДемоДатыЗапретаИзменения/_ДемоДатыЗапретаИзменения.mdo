@@ -18,7 +18,6 @@
   <content>Catalog._ДемоГруппыДоступаПартнеров</content>
   <content>Catalog._ДемоМестаХранения</content>
   <content>EventSubscription._ДемоПроверитьДатуЗапретаИзмененияПередУдалением</content>
-  <content>c6fb0b33-065a-4b2e-976a-731f32952981</content>
   <subsystems>Использование</subsystems>
   <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

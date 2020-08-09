@@ -7,7 +7,5 @@
   </synonym>
   <content>CommonModule.УниверсальнаяИнтеграция</content>
   <content>CommonModule.УниверсальнаяИнтеграцияПереопределяемый</content>
-  <content>CommonModule.УниверсальнаяИнтеграцияСловарь</content>
-  <content>HTTPService.УниверсальнаяИнтеграцияВнутренняя</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

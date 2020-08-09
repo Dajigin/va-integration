@@ -7,9 +7,6 @@
   </synonym>
   <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>DataProcessor.ОплатаСервиса</content>
-  <content>DataProcessor.ОплатаСервиса.Command.ОплатаСервиса</content>
-  <content>DataProcessor.КаталогРасширений.Command.ОткрытьКаталогРасширений</content>
-  <content>DataProcessor.КаталогРасширений</content>
   <content>Subsystem.АдминистрированиеСервиса</content>
+  <content>CommonCommand.ОплатаСервиса</content>
 </mdclass:FunctionalOption>

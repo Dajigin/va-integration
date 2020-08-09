@@ -12,6 +12,4 @@
   <content>Enum.ТипыУслуг</content>
   <content>InformationRegister.ДоступныеЛицензии</content>
   <content>InformationRegister.ЗанятыеЛицензии</content>
-  <content>CommonCommand.ЗапроситьЛицензииУникальныхУслуг</content>
-  <content>CommonCommand.ЗарегистрироватьУслугиСервиса</content>
 </mdclass:FunctionalOption>

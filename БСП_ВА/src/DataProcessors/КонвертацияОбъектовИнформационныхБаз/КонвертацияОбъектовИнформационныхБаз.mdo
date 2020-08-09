@@ -534,6 +534,26 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="6fe997a3-d729-420b-b2b2-558e9a1031ee">
+    <name>СчетчикЗагруженныхОбъектовВнешнееСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик загруженных объектов внешнее соединение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество объектов, загруженных через внешнее соединение. Заполняется обработкой, выполняющей выгрузку на стороне базы-корреспондента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="bbaed1bd-0eb7-4f2b-b844-ab79c1d0a091">
     <name>Форма</name>
     <synonym>

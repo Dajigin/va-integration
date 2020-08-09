@@ -410,11 +410,11 @@
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>false</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -466,8 +466,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>47</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаКоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

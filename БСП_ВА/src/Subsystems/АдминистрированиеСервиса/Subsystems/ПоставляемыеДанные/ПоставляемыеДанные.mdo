@@ -9,7 +9,7 @@
   <content>Catalog.ПоставляемыеДанные</content>
   <content>Catalog.ПоставляемыеДополнительныеОтчетыИОбработки</content>
   <content>InformationRegister.ПоставляемыеДанныеТребующиеОбработки</content>
-  <content>InformationRegister.ОбластиТребующиеОбработкиПоставляемыхДанных</content>
   <content>Catalog.ПоставляемыеРасширения</content>
+  <content>InformationRegister.ПоставляемыеДанныеТребующиеОбработкиВОбластях</content>
   <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
 </mdclass:Subsystem>

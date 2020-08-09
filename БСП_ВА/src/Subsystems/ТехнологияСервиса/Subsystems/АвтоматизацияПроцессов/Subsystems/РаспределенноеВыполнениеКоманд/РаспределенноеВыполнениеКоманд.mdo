@@ -8,12 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.РаспределенноеВыполнениеКоманд</content>
   <content>CommonModule.СообщенияРаспределенноеВыполнениеКомандИнтерфейс</content>
-  <content>CommonModule.СообщенияРаспределенноеВыполнениеКомандОбработчикСообщения_1_0_1_1</content>
-  <content>XDTOPackage.RemoteProcedureCall_v1</content>
-  <content>XDTOPackage.RemoteProcedureCall_v2</content>
-  <content>CommonModule.СообщенияРаспределенноеВыполнениеКомандРеализация</content>
-  <content>CommonModule.СообщенияРаспределенноеВыполнениеКомандОбработчикСообщения_1_0_2_1</content>
-  <content>CommonModule.СообщенияРаспределенноеВыполнениеКомандОбработчикТрансляции_1_0_2_1</content>
   <content>CommonModule.РаспределенноеВыполнениеКомандПереопределяемый</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса.Subsystem.АвтоматизацияПроцессов</parentSubsystem>
 </mdclass:Subsystem>

@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Демо: Печать карточки организации</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor._ДемоПечатьКарточкиОрганизации.Form.ОсновнаяФорма</defaultForm>
   <forms uuid="1db969b8-66a5-4f6c-aebf-a1ad60d76e79">
     <name>ОсновнаяФорма</name>

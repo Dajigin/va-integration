@@ -48,5 +48,6 @@
   <content>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛевоВерх</content>
   <content>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛевоНиз</content>
   <content>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторНиз</content>
+  <content>CommonPicture.СтруктураПодчиненности</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

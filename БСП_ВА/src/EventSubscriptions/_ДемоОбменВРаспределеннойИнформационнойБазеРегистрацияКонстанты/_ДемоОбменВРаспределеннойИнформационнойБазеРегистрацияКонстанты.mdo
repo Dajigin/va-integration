@@ -35,6 +35,7 @@
     <types>ConstantValueManager.ИспользоватьДатуИВремяВСрокахЗадач</types>
     <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
     <types>ConstantValueManager.МаксимальныйРазмерФайлаОбластиДанных</types>
+    <types>ConstantValueManager.ИспользоватьУчетОригиналовПервичныхДокументов</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.ИспользоватьСервисСклоненияMorpher</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеРеквизитыИСведения</types>

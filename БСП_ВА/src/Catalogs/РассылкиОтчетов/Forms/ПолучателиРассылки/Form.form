@@ -457,11 +457,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Получатели.StandardCommand.Add</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаКоманднаяПанельПолучатели</name>
@@ -839,8 +839,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>47</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаКоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

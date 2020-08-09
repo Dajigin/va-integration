@@ -10,9 +10,6 @@
   <content>Catalog.УслугиСервиса</content>
   <content>Constant.ИспользоватьКонтрольТарификации</content>
   <content>InformationRegister.ДоступныеЛицензии</content>
-  <content>CommonCommand.ЗарегистрироватьУслугиСервиса</content>
   <content>InformationRegister.ЗанятыеЛицензии</content>
-  <content>17032fc0-a87f-46d0-a3c5-36c816e59e9b</content>
-  <content>529b6fd5-53c3-4df8-9f1e-430095302b15</content>
   <parentSubsystem>Subsystem.АдминистрированиеСервиса</parentSubsystem>
 </mdclass:Subsystem>

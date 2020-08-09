@@ -34,7 +34,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -100,7 +100,7 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Список.Date</segments>
+            <segments>Список.Дата</segments>
           </paths>
         </dataPath>
         <defaultItem>true</defaultItem>
@@ -150,7 +150,7 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Список.Number</segments>
+            <segments>Список.Номер</segments>
           </paths>
         </dataPath>
         <extendedTooltip>
@@ -536,12 +536,16 @@
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
       <id>45</id>
+      <title>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Список.Ref</segments>
+          <segments>Список.Ссылка</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -590,6 +594,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокВыбор</name>
+    </handlers>
     <handlers>
       <event>OnActivateRow</event>
       <name>СписокПриАктивизацииСтроки</name>
@@ -757,6 +765,10 @@
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>OnGetDataAtServer</event>
+        <name>СписокПриПолученииДанныхНаСервере</name>
+      </handlers>
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
         <startDate>0001-01-01T00:00:00</startDate>
@@ -777,6 +789,10 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
@@ -802,13 +818,43 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ref</segments>
+      <segments>Список.ОбщееСостояние</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.СостояниеОригиналаПервичногоДокумента</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	Документ_ДемоПеремещениеТоваров.Ссылка КАК Ссылка,
+	Документ_ДемоПеремещениеТоваров.ПометкаУдаления КАК ПометкаУдаления,
+	Документ_ДемоПеремещениеТоваров.Номер КАК Номер,
+	Документ_ДемоПеремещениеТоваров.Дата КАК Дата,
+	Документ_ДемоПеремещениеТоваров.Проведен КАК Проведен,
+	Документ_ДемоПеремещениеТоваров.Организация КАК Организация,
+	Документ_ДемоПеремещениеТоваров.МестоХраненияИсточник КАК МестоХраненияИсточник,
+	Документ_ДемоПеремещениеТоваров.МестоХраненияПриемник КАК МестоХраненияПриемник,
+	Документ_ДемоПеремещениеТоваров.Ответственный КАК Ответственный,
+	Документ_ДемоПеремещениеТоваров.Комментарий КАК Комментарий,
+	Документ_ДемоПеремещениеТоваров.Товары.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Номенклатура КАК Номенклатура,
+		Количество КАК Количество
+	) КАК Товары,
+	Документ_ДемоПеремещениеТоваров.МоментВремени КАК МоментВремени,
+	NULL КАК СостояниеОригиналаПервичногоДокумента,
+	ИСТИНА КАК ОбщееСостояние,
+	0 КАК СостояниеОригиналПолучен
+ИЗ
+	Документ._ДемоПеремещениеТоваров КАК Документ_ДемоПеремещениеТоваров</queryText>
       <mainTable>Document._ДемоПеремещениеТоваров</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

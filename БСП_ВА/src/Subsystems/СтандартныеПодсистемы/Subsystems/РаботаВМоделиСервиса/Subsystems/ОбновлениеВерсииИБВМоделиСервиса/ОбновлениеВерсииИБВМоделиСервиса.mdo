@@ -9,5 +9,6 @@
   <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
   <content>CommonForm.ПриоритетОбновленияВОбластяхДанных</content>
   <content>Constant.ПриоритетОбновленияВОбластяхДанных</content>
+  <content>Report.ПрогрессОбновленияОбластейДанных</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
 </mdclass:Subsystem>

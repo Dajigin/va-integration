@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c1e087c-6d12-4c4e-9257-14eb3b4ceba5">
-  <name>СостояниеИнтеграцииОтправлено</name>
-  <synonym>
-    <key>ru</key>
-    <value>Состояние интеграции отправлено</value>
-  </synonym>
-</mdclass:CommonPicture>

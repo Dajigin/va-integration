@@ -12,8 +12,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.НастройкаТестирования</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Запись.НастройкаТестирования</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НастройкаТестированияРасширеннаяПодсказка</name>
@@ -66,8 +68,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.ЗначениеНастройки</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Запись.ЗначениеНастройки</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ЗначениеНастройкиРасширеннаяПодсказка</name>

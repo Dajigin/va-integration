@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
-    <name>СценарииПодключения</name>
+    <name>ПодключениеВнешнихКомпонент</name>
     <id>27</id>
     <items xsi:type="form:Button">
       <name>ПодключитьКомпонентуБезКэширования</name>
@@ -91,7 +91,7 @@
         <id>36</id>
         <title>
           <key>ru</key>
-          <value>Подключает компоненту CryptS из макета конфигурации</value>
+          <value>Подключает компоненту сканирования из макета конфигурации.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -181,6 +181,43 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ПодключитьКомпонентуИзРеестраWindows</commandName>
+      <representation>Auto</representation>
+      <width>32</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>ShowRight</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ПодключитьКомпонентуНаСервере</name>
+      <id>87</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПодключитьКомпонентуНаСервереРасширеннаяПодсказка</name>
+        <id>88</id>
+        <title>
+          <key>ru</key>
+          <value>Подключает компоненту InputDevice версии 8.1.7.1</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.ПодключитьКомпонентуНаСервере</commandName>
       <representation>Auto</representation>
       <width>32</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -307,10 +344,10 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Сценарии подключения</value>
+      <value>Подключение</value>
     </title>
     <extendedTooltip>
-      <name>СценарииПодключенияРасширеннаяПодсказка</name>
+      <name>ПодключениеВнешнихКомпонентРасширеннаяПодсказка</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -332,11 +369,11 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>УстановленныеКомпоненты</name>
+    <name>ПапкиУстановленныхКомпонент</name>
     <id>44</id>
     <items xsi:type="form:FormField">
       <name>ПапкаWindows</name>
@@ -576,11 +613,11 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Установленные компоненты</value>
+      <value>Папки установленных компонент</value>
     </title>
     <readOnly>true</readOnly>
     <extendedTooltip>
-      <name>УстановленныеКомпонентыРасширеннаяПодсказка</name>
+      <name>ПапкиУстановленныхКомпонентРасширеннаяПодсказка</name>
       <id>45</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -597,23 +634,25 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Collapsible</behavior>
+      <collapsed>true</collapsed>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>СценарийЗагрузкиИзФайла</name>
+    <name>ЗагрузкаИзФайла</name>
     <id>9</id>
     <items xsi:type="form:Decoration">
       <name>ДекорацияПримерЗагрузкиИзФайла</name>
       <id>68</id>
       <title>
         <key>ru</key>
-        <value>Данный пример демонстрирует разработку команды загрузки внешней компоненты из файла, используя программный интерфейс БСП:</value>
+        <value>Демонстрирует разработку команды загрузки внешней компоненты из файла, используя программный интерфейс подсистемы.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -697,10 +736,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Простая загрузка</value>
-        </title>
         <extendedTooltip>
           <name>ПростаяЗагрузкаРасширеннаяПодсказка</name>
           <id>81</id>
@@ -722,7 +757,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -817,10 +852,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Загрузка с получением дополнительной информации</value>
-        </title>
         <extendedTooltip>
           <name>ЗагрузкаСПолучениемДополнительнойИнформацииРасширеннаяПодсказка</name>
           <id>83</id>
@@ -842,7 +873,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -850,10 +881,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Варианты загрузки</value>
-      </title>
       <extendedTooltip>
         <name>ВариантыЗагрузкиРасширеннаяПодсказка</name>
         <id>57</id>
@@ -875,7 +902,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
@@ -1117,10 +1144,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Идентификатор версия</value>
-        </title>
         <extendedTooltip>
           <name>ИдентификаторВерсияРасширеннаяПодсказка</name>
           <id>15</id>
@@ -1145,7 +1168,7 @@
             <color>Style.ФонУправляющегоПоля</color>
           </backColor>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1153,10 +1176,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Текущая компонента</value>
-      </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ТекущаяКомпонентаРасширеннаяПодсказка</name>
@@ -1180,7 +1199,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1190,10 +1209,10 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Сценарий загрузки из файла</value>
+      <value>Загрузка из файла</value>
     </title>
     <extendedTooltip>
-      <name>СценарийЗагрузкиИзФайлаРасширеннаяПодсказка</name>
+      <name>ЗагрузкаИзФайлаРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1215,12 +1234,43 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаСправочникВнешниеКомпонентыОткрытьСписок</name>
+      <id>89</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСправочникВнешниеКомпонентыОткрытьСписокРасширеннаяПодсказка</name>
+        <id>90</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>CommandBarHyperlink</type>
+      <commandName>Catalog.ВнешниеКомпоненты.StandardCommand.OpenList</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1233,6 +1283,8 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>CustomizeForm</excludedCommands>
+  <excludedCommands>Help</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1396,7 +1448,7 @@
     <name>ПодключитьКомпоненту</name>
     <title>
       <key>ru</key>
-      <value>Подключить компоненту</value>
+      <value>Подключить компоненту на клиенте</value>
     </title>
     <id>2</id>
     <toolTip>
@@ -1610,6 +1662,23 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПодключитьКомпонентуНаСервере</name>
+    <title>
+      <key>ru</key>
+      <value>Подключить компоненту на сервере</value>
+    </title>
+    <id>12</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПодключитьКомпонентуНаСервере</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

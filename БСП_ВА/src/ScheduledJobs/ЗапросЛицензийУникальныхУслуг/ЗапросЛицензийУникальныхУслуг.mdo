@@ -6,7 +6,7 @@
     <value>Запрос лицензий уникальных услуг</value>
   </synonym>
   <comment>Запрашивает у МС лицензии уникальных услуг вместе с их привязкой</comment>
-  <methodName>CommonModule.ТарификацияСлужебный.ЗапроситьЛицензииУникальныхУслуг_РегламентноеЗадание</methodName>
+  <methodName>CommonModule.Тарификация.ЗапроситьЛицензииУникальныхУслуг_РегламентноеЗадание</methodName>
   <key>1</key>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogObject.ПравилаОбработкиЭлектроннойПочты</types>
+    <types>CatalogObject.СостоянияОригиналовПервичныхДокументов</types>
     <types>CatalogObject.ВидыКонтактнойИнформации</types>
     <types>CatalogObject._ДемоПроекты</types>
     <types>CatalogObject.ВариантыОтветовАнкет</types>

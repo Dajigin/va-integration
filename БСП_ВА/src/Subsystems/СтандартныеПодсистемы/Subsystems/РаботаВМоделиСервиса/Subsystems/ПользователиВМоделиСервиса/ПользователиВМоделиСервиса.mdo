@@ -18,5 +18,6 @@
   <content>XDTOPackage.DataArtefacts_ServiceUsers_1_0_0_1</content>
   <content>DataProcessor.ВыгрузкаЗагрузкаДанныхСверткаСсылокНаПользователейВРазделенныхДанных</content>
   <content>InformationRegister.НеразделенныеПользователи</content>
+  <content>FunctionalOption.ПользователиВМоделиСервиса</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
 </mdclass:Subsystem>

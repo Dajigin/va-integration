@@ -106,7 +106,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ПоследняяДатаДобавленияВторойВерсии</name>
+    <name>ДатаПоследнегоИспользования</name>
     <id>9</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -115,11 +115,11 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Объект.ПоследняяДатаДобавленияВторойВерсии</segments>
+        <segments>Объект.ДатаПоследнегоИспользования</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
-      <name>ПоследняяДатаДобавленияВторойВерсииРасширеннаяПодсказка</name>
+      <name>ДатаПоследнегоИспользованияРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -134,60 +134,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПоследняяДатаДобавленияВторойВерсииКонтекстноеМеню</name>
+      <name>ДатаПоследнегоИспользованияКонтекстноеМеню</name>
       <id>10</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ДатаПервогоВходаПослеУдаленияВсехРасширений</name>
-    <id>12</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ДатаПервогоВходаПослеУдаленияВсехРасширений</segments>
-      </paths>
-    </dataPath>
-    <extendedTooltip>
-      <name>ДатаПервогоВходаПослеУдаленияВсехРасширенийРасширеннаяПодсказка</name>
-      <id>14</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ДатаПервогоВходаПослеУдаленияВсехРасширенийКонтекстноеМеню</name>
-      <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -237,11 +185,11 @@
       </extendedTooltip>
       <commandName>Form.Command.ВключитьВозможностьРедактирования</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>

@@ -20,13 +20,10 @@
   <content>FunctionalOption.ТехнологияСервисаВАвтономномРежиме</content>
   <content>CommonModule.ИнтеграцияПодсистемБТСКлиент</content>
   <content>Role.БазовыеПраваБТС</content>
-  <content>CommonModule.ВитриныВызовСервера</content>
   <content>CommonModule.ВитриныКлиент</content>
-  <content>CommonPicture.ДлительнаяОперацияБТС</content>
   <content>CommonModule.РаботаВМоделиСервисаБТСПереопределяемый</content>
   <content>CommonModule.ИнтеграцияПодсистемБТСКлиентПовтИсп</content>
   <content>CommonModule.ИнтеграцияПодсистемБТСПовтИсп</content>
-  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайлаБТС</content>
   <content>FunctionalOption.РаботаВМоделиСервисаБТС</content>
   <content>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>
   <content>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</content>
@@ -42,7 +39,6 @@
   <content>Enum.РежимыИспользованияИнформационнойБазы</content>
   <content>Enum.РезультатыОбработкиЗапросовНаИспользованиеВнешнихРесурсовВМоделиСервиса</content>
   <content>Enum.СтатусыОбластейДанных</content>
-  <content>Catalog.ОчередьЗаданийОбластейДанных</content>
   <content>Catalog.СообщенияОбластейДанных</content>
   <content>Constant.ВнешнийАдресУправляющегоПриложения</content>
   <content>Constant.ВнутреннийАдресМенеджераСервиса</content>
@@ -78,9 +74,16 @@
   <content>CommonModule.РаботаВМоделиСервисаКлиент</content>
   <content>CommonModule.РаботаВМоделиСервисаПереопределяемый</content>
   <content>CommonModule.РаботаВМоделиСервисаПовтИсп</content>
-  <content>CommonModule.СообщенияВМоделиСервисаПовтИсп</content>
   <content>CommonModule.СообщенияКонтрольУправленияРазрешениямиИнтерфейс</content>
   <content>CommonModule.СообщенияКонтрольУправленияРазрешениямиОбработчикСообщения_1_0_0_1</content>
   <content>CommonModule.СообщенияКонтрольУправленияРазрешениямиРеализация</content>
+  <content>CommonPicture.АдминистрированиеСервиса</content>
+  <content>CommonModule.БТС</content>
+  <content>CommonModule.БТСКлиент</content>
+  <content>CommonModule.ФайлыБТСКлиент</content>
+  <content>CommonModule.ФайлыБТСКлиентСервер</content>
+  <content>DataProcessor.ФайлыБТС</content>
+  <content>CommonModule.ФайлыБТС</content>
+  <content>CommonTemplate.fresh</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

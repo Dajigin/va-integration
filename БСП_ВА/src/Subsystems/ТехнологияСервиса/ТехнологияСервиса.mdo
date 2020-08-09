@@ -6,9 +6,8 @@
     <value>Технология сервиса</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonPicture.АдминистрированиеСервиса</content>
-  <content>CommonModule.БТС</content>
-  <content>CommonModule.БТСКлиент</content>
+  <content>CommonModule.КаталогРасширений</content>
+  <content>CommonCommand.ОткрытьКаталогРасширений</content>
   <subsystems>АвтоматизацияПроцессов</subsystems>
   <subsystems>АсинхронноеПолучениеДанных</subsystems>
   <subsystems>БазоваяФункциональность</subsystems>
@@ -16,6 +15,7 @@
   <subsystems>ВыгрузкаЗагрузкаДанных</subsystems>
   <subsystems>ВыгрузкаЗагрузкаОбластейДанных</subsystems>
   <subsystems>ИнтеграцияОбъектовОбластейДанных</subsystems>
+  <subsystems>ИнтеграцияССистемойВзаимодействия</subsystems>
   <subsystems>ИнформационныйЦентр</subsystems>
   <subsystems>МиграцияПриложений</subsystems>
   <subsystems>ОбменСообщениями</subsystems>

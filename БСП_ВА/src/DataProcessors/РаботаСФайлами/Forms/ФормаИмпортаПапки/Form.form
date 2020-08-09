@@ -9,7 +9,7 @@
     <id>23</id>
     <title>
       <key>ru</key>
-      <value>Каталог на диске</value>
+      <value>Папка с файлами</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -313,7 +313,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -423,7 +423,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -570,8 +570,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>1</value>
+    <value xsi:type="core:StringValue">
+      <value>ОсновнаяКоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -768,7 +768,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить папку</value>
+      <value>Загрузить папку с файлами в программу</value>
     </toolTip>
     <use>
       <common>true</common>

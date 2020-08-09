@@ -11,16 +11,17 @@
   <content>Constant.МаксимальноеКоличествоИсполняющихФоновыхЗаданий</content>
   <content>Enum.СостоянияЗаданий</content>
   <content>ScheduledJob.ПланированиеОбработкиЗаданий</content>
-  <content>CommonModule.ОчередьЗаданийСлужебныйПовтИсп</content>
   <content>Catalog.ШаблоныЗаданийОчереди</content>
-  <content>CommonModule.ОчередьЗаданийСлужебный</content>
   <content>Catalog.ОчередьЗаданий</content>
-  <content>CommonModule.ОчередьЗаданийБТС</content>
-  <content>ScheduledJob.ОбработкаОчередиЗаданийБТС</content>
-  <content>Catalog.ДополнительныеОбработчикиОчередиЗаданий</content>
+  <content>ScheduledJob.УдалитьОбработкаОчередиЗаданийБТС</content>
+  <content>Catalog.ОбработчикиОчередиЗаданий</content>
   <content>CommonModule.ОчередьЗаданийРазделениеДанных</content>
   <content>ScheduledJob.РегламентнаяОбработкаОчередиЗадачОбластейДанных</content>
   <content>ScheduledJob.РегламентнаяОбработкаОчередиЗадач</content>
+  <content>Catalog.ОчередьЗаданийОбластейДанных</content>
+  <content>CommonModule.ОчередьЗаданийСлужебный</content>
   <content>CommonModule.ОчередьЗаданийСлужебныйРазделениеДанных</content>
+  <content>ScheduledJob.ЗапускОбработкиЗаданий</content>
+  <content>InformationRegister.ЗапущенныеОбработчикиОчередиЗаданий</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

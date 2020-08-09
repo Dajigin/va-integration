@@ -35,5 +35,12 @@
   <content>CommonModule.ОбновлениеИнформационнойБазыБСП</content>
   <content>Constant.КоличествоПотоковОбновленияИнформационнойБазы</content>
   <content>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</content>
+  <content>InformationRegister.ОбработчикиОбновления</content>
+  <content>InformationRegister.ПотокиОбновления</content>
+  <content>InformationRegister.ОбработчикиОбновленияОбщихДанных</content>
+  <content>Enum.СтатусыОбработчиковОбновления</content>
+  <content>Enum.РежимыВыполненияОбработчиков</content>
+  <content>Enum.РежимыВыполненияОтложенныхОбработчиков</content>
+  <content>DataProcessor.ОписаниеОбработчиковОбновления</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

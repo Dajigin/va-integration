@@ -10,7 +10,7 @@
   <representation>Auto</representation>
   <toolTip>
     <key>ru</key>
-    <value>Открыть форму настройки системной учетной записи</value>
+    <value>Открыть форму настройки системной учетной записи электронной почты</value>
   </toolTip>
   <shortcut></shortcut>
 </mdclass:CommonCommand>

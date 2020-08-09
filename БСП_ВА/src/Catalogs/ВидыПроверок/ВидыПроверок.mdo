@@ -132,6 +132,7 @@
     <value>Вид проверки</value>
   </objectPresentation>
   <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

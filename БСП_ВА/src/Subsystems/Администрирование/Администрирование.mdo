@@ -118,4 +118,6 @@
   <content>CommonCommand._ДемоУдалитьУстаревшиеКэшиРасширений</content>
   <content>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</content>
   <content>Catalog.ВнешниеКомпоненты</content>
+  <content>Catalog.ШаблоныСообщений</content>
+  <content>Report.АнализПравДоступа</content>
 </mdclass:Subsystem>

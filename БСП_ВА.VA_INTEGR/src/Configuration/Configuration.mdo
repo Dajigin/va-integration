@@ -21,6 +21,8 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bfb045cf-1280-4efd-b303-3c961a46a53a"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="01be31bb-c80e-4351-8ccd-d9b963af1b5f"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ab6f825d-f3e8-463b-86b7-ba207a5281b2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ad168f81-0295-412a-b81c-c51636d8f91f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>ВАИНТ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
@@ -30,18 +32,11 @@
   <vendor>Фирма &quot;1С&quot;</vendor>
   <version>3.1.2.157</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <dataLockControlMode>Managed</dataLockControlMode>
-  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="c55afb5d-0fe4-48c6-88d9-2a1fb8d77bf8">
     <name>Русский</name>
-    <synonym>
-      <key>ru</key>
-      <value>Русский</value>
-    </synonym>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
       <languageCode>Checked</languageCode>

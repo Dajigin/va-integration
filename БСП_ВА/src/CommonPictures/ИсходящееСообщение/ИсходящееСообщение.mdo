@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3befd4a6-8f77-4159-9a99-09202d5c83c2">
-  <name>ИсходящееСообщение</name>
-  <synonym>
-    <key>ru</key>
-    <value>Исходящее сообщение</value>
-  </synonym>
-</mdclass:CommonPicture>

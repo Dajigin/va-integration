@@ -156,6 +156,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.ШаблоныСообщений.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>CommonCommand.АвтономнаяРаботаВМоделиСервиса</command>
       <visible>
         <common>true</common>
@@ -526,6 +530,7 @@
       <commands>DataProcessor._ДемоПанельАдминистрирования.Command.Производительность</commands>
       <commands>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.Command.НастройкиСтандартногоИнтерфейсаOData</commands>
       <commands>Catalog.ВнешниеКомпоненты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ШаблоныСообщений.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

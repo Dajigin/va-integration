@@ -23,5 +23,7 @@
   <content>CommonModule.РаботаСПочтовымиСообщениямиПереопределяемый</content>
   <content>CommonModule.РаботаСПочтовымиСообщениямиКлиентПереопределяемый</content>
   <content>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</content>
+  <content>CommonPicture.ВводимыеСимволыСкрыты</content>
+  <content>CommonPicture.ВводимыеСимволыВидны</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

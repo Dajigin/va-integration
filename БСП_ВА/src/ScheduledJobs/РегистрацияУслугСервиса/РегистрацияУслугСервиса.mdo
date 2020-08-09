@@ -6,7 +6,7 @@
     <value>Регистрация услуг сервиса</value>
   </synonym>
   <comment>Регистрация услуг в Менеджере сервиса</comment>
-  <methodName>CommonModule.ТарификацияСлужебный.ЗарегистрироватьТарифицируемыеУслуги_РегламентноеЗадание</methodName>
+  <methodName>CommonModule.Тарификация.ЗарегистрироватьТарифицируемыеУслуги_РегламентноеЗадание</methodName>
   <key>1</key>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

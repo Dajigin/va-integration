@@ -45,6 +45,14 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОбработчикиОбновления</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ПоставляемыеДанныеТребующиеОбработкиВОбластях</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ОбластиДанных</metadata>
     <use>Use</use>
   </content>
@@ -53,11 +61,19 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>InformationRegister.СвойстваЗаданий</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ОчередьИзвлеченияТекста</metadata>
     <use>Use</use>
   </content>
   <content>
     <metadata>InformationRegister.ФайлыОбластейДанных</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ПотокиОбновления</metadata>
     <use>Use</use>
   </content>
   <content>
@@ -78,6 +94,10 @@
   </content>
   <content>
     <metadata>InformationRegister.СостоянияОбменовДаннымиОбластейДанных</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ОчередьОбновляемыхПоставляемыхРасширенийВОбластяхДанных</metadata>
     <use>Use</use>
   </content>
   <content>
@@ -121,7 +141,7 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>InformationRegister.СвойстваЗаданий</metadata>
+    <metadata>InformationRegister.ОчередьРасширенийДляОповещений</metadata>
     <use>Use</use>
   </content>
   <content>

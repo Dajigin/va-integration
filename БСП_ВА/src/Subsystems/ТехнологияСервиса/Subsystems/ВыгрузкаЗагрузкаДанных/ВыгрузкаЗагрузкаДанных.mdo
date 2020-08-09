@@ -40,7 +40,7 @@
   <content>DataProcessor.ВыгрузкаЗагрузкаДанныхМенеджерЗагрузкиНастроекПользователей</content>
   <content>CommonModule.ВыгрузкаЗагрузкаИзбранногоРаботыПользователей</content>
   <content>XDTOPackage.DataArtefacts_UserWorkFavorites_1_0_0_1</content>
-  <content>d96fb4e2-50b0-48db-9552-91de561a7a52</content>
   <content>CommonModule.ВыгрузкаЗагрузкаУзловПлановОбменов</content>
+  <content>CommonModule.ZipАрхивы</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

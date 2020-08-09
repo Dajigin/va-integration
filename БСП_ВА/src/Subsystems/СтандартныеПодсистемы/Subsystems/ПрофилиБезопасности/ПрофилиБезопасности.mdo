@@ -27,5 +27,6 @@
   <content>CommonModule.НастройкаРазрешенийНаИспользованиеВнешнихРесурсовВызовСервера</content>
   <content>CommonModule.НастройкаРазрешенийНаИспользованиеВнешнихРесурсовГлобальный</content>
   <content>CommonModule.НастройкаРазрешенийНаИспользованиеВнешнихРесурсовКлиент</content>
+  <content>628c504d-962e-4268-ac8c-7e7cc64b8b32</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

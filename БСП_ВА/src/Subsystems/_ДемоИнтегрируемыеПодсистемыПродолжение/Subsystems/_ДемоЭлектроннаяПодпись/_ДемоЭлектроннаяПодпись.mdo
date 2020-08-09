@@ -6,7 +6,6 @@
     <value>Электронная подпись</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>4aa3a0b3-bb91-45de-b847-84741b183504</content>
   <content>FunctionalOption._ДемоИспользоватьШифрованиеБСП</content>
   <content>FunctionalOption._ДемоИспользоватьЭлектронныеПодписиБСП</content>
   <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемыПродолжение</parentSubsystem>

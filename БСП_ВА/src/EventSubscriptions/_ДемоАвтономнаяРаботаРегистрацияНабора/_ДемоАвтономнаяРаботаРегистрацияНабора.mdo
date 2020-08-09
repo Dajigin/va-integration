@@ -12,6 +12,7 @@
     <types>InformationRegisterRecordSet.СубъектыДляСкрытияПерсональныхДанных</types>
     <types>InformationRegisterRecordSet._ДемоОтветственныеЛица</types>
     <types>InformationRegisterRecordSet.ДанныеБизнесПроцессов</types>
+    <types>InformationRegisterRecordSet._ДемоРеестрДокументов</types>
     <types>InformationRegisterRecordSet.КонтактыВзаимодействий</types>
     <types>InformationRegisterRecordSet.ДанныеОбработанныеВЦентральномУзлеРИБ</types>
     <types>InformationRegisterRecordSet._ДемоГрафикиРаботы</types>
@@ -37,6 +38,7 @@
     <types>InformationRegisterRecordSet.СогласияНаОбработкуПерсональныхДанных</types>
     <types>InformationRegisterRecordSet.ПользовательскиеМакетыПечати</types>
     <types>InformationRegisterRecordSet._ДемоРаботникиОрганизаций</types>
+    <types>InformationRegisterRecordSet.СостоянияОригиналовПервичныхДокументов</types>
     <types>AccumulationRegisterRecordSet._ДемоОборотыПоСчетамНаОплату</types>
     <types>InformationRegisterRecordSet.ИсполнителиЗадач</types>
     <types>InformationRegisterRecordSet._ДемоЗаведующиеМестамиХранения</types>
@@ -46,6 +48,7 @@
     <types>AccountingRegisterRecordSet._ДемоОсновной</types>
     <types>InformationRegisterRecordSet.ИдентификаторыПолученныхЭлектронныхПисем</types>
     <types>InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</types>
+    <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
     <types>InformationRegisterRecordSet.ЭлектронныеПодписи</types>
     <types>InformationRegisterRecordSet.ПроцессыДляЗапуска</types>
     <types>InformationRegisterRecordSet.СведенияОФайлах</types>

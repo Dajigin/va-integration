@@ -116,6 +116,9 @@
     <mdObject>Catalog.НаборыДополнительныхРеквизитовИСведений</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПериодыНерабочихДнейКалендаря</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ПапкиЭлектронныхПисем</mdObject>
   </content>
   <content>
@@ -185,6 +188,9 @@
     <mdObject>InformationRegister.ЗависимостиПравДоступа</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СостоянияОригиналовПервичныхДокументов</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ВерсияКлассификатораБанков</mdObject>
   </content>
   <content>
@@ -216,6 +222,9 @@
   </content>
   <content>
     <mdObject>Catalog._ДемоГруппыДоступаНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister._ДемоРеестрДокументов</mdObject>
   </content>
   <content>
     <mdObject>Catalog._ДемоМестаХранения</mdObject>
@@ -255,6 +264,9 @@
   </content>
   <content>
     <mdObject>Constant._ДемоОграничиватьДоступПоФизическимЛицам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ИсполнителиЗадач</mdObject>
@@ -462,6 +474,9 @@
   </content>
   <content>
     <mdObject>Catalog.ЗакладкиВзаимодействий</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СостоянияОригиналовПервичныхДокументов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбновлениеКлючейДоступаПользователей</mdObject>
@@ -738,6 +753,9 @@
   </content>
   <content>
     <mdObject>Catalog.ПрофилиГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьУчетОригиналовПервичныхДокументов</mdObject>
   </content>
   <content>
     <mdObject>Document.ЭлектронноеПисьмоВходящее</mdObject>

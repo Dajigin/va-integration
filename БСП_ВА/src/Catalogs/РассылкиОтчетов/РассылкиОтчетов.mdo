@@ -841,6 +841,25 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ec44f92a-06bf-4a53-a7ba-fbe9846a68a6">
+    <name>ВключатьДатуВИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать дату в имя файла</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак добавления к имени файла отчета даты рассылки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="9b7051d5-abc4-416c-a0e6-515d120d78e4">
     <producedTypes>
       <objectType typeId="3d05c612-65b6-4bbd-9095-0265d41422e1" valueTypeId="a84664df-b060-48e0-a237-fff4f9ea5046"/>
@@ -1062,6 +1081,15 @@
         <lang>ru</lang>
       </pages>
     </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7afa1a6-0ac9-4527-8f1c-5317ce259b52">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

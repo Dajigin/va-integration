@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Редактор таблиц Gherkin</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>Группа1</name>
     <id>17</id>
@@ -9,6 +13,10 @@
       <title>
         <key>ru</key>
         <value>Таблица на форме</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Table on the form</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -30,10 +38,6 @@
         <horizontalAlign>Left</horizontalAlign>
         <autoFill>true</autoFill>
       </autoCommandBar>
-      <handlers>
-        <event>BeforeRowChange</event>
-        <name>ТаблицаНаФормеПередНачаломИзменения</name>
-      </handlers>
       <searchStringAddition>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -201,6 +205,10 @@
       <title>
         <key>ru</key>
         <value>Список колонок</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Column list</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -388,6 +396,10 @@
         </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
+      <handlers>
+        <event>Selection</event>
+        <name>СписокКолонокВыбор</name>
+      </handlers>
       <searchStringAddition>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -574,7 +586,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -628,7 +640,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -656,6 +667,10 @@
       <key>ru</key>
       <value>Таблица на форме</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Table on the form</value>
+    </title>
     <id>2</id>
     <valueType>
       <types>ValueTable</types>
@@ -672,6 +687,10 @@
     <title>
       <key>ru</key>
       <value>Список колонок</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Column list</value>
     </title>
     <id>3</id>
     <valueType>
@@ -698,6 +717,10 @@
       <key>ru</key>
       <value>Пометить все</value>
     </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Mark all</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -714,10 +737,18 @@
       <key>ru</key>
       <value>Снять все</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Clear all</value>
+    </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
       <value>Снять все</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Clear all</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -735,10 +766,18 @@
       <key>ru</key>
       <value>ОК</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>OK</value>
+    </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
       <value>ОК</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>OK</value>
     </toolTip>
     <use>
       <common>true</common>

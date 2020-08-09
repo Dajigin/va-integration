@@ -7,7 +7,6 @@
   </synonym>
   <location>Constant.ПоддержкаРезервногоКопирования</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>CommonForm.СозданиеРезервнойКопии</content>
-  <content>CommonCommand.СоздатьРезервнуюКопию</content>
   <content>Constant.ВыполнитьРезервноеКопированиеОбластиДанных</content>
+  <content>CommonCommand.СоздатьРезервнуюКопию</content>
 </mdclass:FunctionalOption>

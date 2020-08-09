@@ -10,7 +10,6 @@
   <content>CommonModule.ПроверкаИКорректировкаДанныхПереопределяемый</content>
   <content>Catalog.ИсторияПроверкиИКорректировкиДанных</content>
   <content>Catalog.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</content>
-  <content>DataProcessor.ПроверкаИКорректировкаДанных</content>
-  <content>DataProcessor.ПроверкаИзмеренийВРегистрахБухгалтерии</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайлаБТС</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

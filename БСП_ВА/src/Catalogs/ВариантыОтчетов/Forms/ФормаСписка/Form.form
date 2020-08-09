@@ -207,7 +207,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -243,7 +243,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -373,11 +373,11 @@
       </extendedTooltip>
       <commandName>Catalog.ВариантыОтчетов.Command.РазместитьВРазделах</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ИзменитьФорму</name>
@@ -467,11 +467,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Список.StandardCommand.Find</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>СписокПоискПоТекущемуЗначению</name>
@@ -498,11 +498,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Список.StandardCommand.FindByCurrentValue</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>СписокОтменитьПоиск</name>
@@ -529,11 +529,11 @@
         </extendedTooltip>
         <commandName>Form.Item.Список.StandardCommand.CancelSearch</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -620,11 +620,11 @@
       </extendedTooltip>
       <commandName>Catalog.ВариантыОтчетов.Command.СброситьНастройкиРазмещения</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>СброситьНастройкиПользователей</name>
@@ -654,11 +654,11 @@
       </extendedTooltip>
       <commandName>Catalog.ВариантыОтчетов.Command.СброситьНастройкиПользователей</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>УстановитьПометкуУдаления</name>
@@ -685,11 +685,11 @@
       </extendedTooltip>
       <commandName>Form.Item.Список.StandardCommand.SetDeletionMark</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаОбменВариантамиОтчетов</name>
@@ -1158,7 +1158,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:Table">
@@ -2112,11 +2112,11 @@
           </extendedTooltip>
           <commandName>Form.Item.Список.StandardCommand.SetDeletionMark</commandName>
           <representation>Auto</representation>
-          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2192,7 +2192,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Top</commandBarLocation>
@@ -2229,53 +2229,53 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>84</value>
+    <value xsi:type="core:StringValue">
+      <value>Выбрать</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>22</value>
+    <value xsi:type="core:StringValue">
+      <value>Просмотр</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>164</value>
+    <value xsi:type="core:StringValue">
+      <value>Изменить</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>36</value>
+    <value xsi:type="core:StringValue">
+      <value>РазместитьВРазделах</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>14</value>
+    <value xsi:type="core:StringValue">
+      <value>Справка</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>188</value>
+    <value xsi:type="core:StringValue">
+      <value>СписокГруппа1</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>64</value>
+    <value xsi:type="core:StringValue">
+      <value>КомандыСписка</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>95</value>
+    <value xsi:type="core:StringValue">
+      <value>СброситьНастройкиРазмещения</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>70</value>
+    <value xsi:type="core:StringValue">
+      <value>СброситьНастройкиПользователей</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>83</value>
+    <value xsi:type="core:StringValue">
+      <value>УстановитьПометкуУдаления</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -2327,12 +2327,20 @@
 	ВариантыОтчетов.Пользовательский,
 	НЕ ВариантыОтчетов.Пользовательский КАК Предопределенный,
 	ВЫБОР
-		КОГДА ВариантыОтчетов.Пользовательский
-			ИЛИ ВариантыОтчетов.ПредопределенныйВариант В (
-				НЕОПРЕДЕЛЕНО,
-				ЗНАЧЕНИЕ(Справочник.ПредопределенныеВариантыОтчетов.ПустаяСсылка),
-				ЗНАЧЕНИЕ(Справочник.ПредопределенныеВариантыОтчетовРасширений.ПустаяСсылка))
-				ТОГДА ВЫРАЗИТЬ(ЕСТЬNULL(ПредставленияВариантов.Наименование, ВариантыОтчетов.Наименование) КАК СТРОКА(1000))
+		КОГДА &amp;ЭтоОсновнойЯзык
+			И (ВариантыОтчетов.Пользовательский
+				ИЛИ ВариантыОтчетов.ПредопределенныйВариант В (
+					НЕОПРЕДЕЛЕНО,
+					ЗНАЧЕНИЕ(Справочник.ПредопределенныеВариантыОтчетов.ПустаяСсылка),
+					ЗНАЧЕНИЕ(Справочник.ПредопределенныеВариантыОтчетовРасширений.ПустаяСсылка)))
+			ТОГДА ВариантыОтчетов.Наименование
+		КОГДА НЕ &amp;ЭтоОсновнойЯзык
+			И (ВариантыОтчетов.Пользовательский
+				ИЛИ ВариантыОтчетов.ПредопределенныйВариант В (
+					НЕОПРЕДЕЛЕНО,
+					ЗНАЧЕНИЕ(Справочник.ПредопределенныеВариантыОтчетов.ПустаяСсылка),
+					ЗНАЧЕНИЕ(Справочник.ПредопределенныеВариантыОтчетовРасширений.ПустаяСсылка)))
+			ТОГДА ВЫРАЗИТЬ(ЕСТЬNULL(ПредставленияВариантов.Наименование, ВариантыОтчетов.Наименование) КАК СТРОКА(1000))
 		КОГДА &amp;ЭтоОсновнойЯзык
 			ТОГДА ВЫРАЗИТЬ(ЕСТЬNULL(ЕСТЬNULL(ВариантыКонфигурации.Наименование, ВариантыРасширений.Наименование), ВариантыОтчетов.Наименование) КАК СТРОКА(1000))
 		ИНАЧЕ ВЫРАЗИТЬ(ЕСТЬNULL(ЕСТЬNULL(ПредставленияИзКонфигурации.Наименование, ПредставленияИзРасширений.Наименование), ВариантыОтчетов.Наименование) КАК СТРОКА(1000))
@@ -2343,21 +2351,21 @@
 	ВариантыОтчетов.ТипОтчета,
 	ВариантыОтчетов.Автор,
 	ВЫБОР
-		КОГДА &amp;ЭтоОсновнойЯзык
-				И ПОДСТРОКА(ВариантыОтчетов.Описание, 1, 1) = &quot;&quot;
+		КОГДА &amp;ЭтоОсновнойЯзык И ПОДСТРОКА(ВариантыОтчетов.Описание, 1, 1) &lt;> &quot;&quot;
+			ТОГДА ВЫРАЗИТЬ(ВариантыОтчетов.Описание КАК СТРОКА(1000))
+		КОГДА &amp;ЭтоОсновнойЯзык И ПОДСТРОКА(ВариантыОтчетов.Описание, 1, 1) = &quot;&quot;
 			ТОГДА ВЫРАЗИТЬ(ЕСТЬNULL(ВариантыКонфигурации.Описание, ВариантыРасширений.Описание) КАК СТРОКА(1000))
-		КОГДА НЕ &amp;ЭтоОсновнойЯзык
-				И ПОДСТРОКА(ВариантыОтчетов.Описание, 1, 1) = &quot;&quot;
-			ТОГДА ВЫРАЗИТЬ(ЕСТЬNULL(ПредставленияИзКонфигурации.Описание, ПредставленияИзРасширений.Описание) КАК СТРОКА(1000))
-		ИНАЧЕ ВЫРАЗИТЬ(ЕСТЬNULL(ПредставленияВариантов.Описание, ВариантыОтчетов.Описание) КАК СТРОКА(1000))
+		КОГДА НЕ &amp;ЭтоОсновнойЯзык И ПОДСТРОКА(ПредставленияВариантов.Описание, 1, 1) &lt;> &quot;&quot;
+			ТОГДА ВЫРАЗИТЬ(ПредставленияВариантов.Описание КАК СТРОКА(1000))
+		ИНАЧЕ ВЫРАЗИТЬ(ЕСТЬNULL(ЕСТЬNULL(ПредставленияИзКонфигурации.Описание, ПредставленияИзРасширений.Описание), ВариантыОтчетов.Описание) КАК СТРОКА(1000))
 	КОНЕЦ КАК Описание,
 	ВЫБОР
-		КОГДА ВариантыОтчетов.ТипОтчета В (
-				ЗНАЧЕНИЕ(Перечисление.ТипыОтчетов.Внутренний), 
-				ЗНАЧЕНИЕ(Перечисление.ТипыОтчетов.Расширение))
-			ТОГДА ВариантыОтчетов.Отчет.Имя
-		КОГДА ВариантыОтчетов.ТипОтчета = ЗНАЧЕНИЕ(Перечисление.ТипыОтчетов.Дополнительный)
-			ТОГДА ВариантыОтчетов.Отчет
+		КОГДА ТИПЗНАЧЕНИЯ(ВариантыОтчетов.Отчет) = ТИП(Справочник.ИдентификаторыОбъектовМетаданных)
+			ТОГДА ВЫРАЗИТЬ(ВариантыОтчетов.Отчет КАК Справочник.ИдентификаторыОбъектовМетаданных).Имя
+		КОГДА ТИПЗНАЧЕНИЯ(ВариантыОтчетов.Отчет) = ТИП(Справочник.ИдентификаторыОбъектовРасширений)
+			ТОГДА ВЫРАЗИТЬ(ВариантыОтчетов.Отчет КАК Справочник.ИдентификаторыОбъектовРасширений).Имя
+		КОГДА ТИПЗНАЧЕНИЯ(ВариантыОтчетов.Отчет) = ТИП(Справочник.ДополнительныеОтчетыИОбработки)
+			ТОГДА ВЫРАЗИТЬ(ВариантыОтчетов.Отчет КАК Справочник.ДополнительныеОтчетыИОбработки).ИмяОбъекта
 		ИНАЧЕ ПОДСТРОКА(ВЫРАЗИТЬ(ВариантыОтчетов.Отчет КАК СТРОКА(150)), 14, 137)
 	КОНЕЦ КАК ИмяОтчета,
 	СведенияОРасширениях.ПолноеИмяОбъекта КАК ПолноеИмяОтчета,
@@ -2389,10 +2397,10 @@
 ГДЕ
 	ВариантыОтчетов.Отчет В(&amp;ДоступныеОтчеты)
 	И ВЫБОР
-			КОГДА Не &amp;ЕстьОтборПоВариантам
-				ТОГДА НЕ ВариантыОтчетов.ПредопределенныйВариант В (&amp;ОтключенныеВариантыПрограммы)
-			ИНАЧЕ ВариантыОтчетов.Ссылка В (&amp;ВариантыПользователя)
-		КОНЕЦ</queryText>
+		КОГДА Не &amp;ЕстьОтборПоВариантам
+			ТОГДА НЕ ВариантыОтчетов.ПредопределенныйВариант В (&amp;ОтключенныеВариантыПрограммы)
+		ИНАЧЕ ВариантыОтчетов.Ссылка В (&amp;ВариантыПользователя)
+	КОНЕЦ</queryText>
       <mainTable>Catalog.ВариантыОтчетов</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>

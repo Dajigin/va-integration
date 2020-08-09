@@ -226,7 +226,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
@@ -275,7 +275,7 @@
         <id>596</id>
         <title>
           <key>ru</key>
-          <value>При отправке данных в другую программу, обнаружены объекты информационной базы, которые зарегистрированы к обмену, но не могут быть выгружены по различным причинам. Необходимо открыть проблемный объект и устранить причины, мешающие его отправке в другую программу. При последующей отправке в другую программу список проблем будет актуализирован.</value>
+          <value>При отправке данных в другую программу обнаружены объекты информационной базы, которые зарегистрированы к обмену, но не могут быть выгружены по различным причинам. Необходимо открыть проблемный объект и устранить причины, мешающие его отправке в другую программу. При последующей отправке в другую программу список проблем будет актуализирован.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -694,11 +694,11 @@
             </extendedTooltip>
             <commandName>Form.Command.Изменить</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаИгнорированияОшибокXDTO</name>
@@ -758,11 +758,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеИгнорироватьОшибку</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>ОшибкиОбъектаXDTOПоказыватьПроигнорированные</name>
@@ -789,11 +789,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ПоказыватьПроигнорированныеНезаполненные</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -966,11 +966,11 @@
             </extendedTooltip>
             <commandName>Form.Item.НезаполненныеРеквизиты.StandardCommand.ListSettings</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ОшибкиОбъектаXDTOИзменитьФорму</name>
@@ -1027,11 +1027,11 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.Help</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1244,7 +1244,7 @@
             <name>ОшибкиОбъектаXDTOКонтекстноеМенюГруппаИгнорирования</name>
             <id>709</id>
             <items xsi:type="form:Button">
-              <name>ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОбъект</name>
+              <name>ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОшибку</name>
               <id>711</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1252,7 +1252,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОбъектРасширеннаяПодсказка</name>
+                <name>ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОшибкуРасширеннаяПодсказка</name>
                 <id>712</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1266,7 +1266,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.ИгнорироватьОбъект</commandName>
+              <commandName>Form.Command.ИгнорироватьОшибку</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1274,7 +1274,7 @@
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
-              <name>ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОбъект</name>
+              <name>ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОшибку</name>
               <id>713</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1282,7 +1282,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОбъектРасширеннаяПодсказка</name>
+                <name>ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОшибкуРасширеннаяПодсказка</name>
                 <id>714</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1296,7 +1296,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.НеИгнорироватьОбъект</commandName>
+              <commandName>Form.Command.НеИгнорироватьОшибку</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2075,11 +2075,11 @@
             </extendedTooltip>
             <commandName>Form.Command.Изменить</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаИгнорированияДокументов</name>
@@ -2139,11 +2139,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеИгнорироватьДокумент</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>НепроведенныеДокументыПоказыватьПроигнорированныеНепроведенные</name>
@@ -2170,11 +2170,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ПоказыватьПроигнорированныеНепроведенные</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2317,11 +2317,11 @@
             </extendedTooltip>
             <commandName>Form.Item.НепроведенныеДокументы.StandardCommand.ListSettings</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыВывестиСписок</name>
@@ -2408,11 +2408,11 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.Help</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3332,11 +3332,11 @@
             </extendedTooltip>
             <commandName>Form.Command.Изменить</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаИгнорированияОбъектов</name>
@@ -3396,11 +3396,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеИгнорироватьОбъект</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>НезаполненныеРеквизитыПоказыватьПроигнорированныеНезаполненные</name>
@@ -3427,11 +3427,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ПоказыватьПроигнорированныеНезаполненные</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3604,11 +3604,11 @@
             </extendedTooltip>
             <commandName>Form.Item.НезаполненныеРеквизиты.StandardCommand.ListSettings</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>false</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>НезаполненныеРеквизитыИзменитьФорму</name>
@@ -3665,11 +3665,11 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.Help</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4477,11 +4477,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ОткрытьВерсиюДоКонфликта</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>КоллизииОткрытьВерсиюКонфликта</name>
@@ -4508,11 +4508,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ОткрытьВерсиюКонфликта</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>КоллизииИзменить</name>
@@ -4543,11 +4543,11 @@
             </extendedTooltip>
             <commandName>Form.Command.Изменить</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>КоллизииГруппаИгнорирования</name>
@@ -4607,11 +4607,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеИгнорироватьКонфликт</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4701,11 +4701,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ПоказыватьПроигнорированныеКонфликты</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>КоллизииГруппаСлужебные</name>
@@ -4735,11 +4735,11 @@
               </extendedTooltip>
               <commandName>Form.Command.Обновить</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>false</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>КоллизииНайти</name>
@@ -4856,11 +4856,11 @@
               </extendedTooltip>
               <commandName>Form.Item.Коллизии.StandardCommand.ListSettings</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>false</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4943,11 +4943,11 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.Help</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -5385,7 +5385,7 @@
         <id>178</id>
         <title>
           <key>ru</key>
-          <value>При синхронизации были получены данные, которые были отклонены из-за установленного запрета на загрузку данных, в результате чего появилась непринятая версия документа. Для того чтобы принять версию несмотря на запрет используйте команду &quot;Принять версию&quot;.</value>
+          <value>При синхронизации были получены данные, которые были отклонены из-за установленного запрета на загрузку данных, в результате чего появилась непринятая версия документа. Для того чтобы принять версию несмотря на запрет, используйте команду &quot;Принять версию&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -5749,11 +5749,11 @@
             </extendedTooltip>
             <commandName>Form.Command.Изменить</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеОткрытьВерсию</name>
@@ -5780,11 +5780,11 @@
             </extendedTooltip>
             <commandName>Form.Command.ОткрытьВерсиюНепринятые</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>НепринятыеПоДатеГруппаИгнорирования</name>
@@ -5844,11 +5844,11 @@
               </extendedTooltip>
               <commandName>Form.Command.НеИгнорироватьНепринятый</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеПоказыватьПроигнорированныеНепринятые</name>
@@ -5875,11 +5875,11 @@
               </extendedTooltip>
               <commandName>Form.Command.ПоказыватьПроигнорированныеНепринятые</commandName>
               <representation>Auto</representation>
-              <onlyInAllActions>true</onlyInAllActions>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -6141,11 +6141,11 @@
             </extendedTooltip>
             <commandName>Form.StandardCommand.Help</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -7903,7 +7903,7 @@
         <name>РезультатыОбменаДаннымиПриСменеСтраницы</name>
       </handlers>
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -8562,7 +8562,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

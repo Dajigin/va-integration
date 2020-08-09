@@ -601,7 +601,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -925,7 +925,7 @@
       </extendedTooltip>
       <type>Pages</type>
       <extInfo xsi:type="form:PagesGroupExtInfo">
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -956,7 +956,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
@@ -1002,8 +1002,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>89</value>
+    <value xsi:type="core:StringValue">
+      <value>ГруппаКоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -1146,7 +1146,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВременнаяПапка</name>
+    <name>ИмяВременногоКаталога</name>
     <id>12</id>
     <valueType>
       <types>String</types>

@@ -16,7 +16,7 @@
   </commandParameterType>
   <representation>Auto</representation>
   <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.Magnifier</picture>
+    <picture>StdPicture.InputFieldOpen</picture>
   </picture>
   <shortcut></shortcut>
 </mdclass:CommonCommand>

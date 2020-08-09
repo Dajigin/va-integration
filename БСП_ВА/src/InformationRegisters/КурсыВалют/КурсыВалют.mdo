@@ -82,12 +82,7 @@
       <value>Курс</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>4</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>DefinedType.КурсВалюты</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -98,9 +93,7 @@
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:NumberValue">
-      <value>0</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="4bd1cae4-d5b5-444e-9cf5-67a969714293">
     <name>Кратность</name>

@@ -279,11 +279,11 @@
         </extendedTooltip>
         <commandName>Form.Command.МуниципальноеДеление</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>АдминистративноТерриториальноеДеление</name>
@@ -310,11 +310,11 @@
         </extendedTooltip>
         <commandName>Form.Command.АдминистративноТерриториальноеДеление</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>АдресВСвободнойФорме</name>
@@ -341,11 +341,11 @@
         </extendedTooltip>
         <commandName>Form.Command.АдресВСвободнойФорме</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -401,11 +401,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ОчиститьАдрес</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ЗаполнитьПоПочтовомуИндексу</name>
@@ -432,11 +432,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ЗаполнитьПоПочтовомуИндексу</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -492,11 +492,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ИсторияИзменений</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>АдресНаКартеЯндексКартах</name>
@@ -523,11 +523,11 @@
         </extendedTooltip>
         <commandName>Form.Command.АдресНаЯндексКарты</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ПоказатьНаКартеGoogle</name>
@@ -554,11 +554,11 @@
         </extendedTooltip>
         <commandName>Form.Command.АдресНаGoogleMaps</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -614,11 +614,11 @@
         </extendedTooltip>
         <commandName>Form.Command.ЗагрузитьКлассификатор</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ИзменитьФорму</name>
@@ -645,11 +645,11 @@
         </extendedTooltip>
         <commandName>Form.StandardCommand.CustomizeForm</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>Справка</name>
@@ -676,11 +676,11 @@
         </extendedTooltip>
         <commandName>Form.StandardCommand.Help</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -871,7 +871,7 @@
         <color>Style.ЦветФонаПредупреждения</color>
       </backColor>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -980,7 +980,7 @@
         <horizontalSpacing>None</horizontalSpacing>
         <showLeftMargin>true</showLeftMargin>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
@@ -1095,7 +1095,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1415,7 +1415,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -1594,7 +1594,7 @@
                   <group>AlwaysHorizontal</group>
                   <showLeftMargin>true</showLeftMargin>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -1772,7 +1772,7 @@
                   <group>AlwaysHorizontal</group>
                   <showLeftMargin>true</showLeftMargin>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -1807,7 +1807,7 @@
                   <group>Vertical</group>
                   <showLeftMargin>true</showLeftMargin>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -1974,7 +1974,7 @@
                   <group>AlwaysHorizontal</group>
                   <showLeftMargin>true</showLeftMargin>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -2009,7 +2009,7 @@
                   <group>Vertical</group>
                   <showLeftMargin>true</showLeftMargin>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -2078,7 +2078,7 @@
                   <showLeftMargin>true</showLeftMargin>
                   <united>true</united>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -2112,7 +2112,7 @@
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>DontUse</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
@@ -2296,7 +2296,7 @@
                     <showLeftMargin>true</showLeftMargin>
                     <united>true</united>
                     <throughAlign>Auto</throughAlign>
-                    <currentRowUse>DontUse</currentRowUse>
+                    <currentRowUse>Auto</currentRowUse>
                   </extInfo>
                 </items>
                 <enabled>true</enabled>
@@ -2328,7 +2328,7 @@
                   <united>true</united>
                   <showTitle>true</showTitle>
                   <throughAlign>Auto</throughAlign>
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -2415,7 +2415,7 @@
                     <id>355</id>
                     <title>
                       <key>ru</key>
-                      <value>Рекомендуется дополнительно &lt;link http://fias.nalog.ru/ExtendedSearchPage.aspx>проверить адрес на сайте ФИАС&lt;/>.
+                      <value>Рекомендуется дополнительно &lt;link https://fias.nalog.ru/ExtendedSearch>проверить адрес на сайте ФИАС&lt;/>.
 О некорректных или неполных адресных сведениях рекомендуется  сообщать в службу &lt;link https://www.nalog.ru/rn77/service/service_feedback/?service=22>технической  поддержки&lt;/> online-сервисов ФНС России.</value>
                     </title>
                     <visible>true</visible>
@@ -2512,7 +2512,7 @@
                 </extendedTooltip>
                 <type>Pages</type>
                 <extInfo xsi:type="form:PagesGroupExtInfo">
-                  <currentRowUse>DontUse</currentRowUse>
+                  <currentRowUse>Auto</currentRowUse>
                 </extInfo>
               </items>
               <items xsi:type="form:Decoration">
@@ -2587,7 +2587,7 @@
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2620,7 +2620,7 @@
               <horizontalAlign>Left</horizontalAlign>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -2821,7 +2821,7 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -2977,7 +2977,7 @@
               <group>Vertical</group>
               <showLeftMargin>true</showLeftMargin>
               <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -3159,7 +3159,7 @@
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
+                <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -3191,7 +3191,7 @@
               <group>AlwaysHorizontal</group>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
-              <currentRowUse>DontUse</currentRowUse>
+              <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -3306,7 +3306,7 @@
         </extendedTooltip>
         <type>Pages</type>
         <extInfo xsi:type="form:PagesGroupExtInfo">
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -3458,7 +3458,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -3741,7 +3741,7 @@
       </extendedTooltip>
       <type>Pages</type>
       <extInfo xsi:type="form:PagesGroupExtInfo">
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3833,7 +3833,7 @@
         <united>true</united>
         <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3965,7 +3965,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -4010,18 +4010,18 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>56</value>
+    <value xsi:type="core:StringValue">
+      <value>ФормаКомандаОК</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>57</value>
+    <value xsi:type="core:StringValue">
+      <value>ФормаОтмена</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>547</value>
+    <value xsi:type="core:StringValue">
+      <value>ПанельКонтактнаяИнформация</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -4948,11 +4948,9 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЭтоСтранаУчастникЕАЭС</name>
+    <name>СведенияОСтране</name>
     <id>52</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -5074,7 +5072,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Clear</picture>
+      <picture>StdPicture.InputFieldClear</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -5381,6 +5379,19 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ТипАдреса</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ТолькоПросмотр</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

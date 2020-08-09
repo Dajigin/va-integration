@@ -12,6 +12,7 @@
     <types>CatalogRef._ДемоФизическиеЛица</types>
     <types>CatalogRef.СтроковыеКонтактыВзаимодействий</types>
     <types>CatalogRef._ДемоКонтактныеЛицаПартнеров</types>
+    <types>CatalogRef._ДемоКонтрагенты</types>
     <types>CatalogRef._ДемоПартнеры</types>
     <types>CatalogRef.Пользователи</types>
   </type>

@@ -21,6 +21,8 @@
   <content>Catalog._ДемоДоговорыКонтрагентов</content>
   <content>Enum._ДемоСовместимостьНоменклатуры</content>
   <content>DataProcessor._ДемоСозданиеДублей</content>
+  <content>Catalog._ДемоКлючиАналитикиНоменклатуры</content>
+  <content>Catalog._ДемоПартнеры</content>
   <subsystems>КонтрольРезультатов</subsystems>
   <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

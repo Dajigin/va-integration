@@ -59,6 +59,7 @@
       <verticalScrollBar>ScrollAlways</verticalScrollBar>
       <horizontalScrollBar>ScrollAlways</horizontalScrollBar>
       <selectionShowMode>Always</selectionShowMode>
+      <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
       <edit>true</edit>
       <showGroups>true</showGroups>
       <enableStartDrag>true</enableStartDrag>

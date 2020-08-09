@@ -488,11 +488,35 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Набор свойств, которому принадлежит уникальное свойство. Если не задан, значит свойство включено в несколько наборов.</value>
+      <value>Набор свойств, в котором было изначально создано свойство. При включении свойства в несколько наборов значение не меняется.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f237a21e-066a-48e6-a5c4-5dc2487c7a3b">
+    <name>ИдентификаторДляФормул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор для формул</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор для формул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -522,7 +546,9 @@
       </synonym>
       <type>
         <types>String</types>
-        <stringQualifiers/>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
       </type>
       <toolTip>
         <key>ru</key>

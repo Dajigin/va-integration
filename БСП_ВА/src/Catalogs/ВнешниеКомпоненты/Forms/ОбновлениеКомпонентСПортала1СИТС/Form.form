@@ -137,7 +137,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -611,7 +611,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
@@ -798,7 +798,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>МассивСсылок</name>
+    <name>ОбновляемыеКомпоненты</name>
     <id>1</id>
     <valueType>
       <types>ValueList</types>
@@ -817,13 +817,9 @@
     <name>ПодключитьИнтернетПоддержку</name>
     <title>
       <key>ru</key>
-      <value>Подключить интернет поддержку</value>
+      <value>Подключить Интернет-поддержку</value>
     </title>
     <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Подключить интернет поддержку</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -843,7 +839,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить</value>
+      <value>Загрузить внешнюю компоненту с портала 1С:ИТС</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -856,7 +852,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
-    <name>МассивСсылок</name>
+    <name>ОбновляемыеКомпоненты</name>
     <valueType/>
     <keyParameter>true</keyParameter>
   </parameters>

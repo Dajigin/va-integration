@@ -12,7 +12,6 @@
   <content>Role._ДемоДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</content>
   <content>Report.СогласияНаОбработкуПерсональныхДанныхДействующие</content>
   <content>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие</content>
-  <content>7d0001eb-bb06-48ec-af97-16c84e5c7842</content>
   <subsystems>ПерсональныеДанные</subsystems>
   <parentSubsystem>Subsystem._ДемоИнтегрируемыеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

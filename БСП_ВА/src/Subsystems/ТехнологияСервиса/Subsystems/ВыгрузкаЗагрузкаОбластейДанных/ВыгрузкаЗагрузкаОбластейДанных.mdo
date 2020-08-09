@@ -11,5 +11,7 @@
   <content>CommonCommand.ВыгрузитьДанныеДляПереходаВСервис</content>
   <content>CommonForm.ЗагрузкаДанныхИзСервиса</content>
   <content>CommonForm.ВыгрузкаДанных</content>
+  <content>CommonModule.ВыгрузкаОбластейДанныхДляТехническойПоддержки</content>
+  <content>CommonModule.ВыгрузкаОбластейДанныхДляТехническойПоддержкиПовтИсп</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

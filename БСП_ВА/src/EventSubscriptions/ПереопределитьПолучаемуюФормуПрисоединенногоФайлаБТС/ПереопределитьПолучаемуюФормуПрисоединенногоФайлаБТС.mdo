@@ -9,5 +9,5 @@
     <types>CatalogManager.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</types>
   </source>
   <event>FormGetProcessing</event>
-  <handler>CommonModule.РаботаСФайлами.ОпределитьФормуПрисоединенногоФайла</handler>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
 </mdclass:EventSubscription>

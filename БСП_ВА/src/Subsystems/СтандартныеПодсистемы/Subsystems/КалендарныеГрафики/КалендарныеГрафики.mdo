@@ -16,7 +16,6 @@
   <content>InformationRegister.ДанныеПроизводственногоКалендаря</content>
   <content>Catalog.ПроизводственныеКалендари</content>
   <content>Enum.ВидыДнейПроизводственногоКалендаря</content>
-  <content>6528bd7a-bac1-4c8b-9b00-6be01c0121b1</content>
   <content>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</content>
   <content>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</content>
   <content>StyleItem.ВидДняПроизводственногоКалендаряПраздникЦвет</content>
@@ -29,5 +28,7 @@
   <content>Role.ДобавлениеИзменениеКалендарныхГрафиков</content>
   <content>DataProcessor.ЗаполнениеКалендарныхГрафиков</content>
   <content>CommonModule.КалендарныеГрафикиСлужебный</content>
+  <content>StyleItem.НерабочийПериодПроизводственногоКалендаряФон</content>
+  <content>InformationRegister.ПериодыНерабочихДнейКалендаря</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -80,11 +80,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Обрабатываемый объект</value>
+    <value>Очередь отложенной обработки данных</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Обрабатываемые объекты</value>
+    <value>Очереди отложенной обработки данных</value>
   </listPresentation>
   <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -156,6 +156,9 @@
     <mdObject>Catalog.НаборыДополнительныхРеквизитовИСведений</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПериодыНерабочихДнейКалендаря</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ПапкиЭлектронныхПисем</mdObject>
   </content>
   <content>
@@ -169,9 +172,6 @@
   </content>
   <content>
     <mdObject>Constant.ДатаУведомленияОНовыхЗадачах</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ПоставляемыеМакетыПечати</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ЗамерыКомментарииСтатистики</mdObject>
@@ -369,7 +369,7 @@
     <mdObject>Constant._ДемоУчитыватьНДС</mdObject>
   </content>
   <content>
-    <mdObject>Catalog.ДополнительныеОбработчикиОчередиЗаданий</mdObject>
+    <mdObject>Catalog.ОбработчикиОчередиЗаданий</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.КлючиДоступаКРегистру_ДемоЗагружаемыеПоступленияОтЮридическихЛиц</mdObject>
@@ -391,9 +391,6 @@
   </content>
   <content>
     <mdObject>Constant.СообщениеБлокировкиПриОбновленииКонфигурации</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ОбластиТребующиеОбработкиПоставляемыхДанных</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ВидыПроверок</mdObject>
@@ -1428,9 +1425,6 @@
     <mdObject>Catalog.Файлы</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.СвойстваЗаданий</mdObject>
-  </content>
-  <content>
     <mdObject>Constant.ПрефиксПоследнегоАвтономногоРабочегоМеста</mdObject>
   </content>
   <content>
@@ -1540,9 +1534,6 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПрименениеРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.СеансыВерсийРасширений</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СостоянияПредметовВзаимодействий</mdObject>

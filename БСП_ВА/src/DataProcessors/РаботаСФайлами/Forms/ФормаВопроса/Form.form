@@ -508,8 +508,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>13</value>
+    <value xsi:type="core:StringValue">
+      <value>ОсновнаяКоманднаяПанель</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

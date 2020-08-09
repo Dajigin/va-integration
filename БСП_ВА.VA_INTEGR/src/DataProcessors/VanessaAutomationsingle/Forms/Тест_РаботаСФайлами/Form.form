@@ -33,6 +33,63 @@
     </edit>
     <main>true</main>
   </attributes>
+  <attributes>
+    <name>ДатаНачалаОбработкиОжидания</name>
+    <title>
+      <key>ru</key>
+      <value>Дата начала обработки ожидания</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоличествоСекундОбработкаОжидания</name>
+    <title>
+      <key>ru</key>
+      <value>Количество секунд обработка ожидания</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяФайлаОбработкаОжидания</name>
+    <title>
+      <key>ru</key>
+      <value>Имя файла обработка ожидания</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

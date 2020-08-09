@@ -15,8 +15,6 @@
     <value>Настройки учетных систем</value>
   </synonym>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.НастройкиУчетныхСистем.Form.ФормаЗаписи</defaultRecordForm>
-  <defaultListForm>InformationRegister.НастройкиУчетныхСистем.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -203,24 +201,6 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="174576f5-2c51-41cd-ab46-9188d963118f">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="d39608f7-039a-420f-94b5-d0c868abc7d2">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <commands uuid="a12d28f9-b200-44db-b970-59a01e207d9a">
     <name>Настройки</name>
     <synonym>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07205776-ed66-4bb9-a7ad-71b7ceb3be8c">
-  <name>УдаленноеАдминистрированиеВМоделиСервиса_1_0_3_7</name>
-  <synonym>
-    <key>ru</key>
-    <value>Удаленное администрирование в модели сервиса 1.0.3.7</value>
-  </synonym>
-  <namespace>http://www.1c.ru/1cFresh/RemoteAdministration/App/1.0.3.7</namespace>
-</mdclass:XDTOPackage>

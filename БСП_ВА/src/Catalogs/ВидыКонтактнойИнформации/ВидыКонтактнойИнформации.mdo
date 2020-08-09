@@ -799,6 +799,92 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9cd2fc77-a4b0-457e-a6b0-63dbf521bf90">
+    <name>ИсправлятьУстаревшиеАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлять устаревшие адреса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматические исправлять устаревшие адреса на новые</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8363bd46-1ea5-44f0-858a-05bc03f6020e">
+    <name>ИдентификаторДляФормул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор для формул</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор для формул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a321b6db-391b-4c65-8d27-ce486d10055e">
+    <name>МаскаНомераТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маска номера телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержит строку маски для интерактивного ввода номера телефона.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="800ef5f0-fdd1-4f8b-8c0b-9744952bfb5b">
+    <name>ВводитьНомерПоМаске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вводить номер по маске</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, что ввод номера телефона выполняется по маске.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="99387869-f8b1-4269-bd26-e39380d17b69">
     <producedTypes>
       <objectType typeId="9cb91b1a-ae31-403c-8c5d-e0fd01955e6c" valueTypeId="74fba94b-4c84-497d-a403-5c2dd8ebbc57"/>
@@ -907,6 +993,15 @@
         <lang>ru</lang>
       </pages>
     </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="826c2821-147d-4aaf-910c-acfbdb58a29f">
+    <name>ИсправлениеВидовКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправление видов контактной информации</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

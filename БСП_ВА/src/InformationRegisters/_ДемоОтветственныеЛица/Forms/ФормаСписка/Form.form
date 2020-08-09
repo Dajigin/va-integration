@@ -187,11 +187,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ОтветственныеЛицаОрганизаций.StandardCommand.Find</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ОтветственныеЛицаОрганизацийОтменитьПоиск</name>
@@ -218,11 +218,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ОтветственныеЛицаОрганизаций.StandardCommand.CancelSearch</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ОтветственныеЛицаОрганизацийПоказатьМножественноеВыделение</name>
@@ -249,11 +249,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ОтветственныеЛицаОрганизаций.StandardCommand.ShowMultipleSelection</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ОтветственныеЛицаОрганизацийВывестиСписок</name>
@@ -280,11 +280,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ОтветственныеЛицаОрганизаций.StandardCommand.OutputList</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>true</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -481,28 +481,28 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>1</value>
+    <value xsi:type="core:StringValue">
+      <value>ФормаЗаписатьИЗакрыть</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>22</value>
+    <value xsi:type="core:StringValue">
+      <value>ОтветственныеЛицаОрганизацийНайти</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>24</value>
+    <value xsi:type="core:StringValue">
+      <value>ОтветственныеЛицаОрганизацийОтменитьПоиск</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>26</value>
+    <value xsi:type="core:StringValue">
+      <value>ОтветственныеЛицаОрганизацийПоказатьМножественноеВыделение</value>
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:NumberValue">
-      <value>28</value>
+    <value xsi:type="core:StringValue">
+      <value>ОтветственныеЛицаОрганизацийВывестиСписок</value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

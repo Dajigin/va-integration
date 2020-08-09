@@ -203,7 +203,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Узел плана обмена, в разрезе которого храниться информация сопоставления объектов.</value>
+      <value>Узел плана обмена, для которого хранится информация сопоставления объектов.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

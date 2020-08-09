@@ -6,11 +6,8 @@
     <value>Оплата сервиса</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>DataProcessor.ОплатаСервиса</content>
-  <content>CommonPicture.КонтактнаяИнформацияСайт</content>
   <content>CommonPicture.КонтактнаяИнформацияТелефон</content>
-  <content>CommonPicture.КонтактнаяИнформацияЭлектроннаяПочта</content>
   <content>StyleItem.БудущиеПодпискиЦвет</content>
-  <content>StyleItem.ТекущиеПодпискиЦвет</content>
+  <content>CommonCommand.ОплатаСервиса</content>
   <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
 </mdclass:Subsystem>

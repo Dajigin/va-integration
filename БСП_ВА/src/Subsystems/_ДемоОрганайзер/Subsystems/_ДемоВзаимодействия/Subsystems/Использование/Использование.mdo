@@ -9,5 +9,6 @@
   <content>Catalog._ДемоПартнеры</content>
   <content>DocumentJournal.Взаимодействия</content>
   <content>Document._ДемоЗаказПокупателя</content>
+  <content>Catalog._ДемоКонтрагенты</content>
   <parentSubsystem>Subsystem._ДемоОрганайзер.Subsystem._ДемоВзаимодействия</parentSubsystem>
 </mdclass:Subsystem>

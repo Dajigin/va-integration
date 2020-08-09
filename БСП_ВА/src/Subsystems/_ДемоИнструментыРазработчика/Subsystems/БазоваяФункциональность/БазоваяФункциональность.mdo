@@ -11,6 +11,5 @@
   <content>CommonCommand._ДемоСтандартыРазработки</content>
   <content>Report.ЗависимостиПодсистем</content>
   <content>DataProcessor._ДемоОтключениеПодсистем</content>
-  <content>0fd77d3f-d57e-44b0-8dcb-e4ccd2d825fa</content>
   <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
 </mdclass:Subsystem>

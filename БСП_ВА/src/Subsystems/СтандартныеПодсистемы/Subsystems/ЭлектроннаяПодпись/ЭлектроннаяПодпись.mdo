@@ -46,8 +46,15 @@
   <content>DataProcessor.ПрограммыЭлектроннойПодписиИШифрования</content>
   <content>DataProcessor.ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата</content>
   <content>CommonForm.РезультатПроверки</content>
-  <content>CommonModule.ЭлектроннаяПодписьЛокализацияКлиентСервер</content>
+  <content>CommonModule.ЭлектроннаяПодписьКлиентСерверЛокализация</content>
   <content>CommonModule.ЗаявлениеНаСертификатПереопределяемый</content>
   <content>StyleItem.ЗаявлениеНаВыпускСертификатаЗаголовокКлючевогоПоляШрифт</content>
+  <content>Constant.КлассификаторОшибокКриптографии</content>
+  <content>Constant.ДатаПоследнегоОбновленияКлассификатораОшибок</content>
+  <content>CommonForm.РасширенноеПредставлениеОшибки</content>
+  <content>CommonPicture.ПроверкаСертификатаНеВыполнялась</content>
+  <content>CommonPicture.ПроверкаСертификатаОшибка</content>
+  <content>CommonPicture.ПроверкаСертификатаПредупреждение</content>
+  <content>CommonPicture.ПроверкаСертификатаУспех</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

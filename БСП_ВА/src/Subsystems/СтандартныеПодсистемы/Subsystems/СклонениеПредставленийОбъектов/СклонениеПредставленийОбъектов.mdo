@@ -14,7 +14,6 @@
   <content>CommonModule.СклонениеПредставленийОбъектовКлиент</content>
   <content>CommonModule.СклонениеПредставленийОбъектовВызовСервера</content>
   <content>Constant.УдалитьЛогинДоступаКСервисуMorpher</content>
-  <content>b107a4a8-0db8-44f4-93f7-9f231e850398</content>
   <content>CommonForm.НастройкаДоступаКСервисуMorpher</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

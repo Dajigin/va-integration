@@ -24,17 +24,21 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9">
-    <name>СохранениеВариантаОтчета</name>
+  <forms uuid="f5bb88eb-c239-4ae3-a297-dfbbd679e008">
+    <name>ВыборПоляОтчета</name>
     <synonym>
       <key>ru</key>
-      <value>Сохранение варианта отчета</value>
+      <value>Выбор поля отчета</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb350b39-1f4d-460a-98c9-8d2308cf22f0">
+    <name>ГруппаВыбранныхПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа выбранных полей</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -61,21 +65,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="f5bb88eb-c239-4ae3-a297-dfbbd679e008">
-    <name>ВыборПоляОтчета</name>
+  <forms uuid="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9">
+    <name>СохранениеВариантаОтчета</name>
     <synonym>
       <key>ru</key>
-      <value>Выбор поля отчета</value>
+      <value>Сохранение варианта отчета</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="bb350b39-1f4d-460a-98c9-8d2308cf22f0">
-    <name>ГруппаВыбранныхПолей</name>
-    <synonym>
-      <key>ru</key>
-      <value>Группа выбранных полей</value>
-    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -93,11 +93,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="f259b6b4-d582-429f-a16f-027a6bcb7438">
-    <name>ЭлементУсловногоОформленияОтчета</name>
+  <forms uuid="9f32e85c-2ed6-41db-b0ec-6d8596940e80">
+    <name>УсловияОтборовОтчета</name>
     <synonym>
       <key>ru</key>
-      <value>Элемент условного оформления отчета</value>
+      <value>Условия отборов отчета</value>
     </synonym>
     <help>
       <pages>
@@ -107,11 +107,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="9f32e85c-2ed6-41db-b0ec-6d8596940e80">
-    <name>УсловияОтборовОтчета</name>
+  <forms uuid="f259b6b4-d582-429f-a16f-027a6bcb7438">
+    <name>ЭлементУсловногоОформленияОтчета</name>
     <synonym>
       <key>ru</key>
-      <value>Условия отборов отчета</value>
+      <value>Элемент условного оформления отчета</value>
     </synonym>
     <help>
       <pages>

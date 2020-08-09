@@ -179,7 +179,7 @@
   <content>SessionParameter.ВерсияРасширений</content>
   <content>SessionParameter.ПодключенныеРасширения</content>
   <content>Catalog.ВерсииРасширений</content>
-  <content>InformationRegister.СеансыВерсийРасширений</content>
+  <content>fae4675c-dcdc-42fc-911d-07c3c577b8b8</content>
   <content>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</content>
   <content>InformationRegister.ПараметрыРаботыВерсийРасширений</content>
   <content>CommonForm.Расширения</content>
@@ -267,5 +267,7 @@
   <content>CommonModule.МультиязычностьПереопределяемый</content>
   <content>SessionParameter.ОсновнойЯзык</content>
   <content>CommonModule.МультиязычностьПовтИсп</content>
+  <content>CommonPicture.ПодменюСервис</content>
+  <content>CommonForm.КонтрольДинамическогоОбновления</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

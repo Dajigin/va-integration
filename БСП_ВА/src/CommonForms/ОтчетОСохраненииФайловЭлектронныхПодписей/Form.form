@@ -161,7 +161,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПапкаСФайлами</name>
+    <name>КаталогСФайлами</name>
     <id>2</id>
     <valueType>
       <types>String</types>
@@ -181,10 +181,6 @@
       <value>Открыть папку с файлами</value>
     </title>
     <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Открыть папку с файлами</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -196,7 +192,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
-    <name>ПапкаСФайлами</name>
+    <name>КаталогСФайлами</name>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

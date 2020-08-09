@@ -89,6 +89,7 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <height>5</height>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
       <multiLine>true</multiLine>
@@ -145,17 +146,13 @@
       <horizontalAlign>Left</horizontalAlign>
     </extInfo>
   </items>
-  <commandBarLocation>Bottom</commandBarLocation>
+  <commandBarLocation>Top</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаЗакрыть</name>
       <id>16</id>
-      <title>
-        <key>ru</key>
-        <value>ОК</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -189,7 +186,7 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <horizontalAlign>Center</horizontalAlign>
+    <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>

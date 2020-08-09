@@ -6,8 +6,10 @@
     <value>Дополнительные реквизиты обработка проверки заполнения</value>
   </synonym>
   <source>
+    <types>BusinessProcessObject</types>
     <types>ChartOfCharacteristicTypesObject</types>
     <types>CatalogObject</types>
+    <types>TaskObject</types>
     <types>DocumentObject</types>
   </source>
   <event>FillCheckProcessing</event>

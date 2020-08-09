@@ -16,8 +16,6 @@
   </synonym>
   <comment>Используется для  хранения связей каналов с получателями этих каналов. Регистр задает рассылку по получателям со стороны отправителя.</comment>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.НастройкиОтправителя.Form.ФормаЗаписи</defaultRecordForm>
-  <defaultListForm>InformationRegister.НастройкиОтправителя.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -97,25 +95,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
   </dimensions>
-  <forms uuid="a896bc34-30a6-48b6-acfc-786c24c186bd">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="3867f4cb-bf54-42fb-8ea6-ca51d7cd6c91">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <commands uuid="da8ae00a-7207-4ceb-b739-9114888c5b27">
+  <commands uuid="0a9c462d-2b4b-4fe8-ad57-5c05f1154a60">
     <name>НастройкиОтправителя</name>
     <synonym>
       <key>ru</key>

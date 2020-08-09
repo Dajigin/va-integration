@@ -6,6 +6,5 @@
     <value>Обновление конфигурации</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>8f78cf63-7c56-4fc0-8b2b-c4be69f6bf90</content>
   <parentSubsystem>Subsystem._ДемоИнструментыРазработчика</parentSubsystem>
 </mdclass:Subsystem>

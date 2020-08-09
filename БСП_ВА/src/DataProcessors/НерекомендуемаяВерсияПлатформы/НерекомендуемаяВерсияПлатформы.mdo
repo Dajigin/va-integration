@@ -29,10 +29,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <templates uuid="5c4ecf15-b92d-4610-b2bb-f2331c5c7528">
-    <name>ПорядокОбновленияДляФайловойБазы</name>
+    <name>ПорядокОбновленияДляФайловойБазы_ru</name>
     <synonym>
       <key>ru</key>
-      <value>Порядок обновления для файловой базы</value>
+      <value>Порядок обновления для файловой базы ru</value>
     </synonym>
     <templateType>HTMLDocument</templateType>
   </templates>

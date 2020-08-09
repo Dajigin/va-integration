@@ -197,4 +197,20 @@
       <value>Работа с файлами описание внедрения</value>
     </synonym>
   </templates>
+  <templates uuid="020286fc-82ab-491c-a75c-194e1fdd585c">
+    <name>АдминистраторСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор системы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="400b5d20-ea29-4eef-bbfd-cc62e33d92a9">
+    <name>ПолныеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полные права</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:Report>

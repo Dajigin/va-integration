@@ -11,5 +11,13 @@
   <content>CommonModule.ОбсужденияСлужебныйВызовСервера</content>
   <content>CommonModule.ОбсужденияСлужебный</content>
   <content>CommonCommand.Обсуждения</content>
+  <content>CommonModule.ОбсужденияСлужебныйКлиентСервер</content>
+  <content>CommonModule.Обсуждения</content>
+  <content>CommonPicture.Телеграм16х16</content>
+  <content>CommonPicture.ВКонтакте16</content>
+  <content>CommonPicture.BotFather</content>
+  <content>CommonPicture.BotFatherВконтакте</content>
+  <content>23b8cbb3-1d2f-481f-8ce2-ab9a7af6a9c1</content>
+  <content>CommonModule.ОбсужденияКлиент</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

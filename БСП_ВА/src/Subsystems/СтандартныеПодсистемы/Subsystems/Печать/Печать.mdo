@@ -41,7 +41,9 @@
   <content>CommonModule.УправлениеПечатьюСлужебный</content>
   <content>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</content>
   <content>CommonModule.УправлениеПечатьюКлиентПереопределяемый</content>
-  <content>InformationRegister.ПоставляемыеМакетыПечати</content>
+  <content>0b8c7a82-9865-4c5e-9bf1-ba6a7ef3a5d1</content>
   <content>CommonModule.УправлениеПечатьюРФ</content>
+  <content>InformationRegister.ОбщиеПоставляемыеМакетыПечати</content>
+  <content>InformationRegister.ПоставляемыеМакетыПечати</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

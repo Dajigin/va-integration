@@ -15,8 +15,6 @@
     <value>Состояния интеграции объектов</value>
   </synonym>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.СостоянияИнтеграцииОбъектов.Form.ФормаЗаписи</defaultRecordForm>
-  <defaultListForm>InformationRegister.СостоянияИнтеграцииОбъектов.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -124,24 +122,6 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="63b8105d-4501-45cb-9b9f-4384cbef0119">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="a6f00a9a-1634-4aaf-bc62-d9bde4332f26">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <commands uuid="994dc0c2-dddb-4f65-b5cd-7bf23391d1ba">
     <name>СостоянияИнтеграции</name>
     <synonym>

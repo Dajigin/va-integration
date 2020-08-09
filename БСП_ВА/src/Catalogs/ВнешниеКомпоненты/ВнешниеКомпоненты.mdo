@@ -531,7 +531,7 @@
     <name>ОбновлениеКомпонентСПортала1СИТС</name>
     <synonym>
       <key>ru</key>
-      <value>Обновление компонент с Портала 1С:ИТС</value>
+      <value>Обновление компонент с портала 1С:ИТС</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

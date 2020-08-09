@@ -7,7 +7,7 @@
   <name>_ДемоЗамерДлительнойОперации</name>
   <synonym>
     <key>ru</key>
-    <value>Демо: замер длительной операции</value>
+    <value>Демо: Замер длительной операции</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor._ДемоЗамерДлительнойОперации.Form.Форма</defaultForm>

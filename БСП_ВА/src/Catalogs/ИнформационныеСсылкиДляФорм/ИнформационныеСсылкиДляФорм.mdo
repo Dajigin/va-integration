@@ -137,7 +137,6 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ИнформационныеСсылкиДляФорм.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ИнформационныеСсылкиДляФорм.Form.ФормаСписка</defaultListForm>
   <attributes uuid="892823b2-41ea-4c87-b0d7-e6fe5f190a1c">
     <name>Адрес</name>
@@ -327,15 +326,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="6e236b9e-1150-4f4c-8c07-55c7fc089e95">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="bcc047a3-8301-41f0-a5bd-9f64f5f5382a">
     <name>ФормаСписка</name>
     <synonym>

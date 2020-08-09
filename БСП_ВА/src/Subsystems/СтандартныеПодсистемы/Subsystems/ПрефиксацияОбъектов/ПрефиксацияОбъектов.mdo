@@ -16,6 +16,5 @@
   <content>CommonModule.ПрефиксацияОбъектовКлиентСерверПереопределяемый</content>
   <content>CommonModule.ПрефиксацияОбъектовСлужебный</content>
   <content>CommonModule.ПрефиксацияОбъектовПереопределяемый</content>
-  <content>a752fba8-5084-4fa2-9d0b-7074a42b1312</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

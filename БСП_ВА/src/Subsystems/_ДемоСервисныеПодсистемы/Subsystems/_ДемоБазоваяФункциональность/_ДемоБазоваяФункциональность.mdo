@@ -21,9 +21,7 @@
   <content>CommonModule._ДемоСтандартныеПодсистемыКлиент</content>
   <content>DataProcessor._ДемоДлительнаяОперация</content>
   <content>SessionParameter._ДемоТекущийПроект</content>
-  <content>0f3d960a-e6c3-4e01-9c10-094de30b2c03</content>
   <content>CommonModule._ДемоСтандартныеПодсистемыВызовСервера</content>
   <content>Role.Подсистема_ДемоАдминистрирование</content>
-  <content>b2e27c54-1d52-445c-afc8-cd9faa205b97</content>
   <parentSubsystem>Subsystem._ДемоСервисныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

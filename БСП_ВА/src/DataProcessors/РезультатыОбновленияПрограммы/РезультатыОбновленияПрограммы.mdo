@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Результаты обновления программы</value>
   </synonym>
+  <comment>АПК:78-выкл для вызова различных этапов обновления</comment>
   <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.ИндикацияХодаОтложенногоОбновленияИБ</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
   <help>

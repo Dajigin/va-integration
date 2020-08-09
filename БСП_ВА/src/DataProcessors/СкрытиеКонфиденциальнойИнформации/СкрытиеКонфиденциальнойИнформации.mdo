@@ -81,6 +81,30 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="52f065fe-556a-47cd-82b1-c56d7894df30">
+    <name>ОчищатьПерсональныеНастройкиПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать персональные настройки пользователей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="186efec4-1343-4234-a9b6-c8d8096faf76">
+    <name>УдалятьФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять файлы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="68598d98-0c59-4cda-b0b2-6901d3aff88b">
     <name>Форма</name>
     <synonym>

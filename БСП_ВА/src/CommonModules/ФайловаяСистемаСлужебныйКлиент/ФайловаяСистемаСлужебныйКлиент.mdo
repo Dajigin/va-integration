@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Файловая система служебный клиент</value>
   </synonym>
+  <comment>АПК:1348 Реализация стандартных функций модуля ФайловаяСистемаКлиент</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
