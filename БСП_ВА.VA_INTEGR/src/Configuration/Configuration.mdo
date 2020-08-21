@@ -53,5 +53,6 @@
   <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
   <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
+  <dataProcessors>DataProcessor.МенеджерТестов</dataProcessors>
   <informationRegisters>InformationRegister.ВАИНТ_НастройкиТестирования</informationRegisters>
 </mdclass:Configuration>

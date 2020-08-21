@@ -10,4 +10,5 @@
   <content>DataProcessor.VanessaAutomationsingle</content>
   <content>CommonCommand.ВАИНТ_КаталогТестов</content>
   <content>CommonCommand.ВАИНТ_ПриемочныеТесты</content>
+  <content>DataProcessor.МенеджерТестов</content>
 </mdclass:Subsystem>

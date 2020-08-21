@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e54bbaf-93a0-4cf2-9947-e4c147c4ef70">
+  <producedTypes>
+    <objectType typeId="77505e90-0d29-4919-89b6-130191a8774d" valueTypeId="889b0698-2964-44e0-acad-94d5a205aa23"/>
+    <managerType typeId="c721c334-7117-4c9f-ae30-c6ac5e658112" valueTypeId="ffabcfc9-aae6-4030-bf2b-eaaa512a7cb8"/>
+  </producedTypes>
+  <name>МенеджерТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МенеджерТестов.Form.МенеджерТестов</defaultForm>
+  <attributes uuid="19c78286-c8f2-41ad-a88e-db2b55b70a6d">
+    <name>ЭтоТаблицаИсключаемыхТегов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это таблица исключаемых тегов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ='только содержащие тэги'; БИ='кроме тестов, содержащих тэги'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ='только содержащие тэги'; БИ='кроме тестов, содержащих тэги'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="90152b3e-4f8e-4c9c-9e74-5a28a2e95849">
+    <producedTypes>
+      <objectType typeId="ee91f886-72c4-47d4-9485-c45da4468ed3" valueTypeId="617addeb-8ce8-4ac0-9d1b-48bba10c3ba0"/>
+      <rowType typeId="bfbdbe30-356e-4879-a6fb-6a7da654312c" valueTypeId="7b778020-63a6-49b3-8a39-2595ddd3aaaa"/>
+    </producedTypes>
+    <name>Тесты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тесты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4c30efb4-ec90-4880-a712-32240b3d13b5">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a8154aa0-715a-4f65-bc8e-9345f9cf6733">
+      <name>ВидОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид объекта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b4002061-31d8-48f7-9991-003de07c78ea">
+      <name>ИмяОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя объекта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f90a9fed-5c03-4a5f-b3de-6d29468aeb11">
+    <producedTypes>
+      <objectType typeId="f379c27c-1c77-46b8-876a-75b1e210a728" valueTypeId="87a1964a-a830-4196-9a4c-e480d059f59b"/>
+      <rowType typeId="1aafc076-830b-41e6-ae1e-5517a55ee6bf" valueTypeId="98fe4388-6978-45a1-8f67-0148faa14980"/>
+    </producedTypes>
+    <name>Тэги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тэги</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0250f114-13ab-4620-8d8e-f621aa6a8388">
+      <name>ИмяТэга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя тэга</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5c0a7d06-1250-4dfb-a431-c95719637d55">
+    <name>МенеджерТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер тестов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
