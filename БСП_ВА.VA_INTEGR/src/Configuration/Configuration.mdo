@@ -12,7 +12,6 @@
     <defaultLanguage>Checked</defaultLanguage>
     <modalityUseMode>Checked</modalityUseMode>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
-    <compatibilityMode>Notify</compatibilityMode>
     <defaultStyle>Extended</defaultStyle>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="16501798-b821-40b9-af6a-ce9745ca680d"/>
@@ -34,7 +33,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.12</compatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="c55afb5d-0fe4-48c6-88d9-2a1fb8d77bf8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

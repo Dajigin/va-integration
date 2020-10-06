@@ -456,12 +456,12 @@
   <attributes uuid="88549973-9731-4050-9481-35934b3b28b3">
     <name>ВерсияПлатформыДляГенерацииEPF</name>
     <synonym>
-      <key>ru</key>
-      <value>Версия платформы для генерации EPF</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Platform version for EPF generation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы для генерации EPF</value>
     </synonym>
     <synonym>
       <key>vi</key>
@@ -527,44 +527,28 @@
   <attributes uuid="497c62b3-6a58-42ef-ad40-dfe46bb17edf">
     <name>ВыводитьВЛогВыполнениеШагов</name>
     <synonym>
-      <key>ru</key>
-      <value>Лог выполнения шагов</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Steps execution log</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ምዝግብ.</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Çıxış log yerinə addımlar</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Извежда в лог изпълнението на стъпки</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>In der log ausgeben Schritte ausführen</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>Mostrar en el log de la ejecución de los pasos</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Näita log täitmise sammud</value>
+      <key>mn</key>
+      <value>Нэвтрэх арга хэмжээ</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Enregistrées en exécution des étapes</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Napló lépések</value>
+      <key>pl</key>
+      <value>Wyświetlanie dziennika wykonanie kroków</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Çıktı günlük adımları</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Steps execution log</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -575,6 +559,30 @@
       <value>შესვლა ნაბიჯები</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Dnevnik koraki</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>In der log ausgeben Schritte ausführen</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ምዝግብ.</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Mostrar en el log de la ejecución de los pasos</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Näita log täitmise sammud</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Hiển thị trong nhật ký thực hiện các bước</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Išvesti į failą, atlikti veiksmus</value>
     </synonym>
@@ -583,32 +591,24 @@
       <value>Parādīt log izpildi soļi</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Нэвтрэх арга хэмжээ</value>
+      <key>sv</key>
+      <value>Logga steg</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Wyświetlanie dziennika wykonanie kroków</value>
+      <key>hu</key>
+      <value>Napló lépések</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Çıxış log yerinə addımlar</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>De ieșire în fișierul jurnal efectuarea de pași</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Dnevnik koraki</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Logga steg</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Çıktı günlük adımları</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Hiển thị trong nhật ký thực hiện các bước</value>
+      <key>ru</key>
+      <value>Лог выполнения шагов</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -780,44 +780,28 @@
   <attributes uuid="8251dbcf-7681-47f7-9207-c9c2fbac9b97">
     <name>ДелатьЛогВыполненияСценариевВТекстовыйФайл</name>
     <synonym>
-      <key>ru</key>
-      <value>Лог выполнения сценариев</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Scenarios execution log</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ጋር ስለጀመሩ ቅድሚያ የሚሰጡዋቸውን ውስጥ ጽሑፍ ፋይል</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Bunu günlük yerinə ssenarilər mətn faylı</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Правя лог изпълнение на скрипт в текстов файл</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Tun die log-Skripte in einer Textdatei</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>Hacer un log de ejecución de secuencias de comandos en un archivo de texto</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Teha log skriptide täitmise tekstifaili</value>
+      <key>mn</key>
+      <value>Хийх бүртгэлийн ажиллуулах скриптүүд нь текст файл</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Faire le journal de l'exécution des scripts dans un fichier texte</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>A napló scriptek futtatását egy szöveges fájl</value>
+      <key>pl</key>
+      <value>Zrobić log z wykonania skryptu w pliku tekstowym</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Yapmak günlük komut dosyası bir metin dosyası</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scenarios execution log</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -828,6 +812,30 @@
       <value>ამის შესვლა აწარმოებს სკრიპტები ტექსტური ფაილი,</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Da ne log zaženete skripte v besedilno datoteko</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Tun die log-Skripte in einer Textdatei</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ጋር ስለጀመሩ ቅድሚያ የሚሰጡዋቸውን ውስጥ ጽሑፍ ፋይል</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Hacer un log de ejecución de secuencias de comandos en un archivo de texto</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Teha log skriptide täitmise tekstifaili</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo nhật ký thực hiện các kịch bản vào tệp văn bản</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Daryti žurnalo vykdymo scenarijai į tekstinį failą</value>
     </synonym>
@@ -836,32 +844,24 @@
       <value>Darīt log izpildes skriptu ar teksta failu</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Хийх бүртгэлийн ажиллуулах скриптүүд нь текст файл</value>
+      <key>sv</key>
+      <value>För att göra det loggar köra skript i en textfil</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Zrobić log z wykonania skryptu w pliku tekstowym</value>
+      <key>hu</key>
+      <value>A napló scriptek futtatását egy szöveges fájl</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bunu günlük yerinə ssenarilər mətn faylı</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>A face log script într-un fișier text</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Da ne log zaženete skripte v besedilno datoteko</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>För att göra det loggar köra skript i en textfil</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Yapmak günlük komut dosyası bir metin dosyası</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Tạo nhật ký thực hiện các kịch bản vào tệp văn bản</value>
+      <key>ru</key>
+      <value>Лог выполнения сценариев</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -1036,44 +1036,28 @@
   <attributes uuid="17188653-ed0c-4672-bd1f-4f01f3898d39">
     <name>ДиапазонПортовTestclient</name>
     <synonym>
-      <key>ru</key>
-      <value>Диапазон портов</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Port range</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ቅድሚያ የታዘዘ ነው ports testclient</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Bir sıra limanları testclient</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Диапазон на портове по testclient</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Portbereich von Testclient</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El rango de puertos testclient</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Portide testclient</value>
+      <key>mn</key>
+      <value>Тархац портын testclient</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>La plage de ports testclient</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>A tartomány portok testclient</value>
+      <key>pl</key>
+      <value>Zakres portów testclient</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Bağlantı noktası aralığı testclient</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Port range</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -1084,6 +1068,30 @@
       <value>სპექტრი პორტები testclient</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Območju pristanišča testclient</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Portbereich von Testclient</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅድሚያ የታዘዘ ነው ports testclient</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El rango de puertos testclient</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Portide testclient</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Khoảng cổng kiểm tra máy trạm</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Prievadus testclient</value>
     </synonym>
@@ -1092,32 +1100,24 @@
       <value>Portu diapazonu testclient</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Тархац портын testclient</value>
+      <key>sv</key>
+      <value>Utbudet av portar testclient</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Zakres portów testclient</value>
+      <key>hu</key>
+      <value>A tartomány portok testclient</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bir sıra limanları testclient</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Gama de porturi testclient</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Območju pristanišča testclient</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Utbudet av portar testclient</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Bağlantı noktası aralığı testclient</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Khoảng cổng kiểm tra máy trạm</value>
+      <key>ru</key>
+      <value>Диапазон портов</value>
     </synonym>
     <type>
       <types>String</types>
@@ -1320,16 +1320,33 @@
   <attributes uuid="8164d014-ff65-4cef-a104-b7e122e6cbb0">
     <name>ЗаписьВидеоAmazonЯзык</name>
     <synonym>
-      <key>ru</key>
-      <value>Язык</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Language</value>
     </synonym>
     <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <synonym>
       <key>ro</key>
       <value>Limba</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="392908c4-0e12-487c-a857-af49c0483920">
+    <name>ЗаписьВидеоAmazonРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Region</value>
     </synonym>
     <type>
       <types>String</types>
@@ -1450,12 +1467,12 @@
   <attributes uuid="d60919ce-b8f1-40e5-b031-f1d8c2005cdb">
     <name>ЗаписьВидеоYandexTTSЯзык</name>
     <synonym>
-      <key>ru</key>
-      <value>Язык</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Language</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
     </synonym>
     <synonym>
       <key>ro</key>
@@ -1465,6 +1482,28 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="208cb7ec-489d-4c6a-b820-1ee6b350c10c">
+    <name>ЗаписьВидеоYandexTTSВариантЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант запроса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант запроса:
+- через API (требует токен)
+- через веб-интерфейс (не требует регистрации и токена)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -2192,11 +2231,11 @@ Default: ffmpeg</value>
   <attributes uuid="7a6c55b6-a628-4b8a-a3c9-2949c21578f7">
     <name>ЗаписьВидеоФормироватьИнструкциюТипHTML</name>
     <synonym>
-      <key>ru</key>
+      <key>en</key>
       <value>HTML</value>
     </synonym>
     <synonym>
-      <key>en</key>
+      <key>ru</key>
       <value>HTML</value>
     </synonym>
     <synonym>
@@ -2212,11 +2251,11 @@ Default: ffmpeg</value>
   <attributes uuid="ab548980-e681-4795-923e-c32924cc528e">
     <name>ЗаписьВидеоФормироватьИнструкциюТипMarkdown</name>
     <synonym>
-      <key>ru</key>
+      <key>en</key>
       <value>Markdown</value>
     </synonym>
     <synonym>
-      <key>en</key>
+      <key>ru</key>
       <value>Markdown</value>
     </synonym>
     <synonym>
@@ -2593,44 +2632,28 @@ Default: ffmpeg</value>
   <attributes uuid="6cb9eb5b-9834-44b7-b490-6d39c9ab9130">
     <name>ИнтервалВыполненияШага</name>
     <synonym>
-      <key>ru</key>
-      <value>Интервал выполнения шага</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Step fulfillment interval</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>በ ደረጃ</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>İnterval yerinə yetirilməsi addım</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Интервалът на извършване на стъпки</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Intervall Schritt</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El intervalo de paso</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Intervall teha samm</value>
+      <key>mn</key>
+      <value>Интервал алхам</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>L'intervalle d'exécution de l'étape</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Intervallum lépés</value>
+      <key>pl</key>
+      <value>Interwał wykonywania kroku</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Aralık adım</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Step fulfillment interval</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -2641,6 +2664,30 @@ Default: ffmpeg</value>
       <value>ინტერვალი ნაბიჯი</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Interval korak</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Intervall Schritt</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>በ ደረጃ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El intervalo de paso</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Intervall teha samm</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Khoảng thực hiện của bước</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Intervalas atlikti žingsnis</value>
     </synonym>
@@ -2649,32 +2696,24 @@ Default: ffmpeg</value>
       <value>Intervāls veiktu soli</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Интервал алхам</value>
+      <key>sv</key>
+      <value>Intervall steg</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Interwał wykonywania kroku</value>
+      <key>hu</key>
+      <value>Intervallum lépés</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>İnterval yerinə yetirilməsi addım</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Intervalul pasul</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Interval korak</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Intervall steg</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Aralık adım</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Khoảng thực hiện của bước</value>
+      <key>ru</key>
+      <value>Интервал выполнения шага</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -2967,12 +3006,12 @@ Default: ffmpeg</value>
   <attributes uuid="13046aca-b33c-4435-b736-44bd900e8d98">
     <name>КаталогИнструментов</name>
     <synonym>
-      <key>ru</key>
-      <value>Каталог инструментов</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Tools directory</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог инструментов</value>
     </synonym>
     <synonym>
       <key>vi</key>
@@ -3047,44 +3086,28 @@ Default: ffmpeg</value>
   <attributes uuid="9fc46fa6-3d72-407c-9604-0c94d4618802">
     <name>КаталогПроекта</name>
     <synonym>
-      <key>ru</key>
-      <value>Каталог проекта</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Project directory</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ፕሮጀክቱ የማውጫ</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Kataloq layihəsi</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Каталог на проекта</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Katalog des Projekts</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El directorio del proyecto</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Projekti kataloogi</value>
+      <key>mn</key>
+      <value>Төслийн сан</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Le répertoire du projet</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>A projekt könyvtár</value>
+      <key>pl</key>
+      <value>Katalog projektu</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Dizin projesi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Project directory</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -3095,6 +3118,30 @@ Default: ffmpeg</value>
       <value>პროექტის დირექტორია</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Projekt imenik</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Katalog des Projekts</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ፕሮጀክቱ የማውጫ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El directorio del proyecto</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Projekti kataloogi</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Thư mục dự án</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Projekto katalogą</value>
     </synonym>
@@ -3103,32 +3150,24 @@ Default: ffmpeg</value>
       <value>Projektu katalogs</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Төслийн сан</value>
+      <key>sv</key>
+      <value>Projektkatalogen</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Katalog projektu</value>
+      <key>hu</key>
+      <value>A projekt könyvtár</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Kataloq layihəsi</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Directorul de proiect</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Projekt imenik</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Projektkatalogen</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Dizin projesi</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Thư mục dự án</value>
+      <key>ru</key>
+      <value>Каталог проекта</value>
     </synonym>
     <type>
       <types>String</types>
@@ -3296,44 +3335,28 @@ Default: ffmpeg</value>
   <attributes uuid="b8bf823c-f1b1-49f0-92be-cbe0b213df5a">
     <name>КомандаОткрытияФичиВТекстовомРедакторе</name>
     <synonym>
-      <key>ru</key>
-      <value>Команда открытия фичи в текстовом редакторе</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Feature open command in text editor</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ትዕዛዝ ግምገማዎች ቅድሚያ ውስጥ ጽሑፍ አዘጋጅ</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Komanda açılış фичи mətn redaktorunda</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Екипът на откриването на фичи в текстов редактор</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Der Befehl öffnen in einem Text-Editor Features</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El comando de apertura de slave en un editor de texto</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Meeskond avamise фичи tekstiredaktoris</value>
+      <key>mn</key>
+      <value>Тушаал нээлттэй онцлог текст засварлагч</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>La commande d'ouverture de fonctions dans l'éditeur de texte</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Parancs nyitva funkciók egy szövegszerkesztőben</value>
+      <key>pl</key>
+      <value>Zespół otwarcia funkcje w edytorze tekstu</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Bir takım açılış özellikler metin editörü</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Feature open command in text editor</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -3344,6 +3367,30 @@ Default: ffmpeg</value>
       <value>ბრძანება ღია ფუნქციები, ტექსტური რედაქტორი</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Ukaz odpri funkcije v urejevalnik besedila</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Der Befehl öffnen in einem Text-Editor Features</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ትዕዛዝ ግምገማዎች ቅድሚያ ውስጥ ጽሑፍ አዘጋጅ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El comando de apertura de slave en un editor de texto</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Meeskond avamise фичи tekstiredaktoris</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Lệnh mở tính năng trong bộ soạn văn bản</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Komanda atidarymo фичи teksto redaktorius</value>
     </synonym>
@@ -3352,32 +3399,24 @@ Default: ffmpeg</value>
       <value>Komanda atvēršanas фичи teksta redaktorā</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Тушаал нээлттэй онцлог текст засварлагч</value>
+      <key>sv</key>
+      <value>Kommando öppna funktioner i en text editor</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Zespół otwarcia funkcje w edytorze tekstu</value>
+      <key>hu</key>
+      <value>Parancs nyitva funkciók egy szövegszerkesztőben</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Komanda açılış фичи mətn redaktorunda</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Comanda de deschidere a фичи în editorul de text</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Ukaz odpri funkcije v urejevalnik besedila</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Kommando öppna funktioner i en text editor</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Bir takım açılış özellikler metin editörü</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Lệnh mở tính năng trong bộ soạn văn bản</value>
+      <key>ru</key>
+      <value>Команда открытия фичи в текстовом редакторе</value>
     </synonym>
     <type>
       <types>String</types>
@@ -3454,44 +3493,28 @@ Default: ffmpeg</value>
   <attributes uuid="82396c19-d212-45d0-a6c9-6721b573e40e">
     <name>ОстановкаПриВозникновенииОшибки</name>
     <synonym>
-      <key>ru</key>
-      <value>Остановка при возникновении ошибки</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Stop in case of error</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ቅድሚያ የሚሰጡዋቸውን ስህተት ይኖራል</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Stop yarandıqda səhvlər</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Спирка при възникване на грешка</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Stop wenn ein Fehler Auftritt</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La parada cuando se produce un error</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Stop vea ilmnemisel</value>
+      <key>mn</key>
+      <value>Зогсоох үед алдаа гардаг</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Arrêt en cas d'erreur</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Állj meg, amikor hiba fordul elő</value>
+      <key>pl</key>
+      <value>Przystanek w przypadku wystąpienia błędu</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Durdurma bir hata oluştuğunda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Stop in case of error</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -3502,6 +3525,30 @@ Default: ffmpeg</value>
       <value>შეწყდეს, როდესაც შეცდომა ხდება</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Ustavi, ko pride do napake</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Stop wenn ein Fehler Auftritt</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅድሚያ የሚሰጡዋቸውን ስህተት ይኖራል</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La parada cuando se produce un error</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Stop vea ilmnemisel</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Dừng khi xảy ra lỗi</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Stotelė kai įvyksta klaida</value>
     </synonym>
@@ -3510,32 +3557,24 @@ Default: ffmpeg</value>
       <value>Apstāšanās, ja rodas kļūda</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Зогсоох үед алдаа гардаг</value>
+      <key>sv</key>
+      <value>Sluta när fel uppstår</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Przystanek w przypadku wystąpienia błędu</value>
+      <key>hu</key>
+      <value>Állj meg, amikor hiba fordul elő</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Stop yarandıqda səhvlər</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Oprire atunci când apare o eroare</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Ustavi, ko pride do napake</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Sluta när fel uppstår</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Durdurma bir hata oluştuğunda</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Dừng khi xảy ra lỗi</value>
+      <key>ru</key>
+      <value>Остановка при возникновении ошибки</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -3604,44 +3643,28 @@ Default: ffmpeg</value>
   <attributes uuid="677c400c-bbcc-4a89-a0bf-eb564f73eac5">
     <name>ПоказыватьНомерСтрокиДереваПриВозникновенииОшибки</name>
     <synonym>
-      <key>ru</key>
-      <value>Показывать номер строки дерева при возникновении ошибки</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Show tree row number if an error occurs</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ለማሳየት ቅድሚያ የሚሰጡዋቸውን ዛፍ አሁን ስህተት ይኖራል</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Show line sayı ağac yarandıqda səhvlər</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Показване на номера на реда дърво при възникване на грешка</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Zeigt die Nummer der Zeile des Baumes, wenn ein Fehler Auftritt</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>Mostrar el número de línea de un árbol cuando se produce un error</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Näita rea number puu vea ilmnemisel</value>
+      <key>mn</key>
+      <value>Шоу мөрийн дугаарыг модны үед алдаа гардаг</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Afficher le numéro de la ligne d'arbre en cas d'erreur</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Mutasd meg annak a sornak a számát, az a fa, amikor a hiba akkor fordul elő,</value>
+      <key>pl</key>
+      <value>Pokaż numer wiersza drzewa, gdy wystąpi błąd</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Göstermek için satır numarası, bir ağaç, bir hata oluştuğunda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show tree row number if an error occurs</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -3652,6 +3675,30 @@ Default: ffmpeg</value>
       <value>შოუ ხაზის ნომერი ხე, როცა შეცდომა ხდება</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Prikaži številko vrstice drevesa, ko pride do napake</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Zeigt die Nummer der Zeile des Baumes, wenn ein Fehler Auftritt</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ለማሳየት ቅድሚያ የሚሰጡዋቸውን ዛፍ አሁን ስህተት ይኖራል</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Mostrar el número de línea de un árbol cuando se produce un error</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Näita rea number puu vea ilmnemisel</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Hiển thị số dòng của cây khi xảy ra lỗi</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Rodyti eilutės numeris medžio, kai įvyksta klaida</value>
     </synonym>
@@ -3660,32 +3707,24 @@ Default: ffmpeg</value>
       <value>Rādīt numuru rindas koka, ja rodas kļūda</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Шоу мөрийн дугаарыг модны үед алдаа гардаг</value>
+      <key>sv</key>
+      <value>Visa radnummer i trädet när fel uppstår</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Pokaż numer wiersza drzewa, gdy wystąpi błąd</value>
+      <key>hu</key>
+      <value>Mutasd meg annak a sornak a számát, az a fa, amikor a hiba akkor fordul elő,</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Show line sayı ağac yarandıqda səhvlər</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Afișează numărul liniei de copac atunci când apare o eroare</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Prikaži številko vrstice drevesa, ko pride do napake</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Visa radnummer i trädet när fel uppstår</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Göstermek için satır numarası, bir ağaç, bir hata oluştuğunda</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Hiển thị số dòng của cây khi xảy ra lỗi</value>
+      <key>ru</key>
+      <value>Показывать номер строки дерева при возникновении ошибки</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -4060,44 +4099,28 @@ Default: ffmpeg</value>
   <attributes uuid="8a283e0f-869c-4fcd-900f-3dd5d76d573b">
     <name>СоздаватьОбластиПриГенерацииКода</name>
     <synonym>
-      <key>ru</key>
-      <value>Создавать области при генерации кода</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Create regions when generating code</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ለመፍጠር ክልል ሆኗል መጠቀም ኮድ</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Yaratmaq sahəsində zamanı yaradan kodu</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Създаване на областта при генериране на кода</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Sie können Bereiche bei der Codegenerierung</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>Crear el área de la generación de código</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Luua valdkonnas kui koodi</value>
+      <key>mn</key>
+      <value>Бий болгох, бүс нутаг бий болгох код</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Créer le domaine de la génération de code</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Hozzon létre egy-egy régióban, amelynél a kódot</value>
+      <key>pl</key>
+      <value>Tworzenie obszarów podczas generowania kodu</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Alanları oluşturun oluştururken kod</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Create regions when generating code</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -4108,6 +4131,30 @@ Default: ffmpeg</value>
       <value>შექმნათ რეგიონში მომტანი კოდი</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Če želite ustvariti regija za pridobivanje kodo</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sie können Bereiche bei der Codegenerierung</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ለመፍጠር ክልል ሆኗል መጠቀም ኮድ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Crear el área de la generación de código</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Luua valdkonnas kui koodi</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo vùng khi khởi tạo mã</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Kurti srityje, kai kodo generavimas</value>
     </synonym>
@@ -4116,32 +4163,24 @@ Default: ffmpeg</value>
       <value>Izveidot jomā ģenerējot kodu</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Бий болгох, бүс нутаг бий болгох код</value>
+      <key>sv</key>
+      <value>Att skapa en region för att generera kod</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Tworzenie obszarów podczas generowania kodu</value>
+      <key>hu</key>
+      <value>Hozzon létre egy-egy régióban, amelynél a kódot</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Yaratmaq sahəsində zamanı yaradan kodu</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Pentru a crea zona de la generare de cod</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Če želite ustvariti regija za pridobivanje kodo</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Att skapa en region för att generera kod</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Alanları oluşturun oluştururken kod</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Tạo vùng khi khởi tạo mã</value>
+      <key>ru</key>
+      <value>Создавать области при генерации кода</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -4152,44 +4191,28 @@ Default: ffmpeg</value>
   <attributes uuid="edbf9d14-eabd-4f3d-8c3e-e43bd46ad329">
     <name>СохранятьКонтекстыПередВыполнениемШагов</name>
     <synonym>
-      <key>ru</key>
-      <value>Сохранять контексты перед выполнением шагов</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Save contexts before going through steps</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>አዳዲስ ግምገማዎች contexts ፊት መጠቀም ስለጀመሩ ቅድሚያ የሚሰጡዋቸውን</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Saxlaya kontekstlərdə etmədən əvvəl addımlar</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Запишете контекст, преди да изпълните стъпки</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Speichern Kontexte vor der Ausführung der Schritte</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>Guardar los contextos antes de realizar los pasos</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Salvestada kontekstides enne sammud</value>
+      <key>mn</key>
+      <value>Хадгалах нөхцөл хийхийн өмнө арга хэмжээ</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Enregistrer les contextes avant de suivre les étapes</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>A mentés kontextusokban végrehajtása előtt a lépcsőn</value>
+      <key>pl</key>
+      <value>Zapisywać konteksty przed wykonaniem kroków</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Kaydetmek bağlamları adımları gerçekleştirmeden önce,</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Save contexts before going through steps</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -4200,6 +4223,30 @@ Default: ffmpeg</value>
       <value>შენახვა კონტექსტში ადრე ასრულებენ ნაბიჯები</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Shrani kontekstih pred izvedbo korakov</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Speichern Kontexte vor der Ausführung der Schritte</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>አዳዲስ ግምገማዎች contexts ፊት መጠቀም ስለጀመሩ ቅድሚያ የሚሰጡዋቸውን</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Guardar los contextos antes de realizar los pasos</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Salvestada kontekstides enne sammud</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Tạo ngữ cảnh trước khi thực hiện các bước</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Išsaugoti контексты prieš atlikdami veiksmus</value>
     </synonym>
@@ -4208,32 +4255,24 @@ Default: ffmpeg</value>
       <value>Saglabāt situācijās, pirms soļi</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Хадгалах нөхцөл хийхийн өмнө арга хэмжээ</value>
+      <key>sv</key>
+      <value>Spara sammanhang innan du utför stegen</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Zapisywać konteksty przed wykonaniem kroków</value>
+      <key>hu</key>
+      <value>A mentés kontextusokban végrehajtása előtt a lépcsőn</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Saxlaya kontekstlərdə etmədən əvvəl addımlar</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Salva contexte înainte de a efectua pași</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Shrani kontekstih pred izvedbo korakov</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Spara sammanhang innan du utför stegen</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Kaydetmek bağlamları adımları gerçekleştirmeden önce,</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Tạo ngữ cảnh trước khi thực hiện các bước</value>
+      <key>ru</key>
+      <value>Сохранять контексты перед выполнением шагов</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -4316,24 +4355,20 @@ Default: ffmpeg</value>
   <attributes uuid="444c19dc-031b-4574-9456-46d0bbab779c">
     <name>ТаймаутЗапуска1С</name>
     <synonym>
-      <key>ru</key>
-      <value>Таймаут запуска клиента тестирования</value>
-    </synonym>
-    <synonym>
       <key>am</key>
       <value>ቅድሚያ የታዘዘ TestClient</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Fasilə başlamaq TestClient</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Изчакване на стартирането TestClient</value>
+      <key>ru</key>
+      <value>Таймаут запуска клиента тестирования</value>
     </synonym>
     <synonym>
       <key>de</key>
       <value>Timeout von Testclient starten</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Хугацааны хувьд ажиллуулах TestClient</value>
     </synonym>
     <synonym>
       <key>es</key>
@@ -4344,14 +4379,6 @@ Default: ffmpeg</value>
       <value>Timeout käivitada TestClient</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>Délai de démarrage TestClient</value>
-    </synonym>
-    <synonym>
-      <key>hu</key>
-      <value>Timeout fut TestClient</value>
-    </synonym>
-    <synonym>
       <key>it</key>
       <value>Il timeout di avvio TestClient</value>
     </synonym>
@@ -4360,40 +4387,52 @@ Default: ffmpeg</value>
       <value>დროის აწარმოებს TestClient</value>
     </synonym>
     <synonym>
-      <key>lt</key>
-      <value>Osd paleisti TestClient</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Man. palaišanas TestClient</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Хугацааны хувьд ажиллуулах TestClient</value>
+      <key>az</key>
+      <value>Fasilə başlamaq TestClient</value>
     </synonym>
     <synonym>
       <key>pl</key>
       <value>Limit czasu uruchomienia TestClient</value>
     </synonym>
     <synonym>
-      <key>ro</key>
-      <value>Depășirea timpului de pornire TestClient</value>
+      <key>hu</key>
+      <value>Timeout fut TestClient</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Časovna omejitev za vožnjo TestClient</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Timeout köra TestClient</value>
+      <key>lt</key>
+      <value>Osd paleisti TestClient</value>
     </synonym>
     <synonym>
       <key>tr</key>
       <value>Zaman aşımı başlangıç TestClient</value>
     </synonym>
     <synonym>
+      <key>lv</key>
+      <value>Man. palaišanas TestClient</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Časovna omejitev za vožnjo TestClient</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Изчакване на стартирането TestClient</value>
+    </synonym>
+    <synonym>
       <key>vi</key>
       <value>Hết giờ khởi động TestClient</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Timeout köra TestClient</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Délai de démarrage TestClient</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Depășirea timpului de pornire TestClient</value>
     </synonym>
     <comment>Таймаут запуска TestClient в секундах</comment>
     <type>
@@ -4434,24 +4473,20 @@ Default: ffmpeg</value>
   <attributes uuid="992aa7c4-4d9d-4dba-97e0-828dd4f87ab2">
     <name>ТекстСообщенийПользователю</name>
     <synonym>
-      <key>ru</key>
-      <value>Текст сообщений пользователю</value>
-    </synonym>
-    <synonym>
       <key>am</key>
       <value>የጽሑፍ ጋር ተጠቃሚው</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Mətn mesajları istifadəçi</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Текстови съобщения на потребителя</value>
+      <key>ru</key>
+      <value>Текст сообщений пользователю</value>
     </synonym>
     <synonym>
       <key>de</key>
       <value>Text-Messaging-Benutzer</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Бичвэр зурвас хэрэглэгч</value>
     </synonym>
     <synonym>
       <key>es</key>
@@ -4462,14 +4497,6 @@ Default: ffmpeg</value>
       <value>Tekst sõnumite kasutaja</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>Le texte du message à l'utilisateur</value>
-    </synonym>
-    <synonym>
-      <key>hu</key>
-      <value>Szöveges üzenetek a felhasználó számára</value>
-    </synonym>
-    <synonym>
       <key>it</key>
       <value>Il testo dei messaggi all'utente</value>
     </synonym>
@@ -4478,40 +4505,52 @@ Default: ffmpeg</value>
       <value>ტექსტური შეტყობინებები შესახებ</value>
     </synonym>
     <synonym>
-      <key>lt</key>
-      <value>Tekstas vartotojo pranešimų</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Ziņu tekstu lietotājam</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Бичвэр зурвас хэрэглэгч</value>
+      <key>az</key>
+      <value>Mətn mesajları istifadəçi</value>
     </synonym>
     <synonym>
       <key>pl</key>
       <value>Tekst wiadomości użytkownika</value>
     </synonym>
     <synonym>
-      <key>ro</key>
-      <value>Textul din mesajele utilizatorului</value>
+      <key>hu</key>
+      <value>Szöveges üzenetek a felhasználó számára</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Besedilo sporočila uporabnika</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Textmeddelanden till användare</value>
+      <key>lt</key>
+      <value>Tekstas vartotojo pranešimų</value>
     </synonym>
     <synonym>
       <key>tr</key>
       <value>Metin mesajları, kullanıcı</value>
     </synonym>
     <synonym>
+      <key>lv</key>
+      <value>Ziņu tekstu lietotājam</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Besedilo sporočila uporabnika</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Текстови съобщения на потребителя</value>
+    </synonym>
+    <synonym>
       <key>vi</key>
       <value>Nội dung thông báo cho người sử dụng</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Textmeddelanden till användare</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>Le texte du message à l'utilisateur</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Textul din mesajele utilizatorului</value>
     </synonym>
     <type/>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -4581,44 +4620,28 @@ Default: ffmpeg</value>
   <attributes uuid="d56bcfbb-9446-4aa4-9591-f7d13f90c923">
     <name>ЯзыкГенератораGherkin</name>
     <synonym>
-      <key>ru</key>
-      <value>Язык генератора gherkin</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Gherkin generator language</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ቋንቋ ቅድሚያ gherkin</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Dil generator gherkin</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Език генератор gherkin</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Sprache gherkin generator</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El idioma del generador gherkin</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Keel generaator gherkin</value>
+      <key>mn</key>
+      <value>Хэл generator gherkin</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>La langue de l'alternateur gherkin</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>Nyelv generátor uborka</value>
+      <key>pl</key>
+      <value>Język alternatora gherkin</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Dil jeneratör gherkin</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Gherkin generator language</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -4629,6 +4652,30 @@ Default: ffmpeg</value>
       <value>ენა გენერატორი gherkin</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Jezik generator kumare za vlaganje</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Sprache gherkin generator</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቋንቋ ቅድሚያ gherkin</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El idioma del generador gherkin</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Keel generaator gherkin</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Ngôn ngữ bộ khởi tạo gherkin</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Kalba generatorius gherkin</value>
     </synonym>
@@ -4637,32 +4684,24 @@ Default: ffmpeg</value>
       <value>Valoda ģeneratora gherkin</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Хэл generator gherkin</value>
+      <key>sv</key>
+      <value>Språket generator gurka</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Język alternatora gherkin</value>
+      <key>hu</key>
+      <value>Nyelv generátor uborka</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Dil generator gherkin</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Limba generator Gherkin</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Jezik generator kumare za vlaganje</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Språket generator gurka</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Dil jeneratör gherkin</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Ngôn ngữ bộ khởi tạo gherkin</value>
+      <key>ru</key>
+      <value>Язык генератора gherkin</value>
     </synonym>
     <type>
       <types>String</types>
@@ -4893,8 +4932,8 @@ Default: ffmpeg</value>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
-        <scale>1</scale>
+        <precision>4</precision>
+        <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -5002,44 +5041,28 @@ Default: ffmpeg</value>
   <attributes uuid="533a26ed-ea27-4523-a57d-023be95a6d58">
     <name>АдресОтладчика</name>
     <synonym>
-      <key>ru</key>
-      <value>Адрес отладчика</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Debugger address</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>አድራሻ ነው debugger</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Ünvanı var ayıklama</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Адрес за изчистване на грешки</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Die Adresse des Debuggers</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La dirección del depurador</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Aadress siluri</value>
+      <key>mn</key>
+      <value>Хаяг дибаг</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Adresse du débogueur</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>A cím a debugger</value>
+      <key>pl</key>
+      <value>Adres debugera</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Adresi hata ayıklayıcı</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Debugger address</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -5050,6 +5073,30 @@ Default: ffmpeg</value>
       <value>მისამართი debugger</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Naslov razhroščevalnik</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Die Adresse des Debuggers</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>አድራሻ ነው debugger</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La dirección del depurador</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Aadress siluri</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Địa chỉ bộ gỡ rối</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Adresas debugger</value>
     </synonym>
@@ -5058,32 +5105,24 @@ Default: ffmpeg</value>
       <value>Adrese atkļūdotājs</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Хаяг дибаг</value>
+      <key>sv</key>
+      <value>Adress debugger</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Adres debugera</value>
+      <key>hu</key>
+      <value>A cím a debugger</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Ünvanı var ayıklama</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Adresa depanator</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Naslov razhroščevalnik</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Adress debugger</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Adresi hata ayıklayıcı</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Địa chỉ bộ gỡ rối</value>
+      <key>ru</key>
+      <value>Адрес отладчика</value>
     </synonym>
     <type>
       <types>String</types>
@@ -5113,12 +5152,12 @@ Default: ffmpeg</value>
   <attributes uuid="43cd1bf2-24ca-478e-8cef-c393fcabb42c">
     <name>ВерсияПоставки</name>
     <synonym>
-      <key>ru</key>
-      <value>Версия поставки</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Distribution package version</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Версия поставки</value>
     </synonym>
     <synonym>
       <key>vi</key>
@@ -5284,6 +5323,168 @@ Default: ffmpeg</value>
       <types>Number</types>
       <numberQualifiers>
         <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9add0102-784e-4ac1-a7d9-554d518d80b9">
+    <name>СлужебныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные параметры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service parameters</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="290fa796-0bd3-4d37-aa2b-e4eae89da65c">
+    <name>ПоказыватьМиниатюруКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать миниатюру кода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show code miniature</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b27c7db-c595-4a5a-b746-cebf17018398">
+    <name>ВыполнятьSleepЧерезPing</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять sleep через ping</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do Sleep using Ping</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="741cfb6f-82fc-49c7-8b74-748adeefad89">
+    <name>ЗаменятьТабыНаПробелы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменять табы на пробелы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Replace tabs with spaces</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b934a321-d3bb-41aa-bca2-abad606bca25">
+    <name>ЦветПодсветкиКликаМышкиVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет подсветки клика мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mouse click highlight color</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ad5ca80-55aa-4aa4-916b-c23c7f7063dc">
+    <name>РадиусПодсветкиКликаМышкиVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Радиус подсветки клика мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mouse click highlight radius</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b06b689-bf1c-4e23-abb3-c00957910ebe">
+    <name>ДлительностьПодсветкиКликаМышкиVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность подсветки клика мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mouse click highlight duration</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2c2ab78-6ba2-4fc4-9fea-c5f202fc9c97">
+    <name>ТолщинаПодсветкиКликаМышкиVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толщина подсветки клика мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mouse click highlight width</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ed176e1-4701-4237-b2c5-1b794667ae24">
+    <name>ПрозрачностьПодсветкиКликаМышкиVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прозрачность подсветки клика мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mouse click highlight transparency</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -6000,20 +6201,20 @@ Default: ffmpeg</value>
   <forms uuid="f8ab9b72-2202-4d81-a8c5-f1389f22100f">
     <name>ЗаписьJSON</name>
     <synonym>
-      <key>ru</key>
-      <value>Запись JSON</value>
+      <key>ro</key>
+      <value>Salvare JSON</value>
     </synonym>
     <synonym>
       <key>en</key>
       <value>JSON record</value>
     </synonym>
     <synonym>
-      <key>ro</key>
-      <value>Salvare JSON</value>
-    </synonym>
-    <synonym>
       <key>vi</key>
       <value>JSON record</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Запись JSON</value>
     </synonym>
     <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
@@ -6035,44 +6236,28 @@ Default: ffmpeg</value>
   <forms uuid="4921ab12-47da-4d18-9e4b-7e33d578d2ba">
     <name>ИсследовательФормы</name>
     <synonym>
-      <key>ru</key>
-      <value>Исследователь формы</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Form explorer</value>
-    </synonym>
-    <synonym>
-      <key>am</key>
-      <value>ወደ researcher ነው ቅጽ</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Tədqiqatçı formaları</value>
-    </synonym>
-    <synonym>
       <key>bg</key>
       <value>Изследовател форма</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Forscher Formen</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El investigador del formulario</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Teadlane vormi</value>
+      <key>mn</key>
+      <value>Тус судлаач нь хэлбэр</value>
     </synonym>
     <synonym>
       <key>fr</key>
       <value>Le chercheur de la forme</value>
     </synonym>
     <synonym>
-      <key>hu</key>
-      <value>A kutató a forma</value>
+      <key>pl</key>
+      <value>Badacz formy</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Araştırmacı formu</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form explorer</value>
     </synonym>
     <synonym>
       <key>it</key>
@@ -6083,6 +6268,30 @@ Default: ffmpeg</value>
       <value>მკვლევარი არის ფორმა</value>
     </synonym>
     <synonym>
+      <key>sl</key>
+      <value>Raziskovalec je obrazca</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Forscher Formen</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ወደ researcher ነው ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El investigador del formulario</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Teadlane vormi</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Các nhà nghiên cứu biểu mẫu</value>
+    </synonym>
+    <synonym>
       <key>lt</key>
       <value>Mokslininkė formos</value>
     </synonym>
@@ -6091,32 +6300,24 @@ Default: ffmpeg</value>
       <value>Pētnieks formas</value>
     </synonym>
     <synonym>
-      <key>mn</key>
-      <value>Тус судлаач нь хэлбэр</value>
+      <key>sv</key>
+      <value>Forskaren är den form</value>
     </synonym>
     <synonym>
-      <key>pl</key>
-      <value>Badacz formy</value>
+      <key>hu</key>
+      <value>A kutató a forma</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Tədqiqatçı formaları</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Cercetător forme</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Raziskovalec je obrazca</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Forskaren är den form</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Araştırmacı formu</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Các nhà nghiên cứu biểu mẫu</value>
+      <key>ru</key>
+      <value>Исследователь формы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -6213,20 +6414,20 @@ Default: ffmpeg</value>
   <forms uuid="2c779a98-e746-453c-8dcc-e2c3785bfea3">
     <name>SikuliXСервер</name>
     <synonym>
-      <key>ru</key>
-      <value>SikuliX север</value>
+      <key>ro</key>
+      <value>SikuliX Server</value>
     </synonym>
     <synonym>
       <key>en</key>
       <value>SikuliX server</value>
     </synonym>
     <synonym>
-      <key>ro</key>
-      <value>SikuliX Server</value>
-    </synonym>
-    <synonym>
       <key>vi</key>
       <value>SikuliX server</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>SikuliX север</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -6247,20 +6448,20 @@ Default: ffmpeg</value>
   <forms uuid="564ee2d9-db70-4268-b209-0ffc47d2ea34">
     <name>ПарсерФич</name>
     <synonym>
-      <key>ru</key>
-      <value>Парсер фич</value>
+      <key>ro</key>
+      <value>Features parser</value>
     </synonym>
     <synonym>
       <key>en</key>
       <value>Feature parser</value>
     </synonym>
     <synonym>
-      <key>ro</key>
-      <value>Features parser</value>
-    </synonym>
-    <synonym>
       <key>vi</key>
       <value>Feature parser</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Парсер фич</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -6319,6 +6520,104 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Работа со строками</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cfeadc43-2478-4697-a83d-561b1983dede">
+    <name>ИнициаторДанных</name>
+    <synonym>
+      <key>bg</key>
+      <value>Инициатор данных</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e35933f1-8eab-4ae5-89f2-cb45d3b553e3">
+    <name>НастройкаВидимостиКнопокКоманднойПанелиРедактора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка видимости кнопок командной панели редактора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -6879,11 +7178,43 @@ Default: ffmpeg</value>
   <forms uuid="4cd63e42-b1e6-4f9f-b5de-25c6b5625d2f">
     <name>Тест_РаботаСБуферомОбменаVanessaExt</name>
     <synonym>
-      <key>ru</key>
+      <key>bg</key>
       <value>Форма</value>
     </synonym>
     <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
       <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -6891,27 +7222,27 @@ Default: ffmpeg</value>
       <value>ቅጽ</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Forması</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Форма</value>
+      <key>es</key>
+      <value>La forma de</value>
     </synonym>
     <synonym>
       <key>et</key>
       <value>Vorm</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>La forme</value>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <synonym>
-      <key>ka</key>
-      <value>ფორმა</value>
+      <key>lt</key>
+      <value>Forma</value>
     </synonym>
     <synonym>
-      <key>de</key>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -6919,48 +7250,16 @@ Default: ffmpeg</value>
       <value>Formában</value>
     </synonym>
     <synonym>
-      <key>it</key>
-      <value>La forma</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>lt</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Маягт</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Kształt</value>
+      <key>az</key>
+      <value>Forması</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Forma</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Obrazec</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La forma de</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Form</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Formu</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Biểu mẫu</value>
+      <key>ru</key>
+      <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -7103,11 +7402,43 @@ Default: ffmpeg</value>
   <forms uuid="09e830c2-e1dd-468a-af0d-3f2f3e0f3015">
     <name>Тест_VanessaExt</name>
     <synonym>
-      <key>ru</key>
+      <key>bg</key>
       <value>Форма</value>
     </synonym>
     <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
       <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -7115,27 +7446,27 @@ Default: ffmpeg</value>
       <value>ቅጽ</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Forması</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Форма</value>
+      <key>es</key>
+      <value>La forma de</value>
     </synonym>
     <synonym>
       <key>et</key>
       <value>Vorm</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>La forme</value>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <synonym>
-      <key>ka</key>
-      <value>ფორმა</value>
+      <key>lt</key>
+      <value>Forma</value>
     </synonym>
     <synonym>
-      <key>de</key>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -7143,48 +7474,16 @@ Default: ffmpeg</value>
       <value>Formában</value>
     </synonym>
     <synonym>
-      <key>it</key>
-      <value>La forma</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>lt</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Маягт</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Kształt</value>
+      <key>az</key>
+      <value>Forması</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Forma</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Obrazec</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La forma de</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Form</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Formu</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Biểu mẫu</value>
+      <key>ru</key>
+      <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -7535,6 +7834,95 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="15adecd7-a00f-44c1-a830-218ccf7c73ee">
+    <name>Тест_БиблиотекаШаговИнициаторДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
