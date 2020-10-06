@@ -49,6 +49,8 @@
   <commonModules>CommonModule.ВАИНТ_ТестированиеВызовСервера</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеСервер</commonModules>
+  <commonModules>CommonModule.ВАИНТ_АртефактыТестирования</commonModules>
+  <eventSubscriptions>EventSubscription.ВАИНТ_ПодпискаНаСобытие</eventSubscriptions>
   <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
   <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>

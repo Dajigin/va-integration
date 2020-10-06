@@ -2836,6 +2836,7 @@
   <informationRegisters>InformationRegister.УдалитьПараметрыИнтернетПоддержкиПользователей</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.ОбъектыСозданныеПриТестировании</informationRegisters>
   <accumulationRegisters>AccumulationRegister._ДемоОборотыПоСчетамНаОплату</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes._ДемоВидыСубконто</chartsOfCharacteristicTypes>
