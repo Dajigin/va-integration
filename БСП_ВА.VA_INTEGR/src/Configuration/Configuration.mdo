@@ -43,6 +43,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ВАИНТ_Тестирование</subsystems>
+  <commonTemplates>CommonTemplate.ВАИНТ_Allure_Distrib</commonTemplates>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеКлиент</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеВызовСервера</commonModules>
