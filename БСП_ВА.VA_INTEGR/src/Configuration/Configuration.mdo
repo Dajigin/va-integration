@@ -9,10 +9,10 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
-    <defaultStyle>Extended</defaultStyle>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="16501798-b821-40b9-af6a-ce9745ca680d"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="db08c798-fa06-4925-bb78-64becee94f84"/>
@@ -48,7 +48,6 @@
   <commonModules>CommonModule.ВАИНТ_ТестированиеВызовСервера</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеСервер</commonModules>
-  <commonModules>CommonModule.ВАИНТ_АртефактыТестирования</commonModules>
   <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
   <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
