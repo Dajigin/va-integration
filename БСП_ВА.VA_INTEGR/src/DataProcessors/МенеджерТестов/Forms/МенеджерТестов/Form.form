@@ -199,7 +199,7 @@
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormField">
               <name>НаборыТестовКартинка</name>
-              <id>139</id>
+              <id>173</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -211,7 +211,7 @@
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>НаборыТестовКартинкаРасширеннаяПодсказка</name>
-                <id>141</id>
+                <id>175</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -226,7 +226,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>НаборыТестовКартинкаКонтекстноеМеню</name>
-                <id>140</id>
+                <id>174</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
