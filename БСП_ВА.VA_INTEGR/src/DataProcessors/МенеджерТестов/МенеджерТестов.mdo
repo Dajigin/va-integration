@@ -136,6 +136,43 @@
       </fillValue>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="dd7fa47b-a982-451d-9227-fb03d9323fb6">
+    <producedTypes>
+      <objectType typeId="2bbe1724-f9b1-4960-904a-c70d6142e2db" valueTypeId="c452522e-33cc-4b9a-a7f6-bf3377c1f056"/>
+      <rowType typeId="3f9ff143-20a2-4eb0-8f4a-a7f63fe1b5c0" valueTypeId="41268cb5-2fae-47ba-8cb0-efa03d7bfe00"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <attributes uuid="b96a68c6-00fa-4651-a8d7-378a071c403a">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="96362b9a-3371-485c-8e0a-a089b85f09ed">
+      <name>Пароль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
   <forms uuid="5c0a7d06-1250-4dfb-a431-c95719637d55">
     <name>МенеджерТестов</name>
     <synonym>
