@@ -1,6 +1,7 @@
 #language: ru
 
 @tree
+@RegGoods
 
 Функционал: <описание фичи>
 

@@ -1,6 +1,7 @@
 ﻿#language: ru
 
 @tree
+@Contractors
 
 Функционал: Добавление контрагентов
 

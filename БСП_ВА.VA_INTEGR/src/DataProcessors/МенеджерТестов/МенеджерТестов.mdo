@@ -155,7 +155,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>30</length>
+          <length>50</length>
         </stringQualifiers>
       </type>
     </attributes>
