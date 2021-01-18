@@ -2423,35 +2423,11 @@
   <attributes>
     <name>PID</name>
     <title>
-      <key>ru</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>am</key>
-      <value>ነፃ</value>
-    </title>
-    <title>
-      <key>az</key>
-      <value>PID</value>
-    </title>
-    <title>
       <key>bg</key>
       <value>Тазова възпалителна болест</value>
     </title>
     <title>
-      <key>de</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>es</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>et</key>
+      <key>mn</key>
       <value>PID</value>
     </title>
     <title>
@@ -2459,7 +2435,15 @@
       <value>PID</value>
     </title>
     <title>
-      <key>hu</key>
+      <key>pl</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>tr</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>en</key>
       <value>PID</value>
     </title>
     <title>
@@ -2471,6 +2455,30 @@
       <value>PID</value>
     </title>
     <title>
+      <key>sl</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>de</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>am</key>
+      <value>ነፃ</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>et</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>vi</key>
+      <value>PID</value>
+    </title>
+    <title>
       <key>lt</key>
       <value>PID</value>
     </title>
@@ -2479,11 +2487,15 @@
       <value>PID</value>
     </title>
     <title>
-      <key>mn</key>
+      <key>sv</key>
       <value>PID</value>
     </title>
     <title>
-      <key>pl</key>
+      <key>hu</key>
+      <value>PID</value>
+    </title>
+    <title>
+      <key>az</key>
       <value>PID</value>
     </title>
     <title>
@@ -2491,19 +2503,7 @@
       <value>PID</value>
     </title>
     <title>
-      <key>sl</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>sv</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>tr</key>
-      <value>PID</value>
-    </title>
-    <title>
-      <key>vi</key>
+      <key>ru</key>
       <value>PID</value>
     </title>
     <id>15</id>
@@ -2523,12 +2523,12 @@
   <attributes>
     <name>ЭтоLinux</name>
     <title>
-      <key>ru</key>
-      <value>Это linux</value>
-    </title>
-    <title>
       <key>en</key>
       <value>This is Linux</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Это linux</value>
     </title>
     <title>
       <key>ro</key>

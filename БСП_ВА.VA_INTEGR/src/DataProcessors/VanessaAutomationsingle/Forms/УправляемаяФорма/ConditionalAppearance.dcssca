@@ -231,10 +231,18 @@
 			</item>
 		</selection>
 		<filter>
-			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">ДревоФайлаФич.ПолныйПуть</left>
-				<comparisonType>Contains</comparisonType>
-				<right xsi:type="dcscor:Field">Объект.КаталогФич</right>
+			<item xsi:type="FilterItemGroup">
+				<groupType>AndGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ДревоФайлаФич.ПолныйПуть</left>
+					<comparisonType>Contains</comparisonType>
+					<right xsi:type="dcscor:Field">Объект.КаталогФич</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.КаталогФич</left>
+					<comparisonType>NotEqual</comparisonType>
+					<right xsi:type="xs:string"/>
+				</item>
 			</item>
 		</filter>
 		<appearance>

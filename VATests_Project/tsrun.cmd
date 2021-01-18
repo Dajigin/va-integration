@@ -1,0 +1,1 @@
+oscript .\tsrun.os --testspath "C:\Unis\_DEVELOP\Repo\UNIS\VATests" --testsetname "НачальноеЗаполнение"  --ibconnection "C:\Unis\_BASE\BaseForSTest" --dbuser "АдминистраторНШР" --run

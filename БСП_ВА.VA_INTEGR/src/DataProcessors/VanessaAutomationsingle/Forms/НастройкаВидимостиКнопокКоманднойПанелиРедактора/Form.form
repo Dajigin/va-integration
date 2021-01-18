@@ -267,12 +267,20 @@
     <name>КомандаОК</name>
     <title>
       <key>ru</key>
-      <value>Команда ОК</value>
+      <value>ОК</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>OK</value>
     </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда ОК</value>
+      <value>ОК</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>OK</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -288,12 +296,20 @@
     <name>КомандаОтменить</name>
     <title>
       <key>ru</key>
-      <value>Команда отменить</value>
+      <value>Отменить</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Cancel</value>
     </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда отменить</value>
+      <value>Отменить</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Cancel</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -311,10 +327,18 @@
       <key>ru</key>
       <value>Пометить все</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Check all</value>
+    </title>
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда пометить все</value>
+      <value>Пометить все</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Check all</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -332,10 +356,18 @@
       <key>ru</key>
       <value>Снять все</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Uncheck all</value>
+    </title>
     <id>5</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда снять все</value>
+      <value>Снять все</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Uncheck all</value>
     </toolTip>
     <use>
       <common>true</common>

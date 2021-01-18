@@ -205,8 +205,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ДеревоНаборыТестов.Картинка</segments>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>ДеревоНаборыТестов.Картинка</segments>
+                </paths>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -256,10 +258,6 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:MultiLanguageDataPath">
-                <activeLanguage>1</activeLanguage>
-                <paths xsi:type="form:DataPath">
-                  <segments>ДеревоНаборыТестов.Наименование</segments>
-                </paths>
                 <paths xsi:type="form:DataPath">
                   <segments>ДеревоНаборыТестов.Наименование</segments>
                 </paths>
@@ -310,10 +308,6 @@
               <enabled>true</enabled>
               <userVisible/>
               <dataPath xsi:type="form:MultiLanguageDataPath">
-                <activeLanguage>1</activeLanguage>
-                <paths xsi:type="form:DataPath">
-                  <segments>ДеревоНаборыТестов.Путь</segments>
-                </paths>
                 <paths xsi:type="form:DataPath">
                   <segments>ДеревоНаборыТестов.Путь</segments>
                 </paths>
@@ -363,8 +357,10 @@
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible/>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ДеревоНаборыТестов.ПолноеИмя</segments>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>ДеревоНаборыТестов.ПолноеИмя</segments>
+                </paths>
               </dataPath>
               <extendedTooltip>
                 <name>НаборыТестовПолноеИмяРасширеннаяПодсказка</name>
@@ -411,12 +407,14 @@
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible/>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ДеревоНаборыТестов.ЭтоКаталог</segments>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>ДеревоНаборыТестов.ЭтоКаталог</segments>
+                </paths>
               </dataPath>
               <extendedTooltip>
                 <name>НаборыТестовЭтоКаталогРасширеннаяПодсказка</name>
-                <id>138</id>
+                <id>190</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1079,10 +1077,10 @@
             </items>
             <items xsi:type="form:FormGroup">
               <name>ГруппаТэги</name>
-              <id>133</id>
+              <id>189</id>
               <items xsi:type="form:Decoration">
                 <name>Декорация1</name>
-                <id>135</id>
+                <id>192</id>
                 <title>
                   <key>ru</key>
                   <value>Тэги должны располагаться в начале файла тестов после тэга @tree и иметь вид @Имя тэга</value>
@@ -1094,7 +1092,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>Декорация1РасширеннаяПодсказка</name>
-                  <id>137</id>
+                  <id>194</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1109,7 +1107,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>Декорация1КонтекстноеМеню</name>
-                  <id>136</id>
+                  <id>193</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1428,7 +1426,7 @@
               </title>
               <extendedTooltip>
                 <name>ГруппаТэгиРасширеннаяПодсказка</name>
-                <id>134</id>
+                <id>191</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1558,8 +1556,10 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:DataPath">
-                    <segments>ПояснениеСтрокаЗапуска</segments>
+                  <dataPath xsi:type="form:MultiLanguageDataPath">
+                    <paths xsi:type="form:DataPath">
+                      <segments>ПояснениеСтрокаЗапуска</segments>
+                    </paths>
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
@@ -1652,12 +1652,8 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <activeLanguage>1</activeLanguage>
                     <paths xsi:type="form:DataPath">
                       <segments>Объект.Пользователи.LineNumber</segments>
-                    </paths>
-                    <paths xsi:type="form:DataPath">
-                      <segments>Объект.Пользователи.НомерСтроки</segments>
                     </paths>
                   </dataPath>
                   <extendedTooltip>
@@ -1708,10 +1704,6 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <activeLanguage>1</activeLanguage>
-                    <paths xsi:type="form:DataPath">
-                      <segments>Объект.Пользователи.ИмяПользователя</segments>
-                    </paths>
                     <paths xsi:type="form:DataPath">
                       <segments>Объект.Пользователи.ИмяПользователя</segments>
                     </paths>
@@ -1764,10 +1756,6 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <activeLanguage>1</activeLanguage>
-                    <paths xsi:type="form:DataPath">
-                      <segments>Объект.Пользователи.Пароль</segments>
-                    </paths>
                     <paths xsi:type="form:DataPath">
                       <segments>Объект.Пользователи.Пароль</segments>
                     </paths>
@@ -1832,7 +1820,7 @@
                   <id>144</id>
                   <extendedTooltip>
                     <name>ПользователиСтрокаПоискаРасширеннаяПодсказка</name>
-                    <id>146</id>
+                    <id>196</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -1904,7 +1892,7 @@
                     <common>true</common>
                   </userVisible>
                   <name>ПользователиУправлениеПоиском</name>
-                  <id>147</id>
+                  <id>195</id>
                   <extendedTooltip>
                     <name>ПользователиУправлениеПоискомРасширеннаяПодсказка</name>
                     <id>149</id>
@@ -1979,6 +1967,7 @@
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
                 <fileDragMode>AsFileRef</fileDragMode>
+                <rowFilter xsi:type="core:UndefinedValue"/>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>

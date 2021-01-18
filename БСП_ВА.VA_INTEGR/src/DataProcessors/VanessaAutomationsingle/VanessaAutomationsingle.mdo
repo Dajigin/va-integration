@@ -1310,6 +1310,10 @@
       <key>ru</key>
       <value>Секретный ключ</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Secret key</value>
+    </synonym>
     <type>
       <types>String</types>
       <stringQualifiers/>
@@ -1426,6 +1430,10 @@
       <key>ru</key>
       <value>Скорость</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Speed</value>
+    </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -1448,6 +1456,10 @@
     <synonym>
       <key>ru</key>
       <value>Эмоция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Emotion</value>
     </synonym>
     <type>
       <types>String</types>
@@ -1490,6 +1502,10 @@
     <synonym>
       <key>ru</key>
       <value>Вариант запроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Request option</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -2071,6 +2087,10 @@ Default: ffmpeg</value>
       <key>ru</key>
       <value>Процент ускорения</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Acceleration percentage</value>
+    </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -2142,6 +2162,10 @@ Default: ffmpeg</value>
       <key>ru</key>
       <value>Скорость</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Speed</value>
+    </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -2156,6 +2180,10 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Скрыть служебные окна</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Hide service windows</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -2184,6 +2212,10 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Тип озвучки TTS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Voice acting type</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -2370,6 +2402,10 @@ Default: ffmpeg</value>
       <key>ru</key>
       <value>Эмулировать ввод с клавиатуры</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Emulate keyboard input</value>
+    </synonym>
     <type>
       <types>Boolean</types>
     </type>
@@ -2377,10 +2413,14 @@ Default: ffmpeg</value>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="90cd46b0-1d0a-4e65-92fa-18cd7748d3d3">
-    <name>ЗаписьВидеоЭмулироватьДвиженияМышки</name>
+    <name>ЗаписьВидеоЭмулироватьДвиженияМышкиSikuliX</name>
     <synonym>
       <key>ru</key>
       <value>Эмулировать движения мышки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Emulate mouse movements</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -4355,84 +4395,12 @@ Default: ffmpeg</value>
   <attributes uuid="444c19dc-031b-4574-9456-46d0bbab779c">
     <name>ТаймаутЗапуска1С</name>
     <synonym>
-      <key>am</key>
-      <value>ቅድሚያ የታዘዘ TestClient</value>
-    </synonym>
-    <synonym>
       <key>ru</key>
       <value>Таймаут запуска клиента тестирования</value>
     </synonym>
     <synonym>
-      <key>de</key>
-      <value>Timeout von Testclient starten</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Хугацааны хувьд ажиллуулах TestClient</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>El tiempo de espera de inicio de TestClient</value>
-    </synonym>
-    <synonym>
-      <key>et</key>
-      <value>Timeout käivitada TestClient</value>
-    </synonym>
-    <synonym>
-      <key>it</key>
-      <value>Il timeout di avvio TestClient</value>
-    </synonym>
-    <synonym>
-      <key>ka</key>
-      <value>დროის აწარმოებს TestClient</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Fasilə başlamaq TestClient</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Limit czasu uruchomienia TestClient</value>
-    </synonym>
-    <synonym>
-      <key>hu</key>
-      <value>Timeout fut TestClient</value>
-    </synonym>
-    <synonym>
-      <key>lt</key>
-      <value>Osd paleisti TestClient</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Zaman aşımı başlangıç TestClient</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Man. palaišanas TestClient</value>
-    </synonym>
-    <synonym>
-      <key>sl</key>
-      <value>Časovna omejitev za vožnjo TestClient</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Изчакване на стартирането TestClient</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Hết giờ khởi động TestClient</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Timeout köra TestClient</value>
-    </synonym>
-    <synonym>
-      <key>fr</key>
-      <value>Délai de démarrage TestClient</value>
-    </synonym>
-    <synonym>
-      <key>ro</key>
-      <value>Depășirea timpului de pornire TestClient</value>
+      <key>en</key>
+      <value>Test client startup timeout</value>
     </synonym>
     <comment>Таймаут запуска TestClient в секундах</comment>
     <type>
@@ -4450,6 +4418,10 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Тег @tree включен по умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tree tag is enabled by default</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -4818,6 +4790,23 @@ Default: ffmpeg</value>
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="168e661f-3c2d-4aca-908c-9226a08be9bc">
+    <name>ТегиПропускающиеСценарийAllure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Теги, пропускающие сценарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tags skipping script</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -5487,6 +5476,106 @@ Default: ffmpeg</value>
         <precision>6</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65893f1a-acaf-4289-8aef-83d6fcf89e08">
+    <name>ЗакрыватьКлиентТестированияПринудительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать клиент тестирования принудительно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Force close test client</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="42a194ca-9edb-46df-bcce-98761beed41b">
+    <name>ТаймаутПередПринудительнымЗакрытиемКлиентаТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут перед принудительным закрытием клиента тестирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Timeout before forcibly closing test client</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0fe27cdc-8273-44d4-8900-944f7d79bfc3">
+    <name>ПодробныйЛогВыполненияСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробный лог выполнения сценариев</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Detailed execution log</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2941b96f-8f06-4cd3-be55-2d7df69b73ed">
+    <name>ЗвуковоеОповещениеПриОкончанииВыполненияСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звуковое оповещение при окончании выполнения сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sound notification when script ends</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73973668-6de4-4925-93da-167020a18de7">
+    <name>ОтображатьЗакладкиСверху</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать закладки сверху</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show bookmarks on top</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2bad3282-7d6c-4ab8-8c1c-82ac75d8f138">
+    <name>ПоказыватьРазличияВРедактореОтдельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать различия в редакторе отдельно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show differences in editor separately</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -6618,6 +6707,24 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Настройка видимости кнопок командной панели редактора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57c0b92a-70ba-4ce6-a169-c0417b57ed65">
+    <name>РаботаСGit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с git</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42f1361c-67c3-4a45-9ad8-e30df47af1c2">
+    <name>НастройкиGit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки Git</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -7841,11 +7948,43 @@ Default: ffmpeg</value>
   <forms uuid="15adecd7-a00f-44c1-a830-218ccf7c73ee">
     <name>Тест_БиблиотекаШаговИнициаторДанных</name>
     <synonym>
-      <key>ru</key>
+      <key>bg</key>
       <value>Форма</value>
     </synonym>
     <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
       <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -7853,27 +7992,27 @@ Default: ffmpeg</value>
       <value>ቅጽ</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Forması</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Форма</value>
+      <key>es</key>
+      <value>La forma de</value>
     </synonym>
     <synonym>
       <key>et</key>
       <value>Vorm</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>La forme</value>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <synonym>
-      <key>ka</key>
-      <value>ფორმა</value>
+      <key>lt</key>
+      <value>Forma</value>
     </synonym>
     <synonym>
-      <key>de</key>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -7881,48 +8020,16 @@ Default: ffmpeg</value>
       <value>Formában</value>
     </synonym>
     <synonym>
-      <key>it</key>
-      <value>La forma</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>lt</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Маягт</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Kształt</value>
+      <key>az</key>
+      <value>Forması</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Forma</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Obrazec</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La forma de</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Form</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Formu</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Biểu mẫu</value>
+      <key>ru</key>
+      <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -8509,6 +8616,14 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Vanessa editor</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ef42c818-f489-433d-b87a-077ae34a6850">
+    <name>ОзвучкаОкончанияСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Озвучка окончания сценария</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>

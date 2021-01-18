@@ -314,6 +314,10 @@
       <key>ru</key>
       <value>Файл, где находится шаг</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>File whith step</value>
+    </title>
     <id>2</id>
     <valueType>
       <types>String</types>
@@ -331,6 +335,10 @@
     <title>
       <key>ru</key>
       <value>Описание шага</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Step description</value>
     </title>
     <id>3</id>
     <valueType>
@@ -350,6 +358,10 @@
       <key>ru</key>
       <value>Пример использования</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Usage example</value>
+    </title>
     <id>4</id>
     <valueType>
       <types>String</types>
@@ -368,6 +380,10 @@
       <key>ru</key>
       <value>Тип шага</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Step type</value>
+    </title>
     <id>5</id>
     <valueType>
       <types>String</types>
@@ -385,6 +401,10 @@
     <title>
       <key>ru</key>
       <value>Имя процедуры</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Procedure name</value>
     </title>
     <id>6</id>
     <valueType>

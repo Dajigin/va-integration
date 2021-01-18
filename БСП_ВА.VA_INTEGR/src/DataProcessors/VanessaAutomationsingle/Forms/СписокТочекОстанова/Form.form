@@ -23,6 +23,10 @@
         <key>ru</key>
         <value>№</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>№</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -309,6 +313,10 @@
         <key>ru</key>
         <value>Перейти</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Go to line</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -342,6 +350,10 @@
       <title>
         <key>ru</key>
         <value>Закрыть</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Close</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -445,6 +457,10 @@
         <key>ru</key>
         <value>Текст строки</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Line text</value>
+      </title>
       <id>2</id>
       <valueType>
         <types>String</types>
@@ -481,6 +497,10 @@
         <key>ru</key>
         <value>Реальный номер строки</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Real line number</value>
+      </title>
       <id>4</id>
       <valueType>
         <types>Number</types>
@@ -502,6 +522,10 @@
       <key>ru</key>
       <value>Перейти к строке редактора</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Go to editor line</value>
+    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
@@ -522,6 +546,10 @@
     <title>
       <key>ru</key>
       <value>Закрыть форму</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Close form</value>
     </title>
     <id>2</id>
     <toolTip>
