@@ -1,1 +1,1 @@
-oscript .\tsrun.os --v8-version 8.3.14.1976 --testspath "D:\_DEVELOP\1S\TestsIntegration\Repo\VATests_Project" --testsetname "Группа тестов\Справочник Контрагенты"  --ibconnection "D:\_DEVELOP\1S\TestsIntegration\SSLDemoBase" --dbuser "Администратор" --run
+oscript .\tsrun.os --v8-version 8.3.14.1976 --testspath "D:\_DEVELOP\1S\TestsIntegration\Repo\VATests_Project" --testsetname "Группа тестов\Справочник Контрагенты"  --ibconnection "D:\_DEVELOP\1S\TestsIntegration\SSLDemoBase" --dbuser "Администратор" --allure_show --run 
