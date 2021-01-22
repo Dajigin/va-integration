@@ -38,6 +38,11 @@ https://releases.1c.ru/version_files?nick=SSL31&ver=3.1.2.157
 Пример шаблона приемочного теста можно увидеть выбрав пункт меню "Тестирование/Приемочные тесты". 
 
 
+Для разработчиков:
 
+Обновление VA:
+1). Обновить в расширении обработку VanessaAutomationSingle
+2). Заменить файл vanessa_automation_single.epf в каталоге проекта VATests_Project
+3). Актуализировать (при необходимости) VAParams_Tmplt.json
 
 
