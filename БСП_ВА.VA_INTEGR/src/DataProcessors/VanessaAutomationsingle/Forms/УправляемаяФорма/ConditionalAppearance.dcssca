@@ -252,7 +252,7 @@
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+				<dcscor:value xsi:type="v8ui:Font" ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			</dcscor:item>
 		</appearance>
 	</item>

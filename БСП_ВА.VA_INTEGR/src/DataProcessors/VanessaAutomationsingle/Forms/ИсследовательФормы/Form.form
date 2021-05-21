@@ -3272,6 +3272,7 @@
     <use>
       <common>true</common>
     </use>
+    <shortcut>F5</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Обновить</name>

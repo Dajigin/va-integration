@@ -464,12 +464,12 @@
             <common>true</common>
           </userVisible>
           <title>
-            <key>ru</key>
-            <value>Сценарии</value>
-          </title>
-          <title>
             <key>en</key>
             <value>Scenarios</value>
+          </title>
+          <title>
+            <key>ru</key>
+            <value>Сценарии</value>
           </title>
           <title>
             <key>vi</key>
@@ -851,44 +851,28 @@
         <common>true</common>
       </userVisible>
       <title>
-        <key>ru</key>
-        <value>Настройки</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Settings</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ቅንብሮችን</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Parametrlər</value>
-      </title>
-      <title>
         <key>bg</key>
         <value>Настройки</value>
       </title>
       <title>
-        <key>de</key>
-        <value>Einstellungen</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>Ajustes</value>
-      </title>
-      <title>
-        <key>et</key>
-        <value>Seaded</value>
+        <key>mn</key>
+        <value>Тохиргоо</value>
       </title>
       <title>
         <key>fr</key>
         <value>Les paramètres de</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Beállítások</value>
+        <key>pl</key>
+        <value>Ustawienia</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Ayarlar</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Settings</value>
       </title>
       <title>
         <key>it</key>
@@ -899,6 +883,30 @@
         <value>პარამეტრები</value>
       </title>
       <title>
+        <key>sl</key>
+        <value>Nastavitve</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Einstellungen</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ቅንብሮችን</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>Ajustes</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Seaded</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Cài đặt</value>
+      </title>
+      <title>
         <key>lt</key>
         <value>Parametrai</value>
       </title>
@@ -907,32 +915,24 @@
         <value>Uzstādījumi</value>
       </title>
       <title>
-        <key>mn</key>
-        <value>Тохиргоо</value>
+        <key>sv</key>
+        <value>Inställningar</value>
       </title>
       <title>
-        <key>pl</key>
-        <value>Ustawienia</value>
+        <key>hu</key>
+        <value>Beállítások</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Parametrlər</value>
       </title>
       <title>
         <key>ro</key>
         <value>Setări</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Nastavitve</value>
-      </title>
-      <title>
-        <key>sv</key>
-        <value>Inställningar</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Ayarlar</value>
-      </title>
-      <title>
-        <key>vi</key>
-        <value>Cài đặt</value>
+        <key>ru</key>
+        <value>Настройки</value>
       </title>
       <extendedTooltip>
         <name>СтраницаНастройкиРасширеннаяПодсказка</name>
@@ -1048,44 +1048,28 @@
         <common>true</common>
       </userVisible>
       <title>
-        <key>ru</key>
-        <value>Сценарий поведения</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Behaviiour scenario</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ወደ ባህሪ</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Ssenari davranış</value>
-      </title>
-      <title>
         <key>bg</key>
         <value>Сценарий на поведение</value>
       </title>
       <title>
-        <key>de</key>
-        <value>Szenario Verhalten</value>
-      </title>
-      <title>
-        <key>es</key>
-        <value>La secuencia de comandos de la conducta</value>
-      </title>
-      <title>
-        <key>et</key>
-        <value>Stsenaarium käitumist</value>
+        <key>mn</key>
+        <value>Зан</value>
       </title>
       <title>
         <key>fr</key>
         <value>Le script de comportement</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>A viselkedés</value>
+        <key>pl</key>
+        <value>Scenariusz postępowania</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Senaryo davranış</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Behaviiour scenario</value>
       </title>
       <title>
         <key>it</key>
@@ -1096,6 +1080,30 @@
         <value>ქცევა</value>
       </title>
       <title>
+        <key>sl</key>
+        <value>Vedenje</value>
+      </title>
+      <title>
+        <key>de</key>
+        <value>Szenario Verhalten</value>
+      </title>
+      <title>
+        <key>am</key>
+        <value>ወደ ባህሪ</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>La secuencia de comandos de la conducta</value>
+      </title>
+      <title>
+        <key>et</key>
+        <value>Stsenaarium käitumist</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Kịch bản hành vi</value>
+      </title>
+      <title>
         <key>lt</key>
         <value>Scenarijus elgesio</value>
       </title>
@@ -1104,32 +1112,24 @@
         <value>Uzvedības scenāriju</value>
       </title>
       <title>
-        <key>mn</key>
-        <value>Зан</value>
+        <key>sv</key>
+        <value>Beteendet</value>
       </title>
       <title>
-        <key>pl</key>
-        <value>Scenariusz postępowania</value>
+        <key>hu</key>
+        <value>A viselkedés</value>
+      </title>
+      <title>
+        <key>az</key>
+        <value>Ssenari davranış</value>
       </title>
       <title>
         <key>ro</key>
         <value>Scenariu de comportament</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Vedenje</value>
-      </title>
-      <title>
-        <key>sv</key>
-        <value>Beteendet</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Senaryo davranış</value>
-      </title>
-      <title>
-        <key>vi</key>
-        <value>Kịch bản hành vi</value>
+        <key>ru</key>
+        <value>Сценарий поведения</value>
       </title>
       <extendedTooltip>
         <name>СтраницаСценарийПоведенияРасширеннаяПодсказка</name>

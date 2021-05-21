@@ -337,6 +337,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ОжидатьДоступности</name>
+    <title>
+      <key>ru</key>
+      <value>Ожидать доступности</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

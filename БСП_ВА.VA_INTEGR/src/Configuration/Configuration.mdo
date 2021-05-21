@@ -29,7 +29,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>3.2.35.2</version>
+  <version>3.2.36.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.14</compatibilityMode>

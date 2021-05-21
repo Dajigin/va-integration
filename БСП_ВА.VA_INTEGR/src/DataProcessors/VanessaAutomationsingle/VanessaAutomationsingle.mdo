@@ -914,10 +914,6 @@
     <type>
       <types>Boolean</types>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Формировать отчет в формате Cucumber по результатам выполнения сценариев.</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -934,10 +930,6 @@
     <type>
       <types>Boolean</types>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Формировать отчет в формате JUnit по результатам выполнения сценариев.</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -954,10 +946,6 @@
     <type>
       <types>Boolean</types>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Формировать отчет в формате Allure по результатам выполнения сценариев.</value>
-    </toolTip>
     <toolTip>
       <key>en</key>
       <value>Create a scenario execution report in Allure format.</value>
@@ -978,10 +966,6 @@
     <type>
       <types>Boolean</types>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Формировать отчет в формате СППР по результатам выполнения сценариев.</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -1442,12 +1426,6 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Скорость (темп) синтезированной речи.
-
-Скорость речи задается дробным числом в диапазоне от 0.1 до 3.0.</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -1652,11 +1630,11 @@
     <name>ЗаписьВидеоЗаменитьСлайдЗаголовок</name>
     <synonym>
       <key>ru</key>
-      <value>Заменить слайд с заголовком фичи</value>
+      <value>Заменить слайд с заголовком фичи на видео</value>
     </synonym>
     <synonym>
       <key>en</key>
-      <value>Replace slide with feature title</value>
+      <value>Replace slide with feature title with video</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -1672,11 +1650,11 @@
     <name>ЗаписьВидеоЗаменитьСлайдФинал</name>
     <synonym>
       <key>ru</key>
-      <value>Заменить слайд финал</value>
+      <value>Заменить слайд финал на видео</value>
     </synonym>
     <synonym>
       <key>en</key>
-      <value>Replace final slide</value>
+      <value>Replace final slide with video</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -2139,7 +2117,7 @@ Default: ffmpeg</value>
     <name>ЗаписьВидеоПутьКСлайдуФинал</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к финальному видео файлу</value>
+      <value>Путь к видео файлу</value>
     </synonym>
     <synonym>
       <key>en</key>
@@ -3482,6 +3460,30 @@ Default: ffmpeg</value>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="d918f7c5-316e-4bdd-bac8-3e4423fe3635">
+    <name>МетаданныеБиблиотек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаги из метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Steps from metadata</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Метаданные библиотек</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Library metadata</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="102de872-db26-49d0-8831-3afb2b24394c">
     <name>ОбновлятьДеревоПриНачалеВыполненияСценария</name>
     <synonym>
@@ -3824,6 +3826,10 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Путь к файлу для выгрузки статуса выполнения сценариев</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Path to the file for unloading the script execution status</value>
     </synonym>
     <type>
       <types>String</types>
@@ -5564,6 +5570,22 @@ Default: ffmpeg</value>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="5d2d76ac-50d3-434a-b8f1-f40250d1c749">
+    <name>ПроверкаСинтаксисаВРедакторе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка синтаксиса в редакторе</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Syntax checking in the editor</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="2bad3282-7d6c-4ab8-8c1c-82ac75d8f138">
     <name>ПоказыватьРазличияВРедактореОтдельно</name>
     <synonym>
@@ -5573,6 +5595,161 @@ Default: ffmpeg</value>
     <synonym>
       <key>en</key>
       <value>Show differences in editor separately</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6566ae37-7a2f-439e-9525-38e26e6e7e90">
+    <name>ПоискКартинокСПомощьюКомпонентыVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск картинок с помощью компоненты VanessaExt</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Finding pictures using a addin VanessaExt</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63026685-7d9b-4e06-8f5a-aedf9b57b8f5">
+    <name>ВыводитьЛогВКонсоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить лог в консоль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Output log in console</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d1908e61-5de0-4f11-9266-1a3b7f0b04e0">
+    <name>ПодставлятьВОтчетеAllureЗначенияПеременных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать в шагах значения переменных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Set variable values in steps</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1315904b-1b2d-48fc-8c98-23301ff5156e">
+    <name>ЗначениеНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение на сервере</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Server value</value>
+    </synonym>
+    <comment>Специальный реквизит, в который можно сохранить результат вычислений на сервере, чтобы потом прочитать его на клиенте.</comment>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Специальный реквизит, в который можно сохранить результат вычислений на сервере, чтобы потом прочитать его на клиенте.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A special attribute in which you can save the result of calculations on the server in order to later read it on the client.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc984c97-fd9b-44e9-924a-68668447078c">
+    <name>ЗапрещатьПерезаписыватьПеременные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещать перезаписывать переменные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Equal pending to failed</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c7e08ee2-5626-4b54-814d-aed0af7227bf">
+    <name>ИспользоватьПарсерGherkinИзКомпонентыVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать парсер Gherkin из компоненты VanessaExt</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use the Gherkin parser from the VanessaExt addin</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4817429c-ec02-4c3d-8785-e268670b8dad">
+    <name>ОтображениеТабуляцииИПробелов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображение табуляции и пробелов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Displaying tabs and spaces</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7873390c-99ee-47e1-b1a0-849a928f0722">
+    <name>АвтонумерацияШагов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автонумерация шагов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>autonumberingofsteps</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d8a29ad-bdf3-4a6f-8da1-1f84749ee3be">
+    <name>ОбновлятьТаблицыФормыПриПолученииЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять таблицы формы при получении значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Update form tables when getting value</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -6725,6 +6902,28 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Настройки Git</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27d1090a-e53a-4d1c-bdec-a944fbc51c2c">
+    <name>ПарсерGherkin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парсер gherkin</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a15147aa-c36d-47f6-838e-a9079449ae4f">
+    <name>ПодготовкаИЗагрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка и загрузка данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Test data generator</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -8106,6 +8305,184 @@ Default: ffmpeg</value>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60065">
+    <name>Тест_ПодготовкаИЗагрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60066">
+    <name>Тест_РаботаПопыткойИсключением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="3de43b57-b9a6-4845-a2e3-ca57086be84c">
     <name>Тест_ДобавлениеФайлаКШагу</name>
     <synonym>
@@ -8624,6 +9001,26 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Озвучка окончания сценария</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3ecd970f-3b0a-4565-85fa-be4cc8412ec0">
+    <name>VanessaExtCentOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>VanessaExt for CentOS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Vanessa ext cent OS</value>
+    </synonym>
+    <templateType>AddIn</templateType>
+  </templates>
+  <templates uuid="b413b265-1f0f-4d4c-a5ea-ffddd2c6e465">
+    <name>InstallVanessaExt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Install vanessa ext</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
