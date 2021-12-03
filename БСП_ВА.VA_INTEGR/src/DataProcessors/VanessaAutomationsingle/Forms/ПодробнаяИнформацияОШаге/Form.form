@@ -16,10 +16,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПримерИспользования</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПримерИспользования</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПримерИспользованияРасширеннаяПодсказка</name>
@@ -69,10 +67,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ОписаниеШага</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОписаниеШага</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОписаниеШагаРасширеннаяПодсказка</name>
@@ -122,10 +118,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ТипШага</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТипШага</segments>
     </dataPath>
     <extendedTooltip>
       <name>ТипШагаРасширеннаяПодсказка</name>
@@ -174,10 +168,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ФайлГдеНаходитсяШаг</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ФайлГдеНаходитсяШаг</segments>
     </dataPath>
     <extendedTooltip>
       <name>ФайлГдеНаходитсяШагРасширеннаяПодсказка</name>
@@ -226,10 +218,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ИмяПроцедуры</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИмяПроцедуры</segments>
     </dataPath>
     <extendedTooltip>
       <name>ИмяПроцедурыРасширеннаяПодсказка</name>
@@ -301,6 +291,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

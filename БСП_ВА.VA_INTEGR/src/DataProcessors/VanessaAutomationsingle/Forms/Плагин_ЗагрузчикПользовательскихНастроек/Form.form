@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПоставщикПользовательскихНастроек</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПоставщикПользовательскихНастроек</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПоставщикUserSettingsРасширеннаяПодсказка</name>
@@ -87,10 +85,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>АдресПользовательскихНастроек</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>АдресПользовательскихНастроек</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПутьКФайлуРасширеннаяПодсказка</name>
@@ -160,6 +156,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <placementArea>UserCmds</placementArea>
+    <toolTipRepresentation>Auto</toolTipRepresentation>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <autoCommandBar>

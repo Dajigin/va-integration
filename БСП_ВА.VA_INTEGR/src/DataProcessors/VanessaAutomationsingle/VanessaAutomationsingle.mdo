@@ -1870,11 +1870,11 @@ Default: ffmpeg</value>
     <name>ЗаписьВидеоКэшироватьФайлыTTS</name>
     <synonym>
       <key>ru</key>
-      <value>Кэшировать файлы TTS</value>
+      <value>Кэшировать файлы озвучки</value>
     </synonym>
     <synonym>
       <key>en</key>
-      <value>Cache TTS files</value>
+      <value>Cache voiceovers</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -2189,7 +2189,7 @@ Default: ffmpeg</value>
     <name>ЗаписьВидеоТипОзвучкиTTS</name>
     <synonym>
       <key>ru</key>
-      <value>Тип озвучки TTS</value>
+      <value>Тип озвучки</value>
     </synonym>
     <synonym>
       <key>en</key>
@@ -2402,6 +2402,23 @@ Default: ffmpeg</value>
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15745c11-eeb5-448d-b308-e601832c9a48">
+    <name>ЗаписьВидеоПутьКОбработкеДвижкаTTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к обработке движка TTS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TTS engine processing path</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -5757,6 +5774,255 @@ Default: ffmpeg</value>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="024c2e46-f2c3-4098-8ac7-a09d4c32f9a6">
+    <name>ПолучатьМакетыСПомощьюРасширенияVAExtension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получать макеты с помощью расширения VAExtension</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Get layouts using extension VAExtension</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b16666f2-1690-4624-9179-5cddabfd6877">
+    <name>ПрикладыватьФайлыMxlКОтчетуAllure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикладывать файлы mxl к отчету allure</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Attach mxl files to allure report</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d0a6712d-91c3-4f37-82de-b1c2f6109f19">
+    <name>ПрикладыватьФайлыMxlСохраненныеВФорматеHTMLКОтчетуAllure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикладывать файлы mxl сохраненные в формате HTML к отчету Allure</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Attach mxl files saved in HTML format to Allure report</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="adb0a89b-0dca-47bb-aceb-938adcf6d71e">
+    <name>ПрикладыватьДополнительныеДанныеПриСравненииЗначенияСЭталономAllure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикладывать дополнительные данные при сравнении значения с эталоном</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Attach additional data when comparing value with reference</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0853b056-9605-4992-bdf0-b09e7d5de078">
+    <name>ПовторноЗапускатьСеансКлиентаТестированияПриПодключенииЕслиНеНайденЕгоПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторно запускать сеанс клиента тестирования при подключении, если не найден его процесс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start test client session again on connection if it's process is not found</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5c58669-f055-4a32-8062-1fb68fed357f">
+    <name>ИнтервалЗапускаПроцессаКлиентаТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал запуска процесса клиента тестирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Test client process start interval</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e6fe1a1-a780-4556-a7da-9c25726f5609">
+    <name>ИспользоватьUIAutomation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать UI Automation</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use UI Automation</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="836d27c8-e4a1-4d16-b406-5a84fab91c96">
+    <name>ЗаписьВидеоСберTTSГолос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Voice</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0165df26-cfb5-4929-9dfe-5f5c882c7c47">
+    <name>ЗаписьВидеоСберTTSClientID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client ID</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Client ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a107c1d3-3b2e-4d3c-8f7f-e3fc25a5338c">
+    <name>ЗаписьВидеоСберTTSClientSecret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client secret</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Client secret</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6602b13a-2fec-45f2-88bb-f88ddb77e21b">
+    <name>СкриншотыjUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять скриншоты JUnit</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd81fae5-207a-4b5c-a3ea-89ef90df7986">
+    <name>ОзвучиватьВыполнениеСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Озвучивать выполнение сценария в реальном времени</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sound script execution in real time</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="430e4664-4493-4419-8d74-4eeedb68b03e">
+    <name>МодальноеОкноПриЗапускеКлиентаТестированияЭтоОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модальное окно при запуске клиента тестирования это ошибка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Modal window when starting test client is error</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6576ee30-88b6-48ed-98e4-fd79b3827dc2">
+    <name>ВычислятьВыраженияВФигурныхСкобках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычислять выражения в фигурных скобках</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Evaluate expressions in curly braces</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0a74d61c-173f-4436-9c72-1e8d722995a0">
+    <name>СобиратьДанныеОЗначенияхПеременных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирать данные о значениях переменных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Collect data on variable values</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="f420a238-4e45-4a7b-84ca-9abcd874383f">
     <producedTypes>
       <objectType typeId="29b6a235-8506-4b28-9b61-48d9cb0967ae" valueTypeId="919246ed-32b9-445e-9c45-3e047f2daf19"/>
@@ -7606,6 +7872,95 @@ Default: ffmpeg</value>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="386e2a6a-394b-4f12-b4a7-3eed76cdb8ea">
+    <name>Тест_UIAutomation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60012">
     <name>Тест_ОткрытьTestClient</name>
     <synonym>
@@ -7701,6 +8056,95 @@ Default: ffmpeg</value>
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8591e8d-f302-40db-a5d9-d6e62ac52a32">
+    <name>Тест_VAExtension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -8028,6 +8472,95 @@ Default: ffmpeg</value>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="fe40e44d-b99b-48b6-af17-a35f229ad8e9">
+    <name>Тест_Автоинструкции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>am</key>
+      <value>ቅጽ</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Forması</value>
+    </synonym>
+    <synonym>
+      <key>bg</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>et</key>
+      <value>Vorm</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>hu</key>
+      <value>Formában</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>lt</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="9ee42fae-c760-493e-92d6-701720e5a821">
     <name>Тест_Браузер</name>
     <synonym>
@@ -8308,11 +8841,43 @@ Default: ffmpeg</value>
   <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60065">
     <name>Тест_ПодготовкаИЗагрузкаДанных</name>
     <synonym>
-      <key>ru</key>
+      <key>bg</key>
       <value>Форма</value>
     </synonym>
     <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
       <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -8320,27 +8885,27 @@ Default: ffmpeg</value>
       <value>ቅጽ</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Forması</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Форма</value>
+      <key>es</key>
+      <value>La forma de</value>
     </synonym>
     <synonym>
       <key>et</key>
       <value>Vorm</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>La forme</value>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <synonym>
-      <key>ka</key>
-      <value>ფორმა</value>
+      <key>lt</key>
+      <value>Forma</value>
     </synonym>
     <synonym>
-      <key>de</key>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -8348,48 +8913,16 @@ Default: ffmpeg</value>
       <value>Formában</value>
     </synonym>
     <synonym>
-      <key>it</key>
-      <value>La forma</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>lt</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Маягт</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Kształt</value>
+      <key>az</key>
+      <value>Forması</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Forma</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Obrazec</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La forma de</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Form</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Formu</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Biểu mẫu</value>
+      <key>ru</key>
+      <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -8397,11 +8930,43 @@ Default: ffmpeg</value>
   <forms uuid="70e297e0-e8a2-43bf-8be1-62e408f60066">
     <name>Тест_РаботаПопыткойИсключением</name>
     <synonym>
-      <key>ru</key>
+      <key>bg</key>
       <value>Форма</value>
     </synonym>
     <synonym>
+      <key>mn</key>
+      <value>Маягт</value>
+    </synonym>
+    <synonym>
+      <key>fr</key>
+      <value>La forme</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Kształt</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>Formu</value>
+    </synonym>
+    <synonym>
       <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
+      <key>ka</key>
+      <value>ფორმა</value>
+    </synonym>
+    <synonym>
+      <key>it</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>sl</key>
+      <value>Obrazec</value>
+    </synonym>
+    <synonym>
+      <key>de</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -8409,27 +8974,27 @@ Default: ffmpeg</value>
       <value>ቅጽ</value>
     </synonym>
     <synonym>
-      <key>az</key>
-      <value>Forması</value>
-    </synonym>
-    <synonym>
-      <key>bg</key>
-      <value>Форма</value>
+      <key>es</key>
+      <value>La forma de</value>
     </synonym>
     <synonym>
       <key>et</key>
       <value>Vorm</value>
     </synonym>
     <synonym>
-      <key>fr</key>
-      <value>La forme</value>
+      <key>vi</key>
+      <value>Biểu mẫu</value>
     </synonym>
     <synonym>
-      <key>ka</key>
-      <value>ფორმა</value>
+      <key>lt</key>
+      <value>Forma</value>
     </synonym>
     <synonym>
-      <key>de</key>
+      <key>lv</key>
+      <value>Forma</value>
+    </synonym>
+    <synonym>
+      <key>sv</key>
       <value>Form</value>
     </synonym>
     <synonym>
@@ -8437,48 +9002,16 @@ Default: ffmpeg</value>
       <value>Formában</value>
     </synonym>
     <synonym>
-      <key>it</key>
-      <value>La forma</value>
-    </synonym>
-    <synonym>
-      <key>lv</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>lt</key>
-      <value>Forma</value>
-    </synonym>
-    <synonym>
-      <key>mn</key>
-      <value>Маягт</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Kształt</value>
+      <key>az</key>
+      <value>Forması</value>
     </synonym>
     <synonym>
       <key>ro</key>
       <value>Forma</value>
     </synonym>
     <synonym>
-      <key>sl</key>
-      <value>Obrazec</value>
-    </synonym>
-    <synonym>
-      <key>es</key>
-      <value>La forma de</value>
-    </synonym>
-    <synonym>
-      <key>sv</key>
-      <value>Form</value>
-    </synonym>
-    <synonym>
-      <key>tr</key>
-      <value>Formu</value>
-    </synonym>
-    <synonym>
-      <key>vi</key>
-      <value>Biểu mẫu</value>
+      <key>ru</key>
+      <value>Форма</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

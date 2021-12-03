@@ -30,10 +30,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>RemoteList.Name</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>RemoteList.Name</segments>
           </dataPath>
           <extendedTooltip>
             <name>RemoteListNameExtendedTooltip</name>
@@ -83,10 +81,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>RemoteList.Url</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>RemoteList.Url</segments>
           </dataPath>
           <extendedTooltip>
             <name>RemoteListUrlExtendedTooltip</name>
@@ -369,6 +365,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:FormGroup">
@@ -402,6 +399,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
@@ -432,6 +430,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
@@ -507,10 +506,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПодписьИмя</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПодписьИмя</segments>
           </dataPath>
           <extendedTooltip>
             <name>SignatureNameExtendedTooltip</name>
@@ -559,10 +556,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПодписьEmail</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПодписьEmail</segments>
           </dataPath>
           <extendedTooltip>
             <name>SignatureEmailExtendedTooltip</name>
@@ -748,6 +743,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

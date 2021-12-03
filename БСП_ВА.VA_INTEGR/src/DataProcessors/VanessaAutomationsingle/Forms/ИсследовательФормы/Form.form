@@ -182,10 +182,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЗаголовокОкна</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЗаголовокОкна</segments>
       </dataPath>
       <extendedTooltip>
         <name>АктивноеОкноЗаголовокРасширеннаяПодсказка</name>
@@ -322,10 +320,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЗаголовокТекущейФормы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЗаголовокТекущейФормы</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЗаголовокФормыРасширеннаяПодсказка</name>
@@ -462,10 +458,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяТекущейФормы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяТекущейФормы</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяТекущейФормыРасширеннаяПодсказка</name>
@@ -636,10 +630,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПолучатьАктивныйЭлементИзTestClient</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПолучатьАктивныйЭлементИзTestClient</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -686,10 +678,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтроитьДерево</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтроитьДерево</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -781,10 +771,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.Синоним</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.Синоним</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыСинонимРасширеннаяПодсказка</name>
@@ -833,10 +821,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.Имя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.Имя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыИмяРасширеннаяПодсказка</name>
@@ -885,10 +871,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.ТипСтрока</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.ТипСтрока</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыТипСтрокаРасширеннаяПодсказка</name>
@@ -937,10 +921,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.ВидСтрока</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.ВидСтрока</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыВидСтрокаРасширеннаяПодсказка</name>
@@ -989,10 +971,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.ТекущаяВидимость</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.ТекущаяВидимость</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыТекущаяВидимостьРасширеннаяПодсказка</name>
@@ -1034,10 +1014,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.ТекущаяДоступность</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.ТекущаяДоступность</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыТекущаяДоступностьРасширеннаяПодсказка</name>
@@ -1079,10 +1057,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоФормы.ТекущееТолькоПросмотр</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоФормы.ТекущееТолькоПросмотр</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоФормыТекущееТолькоПросмотрРасширеннаяПодсказка</name>
@@ -1297,10 +1273,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ТекстШагов</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТекстШагов</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -1376,6 +1350,7 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.Refresh</picture>
       </picture>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1496,6 +1471,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CheckAll</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1529,6 +1505,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CheckAll</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1562,6 +1539,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CheckAll</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1595,6 +1573,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CheckAll</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1628,6 +1607,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CheckAll</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1661,6 +1641,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>StdPicture.CheckAll</picture>
         </picture>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -1782,6 +1763,37 @@
         </picture>
         <representation>Picture</representation>
       </extInfo>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаВыбратьОкно</name>
+      <id>83</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаВыбратьОкноРасширеннаяПодсказка</name>
+        <id>84</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВыбратьОкно</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -3833,6 +3845,31 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВыбратьОкно</name>
+    <title>
+      <key>ru</key>
+      <value>Выбрать окно</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Select window</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбрать окно</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыбратьОкно</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
