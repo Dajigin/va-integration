@@ -450,12 +450,12 @@
             <common>true</common>
           </userVisible>
           <title>
-            <key>en</key>
-            <value>Scenarios</value>
-          </title>
-          <title>
             <key>ru</key>
             <value>Сценарии</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Scenarios</value>
           </title>
           <title>
             <key>vi</key>
@@ -652,7 +652,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
-            <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
@@ -683,7 +682,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
-            <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
@@ -714,7 +712,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
-            <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
@@ -745,7 +742,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
-            <toolTipRepresentation>Auto</toolTipRepresentation>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:FormGroup">
@@ -779,7 +775,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
-              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
@@ -842,48 +837,28 @@
         <common>true</common>
       </userVisible>
       <title>
-        <key>bg</key>
+        <key>ru</key>
         <value>Настройки</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Тохиргоо</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Les paramètres de</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Ustawienia</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Ayarlar</value>
       </title>
       <title>
         <key>en</key>
         <value>Settings</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Impostazioni</value>
+        <key>am</key>
+        <value>ቅንብሮችን</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>პარამეტრები</value>
+        <key>az</key>
+        <value>Parametrlər</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Nastavitve</value>
+        <key>bg</key>
+        <value>Настройки</value>
       </title>
       <title>
         <key>de</key>
         <value>Einstellungen</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ቅንብሮችን</value>
       </title>
       <title>
         <key>es</key>
@@ -894,8 +869,20 @@
         <value>Seaded</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Cài đặt</value>
+        <key>fr</key>
+        <value>Les paramètres de</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>Beállítások</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Impostazioni</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>პარამეტრები</value>
       </title>
       <title>
         <key>lt</key>
@@ -906,24 +893,32 @@
         <value>Uzstādījumi</value>
       </title>
       <title>
-        <key>sv</key>
-        <value>Inställningar</value>
+        <key>mn</key>
+        <value>Тохиргоо</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>Beállítások</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Parametrlər</value>
+        <key>pl</key>
+        <value>Ustawienia</value>
       </title>
       <title>
         <key>ro</key>
         <value>Setări</value>
       </title>
       <title>
-        <key>ru</key>
-        <value>Настройки</value>
+        <key>sl</key>
+        <value>Nastavitve</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Inställningar</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Ayarlar</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Cài đặt</value>
       </title>
       <extendedTooltip>
         <name>СтраницаНастройкиРасширеннаяПодсказка</name>
@@ -978,7 +973,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:FormField">
@@ -1038,48 +1032,28 @@
         <common>true</common>
       </userVisible>
       <title>
-        <key>bg</key>
-        <value>Сценарий на поведение</value>
-      </title>
-      <title>
-        <key>mn</key>
-        <value>Зан</value>
-      </title>
-      <title>
-        <key>fr</key>
-        <value>Le script de comportement</value>
-      </title>
-      <title>
-        <key>pl</key>
-        <value>Scenariusz postępowania</value>
-      </title>
-      <title>
-        <key>tr</key>
-        <value>Senaryo davranış</value>
+        <key>ru</key>
+        <value>Сценарий поведения</value>
       </title>
       <title>
         <key>en</key>
         <value>Behaviiour scenario</value>
       </title>
       <title>
-        <key>it</key>
-        <value>Lo scenario di comportamento</value>
+        <key>am</key>
+        <value>ወደ ባህሪ</value>
       </title>
       <title>
-        <key>ka</key>
-        <value>ქცევა</value>
+        <key>az</key>
+        <value>Ssenari davranış</value>
       </title>
       <title>
-        <key>sl</key>
-        <value>Vedenje</value>
+        <key>bg</key>
+        <value>Сценарий на поведение</value>
       </title>
       <title>
         <key>de</key>
         <value>Szenario Verhalten</value>
-      </title>
-      <title>
-        <key>am</key>
-        <value>ወደ ባህሪ</value>
       </title>
       <title>
         <key>es</key>
@@ -1090,8 +1064,20 @@
         <value>Stsenaarium käitumist</value>
       </title>
       <title>
-        <key>vi</key>
-        <value>Kịch bản hành vi</value>
+        <key>fr</key>
+        <value>Le script de comportement</value>
+      </title>
+      <title>
+        <key>hu</key>
+        <value>A viselkedés</value>
+      </title>
+      <title>
+        <key>it</key>
+        <value>Lo scenario di comportamento</value>
+      </title>
+      <title>
+        <key>ka</key>
+        <value>ქცევა</value>
       </title>
       <title>
         <key>lt</key>
@@ -1102,24 +1088,32 @@
         <value>Uzvedības scenāriju</value>
       </title>
       <title>
-        <key>sv</key>
-        <value>Beteendet</value>
+        <key>mn</key>
+        <value>Зан</value>
       </title>
       <title>
-        <key>hu</key>
-        <value>A viselkedés</value>
-      </title>
-      <title>
-        <key>az</key>
-        <value>Ssenari davranış</value>
+        <key>pl</key>
+        <value>Scenariusz postępowania</value>
       </title>
       <title>
         <key>ro</key>
         <value>Scenariu de comportament</value>
       </title>
       <title>
-        <key>ru</key>
-        <value>Сценарий поведения</value>
+        <key>sl</key>
+        <value>Vedenje</value>
+      </title>
+      <title>
+        <key>sv</key>
+        <value>Beteendet</value>
+      </title>
+      <title>
+        <key>tr</key>
+        <value>Senaryo davranış</value>
+      </title>
+      <title>
+        <key>vi</key>
+        <value>Kịch bản hành vi</value>
       </title>
       <extendedTooltip>
         <name>СтраницаСценарийПоведенияРасширеннаяПодсказка</name>
@@ -1208,7 +1202,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1242,7 +1235,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1273,7 +1265,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1304,7 +1295,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1335,7 +1325,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1369,7 +1358,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -1466,7 +1454,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -1498,7 +1485,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
@@ -1543,6 +1529,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

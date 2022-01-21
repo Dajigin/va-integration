@@ -108,48 +108,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <attributes>
-    <name>ТекущийНомерИтерации</name>
-    <title>
-      <key>ru</key>
-      <value>Текущий номер итерации</value>
-    </title>
-    <id>6</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>МаксЧислоИтераций</name>
-    <title>
-      <key>ru</key>
-      <value>Макс число итераций</value>
-    </title>
-    <id>7</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

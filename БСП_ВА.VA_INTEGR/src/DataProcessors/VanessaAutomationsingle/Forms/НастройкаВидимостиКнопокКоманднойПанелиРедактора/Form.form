@@ -80,7 +80,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -119,7 +118,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -153,7 +151,6 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.CheckAll</picture>
       </picture>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -187,7 +184,6 @@
       <picture xsi:type="core:PictureRef">
         <picture>StdPicture.UncheckAll</picture>
       </picture>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -280,11 +276,11 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>ОК</value>
+      <value>Сохранить настройки видимости</value>
     </toolTip>
     <toolTip>
       <key>en</key>
-      <value>OK</value>
+      <value>Save visibility settings</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -309,11 +305,11 @@
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Отменить</value>
+      <value>Отменить сохранение настроек видимости</value>
     </toolTip>
     <toolTip>
       <key>en</key>
-      <value>Cancel</value>
+      <value>Cancel saving visibility settings</value>
     </toolTip>
     <use>
       <common>true</common>
