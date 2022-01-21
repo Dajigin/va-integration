@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>3.2.37.1</version>
+  <version>3.2.38.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="c55afb5d-0fe4-48c6-88d9-2a1fb8d77bf8">
@@ -46,10 +46,14 @@
   <commonModules>CommonModule.ВАИНТ_ТестированиеВызовСервера</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.ВАИНТ_ТестированиеСервер</commonModules>
+  <eventSubscriptions>EventSubscription.ВАИНТ_ПриЗаписиДокументОбъект</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ВАИНТ_ПриЗаписиСправочникОбъект</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ВАИНТ_ПриЗаписиРегистрСведенийНаборЗаписей</eventSubscriptions>
   <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
   <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
   <dataProcessors>DataProcessor.МенеджерТестов</dataProcessors>
   <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
   <informationRegisters>InformationRegister.ВАИНТ_НастройкиТестирования</informationRegisters>
+  <informationRegisters>InformationRegister.ВАИНТ_СозданныеОбъектыИмеющиеДату</informationRegisters>
 </mdclass:Configuration>

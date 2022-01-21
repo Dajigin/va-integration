@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc2d9e6f-6db1-4927-a6e5-3f8949fc9c7a">
+  <producedTypes>
+    <selectionType typeId="83860fcf-97b5-4cf4-a2a2-5a028f5a7b38" valueTypeId="0da1cb23-2f2f-4824-96d1-7fac8513a65c"/>
+    <listType typeId="077f5149-655a-410a-b091-b16ecc2c0bd9" valueTypeId="760013bd-a397-4a4d-afb8-f4baf9fa35d6"/>
+    <managerType typeId="77b38e5f-b186-41f2-b717-26e7fb3eddbf" valueTypeId="79c2e3a9-4835-4942-85b5-7c14d4954224"/>
+    <recordSetType typeId="a881f5b5-87be-4adf-a30e-a39b8063aed0" valueTypeId="1f28edab-e48b-44ff-a627-207ba55be27b"/>
+    <recordKeyType typeId="9fba497c-0c91-46e8-8940-4082b316b501" valueTypeId="b4fafe19-dd1d-4208-b089-4eb415a88381"/>
+    <recordType typeId="dc7ccf38-de3b-42af-879c-933e133805fd" valueTypeId="4dc853e9-e59d-4501-bfe6-a57b32d705a0"/>
+    <recordManagerType typeId="2a9d4327-f510-4d92-aad7-bc9462787231" valueTypeId="ee313495-d4e8-4b90-bcd0-62787ad565e1"/>
+  </producedTypes>
+  <name>ВАИНТ_СозданныеОбъектыИмеющиеДату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Созданные объекты имеющие дату</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ВАИНТ_СозданныеОбъектыИмеющиеДату.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="13d26c0b-a4fc-41c0-8a85-87d4753e00d4">
+    <name>ИмяТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя типа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7d880846-4a7c-4234-8084-2c42d66fb89e">
+    <name>НомерЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66c60045-3cf9-456c-adec-5fe5507ced8c">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ba194d9c-34ac-4988-b1d9-2e0c1539ecfa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

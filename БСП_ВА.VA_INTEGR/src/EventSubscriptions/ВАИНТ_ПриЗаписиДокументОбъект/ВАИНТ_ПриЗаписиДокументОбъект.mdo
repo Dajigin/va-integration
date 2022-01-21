@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a9a5918-fc33-490a-a56d-6c967b1d5dd7">
+  <name>ВАИНТ_ПриЗаписиДокументОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписка на событие</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВАИНТ_ТестированиеСервер.ВАИНТ_ПриЗаписиДокументОбъект</handler>
+</mdclass:EventSubscription>
