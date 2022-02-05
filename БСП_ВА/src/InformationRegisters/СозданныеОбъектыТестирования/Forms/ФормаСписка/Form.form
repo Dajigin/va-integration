@@ -411,7 +411,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>InformationRegister.СозданныеОбъектыТестированияИмеющиеДату</mainTable>
+      <mainTable>InformationRegister.СозданныеОбъектыТестирования</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

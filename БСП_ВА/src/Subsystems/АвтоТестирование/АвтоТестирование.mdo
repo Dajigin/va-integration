@@ -6,7 +6,7 @@
     <value>Авто тестирование</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>InformationRegister.СозданныеОбъектыТестированияИмеющиеДату</content>
+  <content>InformationRegister.СозданныеОбъектыТестирования</content>
   <content>InformationRegister.ОбъектыСозданныеПриТестировании</content>
   <content>CommonModule.АвтоТестированиеСервер</content>
   <content>SessionParameter.ЭтоАвтоТестирование</content>

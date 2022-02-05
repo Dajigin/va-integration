@@ -1621,7 +1621,7 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ОбъектТестированияИмеющийДатуПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОбъектТестированияПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбъектТестированияДокументПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбъектТестированияБизнесПроцессПередЗаписью</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
@@ -2843,8 +2843,7 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.ОбъектыСозданныеПриТестировании</informationRegisters>
-  <informationRegisters>InformationRegister.СозданныеОбъектыТестированияИмеющиеДату</informationRegisters>
-  <informationRegisters>InformationRegister.СозданныеОбъектыТестированияБезДаты</informationRegisters>
+  <informationRegisters>InformationRegister.СозданныеОбъектыТестирования</informationRegisters>
   <accumulationRegisters>AccumulationRegister._ДемоОборотыПоСчетамНаОплату</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes._ДемоВидыСубконто</chartsOfCharacteristicTypes>

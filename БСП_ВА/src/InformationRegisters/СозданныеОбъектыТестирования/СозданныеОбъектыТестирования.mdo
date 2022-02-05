@@ -9,15 +9,15 @@
     <recordType typeId="8957ea48-3b18-4a76-9cb7-fa0f0286942f" valueTypeId="43cfa120-44fb-4da1-8f0f-1f4f6c9b6cd1"/>
     <recordManagerType typeId="af7c705c-54df-456b-ad5e-5493a82fa52e" valueTypeId="1c2abc45-2399-4e01-97e2-62443157911e"/>
   </producedTypes>
-  <name>СозданныеОбъектыТестированияИмеющиеДату</name>
+  <name>СозданныеОбъектыТестирования</name>
   <synonym>
     <key>ru</key>
-    <value>Созданные объекты тестирования имеющие дату</value>
+    <value>Созданные объекты тестирования</value>
   </synonym>
   <comment>Документы, бизнес-процессы, задачи и пр.</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultListForm>InformationRegister.СозданныеОбъектыТестированияИмеющиеДату.Form.ФормаСписка</defaultListForm>
+  <defaultListForm>InformationRegister.СозданныеОбъектыТестирования.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="ba182e1c-e0ec-4315-aaef-281d78568f8b">
     <name>ИмяТипа</name>
