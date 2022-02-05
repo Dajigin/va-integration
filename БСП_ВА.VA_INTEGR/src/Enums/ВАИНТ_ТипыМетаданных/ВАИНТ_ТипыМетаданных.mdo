@@ -40,4 +40,11 @@
       <value>Задача</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="abbc7496-b76f-4612-8c77-e7e478f543ec">
+    <name>ПланВидовХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>План видов характеристик</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

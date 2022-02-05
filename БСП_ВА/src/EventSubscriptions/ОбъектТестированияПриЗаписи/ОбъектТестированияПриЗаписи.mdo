@@ -9,6 +9,8 @@
     <types>TaskObject</types>
     <types>BusinessProcessObject</types>
     <types>DocumentObject</types>
+    <types>CatalogObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
   </source>
   <event>OnWrite</event>
   <handler>CommonModule.АвтоТестированиеСервер.ОбъектТестированияПриЗаписи</handler>

@@ -1623,7 +1623,7 @@
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбъектТестированияПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбъектТестированияДокументПередЗаписью</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ОбъектТестированияБизнесПроцессПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОбъектТестированияКромеДокументаИРегистраПередЗаписью</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапросЛицензийУникальныхУслуг</scheduledJobs>
