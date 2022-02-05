@@ -48,7 +48,9 @@
   <commonModules>CommonModule.ВАИНТ_ТестированиеСервер</commonModules>
   <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
   <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
+  <commonCommands>CommonCommand.ВАИНТ_УдалитьОбъектыСозданныеПриТестировании</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
+  <enums>Enum.ВАИНТ_ТипыМетаданных</enums>
   <dataProcessors>DataProcessor.МенеджерТестов</dataProcessors>
   <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
   <informationRegisters>InformationRegister.ВАИНТ_НастройкиТестирования</informationRegisters>

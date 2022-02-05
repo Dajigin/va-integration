@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca36d2c9-bc6e-4813-80a9-49e996e0cd7b">
+  <name>АвтоТестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто тестирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СозданныеОбъектыТестированияИмеющиеДату</content>
+  <content>InformationRegister.ОбъектыСозданныеПриТестировании</content>
+  <content>CommonModule.АвтоТестированиеСервер</content>
+  <content>SessionParameter.ЭтоАвтоТестирование</content>
+</mdclass:Subsystem>

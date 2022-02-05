@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c04a9edd-f029-47ca-a176-652949a434a6">
+  <name>ВАИНТ_УдалитьОбъектыСозданныеПриТестировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить объекты, созданные при тестировании</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

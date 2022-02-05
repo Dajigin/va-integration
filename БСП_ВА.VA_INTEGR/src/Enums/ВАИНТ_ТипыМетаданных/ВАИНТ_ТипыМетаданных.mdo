@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af869e9d-5961-4769-9e83-f1c4242e8f86">
+  <producedTypes>
+    <refType typeId="62d40739-92a0-408f-a091-1d5c29f2821b" valueTypeId="294cc7f7-bee4-4b99-98b6-d82bdd1e18a6"/>
+    <listType typeId="df5367f2-073f-44bd-887b-28c0ab7c6f7c" valueTypeId="78df61fc-8c27-4a6c-9a8a-86136f35cff8"/>
+    <managerType typeId="fa11788a-53ad-4cfd-9514-9c06db10482f" valueTypeId="213f6001-04e3-44e3-94a5-a41e18c7b1c8"/>
+  </producedTypes>
+  <name>ВАИНТ_ТипыМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы метаданных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b0b6a10-d505-47c2-9489-57a6276066fc">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="493042b8-7770-44b6-8fbf-67297704c1aa">
+    <name>Справочник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d804b4ef-b57b-4996-8187-9d6847dcdd9c">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="553408af-2957-4bd6-9af0-1a0262af7459">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.ВАИНТ_КаталогТестов</commands>
+      <commands>DataProcessor.VanessaAutomationsingle.StandardCommand.Open</commands>
+      <commands>DataProcessor.МенеджерТестов.StandardCommand.Open</commands>
+      <commands>CommonCommand.ВАИНТ_УдалитьОбъектыСозданныеПриТестировании</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

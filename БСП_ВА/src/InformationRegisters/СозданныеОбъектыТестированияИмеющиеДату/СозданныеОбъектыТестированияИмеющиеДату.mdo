@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d57c4c95-0030-48ab-9295-4fc36fe14298">
+  <producedTypes>
+    <selectionType typeId="9c0d4306-fbd6-4d00-93eb-45041489e958" valueTypeId="94410828-cd36-4007-8255-46c5c58a5a2b"/>
+    <listType typeId="258c7234-ee10-410f-8895-61b1662b7072" valueTypeId="ea55972f-a72e-4550-85be-8f9d80221ae1"/>
+    <managerType typeId="2c362d7f-d6b7-4b61-9f6c-ecbbad873ea9" valueTypeId="cd17177e-e908-49eb-a591-2f214a62a079"/>
+    <recordSetType typeId="c71bc6ac-2935-482e-8b3a-697d4f8ee218" valueTypeId="c5b5131d-9336-4da8-8a10-2572fe2de56a"/>
+    <recordKeyType typeId="3a795ecf-1722-4114-aa0c-ed8d56939176" valueTypeId="9226ca5a-a86e-4dc0-9004-23c3ad2fcfee"/>
+    <recordType typeId="8957ea48-3b18-4a76-9cb7-fa0f0286942f" valueTypeId="43cfa120-44fb-4da1-8f0f-1f4f6c9b6cd1"/>
+    <recordManagerType typeId="af7c705c-54df-456b-ad5e-5493a82fa52e" valueTypeId="1c2abc45-2399-4e01-97e2-62443157911e"/>
+  </producedTypes>
+  <name>СозданныеОбъектыТестированияИмеющиеДату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Созданные объекты тестирования имеющие дату</value>
+  </synonym>
+  <comment>Документы, бизнес-процессы, задачи и пр.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СозданныеОбъектыТестированияИмеющиеДату.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba182e1c-e0ec-4315-aaef-281d78568f8b">
+    <name>ИмяТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя типа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="180137d4-2c03-41be-9cbd-e7844c6854ea">
+    <name>НомерЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0a6412df-a02c-4ed6-83e3-f88868bf4f79">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d991521c-63e1-4320-b136-0f711311809c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

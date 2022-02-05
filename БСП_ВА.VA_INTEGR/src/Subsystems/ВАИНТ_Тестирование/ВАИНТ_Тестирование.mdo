@@ -11,4 +11,5 @@
   <content>CommonCommand.ВАИНТ_ПриемочныеТесты</content>
   <content>DataProcessor.МенеджерТестов</content>
   <content>DataProcessor.VanessaAutomationsingle</content>
+  <content>CommonCommand.ВАИНТ_УдалитьОбъектыСозданныеПриТестировании</content>
 </mdclass:Subsystem>
