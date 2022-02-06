@@ -7,7 +7,12 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>InformationRegister.СозданныеОбъектыТестирования</content>
-  <content>InformationRegister.ОбъектыСозданныеПриТестировании</content>
   <content>CommonModule.АвтоТестированиеСервер</content>
   <content>SessionParameter.ЭтоАвтоТестирование</content>
+  <content>InformationRegister.СозданныеПриТестированииЗаписиРегистров</content>
+  <content>EventSubscription.ОбъектТестированияПриЗаписи</content>
+  <content>EventSubscription.ОбъектТестированияДокументПередЗаписью</content>
+  <content>EventSubscription.ОбъектТестированияКромеДокументаИРегистраПередЗаписью</content>
+  <content>EventSubscription.НаборЗаписейТестированиеПередЗаписью</content>
+  <content>EventSubscription.НаборЗаписейТестированиеПриЗаписи</content>
 </mdclass:Subsystem>

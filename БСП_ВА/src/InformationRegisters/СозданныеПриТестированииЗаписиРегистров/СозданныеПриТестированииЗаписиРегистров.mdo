@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d31e69a8-c170-42a2-8b41-be565cbf7fb9">
+  <producedTypes>
+    <selectionType typeId="e8814f5f-fb62-468d-b50c-911d3fcaabcf" valueTypeId="2ad97779-b8ad-4964-8815-b9c9c5140239"/>
+    <listType typeId="0cdaf3a8-5122-474d-bf08-9c7f799c5fa6" valueTypeId="4d342a62-2fb1-4ca0-97ca-b042f36b4d69"/>
+    <managerType typeId="d8d606bf-93aa-4e04-94ce-1c852bf467ad" valueTypeId="c0cdaf8e-29c1-4cd0-8d8a-fbcf070e1341"/>
+    <recordSetType typeId="cb3467d3-a1ef-43e3-bde3-3c495c4af7f9" valueTypeId="bdda9e46-7342-4346-8ac4-b6dbe4a5bf77"/>
+    <recordKeyType typeId="a083cabc-28f2-4f8a-a716-fdf39330d26c" valueTypeId="7364a0e1-79ef-4ac4-9a38-26374d8928a2"/>
+    <recordType typeId="f8e071d2-8293-4887-8d61-04f51d1a556b" valueTypeId="a89d99bf-1e48-465e-98df-ed05f2d6346c"/>
+    <recordManagerType typeId="7ff719c0-45e2-4547-8696-e3a948dcc93f" valueTypeId="d34d0248-2dff-4265-83a5-02b237af0cf1"/>
+  </producedTypes>
+  <name>СозданныеПриТестированииЗаписиРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Созданные при тестировании записи регистров</value>
+  </synonym>
+  <comment>Записи независимых регистров сведений, созданные при тестировании</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9c32ad0b-619d-4075-9246-30df919cee65">
+    <name>ПараметрыОтбораСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры отбора строкой</value>
+    </synonym>
+    <comment>Параметры отбора, сериализованные функцией ЗначениеВСтрокуВнутр</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3d67231f-a131-4345-aa3c-fae006b83a90">
+    <name>ИмяРегистраСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя регистра сведений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="66115e9e-0a4a-493d-a917-217e70214c01">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
