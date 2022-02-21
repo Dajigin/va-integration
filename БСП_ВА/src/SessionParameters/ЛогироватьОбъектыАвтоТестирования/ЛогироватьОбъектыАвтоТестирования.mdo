@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b784ad53-07cf-44dc-bc9a-f2e18fc3f873">
+  <name>ЛогироватьОбъектыАвтоТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логировать объекты авто тестирования</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ЛогироватьОбъектыАвтоТестирования</types>
+  </type>
+</mdclass:SessionParameter>

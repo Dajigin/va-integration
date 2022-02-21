@@ -8,11 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>InformationRegister.СозданныеОбъектыТестирования</content>
   <content>CommonModule.АвтоТестированиеСервер</content>
-  <content>SessionParameter.ЭтоАвтоТестирование</content>
+  <content>SessionParameter.ЛогироватьОбъектыАвтоТестирования</content>
   <content>InformationRegister.СозданныеПриТестированииЗаписиРегистров</content>
   <content>EventSubscription.ОбъектТестированияПриЗаписи</content>
   <content>EventSubscription.ОбъектТестированияДокументПередЗаписью</content>
   <content>EventSubscription.ОбъектТестированияКромеДокументаИРегистраПередЗаписью</content>
   <content>EventSubscription.НаборЗаписейТестированиеПередЗаписью</content>
   <content>EventSubscription.НаборЗаписейТестированиеПриЗаписи</content>
+  <content>Enum.ЛогироватьОбъектыАвтоТестирования</content>
 </mdclass:Subsystem>

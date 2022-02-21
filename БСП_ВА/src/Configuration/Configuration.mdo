@@ -594,7 +594,7 @@
   <sessionParameters>SessionParameter.ТипыВладельцевНастроекПрав</sessionParameters>
   <sessionParameters>SessionParameter.ТипыЗначенийДоступаСГруппами</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
-  <sessionParameters>SessionParameter.ЭтоАвтоТестирование</sessionParameters>
+  <sessionParameters>SessionParameter.ЛогироватьОбъектыАвтоТестирования</sessionParameters>
   <roles>Role._ДемоБазовыеПраваБСП</roles>
   <roles>Role._ДемоВызовОнлайнПоддержки</roles>
   <roles>Role._ДемоДобавлениеИзменениеБанковскихДокументов</roles>
@@ -2462,6 +2462,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ЛогироватьОбъектыАвтоТестирования</enums>
   <reports>Report._ДемоДинамикаИзмененийФайлов</reports>
   <reports>Report._ДемоОборотноСальдоваяВедомость</reports>
   <reports>Report._ДемоОтчетПоСчетамНаОплатуГлобальный</reports>
