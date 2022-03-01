@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd4c38ac-e723-45bd-b7e9-03cd0feedc80">
+  <name>АвтоТестыВыполняются</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто тесты выполняются</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

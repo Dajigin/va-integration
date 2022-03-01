@@ -2470,6 +2470,28 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>SessionParameter.АвтоТестыВыполняются</name>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ЛогироватьОбъектыАвтоТестирования</name>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
 	<restrictionTemplate>
 		<name>ДляОбъекта(ПолеОбъекта)</name>
 		<condition>// ДляОбъекта(ПолеОбъекта = "")

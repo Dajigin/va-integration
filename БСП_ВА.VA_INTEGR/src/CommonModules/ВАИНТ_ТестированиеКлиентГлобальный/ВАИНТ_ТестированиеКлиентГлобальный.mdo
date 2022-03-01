@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0302d90e-bacc-4746-b557-ed47f358cfa5">
+  <name>ВАИНТ_ТестированиеКлиентГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование клиент глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

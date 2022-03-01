@@ -6,6 +6,6 @@
     <value>Логировать объекты авто тестирования</value>
   </synonym>
   <type>
-    <types>EnumRef.ЛогироватьОбъектыАвтоТестирования</types>
+    <types>Boolean</types>
   </type>
 </mdclass:SessionParameter>

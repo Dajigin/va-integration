@@ -15,5 +15,5 @@
   <content>EventSubscription.ОбъектТестированияКромеДокументаИРегистраПередЗаписью</content>
   <content>EventSubscription.НаборЗаписейТестированиеПередЗаписью</content>
   <content>EventSubscription.НаборЗаписейТестированиеПриЗаписи</content>
-  <content>Enum.ЛогироватьОбъектыАвтоТестирования</content>
+  <content>SessionParameter.АвтоТестыВыполняются</content>
 </mdclass:Subsystem>
