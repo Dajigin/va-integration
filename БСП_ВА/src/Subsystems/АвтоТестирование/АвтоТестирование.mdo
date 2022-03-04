@@ -16,4 +16,5 @@
   <content>EventSubscription.НаборЗаписейТестированиеПередЗаписью</content>
   <content>EventSubscription.НаборЗаписейТестированиеПриЗаписи</content>
   <content>SessionParameter.АвтоТестыВыполняются</content>
+  <content>CommonModule.АвтоТестированиеПовтИспПолныеПрава</content>
 </mdclass:Subsystem>
