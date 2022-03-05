@@ -17,4 +17,8 @@
   <content>EventSubscription.НаборЗаписейТестированиеПриЗаписи</content>
   <content>SessionParameter.АвтоТестыВыполняются</content>
   <content>CommonModule.АвтоТестированиеПовтИспПолныеПрава</content>
+  <content>Constant.ИдентификаторВыполняемогоТеста</content>
+  <content>SessionParameter.ИдентификаторВыполняемогоТеста</content>
+  <content>DataProcessor.ОбъектыСозданныеПриТестировании</content>
+  <content>CommonModule.АвтоТестированиеКлиент</content>
 </mdclass:Subsystem>

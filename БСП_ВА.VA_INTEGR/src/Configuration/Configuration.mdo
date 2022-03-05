@@ -51,6 +51,7 @@
   <commonCommands>CommonCommand.ВАИНТ_КаталогТестов</commonCommands>
   <commonCommands>CommonCommand.ВАИНТ_ПриемочныеТесты</commonCommands>
   <commonCommands>CommonCommand.ВАИНТ_УдалитьОбъектыСозданныеПриТестировании</commonCommands>
+  <commonCommands>CommonCommand.ВАИНТ_ОбъектыТестирования</commonCommands>
   <enums>Enum.ВАИНТ_НастройкиТестирования</enums>
   <enums>Enum.ВАИНТ_ТипыМетаданных</enums>
   <dataProcessors>DataProcessor.МенеджерТестов</dataProcessors>

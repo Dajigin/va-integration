@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29d1ddc4-6fd5-4710-8793-09a9c7836ee2">
+  <name>ВАИНТ_ОбъектыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты тестирования</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

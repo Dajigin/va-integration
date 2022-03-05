@@ -57,6 +57,26 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="a6e0fed6-2097-4f3a-9597-eee1fc0baeed">
+    <name>ИдентификаторТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор теста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="0a6412df-a02c-4ed6-83e3-f88868bf4f79">
     <name>УникальныйИдентификатор</name>
     <synonym>
