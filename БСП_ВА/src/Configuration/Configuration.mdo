@@ -1402,6 +1402,7 @@
   <commonModules>CommonModule.АвтоТестированиеСервер</commonModules>
   <commonModules>CommonModule.АвтоТестированиеПовтИспПолныеПрава</commonModules>
   <commonModules>CommonModule.АвтоТестированиеКлиент</commonModules>
+  <commonModules>CommonModule.АвтоТестированиеВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -2466,6 +2467,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ТипыМетаданныхТестирование</enums>
   <reports>Report._ДемоДинамикаИзмененийФайлов</reports>
   <reports>Report._ДемоОборотноСальдоваяВедомость</reports>
   <reports>Report._ДемоОтчетПоСчетамНаОплатуГлобальный</reports>
@@ -2852,6 +2854,7 @@
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.СозданныеОбъектыТестирования</informationRegisters>
   <informationRegisters>InformationRegister.СозданныеПриТестированииЗаписиРегистров</informationRegisters>
+  <informationRegisters>InformationRegister.ПоследниеЗаписанныеОбъектыТестирования</informationRegisters>
   <accumulationRegisters>AccumulationRegister._ДемоОборотыПоСчетамНаОплату</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes._ДемоВидыСубконто</chartsOfCharacteristicTypes>

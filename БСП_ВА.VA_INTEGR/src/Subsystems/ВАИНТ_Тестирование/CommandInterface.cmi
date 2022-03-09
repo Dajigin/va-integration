@@ -6,7 +6,6 @@
       <commands>CommonCommand.ВАИНТ_КаталогТестов</commands>
       <commands>DataProcessor.VanessaAutomationsingle.StandardCommand.Open</commands>
       <commands>DataProcessor.МенеджерТестов.StandardCommand.Open</commands>
-      <commands>CommonCommand.ВАИНТ_УдалитьОбъектыСозданныеПриТестировании</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

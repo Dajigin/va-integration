@@ -21,4 +21,7 @@
   <content>SessionParameter.ИдентификаторВыполняемогоТеста</content>
   <content>DataProcessor.ОбъектыСозданныеПриТестировании</content>
   <content>CommonModule.АвтоТестированиеКлиент</content>
+  <content>CommonModule.АвтоТестированиеВызовСервера</content>
+  <content>Enum.ТипыМетаданныхТестирование</content>
+  <content>InformationRegister.ПоследниеЗаписанныеОбъектыТестирования</content>
 </mdclass:Subsystem>

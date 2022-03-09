@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9602f2f7-9986-42d0-86ee-49c02cfb87de">
-  <name>ВАИНТ_ТестированиеСерверПовтИсп</name>
+  <name>ВАИНТ_ТестированиеВызовСервераПовтИсп</name>
   <synonym>
     <key>ru</key>
     <value>Тестирование вызов сервера повт исп</value>

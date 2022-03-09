@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f986e098-14ca-4631-830a-c013d7b14546">
+  <producedTypes>
+    <selectionType typeId="123f06dd-15df-4d37-9d41-adb12d1b8faf" valueTypeId="88c53866-b5fc-4146-ae54-c721706c956d"/>
+    <listType typeId="89cc3df2-f6f0-48ae-be36-21b6f547df2b" valueTypeId="c716cbcc-c187-4cd2-87f1-ceb817f7be31"/>
+    <managerType typeId="7667af7a-be72-4ffd-8f1a-f5855cbe7a26" valueTypeId="f21ed461-89e3-443f-86ed-bb12fda7661a"/>
+    <recordSetType typeId="c353c149-48fb-4ce6-95b3-8b165948f617" valueTypeId="729d4f14-6d83-43f1-aecf-6cac7dd1e2f9"/>
+    <recordKeyType typeId="dd406901-d2c9-4397-b630-19acd148836b" valueTypeId="76bd2580-1cc7-4d5e-90dd-93af5a7bb242"/>
+    <recordType typeId="a06812a3-52e5-4062-b02a-4aa6d490fd81" valueTypeId="188702e2-3942-4229-81dc-a3e6e198207f"/>
+    <recordManagerType typeId="c68c3b7a-dd33-4616-b925-eadd3a14406f" valueTypeId="a88b218a-bc8f-4576-bb05-2de73cde415e"/>
+  </producedTypes>
+  <name>ПоследниеЗаписанныеОбъектыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последние записанные объекты тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПоследниеЗаписанныеОбъектыТестирования.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a10637fd-1ea6-4630-926d-6e42cd15ead7">
+    <name>ИдентификаторОбъектаТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта тестирования</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="54677e3c-bdf3-4c82-9b1d-6b05d177156c">
+    <name>ИДОбъектаДляСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДОбъекта для ссылки</value>
+    </synonym>
+    <comment>ИД объекта, используемый в качестве ссылки в тестах</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="bdf80238-eea4-4f26-bbe3-4ac770ca5d0d">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3fdc6bce-fdba-482e-a89b-142d6c396020">
+    <name>ИдентификаторТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор теста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e307ad4c-7993-4b00-9dc0-c80645e803cf">
+    <name>ТипМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип метаданных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыМетаданныхТестирование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8694422b-fcc6-4348-8cfa-5bdfc9f672b5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
