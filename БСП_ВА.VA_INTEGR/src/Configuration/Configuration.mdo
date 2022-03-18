@@ -12,6 +12,7 @@
     <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="16501798-b821-40b9-af6a-ce9745ca680d"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="db08c798-fa06-4925-bb78-64becee94f84"/>
@@ -28,9 +29,10 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>3.2.38.1</version>
+  <version>3.2.38.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="c55afb5d-0fe4-48c6-88d9-2a1fb8d77bf8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

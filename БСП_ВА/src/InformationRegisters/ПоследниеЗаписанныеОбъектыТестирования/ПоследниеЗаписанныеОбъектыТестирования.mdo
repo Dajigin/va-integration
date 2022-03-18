@@ -33,26 +33,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="54677e3c-bdf3-4c82-9b1d-6b05d177156c">
-    <name>ИДОбъектаДляСсылки</name>
-    <synonym>
-      <key>ru</key>
-      <value>ИДОбъекта для ссылки</value>
-    </synonym>
-    <comment>ИД объекта, используемый в качестве ссылки в тестах</comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>255</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-  </resources>
   <resources uuid="bdf80238-eea4-4f26-bbe3-4ac770ca5d0d">
     <name>СсылкаНаОбъект</name>
     <synonym>
@@ -86,6 +66,26 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="80e549fb-8eaf-4418-a401-46c39c47fa2b">
+    <name>ИДОбъектаДляСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДОбъекта для ссылки</value>
+    </synonym>
+    <comment>ИД объекта, используемый в качестве ссылки в тестах</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
   <dimensions uuid="e307ad4c-7993-4b00-9dc0-c80645e803cf">
     <name>ТипМетаданных</name>
